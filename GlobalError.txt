@@ -1,0 +1,14 @@
+[2018.10.22] [18:39:23.356] Log Created
+
+ (Page Number 1)
+
+[18:39:23.356] 
+Expression : !"CreateFile() Failure"
+File : c:\backups\fromdrive\development\pserver\dragonballonline\clientsources\dboclient\tool\worldeditor\cserializer.cpp
+Line : 88
+
+[18:39:32.323] 
+Expression : !"CreateFile() Failure"
+File : c:\backups\fromdrive\development\pserver\dragonballonline\clientsources\dboclient\tool\worldeditor\cserializer.cpp
+Line : 88
+

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0"?>
+<config_options><!--217.146.81.120-->
+	<op ver="0.1" ip="217.146.81.120" port="50201"/>
+	<local ver="0.1" local_dsp="Language\local_data.dat" local_sync_dsp="Language\local_sync_data.dat"/>
+	<BUGTRAP ip="217.146.81.120" port ="21221" folder="bugtrap" />
+</config_options>

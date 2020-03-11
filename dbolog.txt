@@ -1,0 +1,63 @@
+[11:34:13 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\tex_yahhoiw_grass_002.dds
+[11:34:13 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\tex_yahhoie_road_001.dds
+[11:34:14 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\tex_yahhoie_stone_002.dds
+[11:34:14 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\tex_yahhoie_gravel_001.dds
+[11:38:49 AM]	CNtlPLVisualManager::CreateEntity (684) : [ASSERT] Failed PRE-condition: CNtlPLGlobal::m_pRpWorld
+
+[11:39:02 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+[11:39:02 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\tex_yahhoiw_grass_002.dds
+[11:39:02 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\tex_yahhoie_road_001.dds
+[11:39:03 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\tex_yahhoie_stone_002.dds
+[11:39:03 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\tex_yahhoie_gravel_001.dds
+[11:43:11 AM]	CNtlPLVisualManager::CreateEntity (684) : [ASSERT] Failed PRE-condition: CNtlPLGlobal::m_pRpWorld
+
+[11:46:36 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+[11:46:36 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\tex_yahhoiw_grass_002.dds
+[11:46:36 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\tex_yahhoie_road_001.dds
+[11:46:36 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\tex_yahhoie_stone_002.dds
+[11:46:36 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\tex_yahhoie_gravel_001.dds
+[12:46:15 PM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+[13:07:28 PM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+[16:58:03 PM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+[17:32:44 PM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+[23:32:09 PM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+[00:19:45 AM]	Initalizing Dragon Ball Online Universe Revelations Version 0.80.0.97
+[00:21:50 AM]	Initalizing Dragon Ball Online Universe Revelations Version 0.80.0.97
+[00:22:57 AM]	Initalizing Dragon Ball Online Universe Revelations Version 0.80.0.97
+[00:41:36 AM]	Initalizing Dragon Ball Online Universe Revelations Version 0.80.0.97
+[00:48:12 AM]	Initalizing Dragon Ball Online Universe Revelations Version 0.80.0.97
+[00:48:37 AM]	network lib : [2019-07-16 0:48:37:988]	WSAEnumNetworkEvents FD_CONNECT_BIT Fail (10061)No connection could be made because the target machine actively refused it.
+ func[C:\Users\Devin\Desktop\Development\dboclient\NtlLib\Client\NtlClientNet\NtlClientNet.cpp]	line[2643]	 function[CEventBaseNetworkImp::OnThreadProc]	
+[00:48:38 AM]	[Sound] Condition : CNtlSoundManager::CanPlay, Empty sound file name, Channel group : CHANNEL_GROUP_UI_SOUND, SoundFile : 
+
+[03:55:59 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+[13:00:18 PM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+[04:37:54 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+<<<<<<< HEAD
+[04:53:05 AM]	[ModelTool] ./devdata/Character/N_WLF_A1.XML.XML Load Fail
+[04:53:05 AM]	CNtlPLCharacterProperty::Load (74) : [ASSERT] 
+
+[04:53:56 AM]	[ModelTool] ./devdata/Character/N_WLF_A1.XML.XML Load Fail
+[04:53:56 AM]	CNtlPLCharacterProperty::Load (74) : [ASSERT] 
+
+[04:56:19 AM]	[ModelTool] ./devdata/Character/N_WLF_A1.XML.XML Load Fail
+[04:56:19 AM]	CNtlPLCharacterProperty::Load (74) : [ASSERT] 
+
+[04:59:16 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+[05:00:13 AM]	CNtlPLResourceManager::LoadTexture (725) : [ASSERT] the texture find not(1002)-C:\Users\Devin\Desktop\Development\dboclienttools-\Texture\EnvMap\
+
+[05:04:18 AM]	Mod Loaded: tool/saber/texture/ui/pstexbrush.png
+[05:04:19 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+[05:04:54 AM]	CNtlPLResourceManager::LoadTexture (725) : [ASSERT] the texture find not(1002)-C:\Users\Devin\Desktop\Development\dboclienttools-\Texture\EnvMap\
+
+[02:52:57 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+[02:55:35 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+[02:56:28 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+[02:56:53 AM]	CNtlPLCharacter::OnEventVisualEffect (2128) : [ASSERT] CNtlPLCharacter::OnEventVisualEffectpPLEntity == NULL
+
+[02:57:32 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+[23:31:53 PM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+[23:47:34 PM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+[14:16:35 PM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+=======
+>>>>>>> 968628e54f7e055e5b757fcbafd06b4c568dede4

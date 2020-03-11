@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<master_options>
+	<op key="Dbo_20070403" />
+	<!--<cheat cool_time_factor="1" data_file_xml="0" pack_file_use="1" thread_load="1" LocalizePublishID="_NTL"/>-->
+	<camera fov="45" near="1" far="30" zoom_min="1" zoom_max="30" />
+	<screen modechange="0" />
+	<dump console="1" action="1" sob="1" fsm="1" contents="1"/>
+	<logo_movie start_play="0" />
+</master_options>
+
