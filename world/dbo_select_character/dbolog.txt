@@ -1,0 +1,4 @@
+[22:52:28 PM]	CNtlWorldFieldManager::LoadPVS (418) : [ASSERT] file open failed. (wfif185)
+
+[22:52:28 PM]	CNtlPLSky::Create (71) : [ASSERT] Resource load failed.
+

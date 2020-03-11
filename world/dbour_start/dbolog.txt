@@ -1,0 +1,32 @@
+[01:51:47 AM]	CNtlWorldFieldManager::LoadPVS (418) : [ASSERT] file open failed. ()
+
+[01:51:47 AM]	CNtlPLSky::Create (71) : [ASSERT] Resource load failed.
+
+[02:33:36 AM]	CNtlWorldFieldManager::LoadPVS (418) : [ASSERT] file open failed. ()
+
+[02:33:36 AM]	CNtlPLSky::Create (71) : [ASSERT] Resource load failed.
+
+[02:35:20 AM]	CNtlWorldFieldManager::LoadPVS (418) : [ASSERT] file open failed. ()
+
+[02:35:20 AM]	CNtlPLSky::Create (71) : [ASSERT] Resource load failed.
+
+[02:36:44 AM]	CNtlWorldFieldManager::LoadPVS (418) : [ASSERT] file open failed. ()
+
+[02:37:41 AM]	CNtlWorldFieldManager::LoadPVS (418) : [ASSERT] file open failed. ()
+
+[02:40:23 AM]	CNtlPLSky::Create (71) : [ASSERT] Resource load failed.
+
+[02:40:38 AM]	CNtlWorldFieldManager::LoadPVS (418) : [ASSERT] file open failed. ()
+
+[02:46:43 AM]	CNtlWorldFieldManager::LoadPVS (418) : [ASSERT] file open failed. ()
+
+[02:49:03 AM]	CNtlWorldFieldManager::LoadPVS (418) : [ASSERT] file open failed. ()
+
+[02:54:37 AM]	CNtlWorldFieldManager::LoadPVS (418) : [ASSERT] file open failed. ()
+
+[03:05:25 AM]	CNtlWorldFieldManager::LoadPVS (418) : [ASSERT] file open failed. ()
+
+[03:05:46 AM]	CNtlPLSky::Create (71) : [ASSERT] Resource load failed.
+
+[03:15:49 AM]	CNtlWorldFieldManager::LoadPVS (418) : [ASSERT] file open failed. ()
+

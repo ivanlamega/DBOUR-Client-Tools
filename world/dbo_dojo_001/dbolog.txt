@@ -1,0 +1,26 @@
+[23:12:58 PM]	CNtlPLResourceManager::LoadTexture (725) : [ASSERT] the texture find not(specular)-C:\Users\Devin\Desktop\Development\dboclienttools\world\dbo_dojo_001-.\Texture\ntlwe\Water\
+
+[23:13:09 PM]	CNtlSpecularManager::CreateCameraFilter (176) : [ASSERT] Texture load failed.
+
+[23:13:13 PM]	CNtlWorldRpLightManager::Create (57) : [ASSERT] Resource load failed.
+
+[23:13:19 PM]	CNtlPLLightObject::Create (111) : [ASSERT] Resource load failed.
+
+[23:13:22 PM]	CNtlPLLightObject::Create (111) : [ASSERT] Resource load failed.
+
+[23:13:23 PM]	CNtlPLLightObject::Create (111) : [ASSERT] Resource load failed.
+
+[23:13:24 PM]	CNtlPLResourceManager::LoadTexture (725) : [ASSERT] the texture find not(PSTexBrush)-C:\Users\Devin\Desktop\Development\dboclienttools\world\dbo_dojo_001-Tool/SABER/Texture/UI/
+
+[23:13:25 PM]	CNtlWorldShadowManager::CNtlWorldShadowManager (45) : [ASSERT] Texture load failed.
+
+[23:13:27 PM]	CNtlPLSky::Create (71) : [ASSERT] Resource load failed.
+
+[22:47:13 PM]	CNtlWorldFieldManager::LoadPVS (418) : [ASSERT] file open failed. ()
+
+[22:47:13 PM]	CNtlPLSky::Create (71) : [ASSERT] Resource load failed.
+
+[22:49:19 PM]	CNtlWorldFieldManager::LoadPVS (418) : [ASSERT] file open failed. ()
+
+[22:49:19 PM]	CNtlPLSky::Create (71) : [ASSERT] Resource load failed.
+
