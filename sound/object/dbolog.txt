@@ -1,0 +1,12 @@
+[2011/01/27 Thu 11:24:12 AM]	[Sound] Condition : CNtlSoundManager::Play, Not exist sound file, Channel group : CHANNEL_GROUP_OBJECT_MUSIC, SoundFile : OBJECT\D4_C_BIG_WINDMILL_001.WAV
+
+[2011/03/23 Wed 12:03:36 PM]	[Sound] Condition : CNtlSoundManager::Play, Not exist sound file, Channel group : CHANNEL_GROUP_OBJECT_MUSIC, SoundFile : OBJECT\02_T_FREEZER_TELEPORT_001.WAV
+
+[2011/03/23 Wed 12:13:15 PM]	[Sound] Condition : CNtlSoundManager::Play, fail to create sound or stream, FMOD log : File not found. , SoundFile : OBJECT\D5_C_WATER_PILLAR_001.WAV
+
+[2011/04/21 Thu 18:06:04 PM]	[Sound] Condition : CNtlSoundManager::Play, fail to create sound or stream, FMOD log : File not found. , SoundFile : OBJECT\06_O_KIRIEX_NARAK_001.WAV
+
+[2012/05/23 Wed 16:39:32 PM]	[Sound] Condition : CNtlSoundManager::Play, fail to create sound or stream, FMOD log : File not found. , SoundFile : OBJECT\02_T_TRASH_HEAP_001.WAV
+
+[2012/05/24 Thu 10:32:33 AM]	[Sound] Condition : CNtlSoundManager::Play, fail to create sound or stream, FMOD log : File not found. , SoundFile : OBJECT\D4_C_BIG_WINDMILL_001.WAV
+

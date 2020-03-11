@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+
+<sound_property>
+
+  <sound index="0" name="BGM_SHARE_FOREST1.ogg"/>
+  <sound index="1" name="BGM_SHARE_PLAIN1.ogg"/>
+  <sound index="2" name="BGM_SHARE_FOREST2.ogg"/>
+  <sound index="3" name="BGM_SHARE_ROCKMTN1.ogg"/>
+  <sound index="4" name="BGM_SHARE_DESERT1.ogg"/>
+  <sound index="5" name="BGM_SHARE_SNOWMTN1.ogg"/>
+  <sound index="6" name="BGM_SHARE_RUIN1.ogg"/>
+  <sound index="7" name="BGM_SHARE_LAVA1.ogg"/>
+  <sound index="8" name="BGM_SHARE_CAVE1.ogg"/>
+  <sound index="9" name="BGM_SHARE_BEACH1.ogg"/>
+  <sound index="10" name="BGM_SHARE_3.ogg"/>
+  
+</sound_property>

@@ -1,0 +1,1163 @@
+<?xml version="1.0"?>
+<dataroot>
+	<Table_Data_KOR>
+		<FieldName_0>Tblidx</FieldName_0>
+		<FieldName_1>Function_Name</FieldName_1>
+		<FieldName_2>Note</FieldName_2>
+		<FieldName_3>Type</FieldName_3>
+		<FieldName_4>Animation_ID</FieldName_4>
+		<FieldName_5>Direction_Func_Flag</FieldName_5>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1</Tblidx>
+		<Function_Name>Lua_TMQ1_Start</Function_Name>
+		<Note>TMQ1¿¡¼­ »ç¿ëµÇ´Â ½ÃÀÛ ÇÔ¼ö</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>2</Tblidx>
+		<Function_Name>Lua_TMQ1_Switch1</Function_Name>
+		<Note>TMQ1¿¡¼­ »ç¿ëµÇ´Â ½ºÀ§Ä¡1 ÇÔ¼ö</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>3</Tblidx>
+		<Function_Name>Lua_TMQ1_Gate1</Function_Name>
+		<Note>TMQ1¿¡¼­ »ç¿ëµÇ´Â °ÔÀÌÆ®1 ÇÔ¼ö</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1000</Tblidx>
+		<Function_Name>Tutorial_Start_Direction</Function_Name>
+		<Note></Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1001</Tblidx>
+		<Function_Name>MobGroup1</Function_Name>
+		<Note></Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1002</Tblidx>
+		<Function_Name>TrunksSpawn</Function_Name>
+		<Note></Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1003</Tblidx>
+		<Function_Name>LastTutorial</Function_Name>
+		<Note></Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1004</Tblidx>
+		<Function_Name>TMQ_S1_stage1</Function_Name>
+		<Note>TMQ1-1 ¶óµ¥Ã÷ Áö±¸Âø·ú</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1005</Tblidx>
+		<Function_Name>TMQ_S1_stage2</Function_Name>
+		<Note>TMQ1-1 ¶óµ¥Ã÷ ´Ù½Ã ³ªÅ¸³²</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1006</Tblidx>
+		<Function_Name>TMQ_S1_stage3</Function_Name>
+		<Note>Stage3</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1007</Tblidx>
+		<Function_Name>TMQ_S1_stage4</Function_Name>
+		<Note>Stage4</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1008</Tblidx>
+		<Function_Name>TMQ_pre_stage1</Function_Name>
+		<Note>TMQ1-1 Age</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1009</Tblidx>
+		<Function_Name>TMQ_S2_stage1</Function_Name>
+		<Note>tmq2 °ÅºÏ¼¶ ½À°Ý</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1010</Tblidx>
+		<Function_Name>TMQ_S2_stage4_A</Function_Name>
+		<Note>tmq2 ¶óµ¥Ã÷Àâ´Ù</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1011</Tblidx>
+		<Function_Name>TMQ_S2_stage4_B</Function_Name>
+		<Note>tmq2 ¸¶°ü±¤»ìÆ÷</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1012</Tblidx>
+		<Function_Name>TMQ_S3_stage1</Function_Name>
+		<Note>tmq3 °¡¸é»ç³ªÀÌ ´ë°øÆ÷ Áö½Ã</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1013</Tblidx>
+		<Function_Name>TMQ_S3_stage4_1</Function_Name>
+		<Note>tmq3 °¡¸é»ç³ªÀÌ ¼¼³ú±â°è¼³Ä¡</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1014</Tblidx>
+		<Function_Name>TMQ_S3_stage4_2</Function_Name>
+		<Note>tmq3 °Å´ë¿ø¼þÀÌ ¿À¹Ý</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1015</Tblidx>
+		<Function_Name>TMQ_S3_stage4_3</Function_Name>
+		<Note>tmq3 °¡¸é»ç³ªÀÌ ÅðÀå</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1016</Tblidx>
+		<Function_Name>TMQ_S3_stage4_4</Function_Name>
+		<Note>tmq3 ÇÇÄÝ·Î ´ÞÆÄ±«</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1017</Tblidx>
+		<Function_Name>TMQ_S3_stage3</Function_Name>
+		<Note>tmq3 ¼¼³ú°ø·æ º¸¿©ÁÖ±â</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1018</Tblidx>
+		<Function_Name>TMQ_S3_stage2</Function_Name>
+		<Note>tmq3 ¼Õ¿À¹Ý ´øÁö´Â ÇÃ·¡½Ã</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1019</Tblidx>
+		<Function_Name>TMQ_S3_stage3_1</Function_Name>
+		<Note>tmq3 ¹ÙÀ§¿¡ ¾Ë ÇÃ·¡½Ã</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1020</Tblidx>
+		<Function_Name>TMQ_S4_stage1</Function_Name>
+		<Note>º£ÁöÅÍ ¾Õ¿¡ ¼Õ¿À°ø µîÀå</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1021</Tblidx>
+		<Function_Name>TMQ_S4_stage2</Function_Name>
+		<Note>°è¿Õ±ÇÀ¸·Î ¼Õ¿À°ø°ú º£ÁöÅÍ ÀüÅõ</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1022</Tblidx>
+		<Function_Name>TMQ_S4_stage3A</Function_Name>
+		<Note>¾²·¯Áø¼Õ¿À°ø°ú °Å´ë¿ø¼þÀÌ º£ÁöÅÍ</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1023</Tblidx>
+		<Function_Name>TMQ_S4_stage3B</Function_Name>
+		<Note>¾ßÁö·Îº£ ²¿¸®ÀÚ¸£±â</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1024</Tblidx>
+		<Function_Name>TMQ_S4_stage4A</Function_Name>
+		<Note>¹Ì¶óµîÀå Æ®·©Å©½º °ø°Ý</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1025</Tblidx>
+		<Function_Name>TMQ_S4_stage4B</Function_Name>
+		<Note>¹öµ¶ ¹Ì¶ó¿Í ÀÚÆø</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1026</Tblidx>
+		<Function_Name>TLQ_S1_stage1</Function_Name>
+		<Note>¼Õ¿À°ø ¿ìÁÖ¼± ³«ÇÏ</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1027</Tblidx>
+		<Function_Name>TLQ_S1_pre_stage1</Function_Name>
+		<Note>TLQ1 Pre</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1028</Tblidx>
+		<Function_Name>TMQ_S2_pre_stage1</Function_Name>
+		<Note>tmq2 pre</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1029</Tblidx>
+		<Function_Name>TMQ_S4_pre_stage1</Function_Name>
+		<Note>tmq4 pre</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1030</Tblidx>
+		<Function_Name>TLQ_S2_pre_stage1</Function_Name>
+		<Note>tlq2 pre</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1031</Tblidx>
+		<Function_Name>TLQ_S2_stage1</Function_Name>
+		<Note>¿À°øµµÂø</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1032</Tblidx>
+		<Function_Name>TLQ_S2_stage2</Function_Name>
+		<Note>¿À°øÂîÂîÅÂ¿ì°í»Ð</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1033</Tblidx>
+		<Function_Name>TMQ_S4_Intermission1</Function_Name>
+		<Note>¼Õ¿À¹Ý¸¶¼¶±¤³»ÆÛ</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1034</Tblidx>
+		<Function_Name>TMQ_S4_Intermission2</Function_Name>
+		<Note>¿À°ø°è¿Õ±Ç4¹è</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1035</Tblidx>
+		<Function_Name>TMQ_S4_Intermission3</Function_Name>
+		<Note>Å©¸®¸µ¿ø±â¿Á¹Þ±â</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1036</Tblidx>
+		<Function_Name>TLQ_S2_stage0</Function_Name>
+		<Note>ÂîÂî¸¦ ³ë¸®´Â °ø·æ</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1037</Tblidx>
+		<Function_Name>TLQ_S2_pre_stage2</Function_Name>
+		<Note>¿ì¸¶¿Õ µµ³¢³¯¸®±â</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1038</Tblidx>
+		<Function_Name>TLQ_S2_pre_stage3</Function_Name>
+		<Note>¼Õ¿À°ø µîÀå</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1039</Tblidx>
+		<Function_Name>TLQ_S2_pre_stage4</Function_Name>
+		<Note>¼Õ¿À°ø ÅðÀå</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1040</Tblidx>
+		<Function_Name>TLQ_S3_pre_stage1</Function_Name>
+		<Note>TLQ3 Pre</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1041</Tblidx>
+		<Function_Name>TLQ_S3_stage1</Function_Name>
+		<Note>ÂîÂî µîÀå</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1042</Tblidx>
+		<Function_Name>TLQ_S3_stage2</Function_Name>
+		<Note>µÎ¸ñµîÀå</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1043</Tblidx>
+		<Function_Name>TLQ_S3_stage4</Function_Name>
+		<Note>¸¶Áê´Ï¾îµîÀå</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1044</Tblidx>
+		<Function_Name>TLQ_S3_stage3</Function_Name>
+		<Note>¿À·æº¯½Å</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1045</Tblidx>
+		<Function_Name>TMQ_S4_stage4C()</Function_Name>
+		<Note>¹Ì¶ó Ending</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1046</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¹Ì¶ó ¿¬±â ³¯¸®´Â »óÅÂ</Note>
+		<Type>1</Type>
+		<Animation_ID>4001</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1047</Tblidx>
+		<Function_Name>TMQ5_Scene2_stage1</Function_Name>
+		<Note>Frieza Towa</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1048</Tblidx>
+		<Function_Name>TMQ5_Scene5_stage1</Function_Name>
+		<Note>Cui Towa</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1049</Tblidx>
+		<Function_Name>TMQ5_Scene9_stage1</Function_Name>
+		<Note>Vegeta, Dodoria Towa</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1050</Tblidx>
+		<Function_Name>TMQ5_Scene17_stage1</Function_Name>
+		<Note>Time Machine Leave/Arrive</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1051</Tblidx>
+		<Function_Name>TMQ5_Scene20_stage1</Function_Name>
+		<Note>Krillin, Bluma Vegeta</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>1052</Tblidx>
+		<Function_Name>TMQ5_Scene24_stage1</Function_Name>
+		<Note>Time Machine Bardock</Note>
+		<Type>0</Type>
+		<Animation_ID>-1</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>10000</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¿ÀºêÁ§Æ® ¾×¼Ç Animation</Note>
+		<Type>1</Type>
+		<Animation_ID>4002</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>10001</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>TMQ ÁøÀÔ Animation</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>10002</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>TMQ µµÂø Animation </Note>
+		<Type>1</Type>
+		<Animation_ID>4001</Animation_ID>
+		<Direction_Func_Flag>0002</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>10003</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¿ÀºêÁ§Æ® ¾×¼Ç Animation 2</Note>
+		<Type>1</Type>
+		<Animation_ID>4003</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50000</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¶óµ¥Ã÷ Á¡ÇÁ µ¿ÀÛ</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50001</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¶óµ¥Ã÷ Âø·ú µ¿ÀÛ</Note>
+		<Type>1</Type>
+		<Animation_ID>4001</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50002</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¶óµ¥Ã÷°¡ °í°³¸¦ µ¹¸²</Note>
+		<Type>1</Type>
+		<Animation_ID>4002</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50003</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¶óµ¥Ã÷°¡ Á¡ÇÁ¸¦ ÇÔ</Note>
+		<Type>1</Type>
+		<Animation_ID>4003</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50004</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¶óµ¥Ã÷°¡ ³¯¾Æ°¨</Note>
+		<Type>1</Type>
+		<Animation_ID>4004</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50005</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¶óµ¥Ã÷°¡ ¼Õ¿À°ø¿¡°Ô ÀâÇôÀÖÀ½</Note>
+		<Type>1</Type>
+		<Animation_ID>4005</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50010</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ÈíÀÔ±â¸¦ µé°í ÀÖÀ½</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50011</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ÈíÀÔ±â¸¦ µÎ¼ÕÀ¸·Î µé°í ÀÖÀ½</Note>
+		<Type>1</Type>
+		<Animation_ID>4001</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50012</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¼ö»óÇÑ ³à¼®ÀÌ ±â°è¸¦ ¸¸ÁöÀÛ °Å¸²</Note>
+		<Type>1</Type>
+		<Animation_ID>4002</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50020</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¼ö»óÇÑ ³à¼®2°¡ µÎ¸®¹ø °Å¸²</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50021</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¼ö»óÇÑ ³à¼®2ÀÇ Stage3 Direction </Note>
+		<Type>1</Type>
+		<Animation_ID>4001</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50030</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ÃÑÀ» µç ³ë°¡ ³î¶ó¼­ ¹°·¯¼¶</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50031</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>³ë±×°¡ ³Ñ¾îÁ® ÀÖÀ½</Note>
+		<Type>1</Type>
+		<Animation_ID>4001</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50032</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¶óµ¥Ã÷ »ç¶óÁü</Note>
+		<Type>1</Type>
+		<Animation_ID>4006</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50033</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¼¼³ú Àç¹è¸Ç »ç¶óÁü</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50034</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¼¼³ú º´»ç »ç¶óÁü</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50035</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¼ö»óÇÑ ³à¼® 1ÀÌ »ç¶óÁü</Note>
+		<Type>1</Type>
+		<Animation_ID>4003</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50036</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¼ö»óÇÑ ³à¼® 2°¡ °¡¸¸È÷ ¼­ÀÖÀ½</Note>
+		<Type>1</Type>
+		<Animation_ID>4003</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50037</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¼ö»óÇÑ ³à¼® 2°¡ ÆÈÂ¯À» ³¢°í ÀÖÀ½</Note>
+		<Type>1</Type>
+		<Animation_ID>4003</Animation_ID>
+		<Direction_Func_Flag>0000</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50038</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¼Õ¿À°øÀÌ ¶óµ¥Ã÷¸¦ ÀâÀ½</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50039</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¶óµ¥Ã÷°¡ ¿À°ø¿¡°Ô ÀâÈû</Note>
+		<Type>1</Type>
+		<Animation_ID>4008</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50040</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ÇÇÄÝ·Î ¸¶°ü±¤»ìÆ÷ ÁØºñ</Note>
+		<Type>1</Type>
+		<Animation_ID>4002</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50041</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ÇÇÄÝ·Î ÂøÁö</Note>
+		<Type>1</Type>
+		<Animation_ID>4006</Animation_ID>
+		<Direction_Func_Flag>0002</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50042</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ÇÇÄÝ·Î ³¯¾Æ ¶°³²</Note>
+		<Type>1</Type>
+		<Animation_ID>4007</Animation_ID>
+		<Direction_Func_Flag>0004</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50043</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>Æ®·©Å©½º ÂøÁö</Note>
+		<Type>1</Type>
+		<Animation_ID>4001</Animation_ID>
+		<Direction_Func_Flag>0002</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50044</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>Æ®·©Å©½º ³¯¾Æ ¶°³²</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0004</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50045</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¼Õ¿À¹Ý ¾²·¯Áø »óÅÂ</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50046</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¼Õ¿À¹Ý ¿ï±â</Note>
+		<Type>1</Type>
+		<Animation_ID>4001</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50047</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¼Õ¿À¹Ý °í±â¸Ô±â</Note>
+		<Type>1</Type>
+		<Animation_ID>4002</Animation_ID>
+		<Direction_Func_Flag>0002</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50048</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¼Õ¿À°ø ³¯¾Æ ¶°³²</Note>
+		<Type>1</Type>
+		<Animation_ID>4003</Animation_ID>
+		<Direction_Func_Flag>0004</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50049</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¼Õ¿À¹Ý ³¯¾Æ ¶°³²</Note>
+		<Type>1</Type>
+		<Animation_ID>4002</Animation_ID>
+		<Direction_Func_Flag>0004</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50050</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>tmq4 ¾²·¯Áø¼Õ¿À¹Ý</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>50051</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>Æ®·©Å©½º ¾²·¯Áü</Note>
+		<Type>1</Type>
+		<Animation_ID>4007</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60001</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¾²·¯Áø ¼öÇàÀÚ ¾²·¯Áü Loop</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60002</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¾²·¯Áø ¼öÇàÀÚ ¾²·¯Áü Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60003</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¾²·¯Áø ¼öÇàÀÚ ÀÎ»ç</Note>
+		<Type>1</Type>
+		<Animation_ID>4003</Animation_ID>
+		<Direction_Func_Flag>0004</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60004</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¾²·¯Áø ¼öÇàÀÚ ÀÎ»ç Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4003</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60005</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>Ã÷·ç¸µ À½·á ¸¶½Ã±â</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0002</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60006</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>Ã÷·ç¸µ À½·á ¸¶½Ã±â Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60007</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>±ôÂ¦ °æºñº´ À§ÇùÀÚ¼¼</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0002</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60008</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>±ôÂ¦ °æºñº´ À§ÇùÀÚ¼¼ LOOP</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60009</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>±ôÂ¦ °æºñº´ À§ÇùÀÚ¼¼ Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60010</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>Ä«¶ó ¼Õ Èçµé±â</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0004</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60011</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>°³±¸¸® ´Ù¸® ¸Ô´Â ½´½´</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0002</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60012</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>°³±¸¸® ´Ù¸® ÅäÇÏ´Â ½´½´</Note>
+		<Type>1</Type>
+		<Animation_ID>4001</Animation_ID>
+		<Direction_Func_Flag>0002</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60013</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ºÎ»ó ³ª¸ÞÅ© Àü»ç ¾²·¯Áü</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0004</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60014</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ºÎ»ó ³ª¸ÞÅ© Àü»ç ¾²·¯Áü Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60015</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ºÎ»ó ³ª¸ÞÅ© Àü»ç ÀÎ»ç</Note>
+		<Type>1</Type>
+		<Animation_ID>4002</Animation_ID>
+		<Direction_Func_Flag>0004</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60016</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ºÎ»ó ³ª¸ÞÅ© Àü»ç ÀÎ»ç Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4002</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60017</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>Á¦¾îºÒ´É ¸¶ÀÎ 4È£ Loop</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60018</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>Á¦¾îºÒ´É ¸¶ÀÎ 4È£ Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60019</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>½ÅÀ½ÇÏ°í ÀÖ´Â ¼öÇàÀÚ Loop</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60020</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>½ÅÀ½ÇÏ°í ÀÖ´Â ¼öÇàÀÚ Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60021</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¾²·¯Á® ÀÖ´Â °ËÀº ³ª¸ÞÅ©ÀÎ Loop</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60022</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¾²·¯Á® ÀÖ´Â °ËÀº ³ª¸ÞÅ©ÀÎ Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60023</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¾þµå·Á »ç°úÇÏ´Â ÄíÆ÷</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0002</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60024</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>µ¿°¡¶õ ÁÖ¸ÔÁú</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0004</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60025</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>µ¿°¡¶õ ÁÖ¸ÔÁú Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60026</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¾ç±â¶õ ¸ÂÀ½Áú</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0004</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60027</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¾ç±â¶õ ¸ÂÀ½Áú Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60028</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>º£º£ °í±â±Á±â</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0004</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60029</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>º£º£ °í±â±Á±â Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60030</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¿À½¼ OTL</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0004</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60031</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¿À½¼ OTL Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60032</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ÇªÄ¿ Ani 1 loop</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60033</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ÇªÄ¿ Ani 2</Note>
+		<Type>1</Type>
+		<Animation_ID>4001</Animation_ID>
+		<Direction_Func_Flag>0004</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60034</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ÇªÄ¿ Ani 3 loop</Note>
+		<Type>1</Type>
+		<Animation_ID>4002</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60035</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ÇªÄ¿ Ani 1 Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60036</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ÇªÄ¿ Ani 2 Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4001</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60037</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ÇªÄ¿ Ani 3 Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4002</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60038</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¸ð¸ð²¿ Ani 1</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0002</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60039</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¸ð¸ð²¿ Ani 1 Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60040</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¹«½ºÅÁ ¾Ç¼ö</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0002</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60041</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¹«½ºÅÁÀÇ ºÎÇÏ ¾Ç¼ö</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0002</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60042</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¹«½ºÅÁÀÇ ºÎÇÏ ´ç±Ùº¯½Å</Note>
+		<Type>1</Type>
+		<Animation_ID>4001</Animation_ID>
+		<Direction_Func_Flag>0004</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60043</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¹«½ºÅÁÀÇ ºÎÇÏ ¿ø·¡´ë·Î</Note>
+		<Type>1</Type>
+		<Animation_ID>4002</Animation_ID>
+		<Direction_Func_Flag>0002</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60044</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¹«½ºÅÁÀÇ ºÎÇÏ ´ç±Ùº¯½Å Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4001</Animation_ID>
+		<Direction_Func_Flag>0008</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60045</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ÆÈ¸Ó ÆøÅº ¼³Ä¡</Note>
+		<Type>1</Type>
+		<Animation_ID>4000</Animation_ID>
+		<Direction_Func_Flag>0002</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60046</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ÆÈ¸Ó ¾²·¯Á® ÀÖ´Â Looping</Note>
+		<Type>1</Type>
+		<Animation_ID>4001</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60047</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ÆÈ¸Ó ¾²·¯Á® ÀÖ´Â Looping Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4001</Animation_ID>
+		<Direction_Func_Flag>0004</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60048</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ÆÈ¸Ó ÁöÄ£ Looping</Note>
+		<Type>1</Type>
+		<Animation_ID>4002</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60049</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ÆÈ¸Ó ÁöÄ£ Looping Cancel</Note>
+		<Type>1</Type>
+		<Animation_ID>4002</Animation_ID>
+		<Direction_Func_Flag>0004</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60050</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>¹«½ºÅÁ ¹Ú¼ö</Note>
+		<Type>1</Type>
+		<Animation_ID>4001</Animation_ID>
+		<Direction_Func_Flag>0002</Direction_Func_Flag>
+	</Table_Data_KOR>
+	<Table_Data_KOR>
+		<Tblidx>60051</Tblidx>
+		<Function_Name></Function_Name>
+		<Note>ºÒ°íÅ² Å°¸® ¿¡³ÊÁö ÃæÀü Loop</Note>
+		<Type>1</Type>
+		<Animation_ID>4001</Animation_ID>
+		<Direction_Func_Flag>0001</Direction_Func_Flag>
+	</Table_Data_KOR>
+</dataroot>

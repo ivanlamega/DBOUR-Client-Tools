@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="euc-kr" standalone="no"?>
+
+<!-- 다른 스크립트로 제어가 되지 않는 월드에서의 BGM을 제어하기 위하여 제작되었다 -->
+<!-- 테마 BGM 스크립트(월드상에 존재할 수 있는 NPC, MOB, OBJECT 등의 테마곡 
+
+	Redpants 		: BGM_DUNGEON_BOSS.ogg
+	Paeria		: BGM_DUNGEON_BOSS_2.ogg
+	MIRA(Army)	: BGM_TMQ_BOSS.ogg
+	MIRA		: BGM_MIRA_THEME.ogg
+	Narak		: BGM_NARAK_BOSS.ogg
+	ETC		: BGM_FIELD_BOSS.ogg
+-->
+
+<!-- TMQ, TLQ 처럼 스크립트로 제어되는 월드에서는 해당 월드를 제어하는 스크립트를 이용하여 BGM을 제어하자 -->
+
+<!-- 키워드
+  
+    node : Theme BGM 데이터 단위 묶음
+
+    world : 월드 컨셉
+            - mainworld
+            - partydundeon
+            - TLQ
+            - TMQ
+            
+     table : 테이블 타입과 인덱스
+            - npc
+            - mob
+            - object
+            
+     sound : 사운드 경로와 파일
+     
+     range : BGM이 Play 시작될 수 있는 범위
+     
+     loop : 1(무한반복), 0(한 번만 플레이)
+-->
+
+<!-- 배럴 재킷		SD	레드 팬츠군 본부 -->
+<ThemeBGM>
+  <node index ="1">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "1653101"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 배럴 재킷		SD	레드 팬츠군 본부 -->
+  <node index ="2">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "1653102"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 배럴 재킷		SD	레드 팬츠군 본부 -->
+  <node index ="3">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "1653103"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 쭈드 건설대장		SD	드래곤 케이브 -->
+  <node index ="4">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "2134101"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 쭈드 건설대장		SD	드래곤 케이브 -->
+
+  <node index ="5">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "2134102"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 쭈드 건설대장		SD	드래곤 케이브 -->
+
+  <node index ="6">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "2134103"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 닥터 게로 클론		UD2	래드팬츠군 로봇연구소 -->
+
+  <node index ="7">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "3631101"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 닥터 게로 클론		UD2	래드팬츠군 로봇연구소 -->
+
+  <node index ="8">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "3631102"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 닥터 게로 클론		UD2	래드팬츠군 로봇연구소 -->
+
+  <node index ="9">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "3631103"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 인조인간 9호		SD	래드 리본군 본부 폐허 -->
+
+  <node index ="10">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "4551101"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 인조인간 9호		SD	래드 리본군 본부 폐허 -->
+
+  <node index ="11">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "4551102"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 인조인간 9호		SD	래드 리본군 본부 폐허 -->
+
+  <node index ="12">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "4551103"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 악의 분신		MF	카린숲 -->
+
+  <node index ="13">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "5781201"/>
+    <sound        file  = "BGM\\BGM_FIELD_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 악의 분신		MF	카린숲 -->
+
+  <node index ="14">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "5781202"/>
+    <sound        file  = "BGM\\BGM_FIELD_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 악의 분신		MF	카린숲 -->
+
+  <node index ="15">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "5781203"/>
+    <sound        file  = "BGM\\BGM_FIELD_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 윌러스 결전대		SD	래드 팬츠군 본부 -->
+
+  <node index ="16">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "6412207"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 윌러스 결전대		SD	래드 팬츠군 본부 -->
+
+  <node index ="17">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "6412208"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 윌러스 결전대		SD	래드 팬츠군 본부 -->
+
+  <node index ="18">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "6412209"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 아듀 암살병		SD	래드 팬츠군 본부 -->
+
+  <node index ="19">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "6413101"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 아듀 암살병		SD	래드 팬츠군 본부 -->
+
+  <node index ="20">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "6413102"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 아듀 암살병		SD	래드 팬츠군 본부 -->
+
+  <node index ="21">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "6413103"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 봉봉			SD	야호이 요새 -->
+
+  <node index ="22">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "6614104"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 봉봉			SD	야호이 요새 -->
+
+  <node index ="23">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "6614105"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 봉봉			SD	야호이 요새 -->
+
+  <node index ="24">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "6614106"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 제어불능 마인		MF	카린숲 -->
+
+  <node index ="25">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "6681101"/>
+    <sound        file  = "BGM\\BGM_FIELD_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 제어불능 마인		MF	카린숲 -->
+
+  <node index ="26">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "6681102"/>
+    <sound        file  = "BGM\\BGM_FIELD_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 제어불능 마인		MF	카린숲 -->
+
+  <node index ="27">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "6681103"/>
+    <sound        file  = "BGM\\BGM_FIELD_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 개조 피라후 머신	UD2	래드팬츠군 로봇연구소 -->
+
+  <node index ="28">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "6751101"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 개조 피라후 머신	UD2	래드팬츠군 로봇연구소 -->
+
+  <node index ="29">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "6751102"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 개조 피라후 머신	UD2	래드팬츠군 로봇연구소 -->
+
+  <node index ="30">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "6751103"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 부서진 개조 피라후 머신	UD2	래드팬츠군 로봇연구소 -->
+
+  <node index ="31">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "6752101"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 부서진 개조 피라후 머신	UD2	래드팬츠군 로봇연구소 -->
+
+  <node index ="32">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "6752102"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 부서진 개조 피라후 머신	UD2	래드팬츠군 로봇연구소 -->
+
+  <node index ="33">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "6752103"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 세뇌 조사대 대장		MF	카린숲 -->
+
+  <node index ="34">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "7112501"/>
+    <sound        file  = "BGM\\BGM_TMQ_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 세뇌 조사대 대장		MF	카린숲 -->
+
+  <node index ="35">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "7112502"/>
+    <sound        file  = "BGM\\BGM_TMQ_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 세뇌 조사대 대장		MF	카린숲 -->
+
+  <node index ="36">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "7112503"/>
+    <sound        file  = "BGM\\BGM_TMQ_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 창백한 남자의 세뇌병		MF	카린숲 -->
+
+  <node index ="37">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "7114158"/>
+    <sound        file  = "BGM\\BGM_TMQ_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 창백한 남자의 세뇌병		MF	카린숲 -->
+
+  <node index ="38">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "7114159"/>
+    <sound        file  = "BGM\\BGM_TMQ_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 창백한 남자의 세뇌병		MF	카린숲 -->
+
+  <node index ="39">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "7114160"/>
+    <sound        file  = "BGM\\BGM_TMQ_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 타오파이파이 X			UD2	래드팬츠군 로봇연구소 -->
+
+  <node index ="40">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "8421101"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 타오파이파이 X			UD2	래드팬츠군 로봇연구소 -->
+
+  <node index ="41">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "8421102"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 타오파이파이 X			UD2	래드팬츠군 로봇연구소 -->
+
+  <node index ="42">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "8421103"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 강화 타오파이파이 X		UD2	래드팬츠군 로봇연구소 -->
+
+  <node index ="43">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "8422101"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 강화 타오파이파이 X		UD2	래드팬츠군 로봇연구소 -->
+
+  <node index ="44">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "8422102"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 강화 타오파이파이 X		UD2	래드팬츠군 로봇연구소 -->
+
+  <node index ="45">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "8422103"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 본 장군			SD	래드 팬츠군 본부 -->
+
+  <node index ="46">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "9414101"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 본 장군			SD	래드 팬츠군 본부 -->
+
+  <node index ="47">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "9414102"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 본 장군			SD	래드 팬츠군 본부 -->
+
+  <node index ="48">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "9414103"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 진짜 괴물			SD	첨벙첨벙 수로 입구 -->
+
+  <node index ="49">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "9614201"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 진짜 괴물			SD	첨벙첨벙 수로 입구 -->
+
+  <node index ="50">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "9614202"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 진짜 괴물			SD	첨벙첨벙 수로 입구 -->
+
+  <node index ="51">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "9614203"/>
+    <sound        file  = "BGM\\BGM_DUNGEON_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 돌연변이 바다 괴물			MF	머쉬룸 록스 남부 -->
+
+  <node index ="52">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "3213107"/>
+    <sound        file  = "BGM\\BGM_FIELD_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 파스트리 박사			MF	 겁나도-->
+
+  <node index ="53">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "7113410"/>
+    <sound        file  = "BGM\\BGM_FREEZA_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+
+<!-- 중급 관리병 자르			MF	겁나도 -->
+
+  <node index ="54">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "4611222"/>
+    <sound        file  = "BGM\\BGM_TMQ_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 경비대원 수우			MF	겁나도 -->
+
+  <node index ="55">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "5612313"/>
+    <sound        file  = "BGM\\BGM_FIELD_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 하급 포로구역 반장			MF	겁나도 -->
+
+  <node index ="56">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "7114407"/>
+    <sound        file  = "BGM\\BGM_TMQ_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 무자비 탈취대장			MF	머쉬룸 록스 남부 -->
+
+  <node index ="57">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "7116128"/>
+    <sound        file  = "BGM\\BGM_FREEZA_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 머쉬룸 갱 혈투대장			MF	머쉬룸 록스 남부 -->
+
+  <node index ="58">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "8471216"/>
+    <sound        file  = "BGM\\BGM_FIELD_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 침략정예 울프 리더			MF	머쉬룸 록스 남부 -->
+
+  <node index ="59">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "8912116"/>
+    <sound        file  = "BGM\\BGM_FIELD_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 머쉬룸 갱 돌격대장			MF	머쉬룸 록스 남부 -->
+
+  <node index ="60">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "9421104"/>
+    <sound        file  = "BGM\\BGM_FIELD_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 사임브			MF	 머쉬룸 록스 남부-->
+
+  <node index ="61">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "5732101"/>
+    <sound        file  = "BGM\\BGM_NARAK_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+
+<!-- 드라			MF	 머쉬룸 록스 남부-->
+
+  <node index ="62">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "5881101"/>
+    <sound        file  = "BGM\\BGM_FIELD_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 부소장 크레카			MF	겁나도 -->
+
+  <node index ="63">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "7113119"/>
+    <sound        file  = "BGM\\BGM_FREEZA_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 부소장 보보			MF	겁나도 -->
+
+  <node index ="64">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "9415407"/>
+    <sound        file  = "BGM\\BGM_TMQ_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 소장 그라함			MF	겁나도 -->
+
+  <node index ="65">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "1761101"/>
+    <sound        file  = "BGM\\BGM_FREEZA_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 수용소장 위켄드			MF	겁나도 -->
+
+  <node index ="66">
+    <world        type  = "mainworld" />
+    <table        type  = "mob" index = "4581101"/>
+    <sound        file  = "BGM\\BGM_TMQ_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 슌슌			UD	누케가란드 -->
+
+  <node index ="67">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "5942201"/>
+    <sound        file  = "BGM\\BGM_TMQ_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 퀸 싹뚜기			UD	누케가란드 -->
+
+  <node index ="68">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "6881101"/>
+    <sound        file  = "BGM\\BGM_TMQ_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 불고킨			UD4	피라후 성 -->
+
+  <node index ="69">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "1762101"/>
+    <sound        file  = "BGM\\BGM_FREEZA_BOSS.ogg" />
+    <range        value = "90" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 키리 에너지에 중독된 불고킨			UD4	피라후 성 -->
+
+  <node index ="70">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "1762201"/>
+    <sound        file  = "BGM\\BGM_FREEZA_BOSS.ogg" />
+    <range        value = "90" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 키리 에너지에 중독된 불고킨			UD4	피라후 성 -->
+
+  <node index ="71">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "1762204"/>
+    <sound        file  = "BGM\\BGM_FREEZA_BOSS.ogg" />
+    <range        value = "90" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 키리 에너지에 중독된 불고킨			UD4	피라후 성 -->
+
+  <node index ="72">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "1762301"/>
+    <sound        file  = "BGM\\BGM_FREEZA_BOSS.ogg" />
+    <range        value = "90" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 키리 에너지에 중독된 불고킨			UD4	피라후 성 -->
+
+  <node index ="73">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "1762304"/>
+    <sound        file  = "BGM\\BGM_FREEZA_BOSS.ogg" />
+    <range        value = "90" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 키리 에너지를 충전중인 불고킨			UD4	피라후 성 -->
+
+  <node index ="74">
+    <world        type  = "partydundeon" />
+    <table        type  = "npc" index = "1452201"/>
+    <sound        file  = "BGM\\BGM_FREEZA_BOSS.ogg" />
+    <range        value = "90" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 키리 에너지를 충전중인 불고킨			UD4	피라후 성 -->
+
+  <node index ="75">
+    <world        type  = "partydundeon" />
+    <table        type  = "npc" index = "1452301"/>
+    <sound        file  = "BGM\\BGM_FREEZA_BOSS.ogg" />
+    <range        value = "90" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 구리스 가스 포동			UD5	구리스 가스 파이프 라인 -->
+
+  <node index ="76">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "1881201"/>
+    <sound        file  = "BGM\\BGM_FREEZA_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 가스 거산 재배맨			UD5	구리스 가스 파이프 라인 -->
+
+  <node index ="77">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "5765101"/>
+    <sound        file  = "BGM\\BGM_FREEZA_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 가스 농축 포동			UD5	구리스 가스 파이프 라인 -->
+
+  <node index ="78">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "1881204"/>
+    <sound        file  = "BGM\\BGM_FREEZA_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+
+<!-- 와타 대장			UD5	구리스 가스 파이프 라인 -->
+
+  <node index ="79">
+    <world        type  = "partydundeon" />
+    <table        type  = "mob" index = "8821201"/>
+    <sound        file  = "BGM\\BGM_FREEZA_BOSS.ogg" />
+    <range        value = "50" />
+    <loop         value = "1" />
+  </node>
+</ThemeBGM>

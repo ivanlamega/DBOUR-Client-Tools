@@ -1,0 +1,48 @@
+[category info]
+num	= 3
+
+[category0]
+name 	= enviroment
+num	= 18
+0	= EMPTY
+1	= EMPTY
+2	= EMPTY
+3	= EMPTY
+4	= EMPTY
+5	= EMPTY
+6	= GENERAL_ENV_RIVER_LOOP.wav
+7	= GENERAL_ENV_SHORE_LOOP.wav
+8	= TLQ1_AMB.ogg
+9	= TLQ3_AMB_Mudokoun_Indoor.ogg
+10	= TLQ3_AMB_Mudokoun_outdoor.ogg
+11	= TLQ2_AMB_Friepan_MT.ogg
+12	= TLQ2_AMB_grassland.ogg
+13	= GENERAL_ENV_POOL_LOOP.ogg
+14	= GENERAL_ENV_Fire_LOOP.ogg
+15	= GENERAL_ENV_BUG_LOOP.ogg
+16	= GENERAL_ENV_ICE_LOOP.ogg
+17	= GENERAL_ENV_Jyulord_LOOP.ogg
+
+
+[category1]
+name 	= object
+num	= 12
+0	= GENERAL_OBJ_FALL_LOOP.wav
+1	= GENERAL_OBJ_FIRE_LOOP.wav
+2	= GENERAL_OBJ_FOUNTAIN_LOOP.wav
+3	= GENERAL_OBJ_GEAR_LOOP.wav
+4	= GENERAL_OBJ_STIM_LOOP.ogg
+5	= GENERAL_OBJ_BOIL_LOOP.ogg
+6	= GENERAL_OBJ_LAVA_LOOP.ogg
+7	= GENERAL_OBJ_STICKY_LOOP.ogg
+8	= GENERAL_OBJ_machine_LOOP.ogg
+9	= GENERAL_OBJ_Pump_LOOP.ogg
+10	= GENERAL_ENV_BEAM_LOOP.ogg
+11	= GENERAL_OBJ_CONVEYOR_LOOP.ogg
+
+[category2]
+name 	= bgm
+num	= 3
+0	= GENERAL_ENV_VILLAGE_LOOP.wav
+1	= BGM_TOWN_LARGE.ogg
+2	= BGM_TOWN_SMALL.ogg

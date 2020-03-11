@@ -1,0 +1,343 @@
+<?xml version="1.0" ?>
+
+<weather_property>
+
+	<header effect_path="" sound_path="" texture_path=".\\texture\\ntlwe\\weather\\"/>
+
+	<weather index="1" name="RAIN">
+		<emitter place_type="camera_pos" x="0" y="25" z="0" cx="25" cy="0" cz="25"/>
+		<particle texture="Rain_drop001" cx="0.3" cy="5"/>
+		<motion motion_type="line" dir_x="0" dir_y="-25" dir_z="0" velocity="50" spline_power="0" spline_time="0"/>
+		<color blend_type="n" s_time="0.0" c_time="0.8" e_time="1.0" s_a="255" s_r="255" s_g="255" s_b="255" c_a="255" c_r="255" c_g="255" c_b="255" e_a="255" e_r="255" e_g="255" e_b="255"/>
+		
+		<create time="0.2" time_gap="0.0" num="13" num_gap="0" max="10000" effect="" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="5"/>
+		<collision effect="wrd_raindrop_001" linescale="1.0" effect_water="" terrain="1" water="1" object="1"  destroy="1"/>
+		<frustum render_max="100" render_length="25" effect_render_length="15" update_fast="1.5"/>
+		<billboard billboard_type="y" v_x="0" v_y="25" v_z="0"/>
+		<renderstate ztest="1" fog="1" light="1"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+
+	<weather index="2" name="RAIN_Heavy">
+		<emitter place_type="camera_pos" x="0.56" y="25" z="-12.6" cx="25" cy="0" cz="25"/>
+		<particle texture="Rain_drop001" cx="0.25" cy="8"/>
+		<motion motion_type="line" dir_x="-0.02" dir_y="-0.89" dir_z="0.45" velocity="80" spline_power="0" spline_time="0"/>
+		<color blend_type="n" s_time="0.0" c_time="0.8" e_time="1.0" s_a="255" s_r="255" s_g="255" s_b="255" c_a="255" c_r="255" c_g="255" c_b="255" e_a="255" e_r="255" e_g="255" e_b="255"/>
+		
+		<create time="0.04" time_gap="0.0" num="5" num_gap="0" max="500" effect="" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="2.5"/>
+		<collision effect="wrd_raindrop_001" linescale="10.0" effect_water="" terrain="1" water="0" object="0"  destroy="1"/>
+		<frustum render_max="250" render_length="38" effect_render_length="20" update_fast="1.5"/>
+		<billboard billboard_type="y" v_x="0.02" v_y="0.89" v_z="-0.45"/>
+		<renderstate ztest="1" fog="1" light="1"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+
+	<weather index="3" name="SNOW">
+		<emitter place_type="camera_at" x="0" y="25" z="25" cx="25" cy="0" cz="25"/>
+		<particle texture="Snow001" cx="0.4" cy="0.4"/>
+		<motion motion_type="spline" dir_x="0" dir_y="-1" dir_z="0" velocity="3" spline_power="3" spline_time="3"/>
+		<color blend_type="n" s_time="0.0" c_time="0.5" e_time="1.0" s_a="0" s_r="255" s_g="255" s_b="255" c_a="255" c_r="255" c_g="255" c_b="255" e_a="255" e_r="255" e_g="255" e_b="255"/>
+		
+		<create time="0.2" time_gap="0.0" num="5" num_gap="0" max="10000" effect="" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="25"/>
+		<collision effect="" linescale="5.0" effect_water="" terrain="1" water="0" object="1"  destroy="1"/>
+		<frustum render_max="100" render_length="25" effect_render_length="15" update_fast="4"/>
+		<billboard billboard_type="n" v_x="0" v_y="1" v_z="0"/>
+		<renderstate ztest="1" fog="1" light="1"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+
+	<weather index="4" name="SNOW_Heavy">
+		<emitter place_type="camera_pos" x="0" y="25" z="0" cx="25" cy="0" cz="25"/>
+		<particle texture="Snow001" cx="0.4" cy="0.4"/>
+		<motion motion_type="line" dir_x="-0.47" dir_y="-0.41" dir_z="0.78" velocity="20" spline_power="1" spline_time="1"/>
+		<color blend_type="n" s_time="0.0" c_time="0.5" e_time="1.0" s_a="0" s_r="255" s_g="255" s_b="255" c_a="150" c_r="255" c_g="255" c_b="255" e_a="200" e_r="255" e_g="255" e_b="255"/>
+		
+		<create time="0.2" time_gap="0.0" num="50" num_gap="0" max="10000" effect="" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="5"/>
+		<collision effect="" linescale="1.0" effect_water="" terrain="1" water="0" object="0"  destroy="1"/>
+		<frustum render_max="300" render_length="25" effect_render_length="15" update_fast="4"/>
+		<billboard billboard_type="n" v_x="0" v_y="1" v_z="0"/>
+		<renderstate ztest="1" fog="1" light="1"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+
+        <weather index="5" name="SPORE">
+		<emitter place_type="camera_at" x="0" y="25" z="25" cx="50" cy="0" cz="50"/>
+		<particle texture="Spore001" cx="0.4" cy="0.4"/>
+		<motion motion_type="spline" dir_x="0" dir_y="-1" dir_z="0" velocity="1" spline_power="5" spline_time="3"/>
+		<color blend_type="n" s_time="0.0" c_time="0.5" e_time="1.0" s_a="128" s_r="255" s_g="255" s_b="255" c_a="128" c_r="244" c_g="215" c_b="99" e_a="128" e_r="244" e_g="215" e_b="99"/>
+		
+		<create time="0.2" time_gap="0.0" num="5" num_gap="0" max="10000" effect="" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="25"/>
+		<collision effect="" linescale="1.0" effect_water="" terrain="0" water="0" object="0"  destroy="0"/>
+		<frustum render_max="100" render_length="25" effect_render_length="15" update_fast="4"/>
+		<billboard billboard_type="n" v_x="0" v_y="1" v_z="0"/>
+		<renderstate ztest="1" fog="1" light="1"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+
+
+	<weather index="6" name="LIGHTNING_Far">
+		<emitter place_type="camera_at" x="0" y="180" z="450" cx="50" cy="20" cz="50"/>
+		<particle texture="lightning_flash01.png" cx="100" cy="35"/>
+		<motion motion_type="static" dir_x="0" dir_y="-1" dir_z="0" velocity="3" spline_power="3" spline_time="3"/>
+		<color blend_type="n" s_time="0.0" c_time="0.8" e_time="1.0" s_a="255" s_r="255" s_g="255" s_b="255" c_a="255" c_r="255" c_g="255" c_b="255" e_a="255" e_r="255" e_g="255" e_b="255"/>
+		
+		<create time="20" time_gap="4" num="1" num_gap="0" max="10000" effect="wrd_thunderStorm_01,wrd_thunderStorm_02,wrd_thunderStorm_03" event="lightning" terrain_dist="0"/>
+		<destroy effect="" lifetime="0.5"/>
+		<collision effect="" linescale="1.0" effect_water="" terrain="0" water="0" object="0"  destroy="0"/>
+		<frustum render_max="200" render_length="512" effect_render_length="512" update_fast="4"/>
+		<billboard billboard_type="n" v_x="0" v_y="1" v_z="0"/>
+		<renderstate ztest="1" fog="0" light="1"/>
+		<sound global_sound="Environment\ENV_THUNDER_AMB.OGG" particle_sound_time="1.0">
+		<particle_sound name="Environment\ENV_THUNDER_ONESHOT.OGG" particle="1"/>
+		</sound>
+	</weather>
+
+	<weather index="7" name="LIGHTNING_Near">
+		<emitter place_type="camera_at" x="0" y="100" z="300" cx="50" cy="10" cz="50"/>
+		<particle texture="" cx="0" cy="0"/>
+		<motion motion_type="static" dir_x="0" dir_y="-1" dir_z="0" velocity="3" spline_power="3" spline_time="3"/>
+		<color blend_type="n" s_time="0.0" c_time="0.8" e_time="1.0" s_a="255" s_r="255" s_g="255" s_b="255" c_a="255" c_r="255" c_g="255" c_b="255" e_a="255" e_r="255" e_g="255" e_b="255"/>
+		
+		<create time="12" time_gap="2" num="3" num_gap="3" max="10000" effect="wrd_raindrop_001" event="lightning2" terrain_dist="0"/>
+		<destroy effect="" lifetime="1"/>
+		<collision effect="" linescale="1.0" effect_water="" terrain="0" water="0" object="0"  destroy="0"/>
+		<frustum render_max="200"  render_length="512" effect_render_length="15" update_fast="4"/>
+		<billboard billboard_type="n" v_x="0" v_y="1" v_z="0"/>
+		<renderstate ztest="1" fog="0" light="0"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+
+	<weather index="8" name="WIND_Snow">
+		<emitter place_type="camera_pos" x="24" y="0" z="48" cx="80" cy="0" cz="80"/>
+		<particle texture="Wind_snow001" cx="30" cy="10"/>
+		<motion motion_type="tsnap" dir_x="-0.46" dir_y="0" dir_z="0.89" velocity="30" spline_power="0" spline_time="0"/>
+		<color blend_type="n" s_time="0.0" c_time="0.8" e_time="1.0" s_a="128" s_r="255" s_g="255" s_b="255" c_a="128" c_r="255" c_g="255" c_b="255" e_a="128" e_r="255" e_g="255" e_b="255"/>
+		
+		<create time="0.2" time_gap="0.0" num="2" num_gap="0" max="10000" effect="" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="5"/>
+		<collision effect="" linescale="1.0" effect_water="" terrain="0" water="0" object="0"  destroy="0"/>
+		<frustum render_max="25" render_length="64" effect_render_length="15" update_fast="2"/>
+		<billboard billboard_type="n" v_x="0" v_y="1" v_z="0"/>
+		<renderstate ztest="1" fog="1" light="1"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+
+	<weather index="9" name="WIND_Sand_Heavy">
+		<emitter place_type="camera_pos" x="150" y="0" z="150" cx="100" cy="0" cz="100"/>
+		<particle texture="Wind_sand001" cx="50" cy="30"/>
+		<motion motion_type="tsnap" dir_x="-25" dir_y="0" dir_z="-25" velocity="30" spline_power="0" spline_time="0"/>
+		<color blend_type="n" s_time="0.0" c_time="0.8" e_time="1.0" s_a="128" s_r="255" s_g="255" s_b="255" c_a="128" c_r="255" c_g="255" c_b="255" e_a="128" e_r="255" e_g="255" e_b="255"/>
+		
+		<create time="0.4" time_gap="0" num="3" num_gap="0" max="10000" effect="" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="10"/>
+		<collision effect="" linescale="1.0" effect_water="" terrain="0" water="0" object="0"  destroy="0"/>
+		<frustum render_max="50" render_length="200" effect_render_length="15" update_fast="2"/>
+		<billboard billboard_type="n" v_x="0" v_y="1" v_z="0"/>
+		<renderstate ztest="1" fog="1" light="1"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+
+	<weather index="10" name="WIND_Sand_Light">
+		<emitter place_type="camera_pos" x="150" y="-1" z="150" cx="100" cy="20" cz="100"/>
+		<particle texture="Wind_sand001" cx="40" cy="10"/>
+		<motion motion_type="tsnap" dir_x="-25" dir_y="0" dir_z="-25" velocity="20" spline_power="0" spline_time="0"/>
+		<color blend_type="n" s_time="0.0" c_time="0.7" e_time="1.0" s_a="0" s_r="255" s_g="255" s_b="255" c_a="40" c_r="255" c_g="255" c_b="255" e_a="60" e_r="255" e_g="255" e_b="255"/>
+		
+		<create time="0.8" time_gap="0.1" num="1" num_gap="0" max="10000" effect="" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="30"/>
+		<collision effect="" linescale="1.0" effect_water="" terrain="0" water="0" object="0"  destroy="0"/>
+		<frustum render_max="50" render_length="150" effect_render_length="15" update_fast="2"/>
+		<billboard billboard_type="n" v_x="0" v_y="1" v_z="0"/>
+		<renderstate ztest="1" fog="1" light="1"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+
+	<weather index="11" name="WIND_Rain">
+		<emitter place_type="camera_pos" x="0.56" y="25" z="-12.6" cx="30" cy="0" cz="30"/>
+		<particle texture="Wind_rain001" cx="50" cy="30"/>
+		<motion motion_type="line" dir_x="-0.02" dir_y="-0.89" dir_z="0.45" velocity="30" spline_power="0" spline_time="0"/>
+		<color blend_type="n" s_time="0.0" c_time="0.5" e_time="1.0" s_a="100" s_r="255" s_g="255" s_b="255" c_a="100" c_r="255" c_g="255" c_b="255" e_a="100" e_r="255" e_g="255" e_b="255"/>
+		
+		<create time="0.8" time_gap="0.2" num="2" num_gap="0" max="10000" effect="" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="15"/>
+		<collision effect="" linescale="1.0" effect_water="" terrain="0" water="0" object="0"  destroy="0"/>
+		<frustum render_max="50" render_length="13" effect_render_length="15" update_fast="2"/>
+		<billboard billboard_type="n" v_x="0" v_y="1" v_z="0"/>
+		<renderstate ztest="1" fog="1" light="1"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+
+	<weather index="12" name="WATER_Drop">
+		<emitter place_type="camera_pos" x="0" y="25" z="0" cx="25" cy="0" cz="25"/>
+		<particle texture="Rain_drop001" cx="1" cy="3"/>
+		<motion motion_type="line" dir_x="0" dir_y="-25" dir_z="0" velocity="50" spline_power="0" spline_time="0"/>
+		<color blend_type="n" s_time="0.0" c_time="0.8" e_time="1.0" s_a="255" s_r="255" s_g="255" s_b="255" c_a="255" c_r="255" c_g="255" c_b="255" e_a="255" e_r="255" e_g="255" e_b="255"/>
+		
+		<create time="3.2" time_gap="1" num="1" num_gap="0" max="10000" effect="" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="5"/>
+		<collision effect="wrd_raindrop_001" linescale="1.0" effect_water="wrd_raindrop_001_water" terrain="1" water="1" object="0"  destroy="1"/>
+		<frustum render_max="100" render_length="25" effect_render_length="100" update_fast="1.5"/>
+		<billboard billboard_type="y" v_x="0" v_y="25" v_z="0"/>
+		<renderstate ztest="1" fog="1" light="1"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+
+	<weather index="13" name="SPORE_Light">
+		<emitter place_type="camera_at" x="0" y="25" z="25" cx="50" cy="0" cz="50"/>
+		<particle texture="Spore001" cx="0.4" cy="0.4"/>
+		<motion motion_type="spline" dir_x="0" dir_y="-1" dir_z="0" velocity="0.8" spline_power="5" spline_time="3"/>
+		<color blend_type="n" s_time="0.0" c_time="0.5" e_time="1.0" s_a="128" s_r="255" s_g="255" s_b="255" c_a="128" c_r="244" c_g="215" c_b="99" e_a="128" e_r="244" e_g="215" e_b="99"/>
+		
+		<create time="2.0" time_gap="0.0" num="5" num_gap="0" max="10000" effect="" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="45"/>
+		<collision effect="" linescale="1.0" effect_water="" terrain="0" water="0" object="0"  destroy="0"/>
+		<frustum render_max="100" render_length="25" effect_render_length="15" update_fast="4"/>
+		<billboard billboard_type="n" v_x="0" v_y="1" v_z="0"/>
+		<renderstate ztest="1" fog="1" light="1"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+
+        <weather index="14" name="DUST_post">
+		<emitter place_type="camera_pos" x="15" y="0" z="0" cx="30" cy="0" cz="50"/>
+		<particle texture="Dust_Post" cx="40" cy="40"/>
+		<motion motion_type="line" dir_x="1" dir_y="0" dir_z="0" velocity="0.5" spline_power="0" spline_time="0"/>
+		<color blend_type="n" s_time="0.0" c_time="0.8" e_time="1.0" s_a="0" s_r="250" s_g="222" s_b="195" c_a="32" c_r="250" c_g="222" c_b="195" e_a="16" e_r="250" e_g="222" e_b="195"/>
+		
+		<create time="4" time_gap="0" num="2" num_gap="0" max="100" effect="" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="30"/>
+		<collision effect="" linescale="1.0" effect_water="" terrain="0" water="0" object="0"  destroy="0"/>
+		<frustum render_max="50" render_length="25" effect_render_length="15" update_fast="2"/>
+		<billboard billboard_type="n" v_x="0" v_y="1" v_z="0"/>
+		<renderstate ztest="0" fog="0" light="1"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+
+	<weather index="15" name="SPARK">
+		<emitter place_type="camera_at" x="0" y="-5" z="5" cx="50" cy="0" cz="50"/>
+		<particle texture="Spore002" cx="0.5" cy="0.5"/>
+		<motion motion_type="spline" dir_x="0" dir_y="1" dir_z="0" velocity="0.4" spline_power="4" spline_time="3"/>
+		<color blend_type="y" s_time="0.0" c_time="0.7" e_time="0.9" s_a="150" s_r="255" s_g="255" s_b="255" c_a="255" c_r="255" c_g="255" c_b="255" e_a="100" e_r="0" e_g="0" e_b="0"/>
+		
+		<create time="0.4" time_gap="0.0" num="8" num_gap="0" max="2000" effect="" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="60"/>
+		<collision effect="" linescale="1.0" effect_water="" terrain="0" water="0" object="0"  destroy="0"/>
+		<frustum render_max="1000" render_length="50" effect_render_length="15" update_fast="4"/>
+		<billboard billboard_type="n" v_x="0" v_y="1" v_z="0"/>
+		<renderstate ztest="1" fog="1" light="1"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+
+	<weather index="16" name="WIND_Snow_Light">
+		<emitter place_type="camera_pos" x="-10" y="1" z="-10" cx="100" cy="0" cz="100"/>
+		<particle texture="Wind_snow001" cx="100" cy="15"/>
+		<motion motion_type="spline" dir_x="o" dir_y="1" dir_z="0" velocity="0.5" spline_power="4" spline_time="3"/>
+		<color blend_type="y" s_time="0.0" c_time="0.4" e_time="0.8" s_a="80" s_r="255" s_g="255" s_b="255" c_a="100" c_r="255" c_g="255" c_b="255" e_a="80" e_r="255" e_g="255" e_b="255"/>		
+		<create time="1.5" time_gap="0.7" num="4" num_gap="0" max="10000" effect="" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="10"/>
+		<collision effect="" linescale="1.0" effect_water="" terrain="0" water="0" object="0"  destroy="0"/>
+		<frustum render_max="50" render_length="256" effect_render_length="15" update_fast="2"/>
+		<billboard billboard_type="n" v_x="0" v_y="1" v_z="0"/>
+		<renderstate ztest="1" fog="1" light="1"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+
+	<weather index="17" name="Fog">
+		<emitter place_type="camera_pos" x="-10" y="25" z="-10" cx="20" cy="0" cz="20"/>
+		<particle texture="Wind_snow001" cx="20" cy="15"/>
+		<motion motion_type="spline" dir_x="o" dir_y="-1" dir_z="0" velocity="0.8" spline_power="5" spline_time="3"/>
+		<color blend_type="y" s_time="0.0" c_time="0.3" e_time="0.95" s_a="0" s_r="255" s_g="255" s_b="255" c_a="140" c_r="255" c_g="255" c_b="255" e_a="20" e_r="255" e_g="255" e_b="255"/>		
+		<create time="5" time_gap="0.5" num="20" num_gap="0" max="10000" effect="" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="35"/>
+		<collision effect="" linescale="1.0" effect_water="" terrain="0" water="0" object="0"  destroy="0"/>
+		<frustum render_max="1000" render_length="256" effect_render_length="15" update_fast="2"/>
+		<billboard billboard_type="n" v_x="0" v_y="1" v_z="0"/>
+		<renderstate ztest="1" fog="1" light="1"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+
+	<weather index="18" name="WIND_Dust">
+		<emitter place_type="camera_pos" x="150" y="-1" z="150" cx="100" cy="20" cz="100"/>
+		<particle texture="Dust_Post" cx="40" cy="40"/>
+		<motion motion_type="tsnap" dir_x="-25" dir_y="0" dir_z="-25" velocity="20" spline_power="0" spline_time="0"/>
+		<color blend_type="n" s_time="0.0" c_time="0.3" e_time="1.0" s_a="0" s_r="255" s_g="255" s_b="255" c_a="40" c_r="255" c_g="255" c_b="255" e_a="60" e_r="255" e_g="255" e_b="255"/>		
+
+		<create time="0.2" time_gap="0.1" num="2" num_gap="0" max="10000" effect="" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="30"/>
+		<collision effect="" linescale="1.0" effect_water="" terrain="0" water="0" object="0"  destroy="0"/>
+		<frustum render_max="100" render_length="300" effect_render_length="15" update_fast="2"/>
+		<billboard billboard_type="n" v_x="0" v_y="1" v_z="0"/>
+		<renderstate ztest="1" fog="1" light="1"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+
+	<weather index="19" name="GAS_Guris">
+		<emitter place_type="camera_pos" x="100" y="-1" z="100" cx="100" cy="20" cz="100"/>
+		<particle texture="Dust_Post" cx="30" cy="40"/>
+		<motion motion_type="tsnap" dir_x="-150" dir_y="0" dir_z="-150" velocity="4" spline_power="0" spline_time="0"/>
+		<color blend_type="n" s_time="0.0" c_time="0.5" e_time="1.0" s_a="0" s_r="0" s_g="198" s_b="153" c_a="32" c_r="0" c_g="198" c_b="153" e_a="128" e_r="0" e_g="198" e_b="153"/>		
+
+		<create time="0.2" time_gap="0.1" num="2" num_gap="0" max="10000" effect="" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="120"/>
+		<collision effect="" linescale="1.0" effect_water="" terrain="0" water="0" object="0"  destroy="0"/>
+		<frustum render_max="500" render_length="500" effect_render_length="15" update_fast="20"/>
+		<billboard billboard_type="n" v_x="0" v_y="1" v_z="0"/>
+		<renderstate ztest="1" fog="1" light="1"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+
+	<weather index="20" name="LIGHTNING_Far_Y00">
+		<emitter place_type="camera_at" x="0" y="180" z="450" cx="50" cy="20" cz="50"/>
+		<particle texture="lightning_flash02.png" cx="100" cy="35"/>
+		<motion motion_type="static" dir_x="0" dir_y="-1" dir_z="0" velocity="3" spline_power="3" spline_time="3"/>
+		<color blend_type="n" s_time="0.0" c_time="0.8" e_time="1.0" s_a="255" s_r="255" s_g="255" s_b="255" c_a="255" c_r="255" c_g="255" c_b="255" e_a="255" e_r="255" e_g="255" e_b="255"/>
+		
+		<create time="15" time_gap="4" num="1" num_gap="0" max="10000" effect="wrd_thunderStorm_yellow_01,wrd_thunderStorm_yellow_02,wrd_thunderStorm_yellow_03" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="0.5"/>
+		<collision effect="" linescale="1.0" effect_water="" terrain="0" water="0" object="0"  destroy="0"/>
+		<frustum render_max="200" render_length="512" effect_render_length="512" update_fast="4"/>
+		<billboard billboard_type="n" v_x="0" v_y="1" v_z="0"/>
+		<renderstate ztest="1" fog="0" light="1"/>
+		<sound global_sound="Environment\ENV_THUNDER_AMB.OGG" particle_sound_time="1.0">
+		<particle_sound name="Environment\ENV_THUNDER_ONESHOT.OGG" particle="1"/>
+		</sound>
+	</weather>
+
+	<weather index="21" name="LIGHTNING_Far_Y01">
+		<emitter place_type="camera_at" x="0" y="50" z="450" cx="50" cy="20" cz="50"/>
+		<particle texture="lightning_flash02.png" cx="100" cy="35"/>
+		<motion motion_type="static" dir_x="0" dir_y="-1" dir_z="0" velocity="3" spline_power="3" spline_time="3"/>
+		<color blend_type="n" s_time="0.0" c_time="0.8" e_time="1.0" s_a="255" s_r="255" s_g="255" s_b="255" c_a="255" c_r="255" c_g="255" c_b="255" e_a="255" e_r="255" e_g="255" e_b="255"/>
+		
+		<create time="4" time_gap="3" num="1" num_gap="0" max="10000" effect="wrd_thunderStorm_yellow_01_B,wrd_thunderStorm_yellow_02_B,wrd_thunderStorm_yellow_03_B" event="" terrain_dist="0"/>
+		<destroy effect="" lifetime="0.5"/>
+		<collision effect="" linescale="1.0" effect_water="" terrain="0" water="0" object="0"  destroy="0"/>
+		<frustum render_max="200" render_length="512" effect_render_length="512" update_fast="4"/>
+		<billboard billboard_type="n" v_x="0" v_y="1" v_z="0"/>
+		<renderstate ztest="1" fog="0" light="1"/>
+		<sound global_sound="" particle_sound_time="0.0">
+		</sound>
+	</weather>
+</weather_property>

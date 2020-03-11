@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+
+<!--	
+		race = [HUMAN][MAJIN][NAMEK]
+		gender = [MALE][FEMALE][ONESEX]
+		adult = [0][1]
+		attach_type
+			ATTACH_BONE 				: bone attach effect
+			ATTACH_WORLD_POS			: bone pos effect
+-->
+<effectdataproperty>
+
+	<titleeffect name="GME_TENKAICHI_WINNER_01">
+		<effect_element race="HUMAN" gender="MALE" adult="0" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.2" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="MALE" adult="1" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.2" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="FEMALE" adult="0" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.2" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="FEMALE" adult="1" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.2" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="MALE" adult="0" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.5" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="MALE" adult="1" attach_type="ATTACH_BONE" scale="1.5" offset_x="0.0" offset_y="0.5" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="FEMALE" adult="0" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.5" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="FEMALE" adult="1" attach_type="ATTACH_BONE" scale="1.5" offset_x="0.0" offset_y="0.5" offset_z="0.0"/>
+		<effect_element race="NAMEK" gender="ONESEX" adult="0" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.3" offset_z="0.0"/>
+		<effect_element race="NAMEK" gender="ONESEX" adult="1" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.3" offset_z="0.0"/>
+	</titleeffect>
+
+
+	<titleeffect name="GME_TENKAICHI_WINNER_02">
+		<effect_element race="HUMAN" gender="MALE" adult="0" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.2" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="MALE" adult="1" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.2" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="FEMALE" adult="0" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.2" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="FEMALE" adult="1" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.2" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="MALE" adult="0" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.5" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="MALE" adult="1" attach_type="ATTACH_BONE" scale="1.5" offset_x="0.0" offset_y="0.5" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="FEMALE" adult="0" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.5" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="FEMALE" adult="1" attach_type="ATTACH_BONE" scale="1.5" offset_x="0.0" offset_y="0.5" offset_z="0.0"/>
+		<effect_element race="NAMEK" gender="ONESEX" adult="0" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.3" offset_z="0.0"/>
+		<effect_element race="NAMEK" gender="ONESEX" adult="1" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.3" offset_z="0.0"/>
+	</titleeffect>
+
+
+	<titleeffect name="GME_TENKAICHI_WINNER_03">
+		<effect_element race="HUMAN" gender="MALE" adult="0" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.2" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="MALE" adult="1" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.2" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="FEMALE" adult="0" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.2" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="FEMALE" adult="1" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.2" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="MALE" adult="0" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.5" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="MALE" adult="1" attach_type="ATTACH_BONE" scale="1.5" offset_x="0.0" offset_y="0.5" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="FEMALE" adult="0" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.5" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="FEMALE" adult="1" attach_type="ATTACH_BONE" scale="1.5" offset_x="0.0" offset_y="0.5" offset_z="0.0"/>
+		<effect_element race="NAMEK" gender="ONESEX" adult="0" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.3" offset_z="0.0"/>
+		<effect_element race="NAMEK" gender="ONESEX" adult="1" attach_type="ATTACH_BONE" scale="1.0" offset_x="0.0" offset_y="0.3" offset_z="0.0"/>
+	</titleeffect>
+
+
+	<titleeffect name="GME_WP_01">
+		<effect_element race="HUMAN" gender="MALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="1.0" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="MALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="0.85" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="FEMALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="1.0" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="FEMALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="0.85" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="MALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="1.0" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="MALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="0.9" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="FEMALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="1.05" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="FEMALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="0.9" offset_z="0.0"/>
+		<effect_element race="NAMEK" gender="ONESEX" adult="0" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="0.95" offset_z="0.0"/>
+		<effect_element race="NAMEK" gender="ONESEX" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="0.8" offset_z="0.0"/>
+	</titleeffect>
+
+
+	<titleeffect name="GME_WP_02">
+		<effect_element race="HUMAN" gender="MALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="1.0" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="MALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="0.85" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="FEMALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="1.0" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="FEMALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="0.85" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="MALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="1.0" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="MALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="0.9" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="FEMALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="1.05" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="FEMALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="0.9" offset_z="0.0"/>
+		<effect_element race="NAMEK" gender="ONESEX" adult="0" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="0.95" offset_z="0.0"/>
+		<effect_element race="NAMEK" gender="ONESEX" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.5" offset_x="0.0" offset_y="0.8" offset_z="0.0"/>
+	</titleeffect>
+
+
+	<titleeffect name="GME_WP_03">
+		<effect_element race="HUMAN" gender="MALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="1.3" offset_x="0.0" offset_y="1.0" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="MALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.3" offset_x="0.0" offset_y="0.85" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="FEMALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="1.3" offset_x="0.0" offset_y="1.0" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="FEMALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.3" offset_x="0.0" offset_y="0.85" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="MALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="1.3" offset_x="0.0" offset_y="1.05" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="MALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.3" offset_x="0.0" offset_y="0.95" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="FEMALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="1.3" offset_x="0.0" offset_y="1.05" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="FEMALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.3" offset_x="0.0" offset_y="0.9" offset_z="0.0"/>
+		<effect_element race="NAMEK" gender="ONESEX" adult="0" attach_type="ATTACH_WORLD_POS" scale="1.3" offset_x="0.0" offset_y="0.95" offset_z="0.0"/>
+		<effect_element race="NAMEK" gender="ONESEX" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.3" offset_x="0.0" offset_y="0.8" offset_z="0.0"/>
+	</titleeffect>
+
+
+	<titleeffect name="GME_CCBD_WINNER_GREEN">
+		<effect_element race="HUMAN" gender="MALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.4" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="MALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.0" offset_x="0.0" offset_y="-0.8" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="FEMALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.4" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="FEMALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.7" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="MALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="1.0" offset_x="0.0" offset_y="-0.3" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="MALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.2" offset_x="0.0" offset_y="-0.6" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="FEMALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.4" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="FEMALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.8" offset_z="0.0"/>
+		<effect_element race="NAMEK" gender="ONESEX" adult="0" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.4" offset_z="0.0"/>
+		<effect_element race="NAMEK" gender="ONESEX" adult="1" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.9" offset_z="0.0"/>
+	</titleeffect>
+
+	<titleeffect name="GME_CCBD_WINNER_BLUE">
+		<effect_element race="HUMAN" gender="MALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.4" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="MALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.8" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="FEMALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.4" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="FEMALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.7" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="MALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="1.0" offset_x="0.0" offset_y="-0.3" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="MALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.2" offset_x="0.0" offset_y="-0.6" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="FEMALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.4" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="FEMALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.8" offset_z="0.0"/>
+		<effect_element race="NAMEK" gender="ONESEX" adult="0" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.4" offset_z="0.0"/>
+		<effect_element race="NAMEK" gender="ONESEX" adult="1" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.9" offset_z="0.0"/>
+	</titleeffect>
+
+	<titleeffect name="GME_CCBD_WINNER_RED">
+		<effect_element race="HUMAN" gender="MALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.4" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="MALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.8" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="FEMALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.4" offset_z="0.0"/>
+		<effect_element race="HUMAN" gender="FEMALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.7" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="MALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="1.0" offset_x="0.0" offset_y="-0.3" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="MALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="1.2" offset_x="0.0" offset_y="-0.6" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="FEMALE" adult="0" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.4" offset_z="0.0"/>
+		<effect_element race="MAJIN" gender="FEMALE" adult="1" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.8" offset_z="0.0"/>
+		<effect_element race="NAMEK" gender="ONESEX" adult="0" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.4" offset_z="0.0"/>
+		<effect_element race="NAMEK" gender="ONESEX" adult="1" attach_type="ATTACH_WORLD_POS" scale="0.9" offset_x="0.0" offset_y="-0.9" offset_z="0.0"/>
+	</titleeffect>
+
+</effectdataproperty>

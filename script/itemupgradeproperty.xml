@@ -1,0 +1,901 @@
+<?xml version="1.0" ?>
+
+<!--
+	Revised this file Drag & Drop the DBO clients are subject to change
+
+ Guard_Effect, Charge_Effect, Post_Charge_Effect, Dash_Effect Notice 
+
+	level : If the item is not equipped to use a level 0
+
+	attach_type : ATTACH_BONE, ATTACH_WORLD_POS, ATTACH_BONE_POS_ROOT_ROTY , WORLD_POS
+	ATTACH_BONE 				: bone attach effect
+	ATTACH_WORLD_POS			: bone pos effect
+	ATTACH_BONE_POS_ROOT_ROTY		: root bone pos, rot effect
+	NOT_ATTACH_WORLD_POS			: only world pos, rot effect
+        ATTACH_NONE_BASE_SCALE			: bone attach effect base scale
+
+	flag -> 1 : Only the Ground play Effect
+		2 : Only the Air play Effect
+		3 : Both the Ground and Air play Effect
+	
+-->
+
+<item_upgrade_property>
+
+	<header texture_path_emuv=".\\texture\\effect\\"/>
+
+	<!-- step1 -->
+	<upgrade_emuv level="1" texture="IK_ITM_W_G_01" uvspeed="0.85">
+		<timeline_element timedelay="0.5" vision="1"/>
+		<timeline_element timedelay="0.3" vision="0"/>
+		<timeline_element timedelay="0.8" vision="1"/>
+		<timeline_element timedelay="2.0" vision="0"/>
+	</upgrade_emuv>
+	<upgrade_emuv level="2" texture="IK_ITM_W_G_01" uvspeed="0.85">
+		<timeline_element timedelay="0.5" vision="1"/>
+		<timeline_element timedelay="0.3" vision="0"/>
+		<timeline_element timedelay="0.8" vision="1"/>
+		<timeline_element timedelay="2.0" vision="0"/>
+	</upgrade_emuv>
+	<upgrade_emuv level="3" texture="IK_ITM_W_G_01" uvspeed="0.9">
+		<timeline_element timedelay="0.5" vision="1"/>
+		<timeline_element timedelay="0.3" vision="0"/>
+		<timeline_element timedelay="0.8" vision="1"/>
+		<timeline_element timedelay="2.0" vision="0"/>
+	</upgrade_emuv>
+	<upgrade_emuv level="4" texture="IK_ITM_W_G_01" uvspeed="0.9">
+		<timeline_element timedelay="1.0" vision="1"/>	--0.5
+		<timeline_element timedelay="0.5" vision="0"/>	--0.3
+		<timeline_element timedelay="3.0" vision="1"/>	--0.8
+		<timeline_element timedelay="2.0" vision="1"/>	--0.8
+		<timeline_element timedelay="1.0" vision="0"/>	--0.3
+	</upgrade_emuv>
+	<!-- step2 -->
+	<upgrade_emuv level="5" texture="IK_ITM_W_G_02" uvspeed="0.9">
+		<timeline_element timedelay="1.0" vision="1"/>	--0.5
+		<timeline_element timedelay="0.5" vision="0"/>	--0.3
+		<timeline_element timedelay="3.0" vision="1"/>	--0.8
+		<timeline_element timedelay="5.0" vision="0"/>	--0.3
+		<timeline_element timedelay="2.0" vision="1"/>	--0.8
+		<timeline_element timedelay="1.0" vision="0"/>	--0.3
+	</upgrade_emuv>
+	<upgrade_emuv level="6" texture="IK_ITM_W_G_02" uvspeed="0.9">
+		<timeline_element timedelay="0.5" vision="1"/>
+		<timeline_element timedelay="0.3" vision="0"/>
+		<timeline_element timedelay="0.8" vision="1"/>
+		<timeline_element timedelay="2.0" vision="0"/>
+	</upgrade_emuv>
+
+	<!-- step3 -->
+	<upgrade_emuv level="7" texture="IK_ITM_W_G_03" uvspeed="0.92">
+		<timeline_element timedelay="1.0" vision="1"/>	--0.5
+	</upgrade_emuv>
+	<upgrade_emuv level="8" texture="IK_ITM_W_G_03" uvspeed="0.92">
+		<timeline_element timedelay="1.0" vision="1"/>	--0.5
+	</upgrade_emuv>
+
+	<!-- step4 -->
+	<upgrade_emuv level="9" texture="IK_ITM_W_G_04" uvspeed="0.92">
+		<timeline_element timedelay="1.0" vision="1"/>	--0.5
+	</upgrade_emuv>
+	<upgrade_emuv level="10" texture="IK_ITM_W_G_04" uvspeed="0.95">
+		<timeline_element timedelay="1.0" vision="1"/>	--0.5
+	</upgrade_emuv>
+
+	<!-- step5 -->
+	<upgrade_emuv level="11" texture="IK_ITM_W_G_05" uvspeed="0.95">
+		<timeline_element timedelay="1.0" vision="1"/>
+	</upgrade_emuv>
+	<upgrade_emuv level="12" texture="IK_ITM_W_G_05" uvspeed="0.95">
+		<timeline_element timedelay="1.0" vision="1"/>
+	</upgrade_emuv>
+
+	<!-- step6 -->
+	<upgrade_emuv level="13" texture="IK_ITM_W_G_06" uvspeed="1.0">
+		<timeline_element timedelay="1.0" vision="1"/>	--0.5
+	</upgrade_emuv>
+
+	<!-- step7 -->
+	<upgrade_emuv level="14" texture="IK_ITM_W_G_07" uvspeed="1.25">
+		<timeline_element timedelay="1.0" vision="1"/>	--0.5
+	</upgrade_emuv>
+
+	<!-- step8 -->
+	<upgrade_emuv level="15" texture="IK_ITM_W_G_08" uvspeed="1.5">
+		<timeline_element timedelay="5.0" vision="1"/>	--0.5
+	</upgrade_emuv>
+
+
+
+
+<!-- Guard_Effect : Jacket according to the level of the Guard skill upgrading effect -->
+
+	<block_effect level="0">
+		<element effect_name="GME_Guard_Success" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+	</block_effect>
+	<block_effect level="1">
+		<element effect_name="GME_Guard_01" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+	</block_effect>
+	<block_effect level="2">
+		<element effect_name="GME_Guard_01" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+	</block_effect>
+	<block_effect level="3">
+		<element effect_name="GME_Guard_01" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+	</block_effect>
+	<block_effect level="4">
+		<element effect_name="GME_Guard_01" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+	</block_effect>
+	<block_effect level="5">
+		<element effect_name="GME_Guard_02" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+	</block_effect>
+	<block_effect level="6">
+		<element effect_name="GME_Guard_02" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+	</block_effect>
+	<block_effect level="7">
+		<element effect_name="GME_Guard_03" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+	</block_effect>
+	<block_effect level="8">
+		<element effect_name="GME_Guard_03" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+	</block_effect>
+	<block_effect level="9">
+		<element effect_name="GME_Guard_04" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+	</block_effect>
+	<block_effect level="10">
+		<element effect_name="GME_Guard_04" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+	</block_effect>
+	<block_effect level="11">
+		<element effect_name="GME_Guard_05" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+		<element effect_name="GME_Guard_00" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+	</block_effect>
+	<block_effect level="12">
+		<element effect_name="GME_Guard_05" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+		<element effect_name="GME_Guard_00" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+	</block_effect>
+	<block_effect level="13">
+		<element effect_name="GME_Guard_06" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+		<element effect_name="GME_Guard_00" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+	</block_effect>
+	<block_effect level="14">
+		<element effect_name="GME_Guard_07" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+		<element effect_name="GME_Guard_00" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+		<element effect_name="GME_Decal_07" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+	</block_effect>
+	<block_effect level="15">
+		<element effect_name="GME_Guard_08" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+		<element effect_name="GME_Guard_00" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+		<element effect_name="GME_Decal_08" attach_bone_name="nullroot" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" />
+	</block_effect>
+
+<!-- Post_Guard_Effect : Guard skill when the end effects -->
+
+	<post_guard_effect level="14">
+		<element effect_name="GME_Decal_07_02" attach_bone_name="nullroot" attach_type="NOT_ATTACH_WORLD_POS" angle_x="0" angle_y="0" angle_z="0" />
+	</post_guard_effect>
+	<post_guard_effect level="15">
+		<element effect_name="GME_Decal_08_02" attach_bone_name="nullroot" attach_type="NOT_ATTACH_WORLD_POS" angle_x="0" angle_y="0" angle_z="0" />
+	</post_guard_effect>
+
+
+<!-- Charge_Effect : Pants according to the level of the Charge skill upgrading effect  -->
+	<charging_effect level="0">
+		<element effect_name="COM_SKL_AVE_002" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+	</charging_effect>
+	<charging_effect level="1">
+		<element effect_name="COM_SKL_AVE_002_1" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+	</charging_effect>
+	<charging_effect level="2">
+		<element effect_name="COM_SKL_AVE_002_1" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+	</charging_effect>
+	<charging_effect level="3">
+		<element effect_name="COM_SKL_AVE_002_1" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+	</charging_effect>
+	<charging_effect level="4">
+		<element effect_name="COM_SKL_AVE_002_1" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+	</charging_effect>
+	<charging_effect level="5">
+		<element effect_name="COM_SKL_AVE_002_2" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+	</charging_effect>
+	<charging_effect level="6">
+		<element effect_name="COM_SKL_AVE_002_2" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+	</charging_effect>
+	<charging_effect level="7">
+		<element effect_name="COM_SKL_AVE_002_3" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+	</charging_effect>
+	<charging_effect level="8">
+		<element effect_name="COM_SKL_AVE_002_3" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+	</charging_effect>
+	<charging_effect level="9">
+		<element effect_name="COM_SKL_AVE_002_4" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+	</charging_effect>
+	<charging_effect level="10">
+		<element effect_name="COM_SKL_AVE_002_4" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+	</charging_effect>
+	<charging_effect level="11">
+		<element effect_name="COM_SKL_AVE_002_5" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+		<element effect_name="GME_Guard_00" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+	</charging_effect>
+	<charging_effect level="12">
+		<element effect_name="COM_SKL_AVE_002_5" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+		<element effect_name="GME_Guard_00" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+	</charging_effect>
+	<charging_effect level="13">
+		<element effect_name="COM_SKL_AVE_002_6" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+		<element effect_name="GME_Guard_00" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+	</charging_effect>
+	<charging_effect level="14">
+		<element effect_name="COM_SKL_AVE_002_7" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+		<element effect_name="GME_Guard_00" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+		<element effect_name="GME_Decal_07" attach_bone_name="nullroot" attach_type="ATTACH_BONE_POS_ROOT_ROTY" angle_x="0" angle_y="0" angle_z="0" />
+	</charging_effect>
+	<charging_effect level="15">
+		<element effect_name="COM_SKL_AVE_002_8" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+		<element effect_name="GME_Guard_00" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+		<element effect_name="GME_Decal_08" attach_bone_name="nullroot" attach_type="ATTACH_BONE_POS_ROOT_ROTY" angle_x="0" angle_y="0" angle_z="0" />
+	</charging_effect>
+
+
+<!-- Post_Charging_Effect : Charge skill when the end effects -->
+
+	<post_charging_effect level="14">
+		<element effect_name="GME_Decal_07_02" attach_bone_name="nullroot" attach_type="NOT_ATTACH_WORLD_POS" angle_x="0" angle_y="0" angle_z="0" />
+	</post_charging_effect>
+	<post_charging_effect level="15">
+		<element effect_name="COM_SKL_AVE_002_spark" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" />
+		<element effect_name="GME_Decal_08_02" attach_bone_name="nullroot" attach_type="NOT_ATTACH_WORLD_POS" angle_x="0" angle_y="0" angle_z="0" />
+	</post_charging_effect>
+
+
+<!-- Dash_Effect : Boots according to the level of the Dash skill upgrading effect -->
+
+	<dash_effect level="0">
+		<element effect_name="COM_SKL_AVE_001" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="3"/>
+		<element effect_name="COM_SKL_AVE_001_02" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+	</dash_effect>
+	<dash_effect level="1">
+		<element effect_name="COM_SKL_AVE_001_1" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="3"/>
+		<element effect_name="COM_SKL_AVE_001_02_1" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+	</dash_effect>
+	<dash_effect level="2">
+		<element effect_name="COM_SKL_AVE_001_1" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="3"/>
+		<element effect_name="COM_SKL_AVE_001_02_1" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+	</dash_effect>
+	<dash_effect level="3">
+		<element effect_name="COM_SKL_AVE_001_1" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="3"/>
+		<element effect_name="COM_SKL_AVE_001_02_1" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+	</dash_effect>
+	<dash_effect level="4">
+		<element effect_name="COM_SKL_AVE_001_1" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="3"/>
+		<element effect_name="COM_SKL_AVE_001_02_1" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+	</dash_effect>
+	<dash_effect level="5">
+		<element effect_name="COM_SKL_AVE_001_2" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="3"/>
+		<element effect_name="COM_SKL_AVE_001_02_2" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+	</dash_effect>
+	<dash_effect level="6">
+		<element effect_name="COM_SKL_AVE_001_2" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="3"/>
+		<element effect_name="COM_SKL_AVE_001_02_2" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+	</dash_effect>
+	<dash_effect level="7">
+		<element effect_name="COM_SKL_AVE_001_3" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="3"/>
+		<element effect_name="COM_SKL_AVE_001_02_2" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+	</dash_effect>
+	<dash_effect level="8">
+		<element effect_name="COM_SKL_AVE_001_3" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="3"/>
+		<element effect_name="COM_SKL_AVE_001_02_2" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+	</dash_effect>
+	<dash_effect level="9">
+		<element effect_name="COM_SKL_AVE_001_4" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="3"/>
+		<element effect_name="COM_SKL_AVE_001_02_4" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+	</dash_effect>
+	<dash_effect level="10">
+		<element effect_name="COM_SKL_AVE_001_4" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="3"/>
+		<element effect_name="COM_SKL_AVE_001_02_4" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+	</dash_effect>
+	<dash_effect level="11">
+		<element effect_name="COM_SKL_AVE_001_4" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="3"/>
+		<element effect_name="COM_SKL_AVE_001_02_4" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+		<element effect_name="COM_SKL_AVE_001_00" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+	</dash_effect>
+	<dash_effect level="12">
+		<element effect_name="COM_SKL_AVE_001_4" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="3"/>
+		<element effect_name="COM_SKL_AVE_001_02_4" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+		<element effect_name="COM_SKL_AVE_001_00" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+	</dash_effect>
+	<dash_effect level="13">
+		<element effect_name="COM_SKL_AVE_001_6" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="3"/>
+		<element effect_name="COM_SKL_AVE_001_02_6" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+		<element effect_name="COM_SKL_AVE_001_00" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+	</dash_effect>
+	<dash_effect level="14">
+		<element effect_name="COM_SKL_AVE_001_7" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="3"/>
+		<element effect_name="COM_SKL_AVE_001_02_7" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+		<element effect_name="COM_SKL_AVE_001_00" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+	</dash_effect>
+	<dash_effect level="15">
+		<element effect_name="COM_SKL_AVE_001_8" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="3"/>
+		<element effect_name="COM_SKL_AVE_001_02_8" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_NONE_BASE_SCALE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+		<element effect_name="COM_SKL_AVE_001_00" attach_bone_name="nullroot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="0" flag="1"/>
+	</dash_effect>
+
+
+
+	<!-- race=[HUMAN][NAMEK][MAJIN] gender=[MALE][FEMALE][ONESEX] adult=[TRUE][FALSE]
+	 equip_type="[JACKET][PANTS][BOOTS]" -->
+		<!-- attach_type=[BONE][BONE_POS_ROOT_ROTY] -->
+<!-- Human Child -->
+	<upgrade_effect level="11" race="HUMAN" gender="MALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="HUMAN" gender="FEMALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="HUMAN" gender="MALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="HUMAN" gender="FEMALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="HUMAN" gender="MALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="HUMAN" gender="FEMALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="12" race="HUMAN" gender="MALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="HUMAN" gender="FEMALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="HUMAN" gender="MALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="HUMAN" gender="FEMALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="HUMAN" gender="MALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="HUMAN" gender="FEMALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="13" race="HUMAN" gender="MALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="HUMAN" gender="FEMALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="HUMAN" gender="MALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="HUMAN" gender="FEMALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="HUMAN" gender="MALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="HUMAN" gender="FEMALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="14" race="HUMAN" gender="MALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="HUMAN" gender="FEMALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="HUMAN" gender="MALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="HUMAN" gender="FEMALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="HUMAN" gender="MALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="HUMAN" gender="FEMALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="15" race="HUMAN" gender="MALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="HUMAN" gender="FEMALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="HUMAN" gender="MALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="HUMAN" gender="FEMALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="HUMAN" gender="MALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="HUMAN" gender="FEMALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+<!-- Human adult -->
+	<upgrade_effect level="11" race="HUMAN" gender="MALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="HUMAN" gender="FEMALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="HUMAN" gender="MALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="HUMAN" gender="FEMALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="HUMAN" gender="MALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="HUMAN" gender="FEMALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="12" race="HUMAN" gender="MALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="HUMAN" gender="FEMALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="HUMAN" gender="MALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="HUMAN" gender="FEMALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="HUMAN" gender="MALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="HUMAN" gender="FEMALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="13" race="HUMAN" gender="MALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="HUMAN" gender="FEMALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="HUMAN" gender="MALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="HUMAN" gender="FEMALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="HUMAN" gender="MALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="HUMAN" gender="FEMALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="14" race="HUMAN" gender="MALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="HUMAN" gender="FEMALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="HUMAN" gender="MALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="HUMAN" gender="FEMALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="HUMAN" gender="MALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="HUMAN" gender="FEMALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="15" race="HUMAN" gender="MALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="HUMAN" gender="FEMALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="HUMAN" gender="MALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="HUMAN" gender="FEMALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="HUMAN" gender="MALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="HUMAN" gender="FEMALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+<!-- NAMEK Child-->
+	<upgrade_effect level="11" race="NAMEK" gender="ONESEX" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03_NMY" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="NAMEK" gender="ONESEX" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="NAMEK" gender="ONESEX" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="12" race="NAMEK" gender="ONESEX" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03_NMY" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="NAMEK" gender="ONESEX" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="NAMEK" gender="ONESEX" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="13" race="NAMEK" gender="ONESEX" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03_NMY" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="NAMEK" gender="ONESEX" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="NAMEK" gender="ONESEX" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="14" race="NAMEK" gender="ONESEX" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04_NMY" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="NAMEK" gender="ONESEX" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_NMY_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_NMY_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="NAMEK" gender="ONESEX" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_NMY_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_NMY_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="15" race="NAMEK" gender="ONESEX" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04_NMY" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="NAMEK" gender="ONESEX" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_NMY_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_NMY_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="NAMEK" gender="ONESEX" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_NMY_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_NMY_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+<!-- NAMEK Adult-->
+	<upgrade_effect level="11" race="NAMEK" gender="ONESEX" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03_NMY" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="NAMEK" gender="ONESEX" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="NAMEK" gender="ONESEX" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="12" race="NAMEK" gender="ONESEX" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03_NMY" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="NAMEK" gender="ONESEX" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="NAMEK" gender="ONESEX" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="13" race="NAMEK" gender="ONESEX" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03_NMY" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="NAMEK" gender="ONESEX" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="NAMEK" gender="ONESEX" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_NMY_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="14" race="NAMEK" gender="ONESEX" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04_NMY" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="NAMEK" gender="ONESEX" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_NMY_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_NMY_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="NAMEK" gender="ONESEX" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_NMY_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_NMY_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="15" race="NAMEK" gender="ONESEX" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04_NMY" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="NAMEK" gender="ONESEX" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_NMY_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_NMY_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="NAMEK" gender="ONESEX" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_NMY_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_NMY_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+<!-- MAJIN Child-->
+	<upgrade_effect level="11" race="MAJIN" gender="MALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="MAJIN" gender="FEMALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="MAJIN" gender="MALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ" attach_bone_name="Bip01 Pelvis" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="MAJIN" gender="FEMALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="MAJIN" gender="MALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="MAJIN" gender="FEMALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="12" race="MAJIN" gender="MALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="MAJIN" gender="FEMALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="MAJIN" gender="MALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ" attach_bone_name="Bip01 Pelvis" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="MAJIN" gender="FEMALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="MAJIN" gender="MALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="MAJIN" gender="FEMALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="13" race="MAJIN" gender="MALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="MAJIN" gender="FEMALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="MAJIN" gender="MALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ" attach_bone_name="Bip01 Pelvis" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="MAJIN" gender="FEMALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="MAJIN" gender="MALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="MAJIN" gender="FEMALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="14" race="MAJIN" gender="MALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04_MAJ" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="MAJIN" gender="FEMALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="MAJIN" gender="MALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_MAJ" attach_bone_name="Bip01 Pelvis" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="MAJIN" gender="FEMALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="MAJIN" gender="MALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_MAJ_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_MAJ_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="MAJIN" gender="FEMALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="15" race="MAJIN" gender="MALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04_MAJ" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="MAJIN" gender="FEMALE" adult="FALSE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="MAJIN" gender="MALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_MAJ" attach_bone_name="Bip01 Pelvis" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="MAJIN" gender="FEMALE" adult="FALSE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="MAJIN" gender="MALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_MAJ_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_MAJ_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="MAJIN" gender="FEMALE" adult="FALSE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+<!-- MAJIN Adult-->
+	<upgrade_effect level="11" race="MAJIN" gender="MALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="MAJIN" gender="FEMALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="MAJIN" gender="MALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ" attach_bone_name="Bip01 Pelvis" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="MAJIN" gender="FEMALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="MAJIN" gender="MALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="11" race="MAJIN" gender="FEMALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="12" race="MAJIN" gender="MALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="MAJIN" gender="FEMALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="MAJIN" gender="MALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ" attach_bone_name="Bip01 Pelvis" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="MAJIN" gender="FEMALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="MAJIN" gender="MALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="12" race="MAJIN" gender="FEMALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="13" race="MAJIN" gender="MALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="MAJIN" gender="FEMALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G03" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="MAJIN" gender="MALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ" attach_bone_name="Bip01 Pelvis" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="MAJIN" gender="FEMALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="MAJIN" gender="MALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_MAJ_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="13" race="MAJIN" gender="FEMALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G03_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="14" race="MAJIN" gender="MALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04_MAJ" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="MAJIN" gender="FEMALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="MAJIN" gender="MALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_MAJ" attach_bone_name="Bip01 Pelvis" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="MAJIN" gender="FEMALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="MAJIN" gender="MALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_MAJ_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_MAJ_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="14" race="MAJIN" gender="FEMALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+	<upgrade_effect level="15" race="MAJIN" gender="MALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04_MAJ" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="MAJIN" gender="FEMALE" adult="TRUE" equip_type="JACKET">
+		<effect_element effect_name="GME_ITM_AM_G04" attach_bone_name="Bip01 Spine2" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="MAJIN" gender="MALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_MAJ" attach_bone_name="Bip01 Pelvis" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="MAJIN" gender="FEMALE" adult="TRUE" equip_type="PANTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 R Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Pants" attach_bone_name="Bip01 L Calf" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="MAJIN" gender="MALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_MAJ_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_MAJ_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+	<upgrade_effect level="15" race="MAJIN" gender="FEMALE" adult="TRUE" equip_type="BOOTS">
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 R Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+		<effect_element effect_name="GME_ITM_AM_G04_Shoes" attach_bone_name="Bip01 L Foot" attach_type="ATTACH_BONE" angle_x="0" angle_y="0" angle_z="90"/>
+	</upgrade_effect>
+
+</item_upgrade_property>

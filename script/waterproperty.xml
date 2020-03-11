@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+
+<object_property>
+
+<header ver="0.1" texpath=".\\texture\\ntlwe\\water\\" soundpath=""/>
+
+  <object_element>
+
+    <water name="Ocean"	fps="32" frame="32" specular="1">
+	<avatar_effect swim_front="" swim_back="" swim_idle="" jump="" walk=""/>
+	<avatar_sound swim_front="" swim_back="" jump="" walk=""/>
+
+	<vehicle_effect swim_front="" swim_back="" jump=""/>
+    </water>
+
+    <water name="River" fps="16" frame="32" specular="1">
+	<avatar_effect swim_front="" swim_back="" swim_idle="" jump="" walk=""/>
+	<avatar_sound swim_front="" swim_back="" jump="" walk=""/>
+
+	<vehicle_effect swim_front="" swim_back="" jump=""/>
+    </water>
+
+    <water name="Magma_a" fps="16" frame="32" specular="0">
+	<avatar_effect swim_front="" swim_back="" swim_idle="" jump="" walk=""/>
+	<avatar_sound swim_front="" swim_back="" jump="" walk=""/>
+
+	<vehicle_effect swim_front="" swim_back="" jump=""/>
+    </water>
+
+    <water name="Magma_b" fps="16" frame="32" specular="0">
+	<avatar_effect swim_front="" swim_back="" swim_idle="" jump="" walk=""/>
+	<avatar_sound swim_front="" swim_back="" jump="" walk=""/>
+
+	<vehicle_effect swim_front="" swim_back="" jump=""/>
+    </water>
+
+    <water name="Lake_a" fps="16" frame="32" specular="0">
+	<avatar_effect swim_front="" swim_back="" swim_idle="" jump="" walk=""/>
+	<avatar_sound swim_front="" swim_back="" jump="" walk=""/>
+
+	<vehicle_effect swim_front="" swim_back="" jump=""/>
+    </water>
+
+    <water name="Lake_b" fps="16" frame="32" specular="1">
+	<avatar_effect swim_front="" swim_back="" swim_idle="" jump="" walk=""/>
+	<avatar_sound swim_front="" swim_back="" jump="" walk=""/>
+
+	<vehicle_effect swim_front="" swim_back="" jump=""/>
+    </water>
+
+    <water name="Slime_a" fps="16" frame="32" specular="0">
+	<avatar_effect swim_front="" swim_back="" swim_idle="" jump="" walk=""/>
+	<avatar_sound swim_front="" swim_back="" jump="" walk=""/>
+
+	<vehicle_effect swim_front="" swim_back="" jump=""/>
+    </water>
+
+    <water name="Beach_a" fps="16" frame="32" specular="1">
+	<avatar_effect swim_front="" swim_back="" swim_idle="" jump="" walk=""/>
+	<avatar_sound swim_front="" swim_back="" jump="" walk=""/>
+
+	<vehicle_effect swim_front="" swim_back="" jump=""/>
+    </water>
+
+  </object_element>
+  
+</object_property>

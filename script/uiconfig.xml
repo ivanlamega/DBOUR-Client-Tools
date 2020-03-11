@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+
+<CONFIG>
+  <TMQ>
+    <TELECAST>
+      <POS Y_POS="500" SIZE="168;123"></POS>
+      <FADE FLASH="TMQ_Broadcast_BG.swf" TIME="0.5"></FADE>    
+      <FLASH OPENING="TMQ_Broadcast_on.swf" CLOSING="TMQ_Broadcast_off.swf" BACK_NORMAL="TMQ_Broadcast_ing.swf" BACK_WARN="TMQ_Broadcast_warning.swf"></FLASH>
+      <SHAKE FREQ="0.05" AMP="1"></SHAKE>     <!-- FREQ : Frequency per Sec., AMP: Amplitude (Pixel)-->      
+      <SLIDE START_VELOCITY="0.0" ACCEL="10000.0"></SLIDE>   <!--START: Start Speed, ACCEL:Acceleration -->
+      <DIALOG_BALLOON>
+        <BALLOON_RES INDEX="1" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_01_L.swf"></BALLOON_RES>
+        <BALLOON_RES INDEX="2" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_02_L.swf"></BALLOON_RES>
+        <BALLOON_RES INDEX="3" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_03_L.swf"></BALLOON_RES>
+        <BALLOON_RES INDEX="4" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_04_L.swf"></BALLOON_RES>
+        <BALLOON_RES INDEX="5" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_05_L.swf"></BALLOON_RES>
+        <BALLOON_RES INDEX="6" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_06_L.swf"></BALLOON_RES>
+        <BALLOON_RES INDEX="7" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_07_L.swf"></BALLOON_RES>
+      </DIALOG_BALLOON>
+    </TELECAST>
+  </TMQ>
+  <TUTORIAL>
+    <TELECAST>
+      <POS Y_POS="50" SIZE="168;123"></POS>
+      <FADE FLASH="TMQ_Broadcast_BG.swf" TIME="0.5"></FADE>
+      <FLASH OPENING="TMQ_Broadcast_on.swf" CLOSING="TMQ_Broadcast_off.swf" BACK_NORMAL="TMQ_Broadcast_ing.swf" BACK_WARN="TMQ_Broadcast_warning.swf"></FLASH>
+      <SHAKE FREQ="0.05" AMP="1"></SHAKE>            
+      <SLIDE START_VELOCITY="0.0" ACCEL="10000.0"></SLIDE>      
+      <DIALOG_BALLOON>
+        <BALLOON_RES INDEX="1" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_01_L.swf"></BALLOON_RES>
+        <BALLOON_RES INDEX="2" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_02_L.swf"></BALLOON_RES>
+        <BALLOON_RES INDEX="3" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_03_L.swf"></BALLOON_RES>
+        <BALLOON_RES INDEX="4" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_04_L.swf"></BALLOON_RES>
+        <BALLOON_RES INDEX="5" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_05_L.swf"></BALLOON_RES>
+        <BALLOON_RES INDEX="6" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_06_L.swf"></BALLOON_RES>
+        <BALLOON_RES INDEX="7" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_07_L.swf"></BALLOON_RES>
+      </DIALOG_BALLOON>
+    </TELECAST>    
+  </TUTORIAL>
+  <SERVER_NOTIFY>
+    <TELECAST>
+      <POS Y_POS="50" SIZE="168;123"></POS>
+      <FADE FLASH="TMQ_Broadcast_BG.swf" TIME="0.5"></FADE>
+      <FLASH OPENING="TMQ_Broadcast_on.swf" CLOSING="TMQ_Broadcast_off.swf" BACK_NORMAL="TMQ_Broadcast_ing.swf" BACK_WARN="TMQ_Broadcast_warning.swf"></FLASH>
+      <SHAKE FREQ="0.05" AMP="1"></SHAKE>
+      <SLIDE START_VELOCITY="0.0" ACCEL="10000.0"></SLIDE>
+      <DIALOG_BALLOON>
+        <BALLOON_RES INDEX="1" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_01_L.swf"></BALLOON_RES>
+        <BALLOON_RES INDEX="2" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_02_L.swf"></BALLOON_RES>
+        <BALLOON_RES INDEX="3" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_03_L.swf"></BALLOON_RES>
+        <BALLOON_RES INDEX="4" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_04_L.swf"></BALLOON_RES>
+        <BALLOON_RES INDEX="5" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_05_L.swf"></BALLOON_RES>
+        <BALLOON_RES INDEX="6" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_06_L.swf"></BALLOON_RES>
+        <BALLOON_RES INDEX="7" OFFSET="-60;65" SIZE="250;150" FILE="textBalloon_07_L.swf"></BALLOON_RES>
+      </DIALOG_BALLOON>
+      <NPC_TBLID>7511101</NPC_TBLID>
+      <SHOWTIME>3</SHOWTIME>
+    </TELECAST>
+  </SERVER_NOTIFY>
+  <CAMERA_TARGET_RATIO>0.7</CAMERA_TARGET_RATIO>
+  <BROADCAST>
+  	<POS X_POS="0.6" Y_POS="0.2"></POS>
+	<SHOWHIDE>
+	  	<SLIDE STARTVEL="1000" ACCELVEL="1000"></SLIDE>
+		<FADE STARTVEL="500" ACCELVEL="500"></FADE>
+		<SLIDEFADE OFFSETX="30" STARTVEL="1" ACCELVEL="100"></SLIDEFADE>
+	</SHOWHIDE>
+	<SPEECH>
+		<BLENDING STARTVEL="500" ACCELVEL="0"></BLENDING>
+		<LINE INTERVALTIME="0.01" PRESENTNUM="3"></LINE>
+	</SPEECH>
+	<SHAKE>
+		<NORMAL AMPX="0" AMPY="0" FREQX="0" FREQY="0"></NORMAL>
+		<WARNING AMPX="3" AMPY="0" FREQX="30" FREQY="20"></WARNING>
+		<DANGER AMPX="4" AMPY="2" FREQX="50" FREQY="30"></DANGER>
+	</SHAKE>
+  </BROADCAST>
+  <NOTIFY>
+	<!-- Notify Message - Narrow Modify by Sungeun 09-11-6 -->
+	<ACTION YPOSRATE="0.225f"></ACTION>
+	<PUBLIC YPOSRATE="0.100f"></PUBLIC>
+	<TERRITORY YPOSRATE="0.450f"></TERRITORY>
+	<CAUTION YPOSRATE="0.350f"></CAUTION>
+	<QUEST YPOSRATE="0.130"></QUEST>
+  </NOTIFY>
+</CONFIG>

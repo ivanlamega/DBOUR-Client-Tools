@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TerrainData>
+	<Terrain Name="#######.gwp" Folder="DBO_Start_002" Enable="true"/>
+	<Camera XPos="-190.95" YPos="98.99" ZPos="208.19" DirX="-190.04" DirY="99.1" DirZ="207.78" FOV="80"/>
+	<Avatar XPos="-190.95" YPos="98.99" ZPos="208.19"/>
+</TerrainData>

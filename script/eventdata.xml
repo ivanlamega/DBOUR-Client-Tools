@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="euc-kr" standalone="yes"?>
+<!-- 	USEITEM				: 등급상자 관련 Tab데이타 -->
+<!--	Level				: 사용 가능 최소 레벨 -->
+<!--	UseItemIndex		: ItemIndex 정보 -->
+
+<!--	DATA				: SupplyItemData -->
+<!--	ItemIndex			: SupplyItemIndex -->
+<!--	SideIcon_ToolTip	: SideIcon툴팁( 사이드 ) -->
+<!--    Broad_ToolTip           : Broad툴팁(중앙) -->
+<!--	CheckLevel			: CheckLevel이 현재 Level보다 낮을 경우 출력 Broad_ToolTip ( 중앙 ) (등급상자는 2레벨에서만 브로드캐스트, 이벤트 아이템은 20레벨 이하에서만 브로드캐스트 -->
+<!--    AlarmType               : 알람의 조건에 대한 각 종류(Level: 해당 수치의 레벨보다 높을때 레벨업을 하면 알람, LP:해당 수치의 %보다 낮을경우 알람, EP: 해당 수치의 %보다 낮을경우 알람, Time: 20분마다 반복 알람) -->
+<!--    Alram_value             : 알람의 조건에 대한 각 수치(time은 수치를 0으로 넣음) -->
+<!--    SideIcon_ToolTip에 적용되는 문자열 ID값중 %s는 ItemIndex의 이름값 -->
+
+
+<EventData>
+	<GRADEBOX Level = "2" ItemIndex = "10140102" CheckLevel ="1" BroadCast_ToolTip = "DST_POPUP_ITEMBOX_LVTWO" SideIcon_ToolTip = "DST_ALRAM_ITEMBOX_USE" Alram_value ="300">
+	</GRADEBOX>
+</EventData>

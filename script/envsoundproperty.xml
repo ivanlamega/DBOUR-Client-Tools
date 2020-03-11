@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+
+<sound_property>
+
+  <sound index="0" name="GENERAL_ENV_ARENA_LOOP.ogg"/>
+  <sound index="1" name="GENERAL_ENV_CITY_LOOP.ogg"/>
+  <sound index="2" name="GENERAL_ENV_FRANFRAN_LOOP.ogg"/>
+  <sound index="3" name="GENERAL_ENV_KARIN_LOOP.ogg"/>
+  <sound index="4" name="GENERAL_ENV_KINOKO_LOOP.ogg"/>
+  <sound index="5" name="GENERAL_ENV_PORUNGA_LOOP.ogg"/>
+  <sound index="6" name="GENERAL_ENV_VILLAGE_LOOP.ogg"/>
+  <sound index="7" name="GENERAL_ENV_WESTLAMD_LOOP.ogg"/>
+  <sound index="8" name="GENERAL_ENV_YAHHOI_LOOP.ogg"/>
+  <sound index="9" name="GENERAL_ENV_YW.ogg"/>
+  <sound index="10" name="GENERAL_ENV_YE_GREEN.ogg"/>
+  <sound index="11" name="GENERAL_ENV_YE_SNOW.ogg"/>
+  <sound index="12" name="GENERAL_ENV_FORT_LOOP.ogg"/>
+  <sound index="13" name="GENERAL_ENV_Windy_LOOP.ogg"/>
+  <sound index="14" name="GENERAL_ENV_VOLCANO_LOOP.ogg"/>
+  <sound index="15" name="GENERAL_ENV_CAVE_LOOP.ogg"/>
+  <sound index="16" name="GENERAL_ENV_DESERT_LOOP.ogg"/>
+  <sound index="17" name="GENERAL_ENV_CAMP_LOOP.ogg"/>
+  <sound index="18" name="GENERAL_ENV_RUIN_LOOP.ogg"/>
+  <sound index="19" name="GENERAL_ENV_RPHQ_LOOP.ogg"/>
+  <sound index="20" name="GENERAL_ENV_DEADMINE_LOOP.ogg"/>
+  <sound index="21" name="GENERAL_ENV_UNDERGROUND_LOOP.ogg"/>
+  <sound index="22" name="GENERAL_ENV_ROBOTLAB_LOOP.ogg"/>
+  <sound index="23" name="GENERAL_ENV_PIRAFUMUSEUM_LOOP.ogg"/>
+  <sound index="24" name="GENERAL_ENV_TMQ3_Day_LOOP.ogg"/>
+  <sound index="25" name="GENERAL_ENV_TMQ3_Night_LOOP.ogg"/>
+  <sound index="26" name="GENERAL_ENV_TMQ4_Windy1_LOOP.ogg"/>
+  <sound index="27" name="GENERAL_ENV_TMQ4_Windy2_LOOP.ogg"/>
+  <sound index="28" name="GENERAL_ENV_TMQ4_Rain_LOOP.ogg"/>
+  <sound index="28" name="GENERAL_ENV_Festival_LOOP.ogg"/>
+  <sound index="29" name="GENERAL_ENV_GurisGasPipeline_LOOP.ogg"/>
+  <sound index="30" name="GENERAL_ENV_KINOKO-South_LOOP.ogg"/>
+  <sound index="31" name="GENERAL_ENV_Osoro-Shima_LOOP.ogg"/>
+  <sound index="32" name="GENERAL_ENV_PilafCastle_LOOP.ogg"/>
+
+</sound_property>

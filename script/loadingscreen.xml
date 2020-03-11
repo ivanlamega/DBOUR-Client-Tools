@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="euc-kr" standalone="no"?>
+
+<!-- 게임 실행중의 로딩 화면에 관해 정의한다 -->
+
+<!--
+
+	치트키
+
+	playloading key(고유식별키) : 게임중 로딩화면과 텍스트를 화면에 표시한다.
+				  마우스로 클릭하면 사라진다
+
+	playloadingrule step(0 : FirstLoading,  1 : SecondLoading,  2 : TrirdLoading)
+				: 실제 로딩화면이 나오는 규칙에 따라 로딩화면과 텍스트를 표시한다. 마우스로 클릭하면 사라진다
+
+
+	로딩 규칙
+
+	1. FristLoading
+
+	   - 로비에서 게임으로 들어갈 때 게임중 텔레포트나 월드 이동 등으로 로딩이 시작될 때 표시
+	   - 로딩 화면 정하는 순서
+
+		1) <World> : 현재 아바타가 위치하는 월드에 따라 <World>에 지정된 로딩 스크립트가 있으면 보여준다.
+		2) <GameTip> : <GameTip rate = "70"> 의 rate 확률에 따라(0 ~ 100) 게임의 팁 화면을 보여준다
+		3) <class> : 1), 2) 둘 다 실패하면 아바타의 직업에 맞는 로딩화면을 보여준다
+
+	2. SecondLoading
+
+	   - 게임의 로딩이 완전히 끝나고 게임 화면이 나오기 전에 플래쉬 연출이 필요할 때 사용
+	   - 현재 캐릭터를 새로 만들었을 때의 프롤로그에만 사용중
+	   - TMQSecondLoading : TMQ전용의 SecondLoading
+
+
+	2. ThirdLoading
+
+	   - SecondLoading 이후 플래쉬 연출이 더 있으면 사용
+	   - 현재는 튜토리얼 프롤로그에만 사용중
+
+
+	* 로딩화면에 표시되는 Gametip은 TextAllTable의 DBO_Tip 시트를 참조한다
+
+
+	  <FirstLoading> : 게임을 실제로 로딩할 때 보여주는 페이지로 start에서 end사이의
+			   인덱스에서 무작위로 오늘의 도움말을 표시한다
+
+                 - <class> : 직업에 따라 보여줄 로딩 화면을 정의
+                          
+		   - cheatID : 치트키로 loading page를 볼 때의 고유 ID(중복검사 안함)
+		   - key   : 직업 아이디
+		   - start : 보여줄 tip의 시작 인덱스
+                           - end   : 보여줄 tip의 마지막 인덱스
+                           - flash : 화면에 표시할 플래쉬
+
+                 - <World> : 지역에 따라 보여줄 로딩 화면을 정의
+
+		   - cheatID : 치트키로 loading page를 볼 때의 고유 ID(중복검사 안함)
+		   - key   : 월드 테이블 아이디
+		   - start : 보여줄 tip의 시작 인덱스
+                           - end   : 보여줄 tip의 마지막 인덱스
+                           - flash : 화면에 표시할 플래쉬
+
+                 - <GameTip> : 게임 도움말
+
+		   - rate : 도움말을 보여줄 수 있는 경우 도움말을 볼 수 있는 확율
+
+		<level max = xx> : 최대 레벨 밑으로 도움말을 무작위로 표시한다
+				 최대 레벨별로 구분하여 <level max = xx> 구문을 계속 추가할 수 있다
+
+		   - cheatID : 치트키로 loading page를 볼 때의 고유 ID(중복검사 안함)
+		   - key   : 고유 식별키
+		   - start : 보여줄 tip의 시작 인덱스
+           	   	   - end   : 보여줄 tip의 마지막 인덱스
+           	    	   - flash : 화면에 표시할 플래쉬
+
+	  <SecondLoading> : 게임을 로딩후 두 번째 연출 플래쉬를 보여주는 경우
+                            연출을 보여줘야하는 조건은 하드코딩하며 여기서는 불러들일 리소스만 지정한다
+
+		   - cheatID : 치트키로 loading page를 볼 때의 고유 ID(중복검사 안함)
+		   - key   : 월드룰 타입
+		   - flash : 화면에 표시할 플래쉬
+
+	  <TMQSecondLoading> : TMQ 진입중 로딩후 두 번째 연출 플래쉬를 보여주는 경우
+
+		   - cheatID : 치트키로 loading page를 볼 때의 고유 ID(중복검사 안함)
+		   - key   : TMQ 테이블 인덱스
+		   - flash : 화면에 표시할 플래쉬
+
+	  <ThirdLoading> : 게임을 로딩후 세 번째 연출 플래쉬를 보여주는 경우
+                           연출을 보여줘야할지는 하드코딩하며 여기서는 불러들일 리소스만 지정한다
+
+		   - cheatID : 치트키로 loading page를 볼 때의 고유 ID(중복검사 안함)
+		   - key   : 월드 아이디
+		   - flash : 화면에 표시할 플래쉬
+
+	지역별 로딩 스크린(world)중 
+	Loading_Town_003.swf는 현재(2010년 1월 15일) 리소스 준비되어 있지 않음
+
+	ContentType     bitflag니깐  1, 2, 4, 8, 16 .... 해당되는 숫자를 16진수 값으로 입력하세요
+	enum sCONTENTSONOFF_BITFLAG
+	{
+        		CONTENTSONOFF_WESTCITY_PORTAL	0	1		1		//서쪽 도시
+		CONTENTSONOFF_ZONE_2130_TRIGGER	1	2		2		//카린 숲
+		CONTENTSONOFF_ZONE_3150_TRIGGER	2	4		4		//웨스트 랜드, 야호이 동부, 머쉬룸 룩스 북부
+		CONTENTSONOFF_ZONE_5155_TRIGGER	3	8		8		//머쉬룸 룩스 남부, 겁나도
+		CONTENTSONOFF_ZONE_5660_TRIGGER	4	16		10		//포룽가 룩스 남부, 파파야 제도
+		CONTENTSONOFF_UD1_TRIGGER		5	32		20		//래드리본군 폐허의 지하 기지		
+		CONTENTSONOFF_UD2_TRIGGER		6	64		40		//래드팬츠군 로봇 연구소
+		CONTENTSONOFF_UD3_TRIGGER		7	128		80		//파에리아 기념관
+		CONTENTSONOFF_UD4_TRIGGER		8	256		100		//피라후 성
+		CONTENTSONOFF_UD5_TRIGGER		9	512		200		//구리스 가스 파이프라인
+		CONTENTSONOFF_UD6_TRIGGER		10	1024		400		//초코레이 탑
+		CONTENTSONOFF_TMQ1_1_NPC		11	2048		800		//스마일 농장에 드리운 그림자
+		CONTENTSONOFF_TMQ1_2_NPC		12	4096		1000		//음모의 전조
+		CONTENTSONOFF_TMQ1_3_NPC		13	8192		2000		//악몽
+		CONTENTSONOFF_TMQ1_4_NPC		14	16384		4000		//사이어 인의 침공
+		CONTENTSONOFF_TMQ2_1_NPC		15	32768		8000		//암운이 감도는 나메크성
+		CONTENTSONOFF_TMQ2_2_NPC		16	65536		10000		//운명이 뒤바뀌는 나메크성
+		CONTENTSONOFF_TMQ2_3_NPC		17	131072		20000		//TMQ7
+		CONTENTSONOFF_TMP			18	262144		40000		//천하제일대시장
+		CONTENTSONOFF_FREEBATTLE		19	524288		80000		//프리배틀
+		CONTENTSONOFF_RANKBATTLE		20	1048576		100000		//랭크배틀
+		CONTENTSONOFF_DOJO			21	2097152		200000		//도장, 도장 쟁탈전
+		CONTENTSONOFF_MASCOT			22	4194304		400000		//마스코트
+		CONTENTSONOFF_HOIPOIMIX		23	8388608		800000		//호이포이 믹스
+		CONTENTSONOFF_DUNGEON001_WORLD	24	16777216	NOT USE		
+		CONTENTSONOFF_DUNGEON001_TRIGGER	25	33554432	2000000		//야호이 서부; 야호이 요새
+		CONTENTSONOFF_DUNGEON002_NPC	26	67108864	4000000		//카린 숲; 레드리본군 본부 폐허
+		CONTENTSONOFF_DUNGEON003_TRIGGER	27	134217728	8000000		//웨스트 랜드; 레드팬츠군 본부
+		CONTENTSONOFF_DUNGEON004_WORLD	28	268435456	NOT USE
+		CONTENTSONOFF_DUNGEON004_TRIGGER	29	536870912	20000000	//드래곤 케이브
+		CONTENTSONOFF_DUNGEON006_TRIGGER	30	1073741824	40000000	//카린 숲; 아이아가라 폭포 동굴
+		CONTENTSONOFF_DUNGEON007_TRIGGER	31	2147483648	80000000	//웨스트 랜드; 호이포이스톤 폐광
+		CONTENTSONOFF_WZONE1_NPC		32	4294967296	100000000	//겁나도
+		CONTENTSONOFF_BDUNGEON001_TRIGGER	33	8589934592	200000000	//머쉬룸 룩스 남부; 누케가란드
+		CONTENTSONOFF_DWC			34	17179869184	400000000	//드래곤 월드 챌린지	,
+		CONTENTSONOFF_DB_SCRAMBLE		35	34359738368	800000000	//드래곤볼 스크램블,
+		CONTENTSONOFF_CCBD			36	68719476736	1000000000	//CCBD	,
+
+		// CONTENTSONOFF_QUESTTYPE_BITFLAG 이걸 기준으로 로딩스크린 제어. 이 밑으로 인덱스는 로딩스크린없는 것 추가.
+		CONTENTSONOFF_QUESTTYPE_BITFLAG					,				
+		CONTENTSONOFF_CONTENTS_CONDITION				,
+		CONTENTSONOFF_CHARDATA_HISTORY					,
+		CONTENTSONOFF_UD1_HELP							,
+		CONTENTSONOFF_TMQ1_1_HELP						,
+		CONTENTSONOFF_TMP_HELP							,
+		CONTENTSONOFF_FREEBATTLE_HELP					,
+		CONTENTSONOFF_RANKTITLE_HELP					,
+		CONTENTSONOFF_DOJO_HELP							,
+		CONTENTSONOFF_MASCOT_HELP						,
+		CONTENTSONOFF_DWC_HELP							,
+		CONTENTSONOFF_DB_SCRAMBLE_HELP					,
+		CONTENTSONOFF_CHARDATA_HISTORY_HELP				,
+	};
+
+ -->
+
+
+<LoadingPage>
+
+  <FirstLoading>
+
+    <class>
+
+      <data cheatID = "101" key = "0"   start = "1" end = "11" flash = "Loading_Default_HFI.swf" />
+      <data cheatID = "102" key = "7"   start = "1" end = "11" flash = "Loading_Default_HFI.swf" />
+      <data cheatID = "103" key = "8"   start = "1" end = "11" flash = "Loading_Default_HFI.swf" />
+
+      <data cheatID = "104" key = "1"   start = "1" end = "11" flash = "Loading_Default_HMY.swf" />
+      <data cheatID = "105" key = "9"   start = "1" end = "11" flash = "Loading_Default_HMY.swf" />
+      <data cheatID = "106" key = "10"  start = "1" end = "11" flash = "Loading_Default_HMY.swf" />
+
+      <data cheatID = "107" key = "3"   start = "1" end = "11" flash = "Loading_Default_NFI.swf" />
+      <data cheatID = "108" key = "13"  start = "1" end = "11" flash = "Loading_Default_NFI.swf" />
+      <data cheatID = "109" key = "14"  start = "1" end = "11" flash = "Loading_Default_NFI.swf" />
+
+      <data cheatID = "110" key = "4"   start = "1" end = "11" flash = "Loading_Default_NMY.swf" />
+      <data cheatID = "111" key = "15"  start = "1" end = "11" flash = "Loading_Default_NMY.swf" />
+      <data cheatID = "112" key = "16"  start = "1" end = "11" flash = "Loading_Default_NMY.swf" />
+
+      <data cheatID = "113" key = "5"   start = "1" end = "11" flash = "Loading_Default_MMI.swf" />
+      <data cheatID = "114" key = "17"  start = "1" end = "11" flash = "Loading_Default_MMI.swf" />
+      <data cheatID = "115" key = "18"  start = "1" end = "11" flash = "Loading_Default_MMI.swf" />
+
+      <data cheatID = "116" key = "6"   start = "1" end = "11" flash = "Loading_Default_MWO.swf" />
+      <data cheatID = "117" key = "19"  start = "1" end = "11" flash = "Loading_Default_MWO.swf" />
+      <data cheatID = "118" key = "20"  start = "1" end = "11" flash = "Loading_Default_MWO.swf" />
+
+    </class>
+
+    <World>
+
+      <data cheatID = "1001" key = "2"	contentsType = "0"		start = "1" end = "11" flash = "Loading_Dungeon_001.swf" />
+      <data cheatID = "1002" key = "3"					start = "1" end = "11" flash = "Loading_Dungeon_002.swf" />
+      <data cheatID = "1003" key = "4"					start = "1" end = "11" flash = "Loading_Dungeon_003.swf" />
+      <data cheatID = "1004" key = "5"	contentsType = "1"		start = "1" end = "11" flash = "Loading_Town_001.swf" />
+      <data cheatID = "1005" key = "6"					start = "1" end = "11" flash = "Loading_Dungeon_004.swf" />
+      <data cheatID = "1006" key = "7"					start = "1" end = "11" flash = "Loading_Dungeon_005.swf" />
+      <data cheatID = "1007" key = "9"					start = "1" end = "11" flash = "Loading_Dungeon_006.swf" />
+      <data cheatID = "1008" key = "10"					start = "1" end = "11" flash = "Loading_Dungeon_007.swf" />
+      <data cheatID = "1009" key = "100"					start = "1" end = "11" flash = "Loading_Budoh_001.swf" />
+      <data cheatID = "1010" key = "101"					start = "1" end = "11" flash = "Loading_Budoh_001.swf" />
+      <data cheatID = "1011" key = "102"					start = "1" end = "11" flash = "Loading_Budoh_001.swf" />
+      <data cheatID = "1012" key = "103"					start = "1" end = "11" flash = "Loading_Budoh_001.swf" />
+      <data cheatID = "1013" key = "104"					start = "1" end = "11" flash = "Loading_Budoh_001.swf" />
+      <data cheatID = "1014" key = "500"	contentsType = "200000"		start = "1" end = "11" flash = "Loading_Dojo_001.swf" />
+      <data cheatID = "1015" key = "501"	contentsType = "200000"		start = "1" end = "11" flash = "Loading_Dojo_001.swf" />
+      <data cheatID = "1016" key = "502"	contentsType = "200000"		start = "1" end = "11" flash = "Loading_Dojo_001.swf" />
+      <data cheatID = "1017" key = "503"	contentsType = "200000"		start = "1" end = "11" flash = "Loading_Dojo_001.swf" />
+      <data cheatID = "1018" key = "504"	contentsType = "200000"		start = "1" end = "11" flash = "Loading_Dojo_001.swf" />
+      <data cheatID = "1019" key = "505"	contentsType = "200000"		start = "1" end = "11" flash = "Loading_Dojo_001.swf" />
+      <data cheatID = "1020" key = "506"	contentsType = "200000"		start = "1" end = "11" flash = "Loading_Dojo_001.swf" />
+      <data cheatID = "1021" key = "10000"					start = "1" end = "11" flash = "Loading_Dungeon_000.swf" />
+      <data cheatID = "1022" key = "11000"	contentsType = "800"		start = "1" end = "11" flash = "TMQ_Loading.swf" />
+      <data cheatID = "1023" key = "12000"	contentsType = "100000"		start = "1" end = "11" flash = "Loading_Battle_001.swf" />
+      <data cheatID = "1024" key = "13000"	contentsType = "100000"		start = "1" end = "11" flash = "Loading_Battle_001.swf" />
+      <data cheatID = "1025" key = "28000"	contentsType = "1000"		start = "1" end = "11" flash = "TMQ_Loading.swf" />
+      <data cheatID = "1026" key = "60000"	contentsType = "800"		start = "1" end = "11" flash = "TMQ_Loading.swf" />
+      <data cheatID = "1027" key = "70000"	contentsType = "1000"		start = "1" end = "11" flash = "TMQ_Loading.swf" />
+      <data cheatID = "1028" key = "80000"	contentsType = "2000"		start = "1" end = "11" flash = "TMQ_Loading.swf" />
+      <data cheatID = "1029" key = "100000"	contentsType = "2000"		start = "1" end = "11" flash = "TMQ_Loading.swf" />
+      <data cheatID = "1030" key = "130000"	contentsType = "4000"		start = "1" end = "11" flash = "TMQ_Loading.swf" />
+      <data cheatID = "1031" key = "140000"	contentsType = "4000"		start = "1" end = "11" flash = "TMQ_Loading.swf" />
+      <data cheatID = "1032" key = "191000"	contentsType = "800"		start = "1" end = "11" flash = "TMQ_Loading.swf" />
+      <data cheatID = "1033" key = "192000"	contentsType = "1000"		start = "1" end = "11" flash = "TMQ_Loading.swf" />
+      <data cheatID = "1034" key = "193000"	contentsType = "2000"		start = "1" end = "11" flash = "TMQ_Loading.swf" />
+      <data cheatID = "1035" key = "194000"	contentsType = "4000"		start = "1" end = "11" flash = "TMQ_Loading.swf" />
+      <data cheatID = "1036" key = "195000"	contentsType = "8000"		start = "1" end = "11" flash = "TMQ_Loading.swf" />
+      <data cheatID = "1037" key = "196000"	contentsType = "10000"		start = "1" end = "11" flash = "TMQ_Loading.swf" />
+      <data cheatID = "1038" key = "200000"	contentsType = "20"		start = "1" end = "11" flash = "Loading_PDungeon_001.swf" />
+      <data cheatID = "1039" key = "300000"	contentsType = "20"		start = "1" end = "11" flash = "Loading_PDungeon_001.swf" />
+      <data cheatID = "1040" key = "310000"	contentsType = "20"		start = "1" end = "11" flash = "Loading_PDungeon_001.swf" />
+      <data cheatID = "1041" key = "500000"	contentsType = "40"		start = "1" end = "11" flash = "Loading_PDungeon_002.swf" />
+      <data cheatID = "1042" key = "600000"	contentsType = "40"		start = "1" end = "11" flash = "Loading_PDungeon_002.swf" />
+      <data cheatID = "1043" key = "610000"	contentsType = "40"		start = "1" end = "11" flash = "Loading_PDungeon_002.swf" />
+      <data cheatID = "1044" key = "700000"	contentsType = "80"		start = "1" end = "11" flash = "Loading_PDungeon_003.swf" />
+      <data cheatID = "1045" key = "710000"	contentsType = "80"		start = "1" end = "11" flash = "Loading_PDungeon_003.swf" />
+      <data cheatID = "1046" key = "712000"	contentsType = "100"		start = "1" end = "11" flash = "Loading_PDungeon_004.swf" />
+      <data cheatID = "1047" key = "800000"					start = "1" end = "11" flash = "Loading_Town_002.swf" />
+      <data cheatID = "1048" key = "801000"					start = "1" end = "11" flash = "Loading_Town_003.swf" />
+      <data cheatID = "1049" key = "802000"					start = "1" end = "11" flash = "Loading_Town_003.swf" />
+      <data cheatID = "1050" key = "803000"					start = "1" end = "11" flash = "Loading_Town_003.swf" />
+      <data cheatID = "1051" key = "804000"					start = "1" end = "11" flash = "Loading_Town_003.swf" />
+      <data cheatID = "1052" key = "805000"					start = "1" end = "11" flash = "Loading_Town_003.swf" />
+      <data cheatID = "1053" key = "806000"					start = "1" end = "11" flash = "Loading_Town_003.swf" />
+      <data cheatID = "1054" key = "807000"					start = "1" end = "11" flash = "Loading_Town_003.swf" />
+      <data cheatID = "1055" key = "808000"					start = "1" end = "11" flash = "Loading_Town_003.swf" />
+      <data cheatID = "1056" key = "809000"					start = "1" end = "11" flash = "Loading_Town_003.swf" />
+      <data cheatID = "1057" key = "810000"					start = "1" end = "11" flash = "Loading_Town_003.swf" />
+      <data cheatID = "1058" key = "811000"					start = "1" end = "11" flash = "Loading_Town_003.swf" />
+      <data cheatID = "1059" key = "812000"					start = "1" end = "11" flash = "Loading_Town_003.swf" />
+      <data cheatID = "1060" key = "43000"	contentsType = "100000"		start = "1" end = "11" flash = "Loading_Battle_002.swf" />
+      <data cheatID = "1061" key = "44000"	contentsType = "100000"		start = "1" end = "11" flash = "Loading_Battle_002.swf" />
+      <data cheatID = "1062" key = "45000"	contentsType = "100000"		start = "1" end = "11" flash = "Loading_Battle_003.swf" />
+      <data cheatID = "1063" key = "46000"	contentsType = "100000"		start = "1" end = "11" flash = "Loading_Battle_003.swf" />
+      <data cheatID = "1064" key = "715000"	contentsType = "200"		start = "1" end = "11" flash = "Loading_PDungeon_005.swf" />
+      <data cheatID = "1068" key = "910000"	contentsType = "1000000000"	start = "1" end = "11" flash = "Loading_CCBT.swf" />
+      <data cheatID = "1069" key = "197000"	contentsType = "20000"		start = "1" end = "11" flash = "TMQ_Loading.swf" />
+      <data cheatID = "1070" key = "717000"	contentsType = "400"		start = "1" end = "11" flash = "Loading_PDungeon_006.swf" />
+      <data cheatID = "1071" key = "120000"					start = "101" end = "103" flash = "Loading_TLQ.swf" />
+      <data cheatID = "1072" key = "150000"					start = "101" end = "103" flash = "Loading_TLQ.swf" />
+      <data cheatID = "1073" key = "160000"					start = "101" end = "103" flash = "Loading_TLQ.swf" />
+      <data cheatID = "1074" key = "170000"					start = "101" end = "103" flash = "Loading_TLQ.swf" />
+      <data cheatID = "1075" key = "180000"					start = "101" end = "103" flash = "Loading_TLQ.swf" />
+      <data cheatID = "1076" key = "190000"					start = "101" end = "103" flash = "Loading_TLQ.swf" />
+      <data cheatID = "1077" key = "400000"					start = "101" end = "103" flash = "Loading_TLQ.swf" />
+      <data cheatID = "1078" key = "410000"					start = "101" end = "103" flash = "Loading_TLQ.swf" />
+      <data cheatID = "1079" key = "420000"					start = "101" end = "103" flash = "Loading_TLQ.swf" />
+      <data cheatID = "1080" key = "510000"					start = "1" end = "11" flash = "Loading_SKD.swf" />
+      <data cheatID = "1081" key = "511000"					start = "1" end = "11" flash = "Loading_SKD.swf" />
+      <data cheatID = "1082" key = "512000"					start = "1" end = "11" flash = "Loading_SKD.swf" />
+      <data cheatID = "1083" key = "198000"	contentsType = "8000"		start = "1" end = "11" flash = "TMQ_Loading.swf" />
+      <data cheatID = "1084" key = "199000"	contentsType = "10000"		start = "1" end = "11" flash = "TMQ_Loading.swf" />
+    </World>
+
+    <GameTip rate = "70">
+
+      <level max = "10">
+        
+	      <data cheatID = "10001" key = "77"					start = "101" end = "103" flash = "Loading_TLQ.swf" />
+     	      <data cheatID = "10002" key = "78"	contentsType = "800"		start = "201" end = "202" flash = "Loading_TMQ1.swf" />
+	      <data cheatID = "10003" key = "79"					start = "301" end = "302" flash = "Loading_DBC.swf" />
+	      <data cheatID = "10027" key = "104"					start = "2801" end = "2802" flash = "Loading_keymenu.swf" />
+        
+      </level>
+
+      <level max = "20">
+        
+	      <data cheatID = "10004" key = "80"					start = "401" end = "402" flash = "Loading_Vehicle.swf" />
+	      <data cheatID = "10005" key = "81"	contentsType = "200000"		start = "501" end = "502" flash = "Loading_Dojo.swf" />
+	      <data cheatID = "10006" key = "82"					start = "601" end = "602" flash = "Loading_HTB1.swf" />
+	      <data cheatID = "10007" key = "83"					start = "701" end = "702" flash = "Loading_Class_Change1.swf" />
+  	      <data cheatID = "10008" key = "84"					start = "801" end = "802" flash = "Loading_Transform.swf" />
+	      <data cheatID = "10009" key = "85"					start = "901" end = "902" flash = "Loading_RP_Ability.swf" />
+	      <data cheatID = "10010" key = "86"	contentsType = "800000"		start = "1001" end = "1002" flash = "Loading_hoipoi_mix.swf" />
+    	      <data cheatID = "10011" key = "87"	contentsType = "100000"		start = "1101" end = "1102" flash = "Loading_RB1.swf" />
+	      <data cheatID = "10028" key = "105"					start = "2801" end = "2802" flash = "Loading_keymenu.swf" />
+        
+      </level>
+
+      <level max = "30">
+        
+	      <data cheatID = "10012" key = "88"	contentsType = "20"		start = "1201" end = "1202" flash = "Loading_UD1.swf" />
+	      <data cheatID = "10013" key = "89"					start = "1301" end = "1302" flash = "Loading_HTB1.swf" />
+	      <data cheatID = "10014" key = "90"					start = "1401" end = "1402" flash = "Loading_Class_Change1.swf" />
+	      <data cheatID = "10015" key = "91"	contentsType = "800"		start = "1501" end = "1502" flash = "Loading_TMQ1.swf" />
+	      <data cheatID = "10016" key = "92"					start = "1601" end = "1602" flash = "Loading_Budoji_Milage1.swf" />
+	      <data cheatID = "10017" key = "93"					start = "1701" end = "1702" flash = "Loading_Tenkaichi1.swf" />
+	      <data cheatID = "10029" key = "106"					start = "2801" end = "2802" flash = "Loading_keymenu.swf" />
+        
+      </level>
+
+      <level max = "100">
+        
+	      <data cheatID = "10018" key = "94"	contentsType = "800"		start = "1801" end = "1802" flash = "Loading_TMQ1.swf" />
+	      <data cheatID = "10019" key = "95"					start = "1901" end = "1902" flash = "Loading_DBC.swf" />
+	      <data cheatID = "10020" key = "96"					start = "2001" end = "2002" flash = "Loading_Transform.swf" />
+   	      <data cheatID = "10021" key = "97"	contentsType = "800000"		start = "2101" end = "2102" flash = "Loading_hoipoi_mix.swf" />
+	      <data cheatID = "10022" key = "98"	contentsType = "100000"		start = "2201" end = "2202" flash = "Loading_RB1.swf" />
+	      <data cheatID = "10023" key = "99"	contentsType = "20"		start = "2301" end = "2302" flash = "Loading_UD1.swf" />
+     	      <data cheatID = "10024" key = "100"					start = "2401" end = "2402" flash = "Loading_Budoji_Milage1.swf" />
+	      <data cheatID = "10025" key = "101"					start = "2501" end = "2502" flash = "Loading_Tenkaichi1.swf" />
+	      <data cheatID = "10026" key = "102"	contentsType = "800000000"	start = "2601" end = "2602" flash = "Loading_Dragonball_Scramble1.swf" />
+	      <data cheatID = "10027" key = "103"	contentsType = "1000000000"	start = "2701" end = "2702" flash = "CCBD_Loading.swf" />
+	      <data cheatID = "10030" key = "107"					start = "2801" end = "2802" flash = "Loading_keymenu.swf" />
+        
+      </level>
+
+    </GameTip>
+  
+  </FirstLoading>
+
+  <SecondLoading>
+
+    <data cheatID = "100001" key = "0"	flash = "DBO_Tutorial_01.swf" />
+    <data cheatID = "100002" key = "7"	flash = "DBO_Tutorial_01.swf" />
+
+  </SecondLoading>
+
+  <TMQSecondLoading>
+
+    <data cheatID = "100102" key = "3"	flash = "TMQ_opening.swf" />
+    <data cheatID = "100104" key = "5"	flash = "TMQ2_opening.swf" />
+    <data cheatID = "100106" key = "7"	flash = "TMQ3_opening.swf" />
+    <data cheatID = "100107" key = "8"	flash = "TMQ4_opening.swf" />
+    <data cheatID = "100108" key = "9"	flash = "TMQ2-1_opening.swf" />
+    <data cheatID = "100109" key = "10"	flash = "TMQ2-2_opening.swf" />
+    <data cheatID = "100110" key = "11"	flash = "TMQ2-3_opening.swf" />
+
+  </TMQSecondLoading>
+
+  <ThirdLoading>
+
+    <data cheatID = "100004" key = "6"	flash = "DBO_Tutorial_02.swf" />
+
+  </ThirdLoading>
+
+</LoadingPage>

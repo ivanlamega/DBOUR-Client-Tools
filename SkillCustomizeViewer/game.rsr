@@ -1,0 +1,378 @@
+resource "rsrOption"
+{
+	handle	= 0;
+	file	= "human\\wnd_option.png";
+}
+
+resource "rsrOption2"
+{
+	handle = 0;
+	file	= "human\\wnd_option2.png";
+}
+
+resource "rsrGuild"
+{
+	handle	= 0;
+	file	= "human\\wnd_guild.png";
+}
+
+resource "rsrCommon_1"
+{
+	handle	= 0;
+	file	= "human\\common_1.png";
+}
+
+resource "rsrCommon_2"
+{
+	handle	= 0;
+	file	= "human\\common_2.png";
+}
+
+resource "rsrCommon_3"
+{
+	handle	= 0;
+	file	= "human\\common_status.png";
+}
+
+resource "rsrStatus1"
+{
+	handle	= 0;
+	file	= "human\\wnd_status.png";
+}
+
+resource "rsrStatus2"
+{
+	handle	= 0;
+	file	= "human\\wnd_status2.png";
+}
+
+resource "rsrSkillWindow"
+{
+	handle	= 0;
+	file	= "human\\wnd_skill.png";
+}
+
+resource "rsrSkillWindow2"
+{
+	handle	= 0;
+	file	= "human\\wnd_skill2.png";
+}
+
+resource "rsrShop"
+{
+	handle	= 0;
+	file	= "human\\wnd_shop.PNG";
+}
+
+resource "rsrPrivateShop"
+{
+	handle	= 0;
+	file	= "human\\wnd_usershop.PNG";
+}
+
+resource "rsrQuest"
+{
+	handle	= 0;
+	file	= "human\\wnd_quest.PNG";
+}
+
+resource "rsrItemUpgrade"
+{
+	handle	= 0;
+	file	= "wnd_upgrade.PNG";
+}
+
+resource "rsrMessage"
+{
+	handle	= 0;
+	file	= "human\\wnd_message.png";
+}
+
+resource "rsrMain"
+{
+	handle	= 0;
+	file	= "human\\main.png";
+}
+
+resource "rsrMain2"
+{
+	handle	= 0;
+	file	= "human\\main2.png";
+}
+
+resource "rsrMain3"
+{
+	handle	= 0;
+	file	= "human\\main3.png";
+}
+
+resource "rsrMain4"
+{
+	handle	= 0;
+	file	= "human\\main4.png";
+}
+
+resource "rsrQuestList"
+{
+	handle	= 0;
+	file	= "human\wnd_questlist.PNG";
+}
+
+resource "rsrRaceCommon"
+{
+	handle	= 0;
+	file	= "racecommon.png";
+}
+
+resource "rsrRaceCommon2"
+{
+	handle	= 0;
+	file	= "racecommon2.png";
+}
+
+resource "rsrRaceCommon3"
+{
+	handle	= 0;
+	file	= "racecommon3.png";
+}
+
+resource "rsrRaceCommon4"
+{
+	handle	= 0;
+	file	= "racecommon4.png";
+}
+
+resource "rsrInventory"
+{
+	handle	= 0;
+	file	= "human\wnd_inventory.PNG";
+}
+
+resource "rsrInventory2"
+{
+	handle	= 0;
+	file	= "human\wnd_inventory2.PNG";
+}
+
+resource "rsrInventory3"
+{
+	handle	= 0;
+	file	= "human\wnd_inventory3.PNG";
+}
+
+resource "rsrAltar"
+{
+	handle	= 0;
+	file	= "DBC.png";
+}
+
+resource "rsrDBCReward"
+{
+	handle	= 0;
+	file	= "wnd_DBC.PNG";
+}
+
+resource "rsrDBCReward2"
+{
+	handle	= 0;
+	file	= "wnd_DBC2.PNG";
+}
+
+resource "rsrTMQBoard"
+{
+	handle	= 0;
+	file	= "TMQ_board.PNG";
+}
+
+resource "rsrRankBattle"
+{
+	handle  = 0;
+	file	= "RankBattle.PNG";
+}
+
+resource "rsrMailSystem"
+{
+	handle  = 0;
+	file	= "human\\wnd_post.PNG";
+}
+
+resource "rsrDBCLight"
+{
+	handle  = 0;
+	file	= "wnd_DBClight.PNG";
+}
+
+resource "rsrPortal"
+{
+	handle	= 0;
+	file	= "portalmap.PNG";
+}
+
+resource "rsrQuestMessage"
+{
+	handle	= 0;
+	file	= "Human\wnd_quest2.png";
+}
+
+resource "rsrFriendList"
+{
+	handle	= 0;
+	file	= "Human\wnd_friendlist.PNG";
+}
+
+resource "rsrRanking"
+{
+    handle  = 0;
+    file    = "wnd_rankboard.png";
+}
+
+resource "rsrRanking2"
+{
+    handle  = 0;
+    file    = "wnd_rankboard2.png";
+}
+
+resource "rsrSideDialog"
+{
+	handle	= 0;
+	file	= "wnd_side.png";
+}
+
+resource "rsrItemUpgrade2"
+{
+	handle	= 0;
+	file	= "wnd_upgrade2.png";
+}
+
+resource "rsrTenkaichiBudokai"
+{
+	handle	= 0;
+	file	= "wnd_tenkaichi.png";
+}
+
+resource "rsrTenkaichiBudokai2"
+{
+	handle	= 0;
+	file	= "wnd_tenkaichi2.png";
+}
+
+resource "rsrTenkaichiBudokai3"
+{
+	handle	= 0;
+	file	= "wnd_tenkaichi3.png";
+}
+
+resource "rsrTenkaichiBudokai4"
+{
+	handle	= 0;
+	file	= "wnd_tenkaichi4.png";
+}
+
+resource "rsrTenkaichiBudokai5"
+{
+	handle	= 0;
+	file	= "wnd_tenkaichi5.png";
+}
+
+resource "rsrTenkaichiBudokai6"
+{
+	handle	= 0;
+	file	= "wnd_tenkaichi6.png";
+}
+
+resource "rsrTenkaichiBudokai7"
+{
+	handle	= 0;
+	file	= "wnd_tenkaichi7.png";
+}
+
+resource "rsrTenkaichiBudokai8"
+{
+	handle	= 0;
+	file	= "wnd_tenkaichi8.png";
+}
+
+resource "rsrTenkaichiBudokai9"
+{
+	handle	= 0;
+	file	= "wnd_tenkaichi9.png";
+}
+
+resource "rsrTenkaichiBudokai10"
+{
+	handle	= 0;
+	file	= "wnd_tenkaichi10.png";
+}
+
+resource "rsrCommonNumber"
+{
+	handle	= 0;
+	file	= "num1.PNG";
+}
+
+resource "rsrCommonNumber2"
+{
+	handle	= 0;
+	file	= "num2.png";
+}
+
+resource "rsrAvatarMask"
+{
+	handle  = 0;
+	file	= "icon\8181.png";
+}
+
+resource "rsrTenkaichiShop1"
+{
+	handle	= 0;
+	file	= "tenkaichi_shop1.PNG";
+}
+
+resource "rsrTenkaichiShop2"
+{
+	handle	= 0;
+	file	= "tenkaichi_shop2.PNG";
+}
+
+resource "rsr2DParticle"
+{
+	handle 	= 0;
+	file 	= "2dparticle.png";
+}
+
+resource "rsrHoipoiMix"
+{
+	handle	= 0;
+	file	= "wnd_mix.png";
+}
+
+resource "rsrNetStore"
+{
+	handle	= 0;
+	file	= "wnd_netstore.png";
+}
+
+resource "rsrNetPyShop1"
+{
+	handle 	= 0;
+	file	= "human\\wnd_netpy_shop1.png";
+}
+
+resource "rsrNetPyShop2"
+{
+	handle	= 0;
+	file	= "human\\wnd_netpy_shop2.png";
+}
+
+resource "rsrQuickTeleport"
+{
+	handle 	= 0;
+	file	= "wnd_QuickTeleport.png";
+}
+
+// It must location last of file cause of finish encoding if file name is empty
+resource "rsrDummy"
+{
+	handle 	= 0;
+	file	= "";
+}

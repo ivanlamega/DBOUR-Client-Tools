@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<plant_property>
+
+<header respath=".\\object\\mesh\\" texpath=".\\texture\\object\\" clipdistance="70.0"/>
+
+<set_element index="0" name="Test1" nummin="1" nummax="3" scalemin="0.5" scalemax="1.0" rotationterrain="1">
+	<set_res_element name="02_N_GLASS_YELLOW_002.DFF"/>
+	<set_res_element name="00_N_GRASS_REED1_001.DFF"/>
+</set_element>
+
+<set_element index="1" name="Test2" nummin="1" nummax="5" scalemin="0.8" scalemax="1.0" rotationterrain="0">
+	<set_res_element name="Q2_N_FLOWER_001_1.DFF"/>
+	<set_res_element name="Q2_N_FLOWER_002_2.DFF"/>
+</set_element>
+
+</plant_property>
