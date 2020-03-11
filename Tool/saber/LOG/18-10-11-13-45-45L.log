@@ -1,0 +1,6 @@
+[13:45:45 PM]	 === < SABER > Log Start === 
+[14:00:13 PM]	[Sound] Condition : CNtlSoundManager::Play, fail to create sound or stream, FMOD log : File not found. , SoundFile : SKILL\GENERAL_SWIM1.wav
+
+[14:00:14 PM]	[Sound] Condition : CNtlSoundManager::Play, fail to create sound or stream, FMOD log : File not found. , SoundFile : SKILL\GENERAL_SWIM2.wav
+
+[14:01:45 PM]	 === < SABER > Log End === 

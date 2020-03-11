@@ -1,0 +1,10 @@
+[17:50:03 PM]	=============== Start Trace ===============
+
+[17:50:03 PM]	 === < SABER > Trace Start === 
+[17:50:42 PM]	CNtlPLPropertyContainer::AddProp (258):  prop defined.(A_HMY_F_AD)
+[17:50:48 PM]	CNtlPLVisualManager::GetHeightFieldWorldHeight (1170):  GetWorldHeight : Failed : IN(0,0,0), OUT_HEIGHT(-999)
+[17:53:52 PM]	CNtlWorldShadow::LoadSwapFile (141):  file open failed. (238_sec.sdw)
+[17:53:52 PM]	CNtlWorldShadow::LoadSwapFile (141):  file open failed. (239_sec.sdw)
+[17:53:52 PM]	CNtlWorldShadow::LoadSwapFile (141):  file open failed. (254_sec.sdw)
+[17:53:52 PM]	CNtlWorldShadow::LoadSwapFile (141):  file open failed. (255_sec.sdw)
+[18:01:52 PM]	 === < SABER > Trace End === 

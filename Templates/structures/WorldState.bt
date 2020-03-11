@@ -1,0 +1,47 @@
+//--------------------------------------
+//--- 010 Editor v5.0.2 Binary Template
+//
+// File:
+// Author:
+// Revision:
+// Purpose:
+//--------------------------------------
+typedef unsigned int uint32_t;
+typedef signed int int32_t;
+
+struct worldState{
+    char worldVer[10];
+    int32_t worldHeightfieldNum;  
+    int32_t worldSectorTitleSize;
+    int32_t worldSectorTitleNum;
+    int32_t WorldSectorVertNum;
+
+    int32_t WorldSectorSize;
+    int32_t WorldSectorNum;
+    int32_t WorldSectorHalfNum;
+    int32_t WorldSectorPolyNum;
+    int32_t WorldFieldSectorNum;
+    int32_t WorldFieldSize;
+    int32_t WorldFieldNum;
+    int32_t WorldFieldHalfNum;
+    int32_t WorldSize;
+    int32_t WorldSizeHalf;
+    int32_t WorldValueMax;
+    int32_t WorldValueMin;
+    int32_t WorldTexAddr;
+    int32_t WorldPolyCnt;
+    float WorldNearPlane;
+    float WorldFarPlane;
+    float WorldCamSpeedPerSec;
+    char WorldRAW[64];
+    
+    uint32_t WorldTriggerSerialID;
+    int32_t IdxSkyType;
+    int32_t WorldType;
+    int32_t WorldBlockSize;
+    int32_t WorldBlockNum;
+    char WorldBSP[64];
+
+    int32_t unknown;
+    uint32_t unknown;
+} a;

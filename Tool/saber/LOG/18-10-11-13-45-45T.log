@@ -1,0 +1,7 @@
+[13:45:45 PM]	=============== Start Trace ===============
+
+[13:45:45 PM]	 === < SABER > Trace Start === 
+[13:50:39 PM]	CNtlPLVisualManager::GetHeightFieldWorldHeight (1170):  GetWorldHeight : Failed : IN(0,0,0), OUT_HEIGHT(-999)
+[13:58:53 PM]	CNtlPLResourceManager::LoadClump (550):  CNtlPLResourceManager::LoadClump the clump find not(Effect\Max_Dragonball_01.dff)
+[13:58:53 PM]	CNtlPLResourceManager::LoadClump (550):  CNtlPLResourceManager::LoadClump the clump find not(Effect\Max_Dragonball_01.dff)
+[14:01:45 PM]	 === < SABER > Trace End === 

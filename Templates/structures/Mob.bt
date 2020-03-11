@@ -1,0 +1,237 @@
+//--------------------------------------
+//--- 010 Editor v5.0.2 Binary Template
+//
+// File:
+// Author:
+// Revision:
+// Purpose:
+//--------------------------------------
+
+enum
+{
+	DBO_NPC_NAME_LEN = 40,
+	DBO_NPC_ICON_NAME_LEN = 32,
+	DBO_MODEL_NAME_LEN = 32,
+    DBO_BOT_CAMERA_BONE_NAME_LEN = 32,
+    DBO_NPC_ILLUSTRATE_LEN = 32,
+	DBO_NPC_RPBONUS_MAX = 6,
+    DBO_NPC_SKILL_MAX = 7,
+};
+
+typedef unsigned int DBOID;
+typedef unsigned short WCHAR;
+typedef unsigned char bool;
+
+typedef unsigned int uint32_t;
+typedef unsigned short uint16_t;
+typedef unsigned char uint8_t;
+
+uint8_t padding;
+uint32_t padding2;
+uint8_t padding3;
+
+struct dbo_data_table_char_st
+{
+    DBOID id;
+    uint32_t basic_lp;
+
+    uint16_t basic_ep;
+
+	uint16_t basic_physical_defence;
+	uint16_t basic_energy_defence;
+
+	uint16_t str;
+	uint16_t con;
+	uint16_t foc;
+	uint16_t dex;
+	uint16_t sol;
+	uint16_t eng;
+
+    uint8_t pad;
+    uint8_t pad;
+
+    float scale;
+
+	uint16_t attack_speed_rate;
+	uint8_t attack_type;
+
+    uint8_t pad;
+
+	float attack_range;
+
+	uint16_t attack_rate;
+	uint16_t dodge_rate;
+	uint16_t block_rate;
+	uint16_t curse_success_rate;
+	uint16_t curse_tolerance_rate;
+    uint8_t pad;
+    uint8_t pad;
+
+	float radius;
+
+	uint16_t basic_aggro_point;
+    uint8_t pad;
+    uint8_t pad;
+
+	bool is_valid;
+    uint8_t pad;
+    uint8_t pad;
+    uint8_t pad;
+
+	DBOID name_id;
+
+	WCHAR name[DBO_NPC_NAME_LEN + 1];
+	char model[DBO_MODEL_NAME_LEN + 1];
+
+	uint8_t level;
+
+	uint8_t unknown1;
+    uint8_t pad;
+    uint8_t pad;
+    uint8_t pad;
+
+	uint32_t ai_flags;
+
+	uint16_t lp_regen;
+	uint16_t ep_regen;
+
+	uint8_t attack_animiation_quantity;
+	uint8_t battle_attribute;
+
+	uint16_t basic_offence;
+
+	uint16_t unknown2;
+    uint8_t pad;
+    uint8_t pad;
+
+	float walk_speed_origin;
+	float walk_speed;
+
+	float run_speed_origin;
+	float run_speed;
+
+	float radius_x;
+	float radius_z;
+
+	uint16_t sight_range;
+	uint16_t scan_range;
+
+	uint16_t use_skill_time[DBO_NPC_SKILL_MAX];
+    uint8_t pad;
+    uint8_t pad;
+	DBOID user_skill[DBO_NPC_SKILL_MAX];
+	uint8_t use_skill_basic[DBO_NPC_SKILL_MAX];
+    uint8_t pad;
+	uint16_t use_skill_lp[DBO_NPC_SKILL_MAX];
+
+	uint8_t visible_sight_range;
+	char camera_bone_name[DBO_BOT_CAMERA_BONE_NAME_LEN + 1];
+
+	uint16_t attack_cooldown; 
+    uint8_t pad;
+    uint8_t pad;
+	float fly_height;
+	char name_text[DBO_NPC_NAME_LEN + 1];
+
+	bool spawn_animation;
+    uint8_t pad;
+    uint8_t pad;
+	uint32_t dialog_group;
+
+	char illustrate[DBO_NPC_ILLUSTRATE_LEN + 1];
+    uint8_t pad;
+    uint8_t pad;
+    uint8_t pad;
+
+	uint32_t alliance_idx;
+	uint16_t aggro_count_max;
+    uint8_t pad;
+    uint8_t pad;
+
+	uint32_t unknown3;
+	uint16_t unknown4[4];
+
+//MOB START
+	uint32_t mob_group;
+	uint16_t mob_kind;
+    uint8_t pad;
+    uint8_t pad;
+
+	uint32_t drop_zenny;
+	float drop_zenny_rate;
+
+	uint16_t exp;
+
+	uint8_t grade;
+
+	uint8_t unknown1;
+
+	uint8_t mob_type;	/* dbo_mob_type */
+	/* cd cd cd */
+
+	/* TODO: these needs some serious investigation */
+
+	uint32_t unknown2;	/* cd cd cd cd */
+
+    uint8_t pad;
+    uint8_t pad;
+    uint8_t pad;
+	uint8_t unknown3;
+    uint8_t pad;
+	uint16_t unknown4;
+
+	DBOID drop_quest_table;	/* just guessing */
+	
+	uint32_t unknown5;	/* TODO: always 0 */
+	uint8_t unknown6;	/* TODO: always 0 or 100 */
+	uint8_t unknown7;	/* TODO: 0 or 1, bool? */
+	
+    uint8_t pad;
+    uint8_t pad;
+
+	uint32_t unknown8;	/* TODO */
+	uint8_t unknown9;	/* TODO: always 0 or 100 */
+	uint8_t unknown10;	/* TODO: 0 or 1, bool? */
+	
+    uint8_t pad;
+    uint8_t pad;
+
+	uint32_t unknown11;	/* TODO */
+	uint8_t unknown12;	/* TODO: always 0 or 100 */
+	uint8_t unknown13;	/* TODO: 0 or 1, bool? */
+	
+    uint8_t pad;
+    uint8_t pad;
+
+	uint32_t unknown14;	/* ffffffff */
+
+	uint8_t property;	/* TODO: 0 or 1 or 0xff */
+	uint8_t unknown15;	/* TODO: always power of 10, max 100, level or percent related? */
+	uint8_t htb_block_rate;	/* just guessing */
+	
+    uint8_t pad;
+
+	uint16_t sight_angle;
+	
+    uint8_t pad;
+    uint8_t pad;
+
+	uint32_t unknown16;
+
+	uint8_t unknown17;
+	
+    uint8_t pad;
+	uint16_t unknown18;
+	
+	uint16_t unknown19;
+	
+    uint8_t pad;
+    uint8_t pad;
+
+	float unknown20[2];
+
+	uint32_t unknown21;
+
+	float unknown22[11];
+
+} c[7125];

@@ -1,0 +1,7 @@
+[00:11:26 AM]	=============== Start Trace ===============
+
+[00:11:26 AM]	 === < SABER > Trace Start === 
+[00:11:55 AM]	CNtlPLPropertyContainer::AddProp (258):  prop defined.(A_HMY_F_AD)
+[00:11:58 AM]	CNtlPLPropertyContainer::AddProp (258):  prop defined.(FRIEZARACE)
+[00:12:02 AM]	CNtlPLVisualManager::GetHeightFieldWorldHeight (1170):  GetWorldHeight : Failed : IN(0,0,0), OUT_HEIGHT(-999)
+[00:12:06 AM]	CNtlWorldField::CreateFieldFromFile (131):  file open failed. (wfpf17)

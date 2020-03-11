@@ -1,0 +1,6 @@
+[18:30:08 PM]	=============== Start Trace ===============
+
+[18:30:08 PM]	 === < SABER > Trace Start === 
+[18:31:17 PM]	CNtlPLPropertyContainer::AddProp (258):  prop defined.(A_HMY_F_AD)
+[18:32:03 PM]	CNtlPLVisualManager::GetHeightFieldWorldHeight (1170):  GetWorldHeight : Failed : IN(0,0,0), OUT_HEIGHT(-999)
+[18:32:08 PM]	CNtlPLVisualManager::CreateEntity (688):  CNtlPLVisualManager::CreateEntity the property(.xml) find not(D0_PATCH2_CLOUD_03)

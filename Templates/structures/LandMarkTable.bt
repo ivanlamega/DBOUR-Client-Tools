@@ -1,0 +1,63 @@
+//--------------------------------------
+//--- 010 Editor v5.0.2 Binary Template
+//
+// File:
+// Author:
+// Revision:
+// Purpose:
+//--------------------------------------
+
+enum
+{
+	DBO_SKILL_NAME_LEN = 40,
+	DBO_SKILL_ICON_NAME_LEN = 32,
+	DBO_SKILL_EFFECT_MAX = 2,
+	DBO_WORLD_ZONE_NAME_LEN = 40,
+};
+
+typedef unsigned int DBOID;
+typedef unsigned short WCHAR;
+typedef unsigned char bool;
+
+typedef unsigned int uint32_t;
+typedef unsigned short uint16_t;
+typedef unsigned char uint8_t;
+
+uint8_t padding;
+uint32_t padding2;
+uint8_t padding3;
+
+struct dbo_data_table_zones_st
+{
+    DBOID id;
+    uint16_t name[DBO_WORLD_ZONE_NAME_LEN + 1];
+
+    uint8_t pad;
+    uint8_t pad;
+    DBOID name_id;
+
+    uint8_t landmark_type;
+
+    bool valid;
+
+    uint8_t bit_flag;
+    uint8_t display_flag;
+
+    float x;
+    float y;
+    float z;
+
+    DBOID link_map_id;
+
+    DBOID name_id;
+
+    uint16_t warfog_id;
+
+WCHAR icon[DBO_SKILL_ICON_NAME_LEN + 1];
+
+uint8_t icon_size;
+    uint8_t pad;
+    uint8_t pad;
+    uint8_t pad;
+DBOID note;
+}a[240];

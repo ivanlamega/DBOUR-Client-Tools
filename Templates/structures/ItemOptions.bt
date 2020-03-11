@@ -1,0 +1,61 @@
+//--------------------------------------
+//--- 010 Editor v5.0.2 Binary Template
+//
+// File:
+// Author:
+// Revision:
+// Purpose:
+//--------------------------------------
+
+enum
+{
+	DBO_ITEM_NAME_LEN = 30,
+	MAX_SYSTEM_EFFECT = 4,
+	DBO_SKILL_EFFECT_MAX = 2,
+	DBO_SKILL_RPBONUS_MAX = 6,
+    DBO_MAX_LENGTH_ITEM_OPTION_NOTE = 128,
+};
+
+typedef unsigned int DBOID;
+typedef unsigned short WCHAR;
+typedef unsigned char bool;
+
+typedef unsigned int uint32_t;
+typedef unsigned short uint16_t;
+typedef unsigned char uint8_t;
+
+uint8_t padding;
+uint32_t padding2;
+uint8_t padding3;
+
+struct dbo_data_table_skill_st
+{
+    DBOID id;
+	WCHAR name[DBO_ITEM_NAME_LEN + 1];
+    uint8_t valid;
+    uint8_t option_rank;
+    uint8_t item_group;
+    uint8_t max_quality;
+    uint8_t quality;
+    uint8_t quality_index;
+    uint32_t cost;
+    uint8_t level;
+
+    uint8_t pad;
+    uint8_t pad;
+    uint8_t pad;
+
+    DBOID system_effect[MAX_SYSTEM_EFFECT];
+    uint8_t in_percent[MAX_SYSTEM_EFFECT];
+    int value[MAX_SYSTEM_EFFECT];
+    DBOID active_effect;
+    float active_rate;
+    char note[DBO_MAX_LENGTH_ITEM_OPTION_NOTE + 1];
+    uint8_t scouter_info;
+
+    uint8_t something[3];
+
+    uint8_t pad;
+    uint8_t pad;
+    uint8_t pad;
+} a[14219];

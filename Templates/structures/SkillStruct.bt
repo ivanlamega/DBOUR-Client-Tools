@@ -1,0 +1,164 @@
+//--------------------------------------
+//--- 010 Editor v5.0.2 Binary Template
+//
+// File:
+// Author:
+// Revision:
+// Purpose:
+//--------------------------------------
+
+const int DBO_SKILL_NAME_LEN = 40;
+const int DBO_SKILL_ICON_NAME_LEN = 32;
+const int DBO_SKILL_EFFECT_MAX = 2;
+const int DBO_SKILL_RPBONUS_MAX = 6;
+
+typedef unsigned int DBOID;
+typedef unsigned short WCHAR;
+typedef unsigned char bool;
+
+typedef unsigned int uint32_t;
+typedef unsigned short uint16_t;
+typedef unsigned char uint8_t;
+
+
+uint8_t padding3;
+
+typedef struct dbo_data_table_skill_st
+{
+	DBOID id;
+	DBOID name_id;
+
+	WCHAR name[DBO_SKILL_NAME_LEN + 1];
+	bool is_valid;
+	 uint8_t pad; 
+
+	uint32_t pc_class_flags;
+
+	uint8_t unknown1;
+	uint8_t skill_class;
+	uint8_t skill_type;
+	uint8_t skill_active_type;
+
+	uint8_t buff_group;
+	uint8_t slot_index;
+	uint8_t skill_grade;
+	 uint8_t pad; 
+
+	uint32_t function_flags;
+
+	uint8_t appoint_target;
+	uint8_t apply_target;
+	uint8_t apply_target_max;
+	uint8_t apply_range;
+
+	uint8_t apply_area1;
+	uint8_t apply_area2;
+	 uint8_t pad; uint8_t pad; 
+
+	DBOID effects[DBO_SKILL_EFFECT_MAX];
+
+	uint8_t effects_types[DBO_SKILL_EFFECT_MAX];
+	 uint8_t pad; uint8_t pad; 
+	
+	double effects_values1;
+	double effects_values2;
+
+	uint16_t addtional_aggro_point;
+	uint16_t unknown2;
+
+	uint8_t rp_effects[DBO_SKILL_RPBONUS_MAX];
+uint8_t pad;
+	 uint8_t pad;
+	uint32_t rp_effects_values[DBO_SKILL_RPBONUS_MAX];
+
+	uint8_t required_level;
+
+	  uint8_t pad; uint8_t pad;  
+uint8_t pad;
+	uint32_t required_zenny;
+
+	uint16_t next_skill_exp;
+	uint16_t required_sp;
+
+	bool is_selftrain;
+	 uint8_t pad; uint8_t pad; uint8_t pad; 
+
+	DBOID required_skill_min1;
+	DBOID required_skill_max1;
+	DBOID required_skill_min2;
+	DBOID required_skill_max2;
+	DBOID root_skill;
+
+	uint8_t required_equip_slot_type;
+	uint8_t required_item_type;
+
+	char icon_name[DBO_SKILL_ICON_NAME_LEN + 1];
+
+uint8_t pad;
+	uint32_t required_lp;
+
+	uint16_t required_ep;
+	uint8_t required_rpball;
+	 uint8_t pad; 
+
+	float cast_time;
+	uint32_t cast_time_ms;
+
+	uint16_t cooldown;
+	 uint8_t pad;
+	 uint8_t pad;
+	uint32_t cooldown_ms;
+
+	uint16_t keep_time;
+
+	 uint8_t pad;
+	 uint8_t pad;
+	uint32_t keep_time_ms;
+
+	bool keep_effect;
+	uint8_t use_range_min;
+
+	 uint8_t pad;
+	 uint8_t pad;
+	float use_range_minf;
+	uint8_t use_range_max;
+uint8_t pad;
+	 uint8_t pad;
+	 uint8_t pad;
+
+	float use_range_maxf;
+
+	DBOID note;
+
+	DBOID next_skill;
+
+	 bool default_display;
+	 uint8_t pad;
+	 uint8_t pad;
+	 uint8_t pad;
+	uint32_t unknown3;
+
+	uint16_t cast_animation_start;
+	uint16_t cast_animation_loop;
+
+	uint16_t action_animation_index;
+	uint16_t action_loop_animation_index;
+
+	uint16_t action_end_animation_index;
+	bool dash_able;
+	 uint8_t pad; 
+
+	uint32_t transform_info_flags;
+
+	float success_rate;
+
+	uint8_t pc_class_change;
+	uint8_t unknown4;
+	uint8_t unknown5;
+	 uint8_t pad; 
+
+	uint32_t unknown6;
+	uint32_t unknown7;
+} a;
+
+a b[2663];

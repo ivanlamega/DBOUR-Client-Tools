@@ -1,0 +1,4 @@
+[18:00:36 PM]	 === < SABER > Log Start === 
+[20:46:07 PM]	[Sound] Condition : CNtlSoundManager::ReplayEnvironmentSound, fail to create environment sound, FMOD log : Not enough memory or resources. , SoundFile : OBJECT\00_O_OILTANK_001.WAV
+
+[20:49:39 PM]	 === < SABER > Log End === 

@@ -1,0 +1,45 @@
+//--------------------------------------
+//--- 010 Editor v5.0.2 Binary Template
+//
+// File:
+// Author:
+// Revision:
+// Purpose:
+//--------------------------------------
+
+enum
+{
+	DBO_SKILL_NAME_LEN = 40,
+	DBO_SKILL_ICON_NAME_LEN = 32,
+	DBO_SKILL_EFFECT_MAX = 2,
+	DBO_WORLD_ZONE_NAME_LEN = 40,
+};
+
+typedef unsigned int DBOID;
+typedef unsigned short WCHAR;
+typedef unsigned char bool;
+
+typedef unsigned int uint32_t;
+typedef unsigned short uint16_t;
+typedef unsigned char uint8_t;
+
+uint8_t padding;
+uint32_t padding2;
+uint8_t padding3;
+
+struct dbo_data_table_zones_st
+{
+    DBOID id;
+    uint16_t function_bit_flag;
+
+    uint8_t pad;
+    uint8_t pad;
+
+    DBOID world_id;
+    DBOID name_tblidx;
+
+    uint16_t name_text[DBO_WORLD_ZONE_NAME_LEN + 1];
+
+    bool no_vehicle;
+    uint8_t pad;
+}a[36];

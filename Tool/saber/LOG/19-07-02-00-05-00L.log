@@ -1,0 +1,4 @@
+[00:05:00 AM]	 === < SABER > Log Start === 
+[00:07:02 AM]	Mod Loaded: c:\users\devin\desktop\development\dboclienttools\texture\ntlwe\ntl.dds
+[00:07:05 AM]	CNtlWorldSectorInfo::NtlWorldSectorGeometryCreate (147) : [ASSERT] file open failed. (C:\Users\Devin\Desktop\Development\dboclienttools\Tool\SABER\Texture\Heightfield\Untitled.raw)
+

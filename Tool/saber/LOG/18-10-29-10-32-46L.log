@@ -1,0 +1,5 @@
+[10:32:46 AM]	 === < SABER > Log Start === 
+[10:37:27 AM]	[Sound] Condition : CNtlSoundManager::Play, The min distance is longer far than max distacne, Channel group : CHANNEL_GROUP_OBJECT_MUSIC, SoundFile : Environment\
+
+[10:37:27 AM]	[Sound] Condition : CNtlSoundManager::Play, fail to create sound or stream, FMOD log : File not found. , SoundFile : Environment\
+

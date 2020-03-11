@@ -1,0 +1,5 @@
+[02:31:29 AM]	 === < SABER > Log Start === 
+[02:31:53 AM]	CNtlPLResourceManager::LoadTexture (631) : [ASSERT] the texture find not(25PD02_R1_gascan_01Shape)-C:\Users\Devin\Desktop\Development-.\Texture\ntlwe\indoor\DBO_PDungeon_002\Objlm\
+
+[02:31:53 AM]	CNtlPLObject::LoadLightmap (590) : [ASSERT] Texture load failed.
+

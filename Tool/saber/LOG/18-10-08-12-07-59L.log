@@ -1,0 +1,8 @@
+[12:07:59 PM]	 === < SABER > Log Start === 
+[13:19:25 PM]	[Sound] Condition : CNtlSoundManager::Play, fail to create sound or stream, FMOD log : File not found. , SoundFile : SKILL\GENERAL_JUMP_LANDING.WAV
+
+[13:30:29 PM]	[Sound] Condition : CNtlSoundManager::Play, fail to create sound or stream, FMOD log : File not found. , SoundFile : VOICE\VOICE_CH_M_ATTACK4.WAV
+
+[13:30:29 PM]	[Sound] Condition : CNtlSoundManager::Play, fail to create sound or stream, FMOD log : File not found. , SoundFile : SKILL\GENERAL_JUMP_KICK.WAV
+
+[13:38:30 PM]	 === < SABER > Log End === 

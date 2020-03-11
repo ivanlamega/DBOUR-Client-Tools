@@ -1,0 +1,2 @@
+AUTH_AUTHKEY_FAIL="[align = ""center""]Falha na verificação da chave de autenticação"
+AUTH_COMMON_CANT_DO_THAT_FOR_SOME_REASON="Não pode realizar este procedimento por alguma razão não especificada"

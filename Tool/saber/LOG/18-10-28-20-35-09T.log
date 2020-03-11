@@ -1,0 +1,5 @@
+[20:35:09 PM]	=============== Start Trace ===============
+
+[20:35:09 PM]	 === < SABER > Trace Start === 
+[20:35:30 PM]	CNtlPLPropertyContainer::AddProp (258):  prop defined.(A_HMY_F_AD)
+[20:35:41 PM]	CNtlPLVisualManager::GetHeightFieldWorldHeight (1170):  GetWorldHeight : Failed : IN(0,0,0), OUT_HEIGHT(-999)

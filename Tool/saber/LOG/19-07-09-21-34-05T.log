@@ -1,0 +1,8 @@
+[21:34:05 PM]	=============== Start Trace ===============
+
+[21:34:05 PM]	 === < SABER > Trace Start === 
+[21:36:04 PM]	CNtlPLPropertyContainer::AddProp (258):  prop defined.(A_HMY_F_AD)
+[21:36:07 PM]	CNtlPLPropertyContainer::AddProp (258):  prop defined.(FRIEZARACE)
+[21:36:15 PM]	CNtlPLVisualManager::GetHeightFieldWorldHeight (1170):  GetWorldHeight : Failed : IN(0,0,0), OUT_HEIGHT(-999)
+[21:41:51 PM]	CNtlWorldShadow::LoadSwapFile (141):  file open failed. (3366_sec.sdw)
+[21:41:51 PM]	CNtlPLVisualManager::CreateEntity (688):  CNtlPLVisualManager::CreateEntity the property(.xml) find not(12_N_PLANT_019_1)

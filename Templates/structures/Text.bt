@@ -1,0 +1,37 @@
+//--------------------------------------
+//--- 010 Editor v5.0.2 Binary Template
+//
+// File:
+// Author:
+// Revision:
+// Purpose:
+//--------------------------------------
+
+enum
+{
+	DBO_SKILL_NAME_LEN = 40,
+	DBO_SKILL_ICON_NAME_LEN = 32,
+	DBO_SKILL_EFFECT_MAX = 2,
+	DBO_SKILL_RPBONUS_MAX = 6,
+};
+
+typedef unsigned int DBOID;
+typedef unsigned short WCHAR;
+typedef unsigned char bool;
+
+typedef unsigned int uint32_t;
+typedef unsigned short uint16_t;
+typedef unsigned char uint8_t;
+
+uint8_t padding;
+uint32_t legnth;
+uint32_t legnth;
+uint32_t legnth;
+uint8_t padding;
+
+struct dbo_data_table_skill_st
+{
+    DBOID id;
+    uint16_t text_len;
+	WCHAR name[text_len];
+} a[200315];

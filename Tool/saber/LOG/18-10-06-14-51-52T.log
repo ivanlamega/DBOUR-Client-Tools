@@ -1,0 +1,5 @@
+[14:51:52 PM]	=============== Start Trace ===============
+
+[14:51:52 PM]	 === < SABER > Trace Start === 
+[14:52:27 PM]	CNtlPLVisualManager::GetHeightFieldWorldHeight (1170):  GetWorldHeight : Failed : IN(0,0,0), OUT_HEIGHT(-999)
+[14:52:30 PM]	CNtlWorldField::CreateFieldFromFile (131):  file open failed. (wfpf101)

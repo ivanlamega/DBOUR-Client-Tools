@@ -1,0 +1,59 @@
+//--------------------------------------
+//--- 010 Editor v5.0.2 Binary Template
+//
+// File:
+// Author:
+// Revision:
+// Purpose:
+//--------------------------------------
+//--------------------------------------
+//--- 010 Editor v5.0.2 Binary Template
+//
+// File:
+// Author:
+// Revision:
+// Purpose:
+//--------------------------------------
+
+enum
+{
+	DBO_SKILL_NAME_LEN = 40,
+	DBO_SKILL_ICON_NAME_LEN = 32,
+	DBO_SKILL_EFFECT_MAX = 2,
+	DBO_SKILL_RPBONUS_MAX = 6,
+};
+
+typedef unsigned int DBOID;
+typedef unsigned short WCHAR;
+typedef unsigned char bool;
+
+typedef unsigned int uint32_t;
+typedef unsigned short uint16_t;
+typedef unsigned char uint8_t;
+
+uint8_t padding;
+uint32_t padding2;
+uint8_t padding3;
+
+struct dbo_data_table_skill_st
+{
+		DBOID id;
+
+	WCHAR name[DBO_SKILL_NAME_LEN + 1];
+	uint8_t effect_type; 
+	uint8_t active_effect_type;
+
+	DBOID effect_info_text;
+	DBOID keep_effect_name;
+	uint8_t target_effect_position;
+	uint8_t success_effect_name[32 + 1];
+
+	uint8_t succes_project;
+	uint8_t effect_position;
+	uint8_t cuzcces[32 + 1];
+	uint8_t end; 
+
+	uint16_t keep;
+
+	uint32_t effect_code;
+} a[324];

@@ -1,0 +1,6 @@
+[23:51:38 PM]	=============== Start Trace ===============
+
+[23:51:38 PM]	 === < SABER > Trace Start === 
+[00:03:16 AM]	CNtlPLPropertyContainer::AddProp (258):  prop defined.(A_HMY_F_AD)
+[00:03:22 AM]	CNtlPLPropertyContainer::AddProp (258):  prop defined.(FRIEZARACE)
+[00:03:46 AM]	CNtlWorldShadow::LoadSwapFile (141):  file open failed. (66_sec.sdw)

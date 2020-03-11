@@ -1,0 +1,178 @@
+//--------------------------------------
+//--- 010 Editor v5.0.2 Binary Template
+//
+// File:
+// Author:
+// Revision:
+// Purpose:
+//--------------------------------------
+
+enum
+{
+	DBO_SKILL_NAME_LEN = 40,
+	DBO_SKILL_ICON_NAME_LEN = 32,
+	DBO_SKILL_EFFECT_MAX = 2,
+	DBO_SKILL_RPBONUS_MAX = 6,
+};
+
+typedef unsigned int DBOID;
+typedef unsigned short WCHAR;
+typedef unsigned char bool;
+
+typedef unsigned int uint32_t;
+typedef unsigned short uint16_t;
+typedef unsigned char uint8_t;
+
+
+uint8_t padding3;
+
+struct dbo_data_table_skill_st
+{
+    DBOID id;
+
+	bool is_valid;
+
+    uint8_t pad;
+    uint8_t pad;
+    uint8_t pad;
+
+	DBOID name_id;
+	WCHAR name[DBO_SKILL_ICON_NAME_LEN + 1];
+	char icon_name[DBO_SKILL_ICON_NAME_LEN + 1];
+
+	uint8_t model_type;
+
+	char model[DBO_SKILL_ICON_NAME_LEN + 1];
+	char subweapon_act_model[DBO_SKILL_ICON_NAME_LEN + 1];
+
+	uint8_t item_type;
+	uint8_t equip_type;
+
+	uint16_t equip_type_flags;
+	uint16_t function_flags;
+
+	uint8_t stack_max;
+	uint8_t rank;
+	uint8_t unknown1;
+	uint8_t unknown2;
+
+	uint32_t weight; //not cost
+
+	uint32_t sell_price;
+	uint32_t system_effect_id;
+
+	uint8_t durability;
+	uint8_t durability_cnt;
+	uint8_t battle_attribute;
+    uint8_t pad;
+
+	uint16_t physical_offence;
+	uint16_t energy_offence;
+	uint16_t physical_defence;
+	uint16_t energy_defence;
+
+
+	float attack_range_bonus;
+
+	uint16_t attack_speed_rate;
+
+	uint8_t required_level;
+	uint32_t required_class_flags;
+
+	uint8_t class_special;
+	uint8_t race_special;
+	uint8_t required_str;
+	uint8_t required_con;
+
+	uint8_t required_foc;
+	uint8_t required_dex;
+	uint8_t required_sol;
+	uint8_t required_eng;
+
+	DBOID set_item_id;
+
+
+	uint32_t unknown4;
+	uint16_t unknown5;
+
+    uint8_t unkownuint8;
+
+    uint8_t pad;
+    uint8_t pad;
+	uint32_t unknown6;
+
+	DBOID note;
+
+	uint8_t bag_size;
+    uint8_t pad;
+	uint16_t scouter_watt;	
+
+	uint32_t scouter_maxpower;
+
+	uint8_t scouter_parts_type;
+	uint8_t scouter_parts_value;
+
+    uint16_t dasdsa;
+	DBOID use_item_id;
+
+	//uint8_t unknown7;
+	//uint8_t unknown77;
+	bool unknown88;
+    uint8_t pad;
+    uint8_t pad;
+    uint8_t pad;
+
+    uint16_t itemupr;
+    uint16_t itemupr;
+
+	uint8_t item_group;
+
+    uint8_t pad;
+    uint8_t pad;
+    uint8_t pad;
+	DBOID charm_id;
+
+	uint16_t costume_hide_flags;
+
+    uint8_t pad;
+    uint8_t pad;
+	DBOID required_item_id;
+	uint32_t common_point;
+
+	uint8_t common_point_type;
+	uint8_t required_function;
+    uint8_t pad;
+    uint8_t pad;
+	uint32_t use_duration_max;
+
+    uint8_t pad;
+    uint8_t pad;
+    uint8_t pad;
+	uint8_t duration_type;
+
+	DBOID contents_id;
+
+	uint32_t duration_group;
+
+	uint8_t unknown8[1];
+    uint8_t pad;
+    uint8_t pad;
+    uint8_t pad;
+	uint8_t unknown888[3];
+
+	uint8_t unknown9[13];
+	uint32_t unknown13;
+
+	uint8_t unknown14;
+    uint8_t pad;
+    uint8_t pad;
+    uint8_t pad;
+	uint8_t unknown15[16];
+
+	uint32_t unknown19;
+
+	uint16_t unknown22;
+	uint32_t unknown21;
+    uint8_t pad;
+    uint8_t pad;
+} a[14997];

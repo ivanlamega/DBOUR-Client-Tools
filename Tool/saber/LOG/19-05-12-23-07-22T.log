@@ -1,0 +1,8 @@
+[23:07:22 PM]	=============== Start Trace ===============
+
+[23:07:22 PM]	 === < SABER > Trace Start === 
+[23:08:03 PM]	CNtlPLPropertyContainer::AddProp (258):  prop defined.(A_HMY_F_AD)
+[23:08:08 PM]	CNtlPLPropertyContainer::AddProp (258):  prop defined.(FRIEZARACE)
+[23:08:30 PM]	CNtlPLVisualManager::GetHeightFieldWorldHeight (1170):  GetWorldHeight : Failed : IN(0,0,0), OUT_HEIGHT(-999)
+[23:08:34 PM]	CNtlPLVisualManager::CreateEntity (688):  CNtlPLVisualManager::CreateEntity the property(.xml) find not(obj_06_kiri_impregnator)
+[23:09:57 PM]	 === < SABER > Trace End === 

@@ -1,0 +1,17 @@
+[16:59:52 PM]	 === < SABER > Log Start === 
+[17:00:33 PM]	CNtlPLResourceManager::LoadTexture (631) : [ASSERT] the texture find not(ýýýýýý)-C:\Users\Devin\Desktop\Development\Korea-.\Texture\ntlwe\Planet\;.\Texture\Effect\;.\Texture\character\;.\Texture\Effect\text\;.\Texture\Effect\qest_icon\;
+
+[17:00:33 PM]	CNtlPLSun::Create (101) : [ASSERT] Texture load failed.
+
+[17:00:33 PM]	CNtlPLResourceManager::LoadTexture (631) : [ASSERT] the texture find not(ýýýýýý)-C:\Users\Devin\Desktop\Development\Korea-.\Texture\ntlwe\Planet\;.\Texture\Effect\;.\Texture\character\;.\Texture\Effect\text\;.\Texture\Effect\qest_icon\;
+
+[17:00:33 PM]	CNtlPLSun::Create (101) : [ASSERT] Texture load failed.
+
+[17:00:33 PM]	CNtlPLResourceManager::LoadTexture (631) : [ASSERT] the texture find not(ýýýýýý)-C:\Users\Devin\Desktop\Development\Korea-.\Texture\ntlwe\Planet\;.\Texture\Effect\;.\Texture\character\;.\Texture\Effect\text\;.\Texture\Effect\qest_icon\;
+
+[17:00:33 PM]	CNtlPLSun::Create (101) : [ASSERT] Texture load failed.
+
+[17:00:33 PM]	CNtlPLResourceManager::LoadTexture (631) : [ASSERT] the texture find not(0)-C:\Users\Devin\Desktop\Development\Korea-texture/ntlwe/sky/
+
+[17:00:33 PM]	CNtlPLSky::RunableVariation (318) : [ASSERT] Texture load failed.
+

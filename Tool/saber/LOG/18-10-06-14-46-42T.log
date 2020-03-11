@@ -1,0 +1,4 @@
+[14:46:42 PM]	=============== Start Trace ===============
+
+[14:46:42 PM]	 === < SABER > Trace Start === 
+[14:47:20 PM]	CNtlPLVisualManager::GetHeightFieldWorldHeight (1170):  GetWorldHeight : Failed : IN(0,0,0), OUT_HEIGHT(-999)

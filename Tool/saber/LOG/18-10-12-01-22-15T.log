@@ -1,0 +1,5 @@
+[01:22:15 AM]	=============== Start Trace ===============
+
+[01:22:15 AM]	 === < SABER > Trace Start === 
+[01:24:38 AM]	CNtlPLVisualManager::GetHeightFieldWorldHeight (1170):  GetWorldHeight : Failed : IN(0,0,0), OUT_HEIGHT(-999)
+[01:24:41 AM]	CNtlWorldShadow::LoadSwapFile (141):  file open failed. (394_sec.sdw)

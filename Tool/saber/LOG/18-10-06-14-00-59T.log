@@ -1,0 +1,4 @@
+[14:00:59 PM]	=============== Start Trace ===============
+
+[14:00:59 PM]	 === < SABER > Trace Start === 
+[14:04:53 PM]	CNtlPLVisualManager::CreateEntity (688):  CNtlPLVisualManager::CreateEntity the property(.xml) find not(A_HMY_F_CH)

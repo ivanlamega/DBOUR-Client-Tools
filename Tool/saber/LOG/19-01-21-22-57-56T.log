@@ -1,0 +1,18 @@
+[22:57:56 PM]	=============== Start Trace ===============
+
+[22:57:56 PM]	 === < SABER > Trace Start === 
+[23:04:18 PM]	CNtlPLPropertyContainer::AddProp (258):  prop defined.(A_HMY_F_AD)
+[23:04:27 PM]	CNtlPLVisualManager::GetHeightFieldWorldHeight (1170):  GetWorldHeight : Failed : IN(0,0,0), OUT_HEIGHT(-999)
+[23:10:10 PM]	CNtlWorldPropNMapController::LoadPropImage (181):  CNtlWorldPropNMapController::LoadPropImage, image read faield.
+[23:20:43 PM]	CNtlWorldPropNMapController::LoadPropImage (181):  CNtlWorldPropNMapController::LoadPropImage, image read faield.
+[23:23:23 PM]	CNtlWorldPropNMapController::LoadPropImage (181):  CNtlWorldPropNMapController::LoadPropImage, image read faield.
+[23:23:31 PM]	CNtlWorldPropNMapController::LoadPropImage (181):  CNtlWorldPropNMapController::LoadPropImage, image read faield.
+[23:23:50 PM]	CNtlWorldPropNMapController::LoadPropImage (181):  CNtlWorldPropNMapController::LoadPropImage, image read faield.
+[23:24:39 PM]	CNtlWorldPropNMapController::LoadPropImage (181):  CNtlWorldPropNMapController::LoadPropImage, image read faield.
+[23:30:20 PM]	CNtlWorldPropNMapController::LoadPropImage (181):  CNtlWorldPropNMapController::LoadPropImage, image read faield.
+[23:30:26 PM]	CNtlWorldPropNMapController::LoadPropImage (181):  CNtlWorldPropNMapController::LoadPropImage, image read faield.
+[23:30:36 PM]	CNtlWorldPropNMapController::LoadPropImage (181):  CNtlWorldPropNMapController::LoadPropImage, image read faield.
+[23:30:45 PM]	CNtlWorldPropNMapController::LoadPropImage (181):  CNtlWorldPropNMapController::LoadPropImage, image read faield.
+[12:06:06 PM]	CWorldEditorEventHander::SaveAll (246):  CWorldEditorEventHander::SaveAll() Start...
+[12:06:57 PM]	CWorldEditorEventHander::SaveAll (277):  CWorldEditorEventHander::SaveAll() End...
+[14:05:23 PM]	 === < SABER > Trace End === 
