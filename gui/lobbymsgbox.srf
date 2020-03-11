@@ -1,0 +1,263 @@
+surface "dlgMain"
+{
+	resource_file	= "LobbyMsgBox.rsr";
+	resource_name	= "LobbyMsgBox";
+
+	x		= 0;
+	y		= 0;
+	width		= 0;
+	height		= 0;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 0;
+	uv_bottom	= 0;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "Backboard_Left"
+{
+	resource_file	= "LobbyMsgBox.rsr";
+	resource_name	= "LobbyMsgBox_2";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 187;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 82;
+	uv_top		= 175;
+	uv_right	= 104;
+	uv_bottom	= 362;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "Backboard_Center"
+{
+	resource_file	= "LobbyMsgBox.rsr";
+	resource_name	= "LobbyMsgBox_2";
+
+	x		= 0;
+	y		= 0;
+	width		= 0;
+	height		= 187;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 107;
+	uv_top		= 175;
+	uv_right	= 108;
+	uv_bottom	= 362;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "Backboard_Right"
+{
+	resource_file	= "LobbyMsgBox.rsr";
+	resource_name	= "LobbyMsgBox_2";
+
+	x		= 0;
+	y		= 0;
+	width		= 25;
+	height		= 187;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 111;
+	uv_top		= 175;
+	uv_right	= 134;
+	uv_bottom	= 362;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "Panel_Left"
+{
+	resource_file	= "LobbyMsgBox.rsr";
+	resource_name	= "LobbyMsgBox";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 88;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 399;
+	uv_top		= 337;
+	uv_right	= 411;
+	uv_bottom	= 425;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "Panel_Center"
+{
+	resource_file	= "LobbyMsgBox.rsr";
+	resource_name	= "LobbyMsgBox";
+
+	x		= 0;
+	y		= 0;
+	width		= 0;
+	height		= 88;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 414;
+	uv_top		= 337;
+	uv_right	= 415;
+	uv_bottom	= 425;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "Panel_Right"
+{
+	resource_file	= "LobbyMsgBox.rsr";
+	resource_name	= "LobbyMsgBox";
+
+	x		= 0;
+	y		= 0;
+	width		= 13;
+	height		= 88;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 419;
+	uv_top		= 337;
+	uv_right	= 431;
+	uv_bottom	= 425;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "Message_text"
+{
+	resource_file	= "LobbyMsgBox.rsr";
+	resource_name	= "LobbyMsgBox";
+
+	x		= 11;
+	y		= 13;
+	width		= 93;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 408;
+	uv_top		= 67;
+	uv_right	= 501;
+	uv_bottom	= 87;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "underLine"
+{
+	resource_file	= "LobbyMsgBox.rsr";
+	resource_name	= "LobbyMsgBox";
+
+	x		= 11;
+	y		= 34;
+	width		= 220;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 174;
+	uv_top		= 54;
+	uv_right	= 394;
+	uv_bottom	= 66;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "OkUpButton"
+{
+	resource_file	= "LobbyMsgBox.rsr";
+	resource_name	= "LobbyMsgBox";
+
+	x		= 0;
+	y		= 0;
+	width		= 89;
+	height		= 24;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 233;
+	uv_top		= 200;
+	uv_right	= 323;
+	uv_bottom	= 224;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "OkDownButton"
+{
+	resource_file	= "LobbyMsgBox.rsr";
+	resource_name	= "LobbyMsgBox";
+
+	x		= 0;
+	y		= 0;
+	width		= 89;
+	height		= 24;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 233;
+	uv_top		= 225;
+	uv_right	= 323;
+	uv_bottom	= 249;
+
+	handle		= 0;
+	blend		= 0;
+}

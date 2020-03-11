@@ -1,0 +1,192 @@
+surface "srfDBCSelectMenuBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCReward";
+
+	x		= 0;
+	y		= 0;
+	width		= 342;
+	height		= 213;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 342;
+	uv_bottom	= 213;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDBCSelectItemBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCReward";
+
+	x		= 0;
+	y		= 0;
+	width		= 342;
+	height		= 213;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 241;
+	uv_right	= 342;
+	uv_bottom	= 454;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDBCRewardDlgBtnUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCReward";
+
+	x		= 0;
+	y		= 0;
+	width		= 112;
+	height		= 25;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 343;
+	uv_top		= 0;
+	uv_right	= 455;
+	uv_bottom	= 25;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDBCRewardDlgBtnFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCReward";
+
+	x		= 0;
+	y		= 0;
+	width		= 112;
+	height		= 25;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 343;
+	uv_top		= 26;
+	uv_right	= 455;
+	uv_bottom	= 51;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDBCRewardDlgBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCReward";
+
+	x		= 0;
+	y		= 0;
+	width		= 112;
+	height		= 25;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 343;
+	uv_top		= 52;
+	uv_right	= 455;
+	uv_bottom	= 77;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDBCRewardDlgListFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCReward";
+
+	x		= 0;
+	y		= 0;
+	width		= 259;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 214;
+	uv_right	= 259;
+	uv_bottom	= 237;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRewardSlider"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCReward";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 26;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 260;
+	uv_top		= 214;
+	uv_right	= 272;
+	uv_bottom	= 240;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRewardScrollBar"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCReward";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 106;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 456;
+	uv_top		= 0;
+	uv_right	= 468;
+	uv_bottom	= 106;
+
+	handle		= 0;
+	blend		= 0;
+}
+

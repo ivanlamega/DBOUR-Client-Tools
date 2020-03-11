@@ -1,0 +1,1007 @@
+
+surface "srfDialog"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 320;
+	height		= 480;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 320;
+	uv_bottom	= 480;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBgMailBoxTop"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 9;
+	y		= 30;
+	width		= 303;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 481;
+	uv_right	= 303;
+	uv_bottom	= 490;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBgMailBoxMiddle"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 9;
+	y		= 39;
+	width		= 303;
+	height		= 367;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 492;
+	uv_right	= 303;
+	uv_bottom	= 499;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBgMailBoxBottom"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 9;
+	y		= 406;
+	width		= 303;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 501;
+	uv_right	= 303;
+	uv_bottom	= 510;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBgSendMailTop"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 9;
+	y		= 30;
+	width		= 303;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 481;
+	uv_right	= 303;
+	uv_bottom	= 490;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBgSendMailMiddle"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 9;
+	y		= 39;
+	width		= 303;
+	height		= 397;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 492;
+	uv_right	= 303;
+	uv_bottom	= 499;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBgSendMailBottom"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 9;
+	y		= 436;
+	width		= 303;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 501;
+	uv_right	= 303;
+	uv_bottom	= 510;
+
+	handle		= 0;
+	blend		= 0;
+}
+surface "srfCheckBoxOff"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMain";
+
+	x			= 3;
+	y			= 3;
+	width		= 10;
+	height		= 10;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 338;
+	uv_top		= 150;
+	uv_right	= 348;
+	uv_bottom	= 160;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCheckBoxOn"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMain";
+
+	x			= 3;
+	y			= 3;
+	width		= 10;
+	height		= 10;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 338;
+	uv_top		= 172;
+	uv_right	= 348;
+	uv_bottom	= 182;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCheck"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMain";
+
+	x			= 0;
+	y			= 0;
+	width		= 16;
+	height		= 16;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 488;
+	uv_top		= 89;
+	uv_right	= 504;
+	uv_bottom	= 105;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfUnCheck"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMain";
+
+	x			= 0;
+	y			= 0;
+	width		= 16;
+	height		= 16;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 454;
+	uv_top		= 89;
+	uv_right	= 470;
+	uv_bottom	= 105;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBgMailContentInput"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMailSystem";
+
+	x		= -34;
+	y		= -5;
+	width		= 260;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 35;
+	uv_right	= 260;
+	uv_bottom	= 56;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBgMailContentLeft"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMailSystem";
+
+	x		= 5;
+	y		= 0;
+	width		= 12;
+	height		= 204;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 264;
+	uv_right	= 12;
+	uv_bottom	= 468;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBgMailContentCenter"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMailSystem";
+
+	x		= 17;
+	y		= 0;
+	width		= 264;
+	height		= 204;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 14;
+	uv_top		= 264;
+	uv_right	= 19;
+	uv_bottom	= 468;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBgMailContentRight"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMailSystem";
+
+	x		= 281;
+	y		= 0;
+	width		= 12;
+	height		= 204;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 21;
+	uv_top		= 264;
+	uv_right	= 33;
+	uv_bottom	= 468;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBgAttach"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMailSystem";
+
+	x		= 7;
+	y		= 0;
+	width		= 288;
+	height		= 58;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 205;
+	uv_right	= 299;
+	uv_bottom	= 263;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBgAttachItem"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMailSystem";
+
+	x		= -21;
+	y		= -8;
+	width		= 72;
+	height		= 49;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 287;
+	uv_top		= 0;
+	uv_right	= 359;
+	uv_bottom	= 49;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBgTargetName"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrGuild";
+
+	x		= -10;
+	y		= -4;
+	width		= 137;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 33;
+	uv_top		= 376;
+	uv_right	= 170;
+	uv_bottom	= 395;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBgMailContentTitle"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 177;
+	height		= 16;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 416;
+	uv_right	= 177;
+	uv_bottom	= 432;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBgAttachCategory"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMailSystem";
+
+	x		= 0;
+	y		= 0;
+	width		= 164;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 34;
+	uv_top		= 264;
+	uv_right	= 162;
+	uv_bottom	= 285;
+
+	handle		= 0;
+	blend		= 0;	
+}
+
+surface "srfBgAttachZenny"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMailSystem";
+
+	x		= 0;
+	y		= 0;
+	width		= 129;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 360;
+	uv_top		= 0;
+	uv_right	= 489;
+	uv_bottom	= 20;
+
+	handle		= 0;
+	blend		= 0;	
+}
+
+surface "srfBgAttachZennyHighlight"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMailSystem";
+
+	x		= 0;
+	y		= 0;
+	width		= 129;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 165;
+	uv_top		= 161;
+	uv_right	= 294;
+	uv_bottom	= 181;
+
+	handle		= 0;
+	blend		= 0;	
+}
+
+surface "srfBgAttachZennyDisable"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMailSystem";
+
+	x		= 0;
+	y		= 0;
+	width		= 129;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 163;
+	uv_top		= 264;
+	uv_right	= 292;
+	uv_bottom	= 284;
+
+	handle		= 0;
+	blend		= 0;	
+}
+
+surface "srfBgAttachZennyEffect"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMailSystem";
+
+	x		= 0;
+	y		= 0;
+	width		= 129;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 161;
+	uv_top		= 140;
+	uv_right	= 290;
+	uv_bottom	= 160;
+
+	handle		= 0;
+	blend		= 0;	
+}
+
+surface "srfIconDay"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMailSystem";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 17;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 412;
+	uv_top		= 21;
+	uv_right	= 429;
+	uv_bottom	= 38;
+
+	handle		= 0;
+	blend		= 0;	
+}
+
+surface "srfIconZennySend"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMailSystem";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 17;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 430;
+	uv_top		= 21;
+	uv_right	= 447;
+	uv_bottom	= 38;
+
+	handle		= 0;
+	blend		= 0;	
+}
+
+surface "srfIconZennyReq"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMailSystem";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 17;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 448;
+	uv_top		= 21;
+	uv_right	= 465;
+	uv_bottom	= 38;
+
+	handle		= 0;
+	blend		= 0;	
+}
+
+surface "srfContentClearBtnUp"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x			= 0;
+	y			= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 482;
+	uv_top		= 63;
+	uv_right	= 502;
+	uv_bottom	= 83;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfContentClearBtnFocus"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x			= 0;
+	y			= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 482;
+	uv_top		= 84;
+	uv_right	= 502;
+	uv_bottom	= 104;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfContentClearBtnDown"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x			= 0;
+	y			= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 482;
+	uv_top		= 105;
+	uv_right	= 502;
+	uv_bottom	= 125;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAttachDisable"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMailSystem";
+
+	x		= 0;
+	y		= 0;
+	width		= 291;
+	height		= 60;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 34;
+	uv_top		= 286;
+	uv_right	= 325;
+	uv_bottom	= 346;
+
+	handle		= 0;
+	blend		= 0;	
+}
+
+surface "srfReloadBtnDisable"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 471;
+	uv_top		= 21;
+	uv_right	= 491;
+	uv_bottom	= 41;
+
+	handle		= 0;
+	blend		= 0;	
+}
+
+surface "srfReloadBtnDown"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 471;
+	uv_top		= 21;
+	uv_right	= 491;
+	uv_bottom	= 41;
+
+	handle		= 0;
+	blend		= 0;	
+}
+
+surface "srfReloadBtnFocus"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 450;
+	uv_top		= 21;
+	uv_right	= 470;
+	uv_bottom	= 41;
+
+	handle		= 0;
+	blend		= 0;	
+}
+
+surface "srfReloadBtnUp"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 429;
+	uv_top		= 21;
+	uv_right	= 449;
+	uv_bottom	= 41;
+
+	handle		= 0;
+	blend		= 0;	
+}
+
+surface "srfStamp"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMailSystem";
+
+	x		= 0;
+	y		= 0;
+	width		= 44;
+	height		= 44;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 291;
+	uv_top		= 109;
+	uv_right	= 335;
+	uv_bottom	= 153;
+
+	handle		= 0;
+	blend		= 0;	
+}
+
+surface "srfZennyMark"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 9;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 471;
+	uv_top		= 0;
+	uv_right	= 484;
+	uv_bottom	= 14;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBgExpiredDay"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMailSystem";
+
+	x		= 0;
+	y		= 0;
+	width		= 41;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 375;
+	uv_top		= 76;
+	uv_right	= 425;
+	uv_bottom	= 95;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnDelMailUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMailSystem";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 491;
+	uv_top		= 0;
+	uv_right	= 511;
+	uv_bottom	= 20;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnDelMailFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMailSystem";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 491;
+	uv_top		= 21;
+	uv_right	= 511;
+	uv_bottom	= 41;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnDelMailDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMailSystem";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 491;
+	uv_top		= 42;
+	uv_right	= 511;
+	uv_bottom	= 62;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfEmptyMail"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMailSystem";
+
+	x		= 0;
+	y		= 0;
+	width		= 102;
+	height		= 79;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 300;
+	uv_top		= 154;
+	uv_right	= 402;
+	uv_bottom	= 233;
+
+	handle		= 0;
+	blend		= 0;
+}

@@ -1,0 +1,551 @@
+surface "dlgMain"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 1024;
+	height		= 768;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 0;
+	uv_bottom	= 0;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTitle"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 121;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 140;
+	uv_top		= 394;
+	uv_right	= 261;
+	uv_bottom	= 409;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCharSlotBtnUp"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 198;
+	height		= 54;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 276;
+	uv_top		= 424;
+	uv_right	= 474;
+	uv_bottom	= 478;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCharSlotBtnFoc"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby2";
+
+	x		= 0;
+	y		= 0;
+	width		= 198;
+	height		= 54;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 198;
+	uv_bottom	= 54;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCharSlotBtnDown"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby3";
+
+	x		= 0;
+	y		= 0;
+	width		= 198;
+	height		= 54;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 239;
+	uv_top		= 52;
+	uv_right	= 437;
+	uv_bottom	= 106;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCharSlotBtnDis"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby4";
+
+	x		= 0;
+	y		= 0;
+	width		= 198;
+	height		= 54;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 395;
+	uv_right	= 198;
+	uv_bottom	= 449;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCharReservatedDelSlotBtnUp"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby4";
+
+	x		= 0;
+	y		= 0;
+	width		= 198;
+	height		= 54;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 79;
+	uv_right	= 198;
+	uv_bottom	= 133;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCharReservatedDelSlotBtnFoc"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby4";
+
+	x		= 0;
+	y		= 0;
+	width		= 198;
+	height		= 54;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 199;
+	uv_top		= 79;
+	uv_right	= 397;
+	uv_bottom	= 133;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCharReservatedDelSlotBtnDown"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby4";
+
+	x		= 0;
+	y		= 0;
+	width		= 198;
+	height		= 54;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 134;
+	uv_right	= 198;
+	uv_bottom	= 188;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNewCharacter"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 130;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 140;
+	uv_top		= 432;
+	uv_right	= 270;
+	uv_bottom	= 447;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNewCharacter_Foc"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 130;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 140;
+	uv_top		= 416;
+	uv_right	= 270;
+	uv_bottom	= 431;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCharDelUp"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 479;
+	uv_top		= 57;
+	uv_right	= 506;
+	uv_bottom	= 84;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCharDelFoc"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 479;
+	uv_top		= 85;
+	uv_right	= 506;
+	uv_bottom	= 112;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCharDelDown"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 479;
+	uv_top		= 113;
+	uv_right	= 506;
+	uv_bottom	= 140;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCharRecoveryUp"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 428;
+	uv_top		= 169;
+	uv_right	= 455;
+	uv_bottom	= 196;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCharRecoveryFoc"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 456;
+	uv_top		= 169;
+	uv_right	= 483;
+	uv_bottom	= 196;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCharRecoveryDown"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 484;
+	uv_top		= 169;
+	uv_right	= 512;
+	uv_bottom	= 196;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfHuman"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby3";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 33;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 391;
+	uv_top		= 0;
+	uv_right	= 424;
+	uv_bottom	= 33;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfHuman_Del"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby3";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 33;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 438;
+	uv_top		= 34;
+	uv_right	= 471;
+	uv_bottom	= 67;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNamek"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby3";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 33;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 425;
+	uv_top		= 0;
+	uv_right	= 458;
+	uv_bottom	= 33;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNamek_Del"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby3";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 33;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 472;
+	uv_top		= 34;
+	uv_right	= 505;
+	uv_bottom	= 67;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMajin"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby3";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 33;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 459;
+	uv_top		= 0;
+	uv_right	= 492;
+	uv_bottom	= 33;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMajin_Del"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby3";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 33;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 438;
+	uv_top		= 68;
+	uv_right	= 471;
+	uv_bottom	= 101;
+
+	handle		= 0;
+	blend		= 0;
+}

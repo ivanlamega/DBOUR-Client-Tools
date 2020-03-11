@@ -1,0 +1,120 @@
+surface "srfWindowCloseButtonUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrStandardBag";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 16;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 462;
+	uv_top		= 0;
+	uv_right	= 477;
+	uv_bottom	= 16;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfWindowCloseButtonFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrStandardBag";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 16;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 478;
+	uv_top		= 0;
+	uv_right	= 493;
+	uv_bottom	= 16;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfWindowCloseButtonDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrStandardBag";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 16;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 494;
+	uv_top		= 0;
+	uv_right	= 509;
+	uv_bottom	= 16;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSlotMouseOnEffect"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrStandardBag";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 430;
+	uv_top		= 393;
+	uv_right	= 462;
+	uv_bottom	= 425;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSlotSelectEffect"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrStandardBag";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 430;
+	uv_top		= 426;
+	uv_right	= 462;
+	uv_bottom	= 458;
+
+	handle		= 0;
+	blend		= 0;
+}
+

@@ -1,0 +1,29 @@
+resource "rsrLobby"
+{
+	handle	= 0;
+	file	= "pc_create.png";
+}
+
+resource "rsrLobby2"
+{
+	handle	= 0;
+	file	= "pc_create2.png";
+}
+
+resource "rsrLobby3"
+{
+	handle	= 0;
+	file	= "pc_create3.png";
+}
+
+resource "rsrLobby4"
+{
+	handle	= 0;
+	file	= "pc_create4.png";
+}
+
+resource "rsrOption"
+{
+	handle	= 0;
+	file	= "human\\wnd_option.png";
+}

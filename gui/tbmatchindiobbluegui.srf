@@ -1,0 +1,47 @@
+surface "srfBlueBack"
+{
+	resource_file   = "Observer.rsr";	
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 239;
+	height		= 110;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 240;
+	uv_top		= 0;
+	uv_right	= 479;
+	uv_bottom	= 110;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBlueMark"
+{
+	resource_file   = "Observer.rsr";	
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 77;
+	height		= 76;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 78;
+	uv_top		= 157;
+	uv_right	= 155;
+	uv_bottom	= 233;
+
+	handle		= 0;
+	blend		= 0;
+}

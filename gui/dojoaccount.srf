@@ -1,0 +1,143 @@
+surface "srfFieldBtnUp"
+{
+	resource_file	= "DojoAccount.rsr";
+	resource_name	= "rsrDojoAccount";
+
+	x		= 0;
+	y		= 0;
+	width		= 91;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 350;
+	uv_top		= 90;
+	uv_right	= 441;
+	uv_bottom	= 108;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFieldBtnFoc"
+{
+	resource_file	= "DojoAccount.rsr";
+	resource_name	= "rsrDojoAccount";
+
+	x		= 0;
+	y		= 0;
+	width		= 91;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 350;
+	uv_top		= 109;
+	uv_right	= 441;
+	uv_bottom	= 127;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFieldBtnDown"
+{
+	resource_file	= "DojoAccount.rsr";
+	resource_name	= "rsrDojoAccount";
+
+	x		= 0;
+	y		= 0;
+	width		= 91;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 350;
+	uv_top		= 128;
+	uv_right	= 441;
+	uv_bottom	= 146;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackgroundLeft"
+{
+	resource_file	= "DojoAccount.rsr";
+	resource_name	= "rsrDojoAccount";
+
+	x		= 0;
+	y		= 0;
+	width		= 8;
+	height		= 318;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 490;
+	uv_top		= 141;
+	uv_right	= 498;
+	uv_bottom	= 459;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackgroundCenter"
+{
+	resource_file	= "DojoAccount.rsr";
+	resource_name	= "rsrDojoAccount";
+
+	x		= 0;
+	y		= 0;
+	width		= 2;
+	height		= 318;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 500;
+	uv_top		= 141;
+	uv_right	= 502;
+	uv_bottom	= 459;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackgroundRight"
+{
+	resource_file	= "DojoAccount.rsr";
+	resource_name	= "rsrDojoAccount";
+
+	x		= 0;
+	y		= 0;
+	width		= 8;
+	height		= 318;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 504;
+	uv_top		= 141;
+	uv_right	= 512;
+	uv_bottom	= 459;
+
+	handle		= 0;
+	blend		= 0;
+}

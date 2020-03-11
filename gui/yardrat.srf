@@ -1,0 +1,167 @@
+surface "srfDialogTop"
+{
+	resource_file	= "wnd_HLS3.rsr";
+	resource_name	= "wnd_HLS3";
+
+	x		= 0;
+	y		= 0;
+	width		= 202;
+	height		= 50;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 333;
+	uv_right	= 202;
+	uv_bottom	= 383;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDialogBoddy"
+{
+	resource_file	= "wnd_HLS3.rsr";
+	resource_name	= "wnd_HLS3";
+
+	x		= 0;
+	y		= 51;
+	width		= 202;
+	height		= 570;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 385;
+	uv_right	= 202;
+	uv_bottom	= 388;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDialogBottom"
+{
+	resource_file	= "wnd_HLS3.rsr";
+	resource_name	= "wnd_HLS3";
+
+	x		= 0;
+	y		= 621;
+	width		= 202;
+	height		= 16;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 390;
+	uv_right	= 202;
+	uv_bottom	= 406;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPannel"
+{
+	resource_file	= "wnd_HLS3.rsr";
+	resource_name	= "wnd_HLS3";
+
+	x		= 0;
+	y		= 0;
+	width		= 166;
+	height		= 90;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 328;
+	uv_top		= 190;
+	uv_right	= 494;
+	uv_bottom	= 281;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfButtonSmallNormal"
+{
+	resource_file	= "wnd_HLS3.rsr";
+	resource_name	= "wnd_HLS3";
+
+	x		= 0;
+	y		= 0;
+	width		= 67;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 430;
+	uv_top		= 282;
+	uv_right	= 497;
+	uv_bottom	= 304;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfButtonSmallOver"
+{
+	resource_file	= "wnd_HLS3.rsr";
+	resource_name	= "wnd_HLS3";
+
+	x		= 0;
+	y		= 0;
+	width		= 67;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 430;
+	uv_top		= 305;
+	uv_right	= 497;
+	uv_bottom	= 327;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfButtonSmallDown"
+{
+	resource_file	= "wnd_HLS3.rsr";
+	resource_name	= "wnd_HLS3";
+
+	x		= 0;
+	y		= 0;
+	width		= 67;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 430;
+	uv_top		= 328;
+	uv_right	= 497;
+	uv_bottom	= 350;
+
+	handle		= 0;
+	blend		= 0;
+}

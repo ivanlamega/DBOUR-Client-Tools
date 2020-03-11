@@ -1,0 +1,17 @@
+resource "rsrContract"
+{
+	handle	= 0;
+	file	= "gamestart.png";
+}
+
+resource "rsrCommon_1"
+{
+	handle	= 0;
+	file	= "human\\common_1.png";
+}
+
+resource "rsrPC_Create3"
+{
+	handle	= 0;
+	file	= "pc_create3.png";
+}

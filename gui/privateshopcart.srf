@@ -1,0 +1,47 @@
+surface "srfDlgMain"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrPrivateShop";
+
+	x			= 0;
+	y			= 0;
+	width		= 109;
+	height		= 479;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 109;
+	uv_bottom	= 479;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfShopItemSold"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x			= 0;
+	y			= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 436;
+	uv_top		= 132;
+	uv_right	= 468;
+	uv_bottom	= 164;
+
+	handle		= 0;
+	blend		= 0;
+}

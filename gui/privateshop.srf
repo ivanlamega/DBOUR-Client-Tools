@@ -1,0 +1,987 @@
+surface "srfBackGroundLineShopTop"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 9;
+	y		= 30;
+	width		= 303;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 481;
+	uv_right	= 303;
+	uv_bottom	= 490;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackGroundLineShopMiddle"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 9;
+	y		= 39;
+	width		= 303;
+	height		= 329;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 492;
+	uv_right	= 303;
+	uv_bottom	= 499;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackGroundLineShopBottom"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 9;
+	y		= 367;
+	width		= 303;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 501;
+	uv_right	= 303;
+	uv_bottom	= 510;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackGroundLineNoteTop"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 9;
+	y		= 30;
+	width		= 303;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 481;
+	uv_right	= 303;
+	uv_bottom	= 490;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackGroundLineNoteMiddle"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 9;
+	y		= 39;
+	width		= 303;
+	height		= 357;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 492;
+	uv_right	= 303;
+	uv_bottom	= 499;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackGroundLineNoteBottom"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 9;
+	y		= 396;
+	width		= 303;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 501;
+	uv_right	= 303;
+	uv_bottom	= 510;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackGroundShopItem"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrShop";
+
+	x		= 0;
+	y		= 0;
+	width		= 283;
+	height		= 48;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 208;
+	uv_top		= 0;
+	uv_right	= 491;
+	uv_bottom	= 48;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPrePageButton"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 321;
+	uv_top		= 23;
+	uv_right	= 354;
+	uv_bottom	= 44;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPrePageButtonFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 355;
+	uv_top		= 23;
+	uv_right	= 388;
+	uv_bottom	= 44;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPrePageButtonDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 389;
+	uv_top		= 23;
+	uv_right	= 422;
+	uv_bottom	= 44;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNextPageButton"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 321;
+	uv_top		= 45;
+	uv_right	= 354;
+	uv_bottom	= 66;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNextPageButtonFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 355;
+	uv_top		= 45;
+	uv_right	= 388;
+	uv_bottom	= 66;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNextPageButtonDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 389;
+	uv_top		= 45;
+	uv_right	= 422;
+	uv_bottom	= 66;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDoingBtnUp"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x		= 0;
+	y		= 0;
+	width		= 78;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 403;
+	uv_top		= 0;
+	uv_right	= 481;
+	uv_bottom	= 43;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDoingBtnFocus"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x		= 0;
+	y		= 0;
+	width		= 78;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 403;
+	uv_top		= 44;
+	uv_right	= 481;
+	uv_bottom	= 87;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDoingBtnDown"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x		= 0;
+	y		= 0;
+	width		= 78;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 403;
+	uv_top		= 88;
+	uv_right	= 481;
+	uv_bottom	= 131;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackGroundNoticeTitle"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrOption";
+
+	x		= -13;
+	y		= 3;
+	width		= 147;
+	height		= 11;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 266;
+	uv_top		= 117;
+	uv_right	= 453;
+	uv_bottom	= 128;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackGroundShopName"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x		= -10;
+	y		= -4;
+	width		= 194;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 110;
+	uv_top		= 407;
+	uv_right	= 364;
+	uv_bottom	= 428;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackGroundNoticeTop"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x		= 0;
+	y		= 0;
+	width		= 278;
+	height		= 10;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 110;
+	uv_top		= 429;
+	uv_right	= 388;
+	uv_bottom	= 439;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackGroundNoticeMiddle"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x		= 0;
+	y		= 10;
+	width		= 278;
+	height		= 254;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 110;
+	uv_top		= 441;
+	uv_right	= 388;
+	uv_bottom	= 444;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackGroundNoticeBottom"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x		= 0;
+	y		= 264;
+	width		= 278;
+	height		= 10;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 110;
+	uv_top		= 446;
+	uv_right	= 388;
+	uv_bottom	= 456;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackGroundNotice"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x		= -31;
+	y		= -5;
+	width		= 254;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 110;
+	uv_top		= 407;
+	uv_right	= 364;
+	uv_bottom	= 428;
+
+	handle		= 0;
+	blend		= 0;
+}
+surface "srfTextClearBtnUp"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x			= 0;
+	y			= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 482;
+	uv_top		= 63;
+	uv_right	= 502;
+	uv_bottom	= 83;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTextClearBtnFocus"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x			= 0;
+	y			= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 482;
+	uv_top		= 84;
+	uv_right	= 502;
+	uv_bottom	= 104;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTextClearBtnDown"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x			= 0;
+	y			= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 482;
+	uv_top		= 105;
+	uv_right	= 502;
+	uv_bottom	= 125;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackGroundMoney"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrShop";
+
+	x		= 0;
+	y		= 0;
+	width		= 103;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 339;
+	uv_top		= 87;
+	uv_right	= 442;
+	uv_bottom	= 107;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMoneyHighlight"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrShop";
+
+	x			= 0;
+	y			= 0;
+	width		= 103;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 385;
+	uv_top		= 129;
+	uv_right	= 488;
+	uv_bottom	= 149;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMoneyDisable"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrShop";
+
+	x			= 0;
+	y			= 0;
+	width		= 103;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 298;
+	uv_top		= 177;
+	uv_right	= 401;
+	uv_bottom	= 197;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfShopItemPick"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x			= 0;
+	y			= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 403;
+	uv_top		= 132;
+	uv_right	= 435;
+	uv_bottom	= 164;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfShopItemBusiness"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x			= 0;
+	y			= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 469;
+	uv_top		= 132;
+	uv_right	= 501;
+	uv_bottom	= 164;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAwayCheck"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMain";
+
+	x			= 0;
+	y			= 0;
+	width		= 16;
+	height		= 16;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 488;
+	uv_top		= 89;
+	uv_right	= 504;
+	uv_bottom	= 105;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAwayUnCheck"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrMain";
+
+	x			= 0;
+	y			= 0;
+	width		= 16;
+	height		= 16;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 454;
+	uv_top		= 89;
+	uv_right	= 470;
+	uv_bottom	= 105;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMailBtnUp"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x			= 0;
+	y			= 0;
+	width		= 53;
+	height		= 41;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 403;
+	uv_top		= 165;
+	uv_right	= 456;
+	uv_bottom	= 206;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMailBtnFocus"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x			= 0;
+	y			= 0;
+	width		= 53;
+	height		= 41;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 403;
+	uv_top		= 207;
+	uv_right	= 456;
+	uv_bottom	= 248;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMailBtnDown"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrPrivateShop";
+
+	x			= 0;
+	y			= 0;
+	width		= 53;
+	height		= 41;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 403;
+	uv_top		= 249;
+	uv_right	= 456;
+	uv_bottom	= 290;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSoldOut"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrQuestList";
+
+	x			= 0;
+	y			= 0;
+	width		= 148;
+	height		= 79;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 260;
+	uv_top		= 144;
+	uv_right	= 408;
+	uv_bottom	= 223;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+// 개인상점 흥정버튼 Up
+surface "srfTradeUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 306;
+	uv_top		= 251;
+	uv_right	= 329;
+	uv_bottom	= 271;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+// 개인상점 흥정버튼 Focus
+surface "srfTradeFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 330;
+	uv_top		= 251;
+	uv_right	= 353;
+	uv_bottom	= 271;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+// 개인상점 흥정버튼 Down
+surface "srfTradeDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 354;
+	uv_top		= 251;
+	uv_right	= 377;
+	uv_bottom	= 271;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+// 개인상점 흥정버튼 Disable
+surface "srfTradeDisable"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 469;
+	uv_top		= 255;
+	uv_right	= 492;
+	uv_bottom	= 275;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+// 개인상점에서 흥정중인 아이템의 효과
+surface "srfTradingEffect"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrPrivateShop";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 469;
+	uv_top		= 132;
+	uv_right	= 501;
+	uv_bottom	= 164;
+
+	handle		= 0;
+	blend		= 0;
+}

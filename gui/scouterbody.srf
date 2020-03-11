@@ -1,0 +1,289 @@
+
+
+surface "srfScouterUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 224;
+	height		= 112;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 72;
+	uv_right	= 224;
+	uv_bottom	= 184;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfScouterCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 112;
+	width		= 224;
+	height		= 7;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 188;
+	uv_right	= 224;
+	uv_bottom	= 192;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfScouterDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 119;
+	width		= 224;
+	height		= 70;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 195;
+	uv_right	= 224;
+	uv_bottom	= 265;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfOnMenuBtnUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 266;
+	uv_top		= 481;
+	uv_right	= 286;
+	uv_bottom	= 501;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfOnMenuBtnFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 287;
+	uv_top		= 481;
+	uv_right	= 307;
+	uv_bottom	= 501;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfOnMenuBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 308;
+	uv_top		= 481;
+	uv_right	= 328;
+	uv_bottom	= 501;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfOffMenuBtnUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 329;
+	uv_top		= 481;
+	uv_right	= 349;
+	uv_bottom	= 501;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfOffMenuBtnFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 350;
+	uv_top		= 481;
+	uv_right	= 370;
+	uv_bottom	= 501;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfOffMenuBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 371;
+	uv_top		= 481;
+	uv_right	= 391;
+	uv_bottom	= 501;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPartsRemoveAllBtnUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 17;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 392;
+	uv_top		= 481;
+	uv_right	= 409;
+	uv_bottom	= 498;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPartsRemoveAllBtnFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 17;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 410;
+	uv_top		= 481;
+	uv_right	= 427;
+	uv_bottom	= 498;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPartsRemoveAllBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 17;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 428;
+	uv_top		= 481;
+	uv_right	= 445;
+	uv_bottom	= 498;
+
+	handle		= 0;
+	blend		= 0;
+}

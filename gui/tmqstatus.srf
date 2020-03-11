@@ -1,0 +1,287 @@
+surface "srfSenairoBtnUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 28;
+	height		= 28;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 359;
+	uv_top		= 123;
+	uv_right	= 387;
+	uv_bottom	= 151;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSenairoBtnFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 28;
+	height		= 28;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 359;
+	uv_top		= 152;
+	uv_right	= 387;
+	uv_bottom	= 180;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSenairoBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 28;
+	height		= 28;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 359;
+	uv_top		= 181;
+	uv_right	= 387;
+	uv_bottom	= 209;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfStageInfoBtnUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 28;
+	height		= 28;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 341;
+	uv_top		= 94;
+	uv_right	= 369;
+	uv_bottom	= 122;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfStageInfoBtnFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 28;
+	height		= 28;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 370;
+	uv_top		= 94;
+	uv_right	= 398;
+	uv_bottom	= 122;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfStageInfoBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 28;
+	height		= 28;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 399;
+	uv_top		= 94;
+	uv_right	= 427;
+	uv_bottom	= 122;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCouponSlot"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 36;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 476;
+	uv_top		= 95;
+	uv_right	= 512;
+	uv_bottom	= 131;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfGauge"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 109;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 387;
+	uv_top		= 53;
+	uv_right	= 496;
+	uv_bottom	= 65;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfGaugeBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 109;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 387;
+	uv_top		= 66;
+	uv_right	= 496;
+	uv_bottom	= 78;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfnextQuestBtnUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 443;
+	uv_top		= 107;
+	uv_right	= 453;
+	uv_bottom	= 119;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfnextQuestBtnFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 454;
+	uv_top		= 107;
+	uv_right	= 464;
+	uv_bottom	= 119;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfnextQuestBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 465;
+	uv_top		= 107;
+	uv_right	= 475;
+	uv_bottom	= 119;
+
+	handle		= 0;
+	blend		= 0;
+}

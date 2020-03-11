@@ -1,0 +1,143 @@
+surface "srfDialogBackUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 281;
+	height		= 24;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 231;
+	uv_top		= 0;
+	uv_right	= 512;
+	uv_bottom	= 24;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDialogBackCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 281;
+	height		= 4;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 231;
+	uv_top		= 28;
+	uv_right	= 512;
+	uv_bottom	= 31;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDialogBackDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 281;
+	height		= 34;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 231;
+	uv_top		= 35;
+	uv_right	= 512;
+	uv_bottom	= 69;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCloseUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 13;
+	height		= 13;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 493;
+	uv_top		= 54;
+	uv_right	= 506;
+	uv_bottom	= 67;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCloseDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 13;
+	height		= 13;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 493;
+	uv_top		= 82;
+	uv_right	= 506;
+	uv_bottom	= 95;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCloseFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 9;
+	height		= 8;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 493;
+	uv_top		= 68;
+	uv_right	= 506;
+	uv_bottom	= 81;
+
+	handle		= 0;
+	blend		= 0;
+}

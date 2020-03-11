@@ -1,0 +1,695 @@
+surface "srfPgbBack"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 253;
+	height		= 44;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 253;
+	uv_bottom	= 44;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPgbFront"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 253;
+	height		= 44;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 0;
+	uv_top		= 45;
+	uv_right	= 253;
+	uv_bottom	= 89;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCreateBack"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 286;
+	height		= 148;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 0;
+	uv_top		= 91;
+	uv_right	= 286;
+	uv_bottom	= 239;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCalcUp"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 31;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 279;
+	uv_top		= 0;
+	uv_right	= 310;
+	uv_bottom	= 18;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCalcFocus"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 31;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 311;
+	uv_top		= 0;
+	uv_right	= 342;
+	uv_bottom	= 18;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCalcDown"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 31;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 343;
+	uv_top		= 0;
+	uv_right	= 374;
+	uv_bottom	= 18;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMaxUp"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 31;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 375;
+	uv_top		= 0;
+	uv_right	= 406;
+	uv_bottom	= 18;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMaxFocus"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 31;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 407;
+	uv_top		= 0;
+	uv_right	= 438;
+	uv_bottom	= 18;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMaxDown"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 31;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 439;
+	uv_top		= 0;
+	uv_right	= 470;
+	uv_bottom	= 18;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfEpArrow"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= -8;
+	y		= -14;
+	width		= 17;
+	height		= 52;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 490;
+	uv_top		= 23;
+	uv_right	= 507;
+	uv_bottom	= 75;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPlus"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 489;
+	uv_top		= 0;
+	uv_right	= 511;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCreateUp"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 86;
+	height		= 35;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 279;
+	uv_top		= 19;
+	uv_right	= 365;
+	uv_bottom	= 54;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCreateFocus"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 86;
+	height		= 35;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 366;
+	uv_top		= 19;
+	uv_right	= 452;
+	uv_bottom	= 54;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCreateDown"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 86;
+	height		= 35;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 279;
+	uv_top		= 55;
+	uv_right	= 365;
+	uv_bottom	= 90;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCreateDisable"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 86;
+	height		= 35;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 287;
+	uv_top		= 93;
+	uv_right	= 373;
+	uv_bottom	= 128;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfStopUp"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 86;
+	height		= 35;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 287;
+	uv_top		= 129;
+	uv_right	= 373;
+	uv_bottom	= 164;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfStopFocus"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 86;
+	height		= 35;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 374;
+	uv_top		= 129;
+	uv_right	= 460;
+	uv_bottom	= 164;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfStopDown"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 86;
+	height		= 35;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 287;
+	uv_top		= 165;
+	uv_right	= 373;
+	uv_bottom	= 200;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfStopDisable"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 86;
+	height		= 35;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 374;
+	uv_top		= 165;
+	uv_right	= 460;
+	uv_bottom	= 200;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNumBack"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 63;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 383;
+	uv_top		= 55;
+	uv_right	= 446;
+	uv_bottom	= 75;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCategoryBack"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 184;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 321;
+	uv_top		= 212;
+	uv_right	= 505;
+	uv_bottom	= 230;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSlot"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 36;
+	height		= 36;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 476;
+	uv_top		= 95;
+	uv_right	= 512;
+	uv_bottom	= 131;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSlotRedMask"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 34;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 358;
+	uv_top		= 67;
+	uv_right	= 390;
+	uv_bottom	= 99;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRecipeSlot"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 278;
+	height		= 67;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 0;
+	uv_top		= 242;
+	uv_right	= 278;
+	uv_bottom	= 309;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRecipeSlotFocus"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 278;
+	height		= 67;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 0;
+	uv_top		= 310;
+	uv_right	= 278;
+	uv_bottom	= 377;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRecipeZennyMark"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 12;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 456;
+	uv_top		= 268;
+	uv_right	= 468;
+	uv_bottom	= 280;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFailed"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 44;
+	height		= 34;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 391;
+	uv_top		= 93;
+	uv_right	= 435;
+	uv_bottom	= 127;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSuccess"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 44;
+	height		= 34;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 436;
+	uv_top		= 93;
+	uv_right	= 480;
+	uv_bottom	= 127;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfHitIt"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrHoipoiMix";
+
+	x		= 0;
+	y		= 0;
+	width		= 1;
+	height		= 44;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 254;
+	uv_top		= 45;
+	uv_right	= 255;
+	uv_bottom	= 89;
+
+	handle		= 0;
+	blend		= 0;
+}

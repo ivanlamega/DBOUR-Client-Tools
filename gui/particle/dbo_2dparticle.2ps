@@ -1,0 +1,137 @@
+// Z:\DBO_Resource\gui\particle\DBO_2DParticle.2ps
+// Particle Group Count : 5
+
+// Group 1 : particle count : 1
+[group CreateItemEffect]
+[particle Particle1]
+particle_life = 0.100000
+particle_limit = 1
+[emitter point]
+emissivity = 1100
+emit_angle = 360.000000
+emit_dir = (1.000000,0.000000)
+life = (0.100000,0.500000)
+rgba_min = (102,255,51,255)
+rot_rate = (1.000000,2.000000)
+scale_rate = (0.000000,1.000000)
+surface_file = DBO_2DParticle.srf
+surface_name = srfStar
+velocity = (20.000000,100.000000)
+
+// Group 2 : particle count : 1
+[group ExpAddEffect]
+[particle Particle1]
+particle_life = 0.100000
+particle_limit = 180
+[emitter point]
+emissivity = 500
+emit_angle = 1.000000
+emit_dir = (2.000000,0.000000)
+life = (1.000000,1.000000)
+position = (0,0)
+rgba_max = (255,255,255,200)
+rgba_min = (255,255,0,200)
+rot_rate = (1.000000,0.000000)
+scale_rate = (0.100000,0.600000)
+surface_file = DBO_2DParticle.srf
+surface_name = srfStar1
+velocity = (5.000000,100.000000)
+[path name]
+path_ctrlnum = 5
+path_ctrlpoint = (-22,0,0.000),(139,0,0.025),(302,-1,0.050),(465,-1,0.075),(623,1,0.100)
+path_curvesubnum = 5
+path_time = 0.100000
+path_type = 0
+
+// Group 3 : particle count : 2
+[group ItemEffect]
+[particle Particle1]
+particle_life = 0.500000
+particle_limit = 50
+[emitter point]
+emissivity = 1000
+emit_angle = 360.000000
+emit_dir = (1.000000,0.000000)
+life = (0.500000,0.600000)
+rgba_max = (255,255,255,255)
+rgba_min = (102,204,255,255)
+rot_rate = (1.000000,0.000000)
+scale_rate = (0.000000,0.800000)
+surface_file = DBO_2DParticle.srf
+surface_name = srfStar1
+velocity = (20.000000,50.000000)
+[affector color]
+alpha = 0
+[particle Particle2]
+particle_life = 0.200000
+particle_limit = 10
+[emitter point]
+emissivity = 300
+life = (0.100000,0.500000)
+rgba_min = (255,255,255,255)
+rot_rate = (1.000000,2.000000)
+scale_rate = (0.000000,1.200000)
+surface_file = DBO_2DParticle.srf
+surface_name = srfStar1
+
+// Group 4 : particle count : 2
+[group LevelUpEffect]
+[particle Particle1]
+particle_life = 0.500000
+particle_limit = 50
+[emitter point]
+emissivity = 800
+emit_angle = 360.000000
+emit_dir = (1.000000,0.000000)
+life = (0.500000,1.000000)
+rot_rate = (1.000000,2.000000)
+scale_rate = (0.000000,0.800000)
+surface_file = DBO_2DParticle.srf
+surface_name = srfStar
+velocity = (20.000000,50.000000)
+[particle Particle2]
+particle_life = 0.300000
+particle_limit = 10
+[emitter point]
+emissivity = 100
+life = (0.900000,1.000000)
+rgba_min = (255,255,0,100)
+rot_rate = (1.000000,1.000000)
+scale_rate = (0.000000,1.700000)
+surface_file = DBO_2DParticle.srf
+surface_name = srfStar4
+
+// Group 5 : particle count : 2
+[group SkillCooltimeEffect]
+[particle Particle1]
+particle_life = 0.200000
+particle_limit = 10
+[emitter point]
+emissivity = 100
+life = (0.100000,0.800000)
+position = (18,18)
+rgba_min = (255,255,255,100)
+rot_rate = (1.000000,2.000000)
+scale_rate = (0.000000,1.300000)
+surface_file = DBO_2DParticle.srf
+surface_name = srfStar2
+[particle Particle2]
+particle_life = 1.000000
+particle_limit = 1000
+[emitter point]
+emissivity = 70
+emit_angle = 0.000000
+emit_dir = (1.000000,0.000000)
+life = (0.100000,0.700000)
+rgba_min = (255,255,0,255)
+rot_rate = (0.000000,1.000000)
+scale_rate = (0.000000,0.400000)
+surface_file = DBO_2DParticle.srf
+surface_name = srfStar1
+velocity = (0.000000,0.000000)
+[path name]
+path_ctrlnum = 6
+path_ctrlpoint = (3,3,0.000),(3,35,0.200),(30,36,0.400),(37,25,0.600),(37,2,0.800),(3,2,1.000)
+path_curvesubnum = 5
+path_time = 1.000000
+path_type = 0

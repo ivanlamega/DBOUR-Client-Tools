@@ -1,0 +1,167 @@
+surface "srfSummonPetSlotBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrStatus1";
+
+	x		= 0;
+	y		= 0;
+	width		= 141;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 183;
+	uv_right	= 141;
+	uv_bottom	= 219;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfItemPetSlotBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrStatus1";
+
+	x		= 0;
+	y		= 0;
+	width		= 36;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 150;
+	uv_top		= 183;
+	uv_right	= 186;
+	uv_bottom	= 219;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPetSlotExitBtn"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrStatus1";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 387;
+	uv_top		= 0;
+	uv_right	= 419;
+	uv_bottom	= 32;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSummonPetAttackBtn"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrStatus1";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 414;
+	uv_top		= 36;
+	uv_right	= 446;
+	uv_bottom	= 68;
+
+	handle		= 0;
+	blend		= 0;
+} 
+
+surface "srfTransformCancelNamek"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrStatus1";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 321;
+	uv_top		= 0;
+	uv_right	= 353;
+	uv_bottom	= 32;
+
+	handle		= 0;
+	blend		= 0;
+} 
+
+surface "srfTransformCancelSaiya"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrStatus1";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 354;
+	uv_top		= 0;
+	uv_right	= 386;
+	uv_bottom	= 32;
+
+	handle		= 0;
+	blend		= 0;
+} 
+
+surface "srfSummonPetAttackBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrStatus1";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 412;
+	uv_top		= 34;
+	uv_right	= 448;
+	uv_bottom	= 70;
+
+	handle		= 0;
+	blend		= 0;
+}

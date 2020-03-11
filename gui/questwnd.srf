@@ -1,0 +1,648 @@
+surface "srfQuestDlgBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 259;
+	height		= 480;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 259;
+	uv_bottom	= 480;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfProgConvBackLeft"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 239;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 290;
+	uv_top		= 165;
+	uv_right	= 300;
+	uv_bottom	= 404;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfProgConvBackCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 10;
+	y		= 0;
+	width		= 221;
+	height		= 239;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 302;
+	uv_top		= 165;
+	uv_right	= 307;
+	uv_bottom	= 404;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfProgConvBackRight"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 231;
+	y		= 0;
+	width		= 10;
+	height		= 239;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 309;
+	uv_top		= 165;
+	uv_right	= 319;
+	uv_bottom	= 404;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfProgAimBackLeft"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 164;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 290;
+	uv_top		= 0;
+	uv_right	= 300;
+	uv_bottom	= 164;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfProgAimBackCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 10;
+	y		= 0;
+	width		= 221;
+	height		= 164;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 302;
+	uv_top		= 0;
+	uv_right	= 307;
+	uv_bottom	= 164;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfProgAimBackRight"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 231;
+	y		= 0;
+	width		= 10;
+	height		= 164;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 309;
+	uv_top		= 0;
+	uv_right	= 319;
+	uv_bottom	= 164;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfProgInfoBackLeft"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 11;
+	height		= 59;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 260;
+	uv_top		= 165;
+	uv_right	= 271;
+	uv_bottom	= 224;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfProgInfoBackCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 11;
+	y		= 0;
+	width		= 219;
+	height		= 59;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 273;
+	uv_top		= 165;
+	uv_right	= 276;
+	uv_bottom	= 224;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfProgInfoBackRight"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 230;
+	y		= 0;
+	width		= 11;
+	height		= 59;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 278;
+	uv_top		= 165;
+	uv_right	= 289;
+	uv_bottom	= 224;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPropConvBackLeft"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 164;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 260;
+	uv_top		= 0;
+	uv_right	= 270;
+	uv_bottom	= 164;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPropConvBackCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 10;
+	y		= 0;
+	width		= 221;
+	height		= 164;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 272;
+	uv_top		= 0;
+	uv_right	= 277;
+	uv_bottom	= 164;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPropConvBackRight"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 231;
+	y		= 0;
+	width		= 10;
+	height		= 164;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 279;
+	uv_top		= 0;
+	uv_right	= 289;
+	uv_bottom	= 164;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRewdConvBackLeft"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 239;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 260;
+	uv_top		= 225;
+	uv_right	= 270;
+	uv_bottom	= 464;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRewdConvBackCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 10;
+	y		= 0;
+	width		= 221;
+	height		= 239;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 272;
+	uv_top		= 225;
+	uv_right	= 277;
+	uv_bottom	= 464;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRewdConvBackRight"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 231;
+	y		= 0;
+	width		= 10;
+	height		= 239;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 279;
+	uv_top		= 225;
+	uv_right	= 289;
+	uv_bottom	= 464;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfLimitTimeBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 75;
+	height		= 51;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 320;
+	uv_top		= 0;
+	uv_right	= 395;
+	uv_bottom	= 51;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabQuestLeft"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 403;
+	uv_top		= 0;
+	uv_right	= 413;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabQuestCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 8;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 415;
+	uv_top		= 0;
+	uv_right	= 423;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabQuestRight"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 425;
+	uv_top		= 0;
+	uv_right	= 435;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabQuestFocusLeft"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 436;
+	uv_top		= 0;
+	uv_right	= 446;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabQuestFocusCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 8;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 448;
+	uv_top		= 0;
+	uv_right	= 456;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabQuestFocusRight"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 458;
+	uv_top		= 0;
+	uv_right	= 468;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabQuestSelLeft"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 469;
+	uv_top		= 0;
+	uv_right	= 479;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabQuestSelCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 9;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 481;
+	uv_top		= 0;
+	uv_right	= 490;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabQuestSelRight"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 492;
+	uv_top		= 0;
+	uv_right	= 502;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabQuestLine"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 2;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 504;
+	uv_top		= 0;
+	uv_right	= 506;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+

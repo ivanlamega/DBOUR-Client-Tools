@@ -1,0 +1,263 @@
+surface "srfGMTResetBackDlg"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption2";
+
+	x		= 0;
+	y		= 0;
+	width		= 323;
+	height		= 388;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 323;
+	uv_bottom	= 388;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfGMTListCbbStatic"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrOption";
+
+	x			= 0;
+	y			= 0;
+	width		= 244;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 151;
+	uv_top		= 95;
+	uv_right	= 395;
+	uv_bottom	= 116;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfGMTListCbbList"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrOption2";
+
+	x			= 0;
+	y			= 0;
+	width		= 244;
+	height		= 63;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 389;
+	uv_right	= 244;
+	uv_bottom	= 452;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfGMTListCbbButtonUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 483;
+	uv_top		= 67;
+	uv_right	= 501;
+	uv_bottom	= 85;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfGMTListCbbButtonFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 483;
+	uv_top		= 86;
+	uv_right	= 501;
+	uv_bottom	= 104;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfGMTListCbbButtonDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 483;
+	uv_top		= 105;
+	uv_right	= 501;
+	uv_bottom	= 123;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfcbbScrollSlider3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 13;
+	height		= 26;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 470;
+	uv_top		= 40;
+	uv_right	= 483;
+	uv_bottom	= 66;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfScrollLayout"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 13;
+	height		= 106;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 304;
+	uv_top		= 175;
+	uv_right	= 317;
+	uv_bottom	= 281;
+
+	handle		= 12;
+	blend		= 34;
+}
+
+surface "srfCheckBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 14;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 136;
+	uv_top		= 95;
+	uv_right	= 150;
+	uv_bottom	= 109;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCheckBtnUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 14;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 136;
+	uv_top		= 110;
+	uv_right	= 150;
+	uv_bottom	= 124;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfcbbListboxMask"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 240;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 482;
+	uv_right	= 240;
+	uv_bottom	= 501;
+
+	handle		= 0;
+	blend		= 0;
+}

@@ -1,0 +1,72 @@
+surface "srfbtnTitleUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuestList";
+
+	x		= -2;
+	y		= 2;
+	width		= 165;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 260;
+	uv_top		= 224;
+	uv_right	= 425;
+	uv_bottom	= 243;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfbtnTitleFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuestList";
+
+	x		= -2;
+	y		= 2;
+	width		= 165;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 260;
+	uv_top		= 244;
+	uv_right	= 425;
+	uv_bottom	= 263;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfbtnTitleDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuestList";
+
+	x		= -2;
+	y		= 2;
+	width		= 165;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 260;
+	uv_top		= 264;
+	uv_right	= 425;
+	uv_bottom	= 283;
+
+	handle		= 0;
+	blend		= 0;
+}
+

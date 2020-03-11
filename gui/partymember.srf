@@ -1,0 +1,215 @@
+surface "dlgMain"
+{
+	resource_file   = "PartyInven.rsr";
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 127;
+	height		= 45;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 127;
+	uv_bottom	= 45;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfLPGauge"
+{
+	resource_file   = "PartyInven.rsr";
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 88;
+	height		= 8;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 117;
+	uv_right	= 88;
+	uv_bottom	= 125;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfEPGauge"
+{
+	resource_file   = "PartyInven.rsr";
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 88;
+	height		= 8;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 126;
+	uv_right	= 88;
+	uv_bottom	= 134;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAbsentee"
+{
+	resource_file   = "PartyInven.rsr";
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 127;
+	height		= 45;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 46;
+	uv_right	= 127;
+	uv_bottom	= 91;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfWarning"
+{
+	resource_file   = "PartyInven.rsr";
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 127;
+	height		= 24;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 92;
+	uv_right	= 127;
+	uv_bottom	= 116;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDeathPanel"
+{
+	resource_file   = "PartyInven.rsr";
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 127;
+	height		= 45;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 385;
+	uv_top		= 377;
+	uv_right	= 512;
+	uv_bottom	= 422;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPartyLeaderMark_for_MemberGui"
+{
+	resource_file   = "PartyInven.rsr";
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 89;
+	uv_top		= 117;
+	uv_right	= 104;
+	uv_bottom	= 132;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDeathMark_for_MemberGui"
+{
+	resource_file   = "PartyInven.rsr";
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 105;
+	uv_top		= 117;
+	uv_right	= 120;
+	uv_bottom	= 132;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTooFarMark_for_MemberGui"
+{
+	resource_file   = "PartyInven.rsr";
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 111;
+	uv_top		= 133;
+	uv_right	= 126;
+	uv_bottom	= 148;
+
+	handle		= 0;
+	blend		= 0;
+}

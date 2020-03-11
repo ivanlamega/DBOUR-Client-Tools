@@ -1,0 +1,432 @@
+surface "backLTC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 9;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 378;
+	uv_top		= 0;
+	uv_right	= 387;
+	uv_bottom	= 9;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "backRTC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 9;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 401;
+	uv_top		= 0;
+	uv_right	= 410;
+	uv_bottom	= 9;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "backLBC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 9;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 378;
+	uv_top		= 17;
+	uv_right	= 387;
+	uv_bottom	= 26;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "backRBC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 9;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 401;
+	uv_top		= 17;
+	uv_right	= 410;
+	uv_bottom	= 26;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "backTL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 8;
+	height		= 4;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 390;
+	uv_top		= 0;
+	uv_right	= 398;
+	uv_bottom	= 4;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "backBL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 8;
+	height		= 4;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 390;
+	uv_top		= 10;
+	uv_right	= 398;
+	uv_bottom	= 14;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "backLL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 9;
+	height		= 2;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 378;
+	uv_top		= 12;
+	uv_right	= 387;
+	uv_bottom	= 14;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "backRL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 9;
+	height		= 2;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 401;
+	uv_top		= 12;
+	uv_right	= 410;
+	uv_bottom	= 14;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "backCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 8;
+	height		= 2;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 390;
+	uv_top		= 6;
+	uv_right	= 398;
+	uv_bottom	= 8;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "EquipbackLTC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 9;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 480;
+	uv_top		= 69;
+	uv_right	= 489;
+	uv_bottom	= 78;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "EquipbackRTC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 9;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 503;
+	uv_top		= 69;
+	uv_right	= 512;
+	uv_bottom	= 78;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "EquipbackLBC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 9;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 480;
+	uv_top		= 86;
+	uv_right	= 489;
+	uv_bottom	= 95;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "EquipbackRBC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 9;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 503;
+	uv_top		= 86;
+	uv_right	= 512;
+	uv_bottom	= 95;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "EquipbackTL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 8;
+	height		= 4;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 492;
+	uv_top		= 69;
+	uv_right	= 500;
+	uv_bottom	= 73;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "EquipbackBL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 8;
+	height		= 4;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 492;
+	uv_top		= 79;
+	uv_right	= 500;
+	uv_bottom	= 83;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "EquipbackLL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 9;
+	height		= 2;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 480;
+	uv_top		= 81;
+	uv_right	= 489;
+	uv_bottom	= 83;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "EquipbackRL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 9;
+	height		= 2;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 503;
+	uv_top		= 81;
+	uv_right	= 512;
+	uv_bottom	= 83;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "EquipbackCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 8;
+	height		= 2;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 492;
+	uv_top		= 75;
+	uv_right	= 500;
+	uv_bottom	= 77;
+
+	handle		= 0;
+	blend		= 0;
+}
+

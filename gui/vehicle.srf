@@ -1,0 +1,287 @@
+surface "srfDlgMain"
+{
+	resource_file   = "Vehicle.rsr";	
+	resource_name	= "rsrVehicle";
+
+	x		= 0;
+	y		= 0;
+	width		= 119;
+	height		= 62;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 432;
+	uv_right	= 119;
+	uv_bottom	= 494;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfStartBtnUp"
+{
+	resource_file   = "Vehicle.rsr";	
+	resource_name	= "rsrVehicle";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 120;
+	uv_top		= 432;
+	uv_right	= 147;
+	uv_bottom	= 459;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfStartBtnFoc"
+{
+	resource_file   = "Vehicle.rsr";	
+	resource_name	= "rsrVehicle";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 148;
+	uv_top		= 432;
+	uv_right	= 175;
+	uv_bottom	= 459;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfStartBtnDown"
+{
+	resource_file   = "Vehicle.rsr";	
+	resource_name	= "rsrVehicle";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 176;
+	uv_top		= 432;
+	uv_right	= 203;
+	uv_bottom	= 459;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfStopBtnUp"
+{
+	resource_file   = "Vehicle.rsr";	
+	resource_name	= "rsrVehicle";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 204;
+	uv_top		= 432;
+	uv_right	= 231;
+	uv_bottom	= 459;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfStopBtnFoc"
+{
+	resource_file   = "Vehicle.rsr";	
+	resource_name	= "rsrVehicle";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 232;
+	uv_top		= 432;
+	uv_right	= 259;
+	uv_bottom	= 459;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfStopBtnDown"
+{
+	resource_file   = "Vehicle.rsr";	
+	resource_name	= "rsrVehicle";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 260;
+	uv_top		= 432;
+	uv_right	= 287;
+	uv_bottom	= 459;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPowerBtnUp"
+{
+	resource_file   = "Vehicle.rsr";	
+	resource_name	= "rsrVehicle";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 120;
+	uv_top		= 460;
+	uv_right	= 147;
+	uv_bottom	= 487;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPowerBtnFoc"
+{
+	resource_file   = "Vehicle.rsr";	
+	resource_name	= "rsrVehicle";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 148;
+	uv_top		= 460;
+	uv_right	= 175;
+	uv_bottom	= 487;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPowerBtnDown"
+{
+	resource_file   = "Vehicle.rsr";
+	resource_name	= "rsrVehicle";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 176;
+	uv_top		= 460;
+	uv_right	= 203;
+	uv_bottom	= 487;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFuelGauge"
+{
+	resource_file   = "Vehicle.rsr";
+	resource_name	= "rsrVehicle";
+
+	x		= 0;
+	y		= 0;
+	width		= 55;
+	height		= 8;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 204;
+	uv_top		= 460;
+	uv_right	= 259;
+	uv_bottom	= 468;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFuelGaugeBack"
+{
+	resource_file   = "Vehicle.rsr";
+	resource_name	= "rsrVehicle";
+
+	x		= 0;
+	y		= 0;
+	width		= 73;
+	height		= 9;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 204;
+	uv_top		= 469;
+	uv_right	= 277;
+	uv_bottom	= 478;
+
+	handle		= 0;
+	blend		= 0;
+}

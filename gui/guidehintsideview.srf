@@ -1,0 +1,287 @@
+surface "srfDialogBackUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 10;
+	y		= 49;
+	width		= 303;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 197;
+	uv_right	= 303;
+	uv_bottom	= 206;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDialogBackCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 10;
+	y		= 58;
+	width		= 303;
+	height		= 368;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 492;
+	uv_right	= 303;
+	uv_bottom	= 499;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDialogBackDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 10;
+	y		= 426;
+	width		= 303;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 501;
+	uv_right	= 303;
+	uv_bottom	= 510;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "ChatLTC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 343;
+	uv_top		= 0;
+	uv_right	= 355;
+	uv_bottom	= 12;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "ChatRTC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 365;
+	uv_top		= 0;
+	uv_right	= 377;
+	uv_bottom	= 12;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "ChatLBC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 11;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 343;
+	uv_top		= 14;
+	uv_right	= 355;
+	uv_bottom	= 25;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "ChatRBC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 11;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 365;
+	uv_top		= 14;
+	uv_right	= 377;
+	uv_bottom	= 25;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "ChatTL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 4;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 358;
+	uv_top		= 0;
+	uv_right	= 362;
+	uv_bottom	= 12;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "ChatBL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 4;
+	height		= 11;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 358;
+	uv_top		= 14;
+	uv_right	= 362;
+	uv_bottom	= 25;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "ChatLL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 6;
+	height		= 3;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 343;
+	uv_top		= 28;
+	uv_right	= 349;
+	uv_bottom	= 31;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "ChatRL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 6;
+	height		= 3;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 351;
+	uv_top		= 28;
+	uv_right	= 357;
+	uv_bottom	= 31;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "ChatCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 2;
+	height		= 2;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 372;
+	uv_top		= 28;
+	uv_right	= 374;
+	uv_bottom	= 30;
+
+	handle		= 0;
+	blend		= 0;
+}

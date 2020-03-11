@@ -1,0 +1,168 @@
+surface "srfRBBoard"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRankBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 267;
+	height		= 394;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 267;
+	uv_bottom	= 394;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfRBFocusBar"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRankBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 234;
+	height		= 25;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 395;
+	uv_right	= 234;
+	uv_bottom	= 420;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRBButtonUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 72;
+	height		= 29;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 354;
+	uv_top		= 285;
+	uv_right	= 426;
+	uv_bottom	= 314;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfRBButtonFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 72;
+	height		= 29;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 427;
+	uv_top		= 285;
+	uv_right	= 499;
+	uv_bottom	= 314;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfRBButtonDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 72;
+	height		= 29;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 276;
+	uv_top		= 315;
+	uv_right	= 348;
+	uv_bottom	= 344;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfRBGauge"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRankBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 105;
+	height		= 13;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 268;
+	uv_top		= 348;
+	uv_right	= 373;
+	uv_bottom	= 361;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRBGaugeBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRankBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 105;
+	height		= 13;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 268;
+	uv_top		= 362;
+	uv_right	= 373;
+	uv_bottom	= 375;
+
+	handle		= 0;
+	blend		= 0;
+}
+

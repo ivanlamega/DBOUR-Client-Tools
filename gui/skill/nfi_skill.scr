@@ -1,0 +1,3124 @@
+
+//HMY 0  0 
+skill 310111 
+{
+x = 8 ;
+y = 15 ;
+mastery = FALSE;
+base_skillIndex = 310111 ;
+}
+
+//RC 0  1 
+//skillupgrade
+//{
+//x = 8 ;
+//y = 79 ;
+//mastery = FALSE;
+//base_skillIndex =upgrade;
+//}
+
+//RC 0  2 
+skill 310011 
+{
+x = 8 ;
+y = 143 ;
+mastery = FALSE;
+base_skillIndex = 310011 ;
+}
+
+//RC 0  3 
+//skillupgrade
+//{
+//x = 8 ;
+//y = 207 ;
+//mastery = FALSE;
+//base_skillIndex =upgrade;
+//}
+
+//RC 0  4 
+skill 310311 
+{
+x = 8 ;
+y = 271 ;
+mastery = FALSE;
+base_skillIndex = 310311 ;
+}
+
+//RC 0  5 
+//skillupgrade
+//{
+//x = 8 ;
+//y = 335 ;
+//mastery = FALSE;
+//base_skillIndex =upgrade;
+//}
+
+//RC 0  6 
+skill 310511 
+{
+x = 8 ;
+y = 399 ;
+mastery = FALSE;
+base_skillIndex = 310511 ;
+}
+
+//RC 0  7 
+//skill@
+//{
+//x = 8 ;
+//y = 463 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 0  8 
+//skill@
+//{
+//x = 8 ;
+//y = 527 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 0  9 
+//skill@
+//{
+//x = 8 ;
+//y = 591 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 0  10 
+//skill@
+//{
+//x = 8 ;
+//y = 655 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 0  11 
+//skill@
+//{
+//x = 8 ;
+//y = 719 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 0  12 
+//skill@
+//{
+//x = 8 ;
+//y = 783 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 0  13 
+skill 99103 
+{
+x = 8 ;
+y = 847 ;
+mastery = FALSE;
+base_skillIndex = 99103 ;
+}
+
+//RC 0  14 
+skill 99133 
+{
+x = 8 ;
+y = 911 ;
+mastery = FALSE;
+base_skillIndex = 99133 ;
+}
+
+//RC 0  15 
+//skill@
+//{
+//x = 8 ;
+//y = 975 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 0  16 
+//skill@
+//{
+//x = 8 ;
+//y = 1039 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 0  17 
+//skill@
+//{
+//x = 8 ;
+//y = 1103 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 0  18 
+//skill@
+//{
+//x = 8 ;
+//y = 1167 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 0  19 
+//skill@
+//{
+//x = 8 ;
+//y = 1231 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 0  20 
+//skill@
+//{
+//x = 8 ;
+//y = 1295 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 1  0 
+//skilloption
+//{
+//x = 95 ;
+//y = 15 ;
+//mastery = FALSE;
+//base_skillIndex =option;
+//}
+
+//RC 1  1 
+skill 310411 
+{
+x = 95 ;
+y = 79 ;
+mastery = FALSE;
+base_skillIndex = 310411 ;
+}
+
+//RC 1  2 
+//skillupgrade
+//{
+//x = 95 ;
+//y = 143 ;
+//mastery = FALSE;
+//base_skillIndex =upgrade;
+//}
+
+//RC 1  3 
+skill 310211 
+{
+x = 95 ;
+y = 207 ;
+mastery = FALSE;
+base_skillIndex = 310211 ;
+}
+
+//RC 1  4 
+skill 310221 
+{
+x = 95 ;
+y = 271 ;
+mastery = FALSE;
+base_skillIndex = 310221 ;
+}
+
+//RC 1  5 
+//skillupgrade
+//{
+//x = 95 ;
+//y = 335 ;
+//mastery = FALSE;
+//base_skillIndex =upgrade;
+//}
+
+//RC 1  6 
+skill 310711 
+{
+x = 95 ;
+y = 399 ;
+mastery = FALSE;
+base_skillIndex = 310711 ;
+}
+
+//RC 1  7 
+//skill@
+//{
+//x = 95 ;
+//y = 463 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 1  8 
+//skill@
+//{
+//x = 95 ;
+//y = 527 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 1  9 
+//skill@
+//{
+//x = 95 ;
+//y = 591 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 1  10 
+//skill@
+//{
+//x = 95 ;
+//y = 655 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 1  11 
+//skill@
+//{
+//x = 95 ;
+//y = 719 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 1  12 
+//skill@
+//{
+//x = 95 ;
+//y = 783 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 1  13 
+//skill@
+//{
+//x = 95 ;
+//y = 847 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 1  14 
+//skill@
+//{
+//x = 95 ;
+//y = 911 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 1  15 
+//skill@
+//{
+//x = 95 ;
+//y = 975 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 1  16 
+//skill@
+//{
+//x = 95 ;
+//y = 1039 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 1  17 
+//skill@
+//{
+//x = 95 ;
+//y = 1103 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 1  18 
+//skill@
+//{
+//x = 95 ;
+//y = 1167 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 1  19 
+//skill@
+//{
+//x = 95 ;
+//y = 1231 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 1  20 
+//skill@
+//{
+//x = 95 ;
+//y = 1295 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 2  0 
+skill 320111 
+{
+x = 182 ;
+y = 15 ;
+mastery = FALSE;
+base_skillIndex = 320111 ;
+}
+
+//RC 2  1 
+//skillupgrade
+//{
+//x = 182 ;
+//y = 79 ;
+//mastery = FALSE;
+//base_skillIndex =upgrade;
+//}
+
+//RC 2  2 
+skill 320081 
+{
+x = 182 ;
+y = 143 ;
+mastery = FALSE;
+base_skillIndex = 320081 ;
+}
+
+//RC 2  3 
+skill 320511 
+{
+x = 182 ;
+y = 207 ;
+mastery = FALSE;
+base_skillIndex = 320511 ;
+}
+
+//RC 2  4 
+skill 320411 
+{
+x = 182 ;
+y = 271 ;
+mastery = FALSE;
+base_skillIndex = 320411 ;
+}
+
+//RC 2  5 
+skill 320071 
+{
+x = 182 ;
+y = 335 ;
+mastery = FALSE;
+base_skillIndex = 320071 ;
+}
+
+//RC 2  6 
+//skill@
+//{
+//x = 182 ;
+//y = 399 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 2  7 
+//skill@
+//{
+//x = 182 ;
+//y = 463 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 2  8 
+//skill@
+//{
+//x = 182 ;
+//y = 527 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 2  9 
+//skill@
+//{
+//x = 182 ;
+//y = 591 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 2  10 
+//skill@
+//{
+//x = 182 ;
+//y = 655 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 2  11 
+//skill@
+//{
+//x = 182 ;
+//y = 719 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 2  12 
+//skill@
+//{
+//x = 182 ;
+//y = 783 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 2  13 
+skill 99113 
+{
+x = 182 ;
+y = 847 ;
+mastery = FALSE;
+base_skillIndex = 99113 ;
+}
+
+//RC 2  14 
+skill 99143 
+{
+x = 182 ;
+y = 911 ;
+mastery = FALSE;
+base_skillIndex = 99143 ;
+}
+
+//RC 2  15 
+//skill@
+//{
+//x = 182 ;
+//y = 975 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 2  16 
+//skill@
+//{
+//x = 182 ;
+//y = 1039 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 2  17 
+//skill@
+//{
+//x = 182 ;
+//y = 1103 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 2  18 
+//skill@
+//{
+//x = 182 ;
+//y = 1167 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 2  19 
+//skill@
+//{
+//x = 182 ;
+//y = 1231 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 2  20 
+//skill@
+//{
+//x = 182 ;
+//y = 1295 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 3  0 
+//skilloption
+//{
+//x = 269 ;
+//y = 15 ;
+//mastery = FALSE;
+//base_skillIndex =option;
+//}
+
+//RC 3  1 
+skill 320031 
+{
+x = 269 ;
+y = 79 ;
+mastery = FALSE;
+base_skillIndex = 320031 ;
+}
+
+//RC 3  2 
+skill 320041 
+{
+x = 269 ;
+y = 143 ;
+mastery = FALSE;
+base_skillIndex = 320041 ;
+}
+
+//RC 3  3 
+skill 320051 
+{
+x = 269 ;
+y = 207 ;
+mastery = FALSE;
+base_skillIndex = 320051 ;
+}
+
+//RC 3  4 
+//skillupgrade
+//{
+//x = 269 ;
+//y = 271 ;
+//mastery = FALSE;
+//base_skillIndex =upgrade;
+//}
+
+//RC 3  5 
+skill 320061 
+{
+x = 269 ;
+y = 335 ;
+mastery = FALSE;
+base_skillIndex = 320061 ;
+}
+
+//RC 3  6 
+skill 320611 
+{
+x = 269 ;
+y = 399 ;
+mastery = FALSE;
+base_skillIndex = 320611 ;
+}
+
+//RC 3  7 
+//skill@
+//{
+//x = 269 ;
+//y = 463 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 3  8 
+//skill@
+//{
+//x = 269 ;
+//y = 527 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 3  9 
+//skill@
+//{
+//x = 269 ;
+//y = 591 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 3  10 
+//skill@
+//{
+//x = 269 ;
+//y = 655 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 3  11 
+//skill@
+//{
+//x = 269 ;
+//y = 719 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 3  12 
+//skill@
+//{
+//x = 269 ;
+//y = 783 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 3  13 
+//skill@
+//{
+//x = 269 ;
+//y = 847 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 3  14 
+//skill@
+//{
+//x = 269 ;
+//y = 911 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 3  15 
+//skill@
+//{
+//x = 269 ;
+//y = 975 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 3  16 
+//skill@
+//{
+//x = 269 ;
+//y = 1039 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 3  17 
+//skill@
+//{
+//x = 269 ;
+//y = 1103 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 3  18 
+//skill@
+//{
+//x = 269 ;
+//y = 1167 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 3  19 
+//skill@
+//{
+//x = 269 ;
+//y = 1231 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 3  20 
+//skill@
+//{
+//x = 269 ;
+//y = 1295 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 4  0 
+skill 320101 
+{
+x = 356 ;
+y = 15 ;
+mastery = FALSE;
+base_skillIndex = 320101 ;
+}
+
+//RC 4  1 
+skill 320321 
+{
+x = 356 ;
+y = 79 ;
+mastery = FALSE;
+base_skillIndex = 320321 ;
+}
+
+//RC 4  2 
+skill 320201 
+{
+x = 356 ;
+y = 143 ;
+mastery = FALSE;
+base_skillIndex = 320201 ;
+}
+
+//RC 4  3 
+skill 310021 
+{
+x = 356 ;
+y = 207 ;
+mastery = FALSE;
+base_skillIndex = 310021 ;
+}
+
+//RC 4  4 
+skill 320311 
+{
+x = 356 ;
+y = 271 ;
+mastery = FALSE;
+base_skillIndex = 320311 ;
+}
+
+//RC 4  5 
+skill 320811 
+{
+x = 356 ;
+y = 335 ;
+mastery = FALSE;
+base_skillIndex = 320811 ;
+}
+
+//RC 4  6 
+skill 320011 
+{
+x = 356 ;
+y = 399 ;
+mastery = FALSE;
+base_skillIndex = 320011 ;
+}
+
+//RC 4  7 
+skill 320021 
+{
+x = 356 ;
+y = 463 ;
+mastery = FALSE;
+base_skillIndex = 320021 ;
+}
+
+//RC 4  8 
+skill 320091 
+{
+x = 356 ;
+y = 527 ;
+mastery = FALSE;
+base_skillIndex = 320091 ;
+}
+
+//RC 4  9 
+skill 320911 
+{
+x = 356 ;
+y = 591 ;
+mastery = FALSE;
+base_skillIndex = 320911 ;
+}
+
+//RC 4  10 
+skill 311011 
+{
+x = 356 ;
+y = 655 ;
+mastery = FALSE;
+base_skillIndex = 311011 ;
+}
+
+//RC 4  11 
+skill 311111 
+{
+x = 356 ;
+y = 719 ;
+mastery = FALSE;
+base_skillIndex = 311111 ;
+}
+
+//RC 4  12 
+htb 330611 
+{
+x = 356 ;
+y = 783 ;
+mastery = FALSE;
+base_skillIndex = 330611 ;
+}
+
+//RC 4  13 
+skill 99123 
+{
+x = 356 ;
+y = 847 ;
+mastery = FALSE;
+base_skillIndex = 99123 ;
+}
+
+//RC 4  14 
+skill 99153 
+{
+x = 356 ;
+y = 911 ;
+mastery = FALSE;
+base_skillIndex = 99153 ;
+}
+
+//RC 4  15 
+//skill@
+//{
+//x = 356 ;
+//y = 975 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 4  16 
+//skill@
+//{
+//x = 356 ;
+//y = 1039 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 4  17 
+//skill@
+//{
+//x = 356 ;
+//y = 1103 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 4  18 
+//skill@
+//{
+//x = 356 ;
+//y = 1167 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 4  19 
+//skill@
+//{
+//x = 356 ;
+//y = 1231 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 4  20 
+//skill@
+//{
+//x = 356 ;
+//y = 1295 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  0 
+//skill@
+//{
+//x = 443 ;
+//y = 15 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  1 
+//skill@
+//{
+//x = 443 ;
+//y = 79 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  2 
+//skill@
+//{
+//x = 443 ;
+//y = 143 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  3 
+//skill@
+//{
+//x = 443 ;
+//y = 207 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  4 
+//skill@
+//{
+//x = 443 ;
+//y = 271 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  5 
+//skill@
+//{
+//x = 443 ;
+//y = 335 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  6 
+//skill@
+//{
+//x = 443 ;
+//y = 399 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  7 
+//skill@
+//{
+//x = 443 ;
+//y = 463 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  8 
+//skill@
+//{
+//x = 443 ;
+//y = 527 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  9 
+//skill@
+//{
+//x = 443 ;
+//y = 591 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  10 
+//skill@
+//{
+//x = 443 ;
+//y = 655 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  11 
+//skill@
+//{
+//x = 443 ;
+//y = 719 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  12 
+//skill@
+//{
+//x = 443 ;
+//y = 783 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  13 
+//skill@
+//{
+//x = 443 ;
+//y = 847 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  14 
+//skill@
+//{
+//x = 443 ;
+//y = 911 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  15 
+//skill@
+//{
+//x = 443 ;
+//y = 975 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  16 
+//skill@
+//{
+//x = 443 ;
+//y = 1039 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  17 
+//skill@
+//{
+//x = 443 ;
+//y = 1103 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  18 
+//skill@
+//{
+//x = 443 ;
+//y = 1167 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  19 
+//skill@
+//{
+//x = 443 ;
+//y = 1231 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 5  20 
+//skill@
+//{
+//x = 443 ;
+//y = 1295 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  0 
+//skill@
+//{
+//x = 530 ;
+//y = 15 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  1 
+//skill@
+//{
+//x = 530 ;
+//y = 79 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  2 
+//skill@
+//{
+//x = 530 ;
+//y = 143 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  3 
+//skill@
+//{
+//x = 530 ;
+//y = 207 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  4 
+//skill@
+//{
+//x = 530 ;
+//y = 271 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  5 
+//skill@
+//{
+//x = 530 ;
+//y = 335 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  6 
+//skill@
+//{
+//x = 530 ;
+//y = 399 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  7 
+//skill@
+//{
+//x = 530 ;
+//y = 463 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  8 
+//skill@
+//{
+//x = 530 ;
+//y = 527 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  9 
+//skill@
+//{
+//x = 530 ;
+//y = 591 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  10 
+//skill@
+//{
+//x = 530 ;
+//y = 655 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  11 
+//skill@
+//{
+//x = 530 ;
+//y = 719 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  12 
+//skill@
+//{
+//x = 530 ;
+//y = 783 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  13 
+//skill@
+//{
+//x = 530 ;
+//y = 847 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  14 
+//skill@
+//{
+//x = 530 ;
+//y = 911 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  15 
+//skill@
+//{
+//x = 530 ;
+//y = 975 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  16 
+//skill@
+//{
+//x = 530 ;
+//y = 1039 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  17 
+//skill@
+//{
+//x = 530 ;
+//y = 1103 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  18 
+//skill@
+//{
+//x = 530 ;
+//y = 1167 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  19 
+//skill@
+//{
+//x = 530 ;
+//y = 1231 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 6  20 
+//skill@
+//{
+//x = 530 ;
+//y = 1295 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  0 
+//skill@
+//{
+//x = 531 ;
+//y = 15 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  1 
+//skill@
+//{
+//x = 531 ;
+//y = 79 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  2 
+//skill@
+//{
+//x = 531 ;
+//y = 143 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  3 
+//skill@
+//{
+//x = 531 ;
+//y = 207 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  4 
+//skill@
+//{
+//x = 531 ;
+//y = 271 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  5 
+//skill@
+//{
+//x = 531 ;
+//y = 335 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  6 
+//skill@
+//{
+//x = 531 ;
+//y = 399 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  7 
+//skill@
+//{
+//x = 531 ;
+//y = 463 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  8 
+//skill@
+//{
+//x = 531 ;
+//y = 527 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  9 
+//skill@
+//{
+//x = 531 ;
+//y = 591 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  10 
+//skill@
+//{
+//x = 531 ;
+//y = 655 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  11 
+//skill@
+//{
+//x = 531 ;
+//y = 719 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  12 
+//skill@
+//{
+//x = 531 ;
+//y = 783 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  13 
+//skill@
+//{
+//x = 531 ;
+//y = 847 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  14 
+//skill@
+//{
+//x = 531 ;
+//y = 911 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  15 
+//skill@
+//{
+//x = 531 ;
+//y = 975 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  16 
+//skill@
+//{
+//x = 531 ;
+//y = 1039 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  17 
+//skill@
+//{
+//x = 531 ;
+//y = 1103 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  18 
+//skill@
+//{
+//x = 531 ;
+//y = 1167 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 7  19 
+//skill@
+//{
+//x = 531 ;
+//y = 1231 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+//RC 8  20 
+//skill@
+//{
+//x = 531 ;
+//y = 1295 ;
+//mastery = FALSE;
+//base_skillIndex =@;
+//}
+
+// LINE INFO - UpgradeLine, OptionLine, up, down, Left, right 13 
+// RC 0  0 @
+//@ RC00
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 0  1 UpgradeLine 
+UpgradeLine  RC01
+{
+begin_skill =  310111 ;
+end_skill =  310011 ;
+begin_attachpos = down;
+end_attachpos = up;
+}
+
+// RC 0  2 @
+//@ RC02
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 0  3 UpgradeLine 
+UpgradeLine  RC03
+{
+begin_skill =  310011 ;
+end_skill =  310311 ;
+begin_attachpos = down;
+end_attachpos = up;
+}
+
+// RC 0  4 @
+//@ RC04
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 0  5 UpgradeLine 
+UpgradeLine  RC05
+{
+begin_skill =  310311 ;
+end_skill =  310511 ;
+begin_attachpos = down;
+end_attachpos = up;
+}
+
+// RC 0  6 @
+//@ RC06
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 0  7 @
+//@ RC07
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 0  8 @
+//@ RC08
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 0  9 @
+//@ RC09
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 0  10 @
+//@ RC010
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 0  11 @
+//@ RC011
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 0  12 @
+//@ RC012
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 0  13 @
+//@ RC013
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 0  14 @
+//@ RC014
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 0  15 @
+//@ RC015
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 0  16 @
+//@ RC016
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 0  17 @
+//@ RC017
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 0  18 @
+//@ RC018
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 0  19 @
+//@ RC019
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 0  20 @
+//@ RC020
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  0 OptionLine 
+OptionLine  RC10
+{
+begin_skill =  310111 ;
+end_skill =  310411 ;
+begin_attachpos = right;
+end_attachpos = up;
+}
+
+// RC 1  1 @
+//@ RC11
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  2 UpgradeLine 
+UpgradeLine  RC12
+{
+begin_skill =  310411 ;
+end_skill =  310211 ;
+begin_attachpos = down;
+end_attachpos = up;
+}
+
+// RC 1  3 @
+//@ RC13
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  4 @
+//@ RC14
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  5 UpgradeLine 
+UpgradeLine  RC15
+{
+begin_skill =  310221 ;
+end_skill =  310711 ;
+begin_attachpos = down;
+end_attachpos = up;
+}
+
+// RC 1  6 @
+//@ RC16
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  7 @
+//@ RC17
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  8 @
+//@ RC18
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  9 @
+//@ RC19
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  10 @
+//@ RC110
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  11 @
+//@ RC111
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  12 @
+//@ RC112
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  13 @
+//@ RC113
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  14 @
+//@ RC114
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  15 @
+//@ RC115
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  16 @
+//@ RC116
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  17 @
+//@ RC117
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  18 @
+//@ RC118
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  19 @
+//@ RC119
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  20 @
+//@ RC120
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 1  20 @
+//@ RC120
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  0 @
+//@ RC20
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  1 UpgradeLine 
+UpgradeLine  RC21
+{
+begin_skill =  320111 ;
+end_skill =  320081 ;
+begin_attachpos = down;
+end_attachpos = up;
+}
+
+// RC 2  2 @
+//@ RC22
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  3 @
+//@ RC23
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  4 @
+//@ RC24
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  5 @
+//@ RC25
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  6 @
+//@ RC26
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  7 @
+//@ RC27
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  8 @
+//@ RC28
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  9 @
+//@ RC29
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  10 @
+//@ RC210
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  11 @
+//@ RC211
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  12 @
+//@ RC212
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  13 @
+//@ RC213
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  14 @
+//@ RC214
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  15 @
+//@ RC215
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  16 @
+//@ RC216
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  17 @
+//@ RC217
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  18 @
+//@ RC218
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  19 @
+//@ RC219
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 2  20 @
+//@ RC220
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  0 OptionLine 
+OptionLine  RC30
+{
+begin_skill =  320111 ;
+end_skill =  320031 ;
+begin_attachpos = right;
+end_attachpos = up;
+}
+
+// RC 3  1 @
+//@ RC31
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  2 @
+//@ RC32
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  3 @
+//@ RC33
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  4 UpgradeLine 
+UpgradeLine  RC34
+{
+begin_skill =  320051 ;
+end_skill =  320061 ;
+begin_attachpos = down;
+end_attachpos = up;
+}
+
+// RC 3  5 @
+//@ RC35
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  6 @
+//@ RC36
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  7 @
+//@ RC37
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  8 @
+//@ RC38
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  9 @
+//@ RC39
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  10 @
+//@ RC310
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  11 @
+//@ RC311
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  12 @
+//@ RC312
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  13 @
+//@ RC313
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  14 @
+//@ RC314
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  15 @
+//@ RC315
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  16 @
+//@ RC316
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  17 @
+//@ RC317
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  18 @
+//@ RC318
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  19 @
+//@ RC319
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 3  20 @
+//@ RC320
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  0 @
+//@ RC40
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  1 @
+//@ RC41
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  2 @
+//@ RC42
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  3 @
+//@ RC43
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  4 @
+//@ RC44
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  5 @
+//@ RC45
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  6 @
+//@ RC46
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  7 @
+//@ RC47
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  8 @
+//@ RC48
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  9 @
+//@ RC49
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  10 @
+//@ RC410
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  11 @
+//@ RC411
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  12 @
+//@ RC412
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  13 @
+//@ RC413
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  14 @
+//@ RC414
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  15 @
+//@ RC415
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  16 @
+//@ RC416
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  17 @
+//@ RC417
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  18 @
+//@ RC418
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  19 @
+//@ RC419
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 4  20 @
+//@ RC420
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  0 @
+//@ RC50
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  1 @
+//@ RC51
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  2 @
+//@ RC52
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  3 @
+//@ RC53
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  4 @
+//@ RC54
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  5 @
+//@ RC55
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  6 @
+//@ RC56
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  7 @
+//@ RC57
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  8 @
+//@ RC58
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  9 @
+//@ RC59
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  10 @
+//@ RC510
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  11 @
+//@ RC511
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  12 @
+//@ RC512
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  13 @
+//@ RC513
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  14 @
+//@ RC514
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  15 @
+//@ RC515
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  16 @
+//@ RC516
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  17 @
+//@ RC517
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  18 @
+//@ RC518
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  19 @
+//@ RC519
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 5  20 @
+//@ RC520
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  0 @
+//@ RC60
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  1 @
+//@ RC61
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  2 @
+//@ RC62
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  3 @
+//@ RC63
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  4 @
+//@ RC64
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  5 @
+//@ RC65
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  6 @
+//@ RC66
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  7 @
+//@ RC67
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  8 @
+//@ RC68
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  9 @
+//@ RC69
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  10 @
+//@ RC610
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  11 @
+//@ RC611
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  12 @
+//@ RC612
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  13 @
+//@ RC613
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  14 @
+//@ RC614
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  15 @
+//@ RC615
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  16 @
+//@ RC616
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  17 @
+//@ RC617
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  18 @
+//@ RC618
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  19 @
+//@ RC619
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 6  20 @
+//@ RC620
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  0 @
+//@ RC70
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  1 @
+//@ RC71
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  2 @
+//@ RC72
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  3 @
+//@ RC73
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  4 @
+//@ RC74
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  5 @
+//@ RC75
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  6 @
+//@ RC76
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  7 @
+//@ RC77
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  8 @
+//@ RC78
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  9 @
+//@ RC79
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  10 @
+//@ RC710
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  11 @
+//@ RC711
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  12 @
+//@ RC712
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  13 @
+//@ RC713
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  14 @
+//@ RC714
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  15 @
+//@ RC715
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  16 @
+//@ RC716
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  17 @
+//@ RC717
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  18 @
+//@ RC718
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  19 @
+//@ RC719
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+// RC 7  20 @
+//@ RC720
+//{
+//begin_skill =  0 ;
+//end_skill =  0 ;
+//begin_attachpos =  0 ;
+//end_attachpos =  0 ;
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

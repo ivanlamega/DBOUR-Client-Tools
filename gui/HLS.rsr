@@ -1,0 +1,41 @@
+resource "rsrHLS1"
+{
+	handle	= 0;
+	file	= "wnd_HLS1.png";
+}
+
+resource "rsrHLS2"
+{
+	handle	= 0;
+	file	= "wnd_HLS2.png";
+}
+
+resource "rsrHLS3"
+{
+	handle	= 0;
+	file	= "wnd_HLS3.png";
+}
+
+resource "rsrHLS4"
+{
+	handle	= 0;
+	file	= "wnd_HLS4.png";
+}
+
+resource "rsrHLS5"
+{
+	handle	= 0;
+	file	= "wnd_HLS5.png";
+}
+
+resource "rsrHLS6"
+{
+	handle	= 0;
+	file	= "wnd_HLS6.png";
+}
+
+resource "rsrCommon_1"
+{
+	handle	= 0;
+	file	= "human\\common_1.png";
+}

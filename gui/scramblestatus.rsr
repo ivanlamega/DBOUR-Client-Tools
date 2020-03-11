@@ -1,0 +1,5 @@
+resource "rsrDojoBattle"
+{
+	handle	= 0;
+	file	= "wnd_dojobattle.png";
+}

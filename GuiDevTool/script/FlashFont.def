@@ -1,0 +1,2 @@
+fontlib "flashfont_kr.gfx";
+map "$NormalFont" = "Default";

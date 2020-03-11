@@ -1,0 +1,108 @@
+surface "srfBack"
+{
+	x		= 0;
+	y		= 0;
+	width		= 512;
+	height		= 512;
+	
+	color_red	= 2;
+	color_green 	= 2;
+	color_blue	= 2;
+	color_alpha 	= 50;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 512;
+	uv_bottom	= 512;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+
+
+surface "srfOutIncUp"
+{
+	x		= 0;
+	y		= 0;
+	width		= 16;
+	height		= 16;
+	
+	color_red	= 255;
+	color_green 	= 0;
+	color_blue	= 0;
+	color_alpha 	= 70;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 16;
+	uv_bottom	= 16;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+
+surface "srfOutDecUp"
+{
+	x		= 0;
+	y		= 0;
+	width		= 16;
+	height		= 16;
+	
+	color_red	= 0;
+	color_green 	= 255;
+	color_blue	= 0;
+	color_alpha 	= 70;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 16;
+	uv_bottom	= 16;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfOutSlider"
+{
+	x		= 0;
+	y		= 0;
+	width		= 16;
+	height		= 16;
+	
+	color_red	= 0;
+	color_green 	= 0;
+	color_blue	= 255;
+	color_alpha 	= 70;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 16;
+	uv_bottom	= 16;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfOutLayout"
+{
+	x		= 0;
+	y		= 0;
+	width		= 16;
+	height		= 480;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 70;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 16;
+	uv_bottom	= 480;
+
+	handle		= 0;
+	blend		= 0;
+}
+

@@ -1,0 +1,4560 @@
+surface "srfScouterMeasureRed_0"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 203;
+	uv_top		= 230;
+	uv_right	= 233;
+	uv_bottom	= 270;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureRed_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 234;
+	uv_top		= 230;
+	uv_right	= 264;
+	uv_bottom	= 270;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureRed_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 265;
+	uv_top		= 230;
+	uv_right	= 295;
+	uv_bottom	= 270;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureRed_3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 296;
+	uv_top		= 230;
+	uv_right	= 326;
+	uv_bottom	= 270;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureRed_4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 327;
+	uv_top		= 230;
+	uv_right	= 357;
+	uv_bottom	= 270;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureRed_5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 358;
+	uv_top		= 230;
+	uv_right	= 388;
+	uv_bottom	= 270;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureRed_6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 389;
+	uv_top		= 230;
+	uv_right	= 419;
+	uv_bottom	= 270;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureRed_7"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 420;
+	uv_top		= 230;
+	uv_right	= 450;
+	uv_bottom	= 270;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureRed_8"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 451;
+	uv_top		= 230;
+	uv_right	= 481;
+	uv_bottom	= 270;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureRed_9"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 482;
+	uv_top		= 230;
+	uv_right	= 512;
+	uv_bottom	= 270;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureYellow_0"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 203;
+	uv_top		= 271;
+	uv_right	= 233;
+	uv_bottom	= 311;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureYellow_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 234;
+	uv_top		= 271;
+	uv_right	= 264;
+	uv_bottom	= 311;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureYellow_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 265;
+	uv_top		= 271;
+	uv_right	= 295;
+	uv_bottom	= 311;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureYellow_3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 296;
+	uv_top		= 271;
+	uv_right	= 326;
+	uv_bottom	= 311;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureYellow_4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 327;
+	uv_top		= 271;
+	uv_right	= 357;
+	uv_bottom	= 311;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureYellow_5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 358;
+	uv_top		= 271;
+	uv_right	= 388;
+	uv_bottom	= 311;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureYellow_6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 389;
+	uv_top		= 271;
+	uv_right	= 419;
+	uv_bottom	= 311;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureYellow_7"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 420;
+	uv_top		= 271;
+	uv_right	= 450;
+	uv_bottom	= 311;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureYellow_8"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 451;
+	uv_top		= 271;
+	uv_right	= 481;
+	uv_bottom	= 311;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureYellow_9"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 482;
+	uv_top		= 271;
+	uv_right	= 512;
+	uv_bottom	= 311;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureWhite_0"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 203;
+	uv_top		= 312;
+	uv_right	= 233;
+	uv_bottom	= 352;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureWhite_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 234;
+	uv_top		= 312;
+	uv_right	= 264;
+	uv_bottom	= 352;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureWhite_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 265;
+	uv_top		= 312;
+	uv_right	= 295;
+	uv_bottom	= 352;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureWhite_3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 296;
+	uv_top		= 312;
+	uv_right	= 326;
+	uv_bottom	= 352;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureWhite_4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 327;
+	uv_top		= 312;
+	uv_right	= 357;
+	uv_bottom	= 352;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureWhite_5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 358;
+	uv_top		= 312;
+	uv_right	= 388;
+	uv_bottom	= 352;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureWhite_6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 389;
+	uv_top		= 312;
+	uv_right	= 419;
+	uv_bottom	= 352;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureWhite_7"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 420;
+	uv_top		= 312;
+	uv_right	= 450;
+	uv_bottom	= 352;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureWhite_8"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 451;
+	uv_top		= 312;
+	uv_right	= 481;
+	uv_bottom	= 352;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterMeasureWhite_9"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 482;
+	uv_top		= 312;
+	uv_right	= 512;
+	uv_bottom	= 352;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterAvatarPower_0"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 273;
+	uv_top		= 198;
+	uv_right	= 296;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterAvatarPower_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 297;
+	uv_top		= 198;
+	uv_right	= 320;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterAvatarPower_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 321;
+	uv_top		= 198;
+	uv_right	= 344;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterAvatarPower_3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 345;
+	uv_top		= 198;
+	uv_right	= 368;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterAvatarPower_4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 369;
+	uv_top		= 198;
+	uv_right	= 392;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterAvatarPower_5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 393;
+	uv_top		= 198;
+	uv_right	= 416;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterAvatarPower_6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 417;
+	uv_top		= 198;
+	uv_right	= 440;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterAvatarPower_7"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 441;
+	uv_top		= 198;
+	uv_right	= 464;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterAvatarPower_8"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 465;
+	uv_top		= 198;
+	uv_right	= 488;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterAvatarPower_9"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 489;
+	uv_top		= 198;
+	uv_right	= 512;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterDistanceMark"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 26;
+	height		= 26;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 113;
+	uv_top		= 149;
+	uv_right	= 139;
+	uv_bottom	= 175;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScouterDistanceUnit"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 26;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 113;
+	uv_top		= 176;
+	uv_right	= 130;
+	uv_bottom	= 202;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfMinuteNumber_Colon"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 490;
+	uv_top		= 118;
+	uv_right	= 512;
+	uv_bottom	= 157;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfMinuteNumber_9"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 140;
+	uv_top		= 118;
+	uv_right	= 175;
+	uv_bottom	= 157;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfMinuteNumber_8"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 176;
+	uv_top		= 118;
+	uv_right	= 210;
+	uv_bottom	= 157;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfMinuteNumber_7"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 211;
+	uv_top		= 118;
+	uv_right	= 245;
+	uv_bottom	= 157;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfMinuteNumber_6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 246;
+	uv_top		= 118;
+	uv_right	= 280;
+	uv_bottom	= 157;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfMinuteNumber_5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 281;
+	uv_top		= 118;
+	uv_right	= 315;
+	uv_bottom	= 157;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfMinuteNumber_4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 316;
+	uv_top		= 118;
+	uv_right	= 350;
+	uv_bottom	= 157;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfMinuteNumber_3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 351;
+	uv_top		= 118;
+	uv_right	= 385;
+	uv_bottom	= 157;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfMinuteNumber_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 386;
+	uv_top		= 118;
+	uv_right	= 420;
+	uv_bottom	= 157;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfMinuteNumber_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 421;
+	uv_top		= 118;
+	uv_right	= 455;
+	uv_bottom	= 157;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfMinuteNumber_0"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 456;
+	uv_top		= 118;
+	uv_right	= 490;
+	uv_bottom	= 157;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfMinuteNumber_Plus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 177;
+	uv_top		= 78;
+	uv_right	= 211;
+	uv_bottom	= 117;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSecondNumber_Colon"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 490;
+	uv_top		= 158;
+	uv_right	= 512;
+	uv_bottom	= 197;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSecondNumber_9"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 140;
+	uv_top		= 158;
+	uv_right	= 174;
+	uv_bottom	= 197;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSecondNumber_8"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 175;
+	uv_top		= 158;
+	uv_right	= 209;
+	uv_bottom	= 197;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSecondNumber_7"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 210;
+	uv_top		= 158;
+	uv_right	= 244;
+	uv_bottom	= 197;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSecondNumber_6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 245;
+	uv_top		= 158;
+	uv_right	= 279;
+	uv_bottom	= 197;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSecondNumber_5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 280;
+	uv_top		= 158;
+	uv_right	= 314;
+	uv_bottom	= 197;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSecondNumber_4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 315;
+	uv_top		= 158;
+	uv_right	= 349;
+	uv_bottom	= 197;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSecondNumber_3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 350;
+	uv_top		= 158;
+	uv_right	= 384;
+	uv_bottom	= 197;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSecondNumber_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 385;
+	uv_top		= 158;
+	uv_right	= 419;
+	uv_bottom	= 197;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSecondNumber_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 420;
+	uv_top		= 158;
+	uv_right	= 454;
+	uv_bottom	= 197;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSecondNumber_0"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 39;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 455;
+	uv_top		= 158;
+	uv_right	= 489;
+	uv_bottom	= 197;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBonusNum_Colon"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 9;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 230;
+	uv_top		= 24;
+	uv_right	= 239;
+	uv_bottom	= 43;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBonusPlus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 217;
+	uv_top		= 24;
+	uv_right	= 229;
+	uv_bottom	= 43;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBonusNum_0"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 381;
+	uv_top		= 0;
+	uv_right	= 395;
+	uv_bottom	= 19;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBonusNum_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 396;
+	uv_top		= 0;
+	uv_right	= 410;
+	uv_bottom	= 19;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBonusNum_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 411;
+	uv_top		= 0;
+	uv_right	= 425;
+	uv_bottom	= 19;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBonusNum_3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 426;
+	uv_top		= 0;
+	uv_right	= 440;
+	uv_bottom	= 19;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBonusNum_4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 441;
+	uv_top		= 0;
+	uv_right	= 455;
+	uv_bottom	= 19;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBonusNum_5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 456;
+	uv_top		= 0;
+	uv_right	= 470;
+	uv_bottom	= 19;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBonusNum_6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 471;
+	uv_top		= 0;
+	uv_right	= 485;
+	uv_bottom	= 19;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBonusNum_7"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 486;
+	uv_top		= 0;
+	uv_right	= 500;
+	uv_bottom	= 19;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBonusNum_8"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 187;
+	uv_top		= 24;
+	uv_right	= 201;
+	uv_bottom	= 43;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBonusNum_9"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 202;
+	uv_top		= 24;
+	uv_right	= 216;
+	uv_bottom	= 43;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeNumColon"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 115;
+	uv_top		= 42;
+	uv_right	= 125;
+	uv_bottom	= 73;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeNum_0"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 42;
+	uv_right	= 22;
+	uv_bottom	= 73;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeNum_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 23;
+	uv_top		= 42;
+	uv_right	= 45;
+	uv_bottom	= 73;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeNum_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 46;
+	uv_top		= 42;
+	uv_right	= 68;
+	uv_bottom	= 73;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeNum_3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 69;
+	uv_top		= 42;
+	uv_right	= 91;
+	uv_bottom	= 73;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeNum_4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 92;
+	uv_top		= 42;
+	uv_right	= 114;
+	uv_bottom	= 73;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeNum_5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 74;
+	uv_right	= 22;
+	uv_bottom	= 105;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeNum_6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 23;
+	uv_top		= 74;
+	uv_right	= 45;
+	uv_bottom	= 105;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeNum_7"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 46;
+	uv_top		= 74;
+	uv_right	= 68;
+	uv_bottom	= 105;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeNum_8"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 69;
+	uv_top		= 74;
+	uv_right	= 91;
+	uv_bottom	= 105;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeNum_9"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 92;
+	uv_top		= 74;
+	uv_right	= 114;
+	uv_bottom	= 105;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSideNum_0"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 273;
+	uv_top		= 198;
+	uv_right	= 296;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSideNum_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 297;
+	uv_top		= 198;
+	uv_right	= 320;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSideNum_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 321;
+	uv_top		= 198;
+	uv_right	= 344;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSideNum_3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 345;
+	uv_top		= 198;
+	uv_right	= 368;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSideNum_4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 369;
+	uv_top		= 198;
+	uv_right	= 392;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSideNum_5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 393;
+	uv_top		= 198;
+	uv_right	= 416;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSideNum_6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 417;
+	uv_top		= 198;
+	uv_right	= 440;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSideNum_7"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 441;
+	uv_top		= 198;
+	uv_right	= 464;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSideNum_8"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 465;
+	uv_top		= 198;
+	uv_right	= 488;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSideNum_9"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 489;
+	uv_top		= 198;
+	uv_right	= 512;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSemiColon"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 260;
+	uv_top		= 198;
+	uv_right	= 272;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBonusTime"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 110;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 402;
+	uv_top		= 98;
+	uv_right	= 512;
+	uv_bottom	= 117;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPowerFont_0"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 43;
+	uv_top		= 230;
+	uv_right	= 58;
+	uv_bottom	= 248;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPowerFont_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 59;
+	uv_top		= 230;
+	uv_right	= 74;
+	uv_bottom	= 248;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPowerFont_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 75;
+	uv_top		= 230;
+	uv_right	= 90;
+	uv_bottom	= 248;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPowerFont_3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 91;
+	uv_top		= 230;
+	uv_right	= 106;
+	uv_bottom	= 248;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPowerFont_4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 107;
+	uv_top		= 230;
+	uv_right	= 122;
+	uv_bottom	= 248;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPowerFont_5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 123;
+	uv_top		= 230;
+	uv_right	= 138;
+	uv_bottom	= 248;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPowerFont_6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 139;
+	uv_top		= 230;
+	uv_right	= 154;
+	uv_bottom	= 248;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPowerFont_7"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 155;
+	uv_top		= 230;
+	uv_right	= 170;
+	uv_bottom	= 248;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPowerFont_8"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 171;
+	uv_top		= 230;
+	uv_right	= 186;
+	uv_bottom	= 248;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPowerFont_9"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 187;
+	uv_top		= 230;
+	uv_right	= 202;
+	uv_bottom	= 248;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPowerFont_Text"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 50;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 152;
+	uv_top		= 249;
+	uv_right	= 202;
+	uv_bottom	= 267;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfEXPText"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 66;
+	height		= 24;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 126;
+	uv_top		= 44;
+	uv_right	= 192;
+	uv_bottom	= 68;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfEXPNum0"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 42;
+	uv_right	= 22;
+	uv_bottom	= 73;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfEXPNum1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 23;
+	uv_top		= 42;
+	uv_right	= 45;
+	uv_bottom	= 73;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfEXPNum2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 46;
+	uv_top		= 42;
+	uv_right	= 68;
+	uv_bottom	= 73;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfEXPNum3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 69;
+	uv_top		= 42;
+	uv_right	= 91;
+	uv_bottom	= 73;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfEXPNum4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 92;
+	uv_top		= 42;
+	uv_right	= 114;
+	uv_bottom	= 73;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfEXPNum5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 74;
+	uv_right	= 22;
+	uv_bottom	= 105;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfEXPNum6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 23;
+	uv_top		= 74;
+	uv_right	= 45;
+	uv_bottom	= 105;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfEXPNum7"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 46;
+	uv_top		= 74;
+	uv_right	= 68;
+	uv_bottom	= 105;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfEXPNum8"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 69;
+	uv_top		= 74;
+	uv_right	= 91;
+	uv_bottom	= 105;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfEXPNum9"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 31;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 92;
+	uv_top		= 74;
+	uv_right	= 114;
+	uv_bottom	= 105;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScoreNum_0"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 187;
+	uv_top		= 0;
+	uv_right	= 204;
+	uv_bottom	= 23;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScoreNum_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 205;
+	uv_top		= 0;
+	uv_right	= 221;
+	uv_bottom	= 23;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScoreNum_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 222;
+	uv_top		= 0;
+	uv_right	= 239;
+	uv_bottom	= 23;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScoreNum_3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 240;
+	uv_top		= 0;
+	uv_right	= 257;
+	uv_bottom	= 23;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScoreNum_4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 258;
+	uv_top		= 0;
+	uv_right	= 275;
+	uv_bottom	= 23;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScoreNum_5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 276;
+	uv_top		= 0;
+	uv_right	= 293;
+	uv_bottom	= 23;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScoreNum_6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 294;
+	uv_top		= 0;
+	uv_right	= 311;
+	uv_bottom	= 23;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScoreNum_7"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 312;
+	uv_top		= 0;
+	uv_right	= 329;
+	uv_bottom	= 23;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScoreNum_8"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 330;
+	uv_top		= 0;
+	uv_right	= 347;
+	uv_bottom	= 23;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScoreNum_9"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 348;
+	uv_top		= 0;
+	uv_right	= 365;
+	uv_bottom	= 23;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfScoreMinus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 13;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 366;
+	uv_top		= 0;
+	uv_right	= 379;
+	uv_bottom	= 23;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfStageNum_0"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 28;
+	height		= 41;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 28;
+	uv_bottom	= 41;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfStageNum_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 28;
+	height		= 41;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 29;
+	uv_top		= 0;
+	uv_right	= 57;
+	uv_bottom	= 41;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfStageNum_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 28;
+	height		= 41;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 58;
+	uv_top		= 0;
+	uv_right	= 86;
+	uv_bottom	= 41;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfStageNum_3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 28;
+	height		= 41;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 87;
+	uv_top		= 0;
+	uv_right	= 115;
+	uv_bottom	= 41;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfStageNum_4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 28;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 116;
+	uv_top		= 0;
+	uv_right	= 144;
+	uv_bottom	= 41;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfStageNum_5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 28;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 145;
+	uv_top		= 0;
+	uv_right	= 173;
+	uv_bottom	= 41;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfStageNum_Colon"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 40;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 174;
+	uv_top		= 0;
+	uv_right	= 186;
+	uv_bottom	= 41;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimit_0"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 240;
+	uv_top		= 24;
+	uv_right	= 267;
+	uv_bottom	= 60;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimit_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 268;
+	uv_top		= 24;
+	uv_right	= 295;
+	uv_bottom	= 60;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimit_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 296;
+	uv_top		= 24;
+	uv_right	= 323;
+	uv_bottom	= 60;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimit_3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 324;
+	uv_top		= 24;
+	uv_right	= 351;
+	uv_bottom	= 60;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimit_4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 352;
+	uv_top		= 24;
+	uv_right	= 379;
+	uv_bottom	= 60;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimit_5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 378;
+	uv_top		= 24;
+	uv_right	= 405;
+	uv_bottom	= 60;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimit_6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 406;
+	uv_top		= 24;
+	uv_right	= 433;
+	uv_bottom	= 60;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimit_7"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 434;
+	uv_top		= 24;
+	uv_right	= 461;
+	uv_bottom	= 60;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimit_8"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 462;
+	uv_top		= 24;
+	uv_right	= 489;
+	uv_bottom	= 60;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimit_9"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 212;
+	uv_top		= 44;
+	uv_right	= 239;
+	uv_bottom	= 80;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimit_colon"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 492;
+	uv_top		= 24;
+	uv_right	= 507;
+	uv_bottom	= 60;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimitWarning_0"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 240;
+	uv_top		= 61;
+	uv_right	= 267;
+	uv_bottom	= 97;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimitWarning_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 268;
+	uv_top		= 61;
+	uv_right	= 295;
+	uv_bottom	= 97;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimitWarning_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 296;
+	uv_top		= 61;
+	uv_right	= 323;
+	uv_bottom	= 97;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimitWarning_3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 324;
+	uv_top		= 61;
+	uv_right	= 351;
+	uv_bottom	= 97;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimitWarning_4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 352;
+	uv_top		= 61;
+	uv_right	= 379;
+	uv_bottom	= 97;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimitWarning_5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 380;
+	uv_top		= 61;
+	uv_right	= 407;
+	uv_bottom	= 97;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimitWarning_6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 408;
+	uv_top		= 61;
+	uv_right	= 435;
+	uv_bottom	= 97;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimitWarning_7"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 436;
+	uv_top		= 61;
+	uv_right	= 463;
+	uv_bottom	= 97;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimitWarning_8"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 464;
+	uv_top		= 61;
+	uv_right	= 491;
+	uv_bottom	= 97;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimitWarning_9"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 212;
+	uv_top		= 81;
+	uv_right	= 239;
+	uv_bottom	= 117;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTimeLimitWarning_colon"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 492;
+	uv_top		= 61;
+	uv_right	= 507;
+	uv_bottom	= 97;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfDice_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 303;
+	uv_top		= 407;
+	uv_right	= 323;
+	uv_bottom	= 429;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfDice_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 324;
+	uv_top		= 407;
+	uv_right	= 344;
+	uv_bottom	= 429;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfDice_3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 345;
+	uv_top		= 407;
+	uv_right	= 365;
+	uv_bottom	= 429;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfDice_4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 366;
+	uv_top		= 407;
+	uv_right	= 386;
+	uv_bottom	= 429;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfDice_5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 387;
+	uv_top		= 407;
+	uv_right	= 407;
+	uv_bottom	= 429;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfDice_6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 408;
+	uv_top		= 407;
+	uv_right	= 428;
+	uv_bottom	= 429;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfDice_7"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 429;
+	uv_top		= 407;
+	uv_right	= 449;
+	uv_bottom	= 429;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfDice_8"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 450;
+	uv_top		= 407;
+	uv_right	= 470;
+	uv_bottom	= 429;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfDice_9"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 471;
+	uv_top		= 407;
+	uv_right	= 491;
+	uv_bottom	= 429;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfDice_0"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 492;
+	uv_top		= 407;
+	uv_right	= 512;
+	uv_bottom	= 429;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTB_0"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 25;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 268;
+	uv_right	= 22;
+	uv_bottom	= 293;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTB_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 25;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 23;
+	uv_top		= 268;
+	uv_right	= 45;
+	uv_bottom	= 293;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTB_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 25;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 46;
+	uv_top		= 268;
+	uv_right	= 68;
+	uv_bottom	= 293;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTB_3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 25;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 69;
+	uv_top		= 268;
+	uv_right	= 91;
+	uv_bottom	= 293;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTB_4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 25;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 92;
+	uv_top		= 268;
+	uv_right	= 114;
+	uv_bottom	= 293;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTB_5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 25;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 115;
+	uv_top		= 268;
+	uv_right	= 137;
+	uv_bottom	= 293;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTB_6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 25;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 138;
+	uv_top		= 268;
+	uv_right	= 160;
+	uv_bottom	= 293;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTB_7"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 25;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 161;
+	uv_top		= 268;
+	uv_right	= 183;
+	uv_bottom	= 293;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTB_8"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 25;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 294;
+	uv_right	= 22;
+	uv_bottom	= 319;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfTB_9"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 25;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 23;
+	uv_top		= 294;
+	uv_right	= 45;
+	uv_bottom	= 319;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfNumberBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 67;
+	height		= 61;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 331;
+	uv_right	= 67;
+	uv_bottom	= 392;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfRPBall_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 13;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 141;
+	uv_top		= 249;
+	uv_right	= 151;
+	uv_bottom	= 262;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRPBall_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 13;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 130;
+	uv_top		= 249;
+	uv_right	= 140;
+	uv_bottom	= 262;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRPBall_3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 13;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 119;
+	uv_top		= 249;
+	uv_right	= 129;
+	uv_bottom	= 262;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRPBall_4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 13;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 108;
+	uv_top		= 249;
+	uv_right	= 118;
+	uv_bottom	= 262;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRPBall_5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 13;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 97;
+	uv_top		= 249;
+	uv_right	= 107;
+	uv_bottom	= 262;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRPBall_6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 13;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 86;
+	uv_top		= 249;
+	uv_right	= 96;
+	uv_bottom	= 262;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRPBall_7"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommonNumber";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 13;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 75;
+	uv_top		= 249;
+	uv_right	= 85;
+	uv_bottom	= 262;
+
+	handle		= 0;
+	blend		= 0;
+}
+

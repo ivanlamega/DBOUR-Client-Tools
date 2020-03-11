@@ -1,0 +1,47 @@
+surface "srfDraonDialog1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCReward2";
+
+	x		= 0;
+	y		= 0;
+	width		= 371;
+	height		= 141;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 371;
+	uv_bottom	= 141;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDraonDialog2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCReward2";
+
+	x		= 0;
+	y		= 0;
+	width		= 306;
+	height		= 123;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 142;
+	uv_right	= 306;
+	uv_bottom	= 265;
+
+	handle		= 0;
+	blend		= 0;
+}

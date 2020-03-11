@@ -1,0 +1,17 @@
+resource "rsrHLSProduct"
+{
+	handle	= 0;
+	file	= "wnd_HLS2.png";
+}
+
+resource "rsrHLSProduct2"
+{
+	handle	= 0;
+	file	= "wnd_HLS7.png";
+}
+
+resource "rsrHLSProduct3"
+{
+	handle	= 0;
+	file	= "wnd_HLS3.png";
+}

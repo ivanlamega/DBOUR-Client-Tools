@@ -1,0 +1,96 @@
+surface "srfQuestMessageDlg"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuestMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 323;
+	height		= 388;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 323;
+	uv_bottom	= 388;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCancelFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuestMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 14;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 448;
+	uv_top		= 0;
+	uv_right	= 462;
+	uv_bottom	= 14;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCancelDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuestMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 14;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 463;
+	uv_top		= 0;
+	uv_right	= 477;
+	uv_bottom	= 14;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfButtonEffect"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuestMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 41;
+	height		= 29;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 324;
+	uv_top		= 0;
+	uv_right	= 365;
+	uv_bottom	= 29;
+
+	handle		= 0;
+	blend		= 0;
+}
+

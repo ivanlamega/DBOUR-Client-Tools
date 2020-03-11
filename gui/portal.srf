@@ -1,0 +1,119 @@
+surface "srfPortalMap"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrPortal";
+
+	x		= 0;
+	y		= 0;
+	width		= 800;
+	height		= 600;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 800;
+	uv_bottom	= 600;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfIconStartPoint"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 362;
+	uv_top		= 341;
+	uv_right	= 382;
+	uv_bottom	= 361;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfIconStartPointFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 402;
+	uv_top		= 341;
+	uv_right	= 422;
+	uv_bottom	= 361;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfIconEnablePoint"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 442;
+	uv_top		= 341;
+	uv_right	= 462;
+	uv_bottom	= 361;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfIconEnablePointFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 482;
+	uv_top		= 341;
+	uv_right	= 502;
+	uv_bottom	= 361;
+
+	handle		= 0;
+	blend		= 0;
+}

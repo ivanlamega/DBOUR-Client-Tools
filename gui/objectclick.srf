@@ -1,0 +1,95 @@
+surface "srfDlgMain"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 55;
+	height		= 64;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 429;
+	uv_right	= 55;
+	uv_bottom	= 493;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackCircle"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 37;
+	height		= 37;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 56;
+	uv_top		= 429;
+	uv_right	= 93;
+	uv_bottom	= 466;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfReflectedLight"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 55;
+	height		= 64;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 103;
+	uv_top		= 429;
+	uv_right	= 158;
+	uv_bottom	= 493;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNeedle"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 8;
+	height		= 64;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 94;
+	uv_top		= 429;
+	uv_right	= 102;
+	uv_bottom	= 493;
+
+	handle		= 0;
+	blend		= 0;
+}

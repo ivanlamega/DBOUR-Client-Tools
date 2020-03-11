@@ -1,0 +1,191 @@
+surface "srfDlgMain"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTMQBoardDetail";
+
+	x		= 0;
+	y		= 0;
+	width		= 0;
+	height		= 0;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 0;
+	uv_bottom	= 0;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 281;
+	height		= 24;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 231;
+	uv_top		= 0;
+	uv_right	= 512;
+	uv_bottom	= 24;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 281;
+	height		= 4;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 231;
+	uv_top		= 28;
+	uv_right	= 512;
+	uv_bottom	= 31;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 281;
+	height		= 34;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 231;
+	uv_top		= 35;
+	uv_right	= 512;
+	uv_bottom	= 69;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfOKButtonUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 115;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 159;
+	uv_top		= 445;
+	uv_right	= 274;
+	uv_bottom	= 467;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfOKButtonFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 115;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 275;
+	uv_top		= 468;
+	uv_right	= 390;
+	uv_bottom	= 490;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfOKButtonDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 115;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 275;
+	uv_top		= 468;
+	uv_right	= 390;
+	uv_bottom	= 490;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfOKButtonDisable"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 115;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 159;
+	uv_top		= 468;
+	uv_right	= 274;
+	uv_bottom	= 490;
+
+	handle		= 0;
+	blend		= 0;
+}

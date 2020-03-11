@@ -1,0 +1,399 @@
+surface "srfConfirmBackTop"
+{
+	resource_file	= "HLS.rsr";
+	resource_name	= "rsrHLS4";
+
+	x		= 0;
+	y		= 0;
+	width		= 334;
+	height		= 41;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 334;
+	uv_bottom	= 41;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfConfirmBackMiddle"
+{
+	resource_file	= "HLS.rsr";
+	resource_name	= "rsrHLS4";
+
+	x		= 0;
+	y		= 0;
+	width		= 334;
+	height		= 1;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 43;
+	uv_right	= 334;
+	uv_bottom	= 44;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfConfirmBackBottom"
+{
+	resource_file	= "HLS.rsr";
+	resource_name	= "rsrHLS4";
+
+	x		= 0;
+	y		= 0;
+	width		= 334;
+	height		= 54;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 46;
+	uv_right	= 334;
+	uv_bottom	= 100;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCashInfoBack"
+{
+	resource_file	= "HLS.rsr";
+	resource_name	= "rsrHLS4";
+
+	x		= 0;
+	y		= 0;
+	width		= 298;
+	height		= 74;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 101;
+	uv_right	= 298;
+	uv_bottom	= 175;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfConfirmBtnUp"
+{
+	resource_file	= "HLS.rsr";
+	resource_name	= "rsrHLS4";
+
+	x		= 0;
+	y		= 0;
+	width		= 89;
+	height		= 24;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 335;
+	uv_top		= 0;
+	uv_right	= 424;
+	uv_bottom	= 24;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfConfirmBtnFocus"
+{
+	resource_file	= "HLS.rsr";
+	resource_name	= "rsrHLS4";
+
+	x		= 0;
+	y		= 0;
+	width		= 89;
+	height		= 24;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 335;
+	uv_top		= 25;
+	uv_right	= 424;
+	uv_bottom	= 49;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfConfirmBtnDown"
+{
+	resource_file	= "HLS.rsr";
+	resource_name	= "rsrHLS4";
+
+	x		= 0;
+	y		= 0;
+	width		= 89;
+	height		= 24;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 335;
+	uv_top		= 50;
+	uv_right	= 424;
+	uv_bottom	= 74;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfConfirmItemNameBack"
+{
+	resource_file	= "HLS.rsr";
+	resource_name	= "rsrHLS4";
+
+	x		= 0;
+	y		= 0;
+	width		= 213;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 299;
+	uv_top		= 101;
+	uv_right	= 512;
+	uv_bottom	= 121;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfConfirmItemSlot"
+{
+	resource_file	= "HLS.rsr";
+	resource_name	= "rsrHLS4";
+
+	x		= 0;
+	y		= 0;
+	width		= 36;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 299;
+	uv_top		= 122;
+	uv_right	= 335;
+	uv_bottom	= 158;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCashBack"
+{
+	resource_file	= "HLS.rsr";
+	resource_name	= "rsrHLS4";
+
+	x		= 0;
+	y		= 0;
+	width		= 132;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 336;
+	uv_top		= 122;
+	uv_right	= 468;
+	uv_bottom	= 142;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbServerList"
+{
+	resource_file	= "HLS.rsr";
+	resource_name	= "rsrHLS4";
+
+	x		= 0;
+	y		= 0;
+	width		= 132;
+	height		= 96;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 176;
+	uv_right	= 132;
+	uv_bottom	= 272;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbServerListButtonUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 483;
+	uv_top		= 67;
+	uv_right	= 501;
+	uv_bottom	= 85;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbServerListButtonFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 483;
+	uv_top		= 86;
+	uv_right	= 501;
+	uv_bottom	= 104;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbServerListButtonDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 483;
+	uv_top		= 105;
+	uv_right	= 501;
+	uv_bottom	= 123;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfcbbListboxMask"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 132;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 482;
+	uv_right	= 240;
+	uv_bottom	= 501;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDlgPaymentBackTop"
+{
+	resource_file	= "HLS.rsr";
+	resource_name	= "rsrHLS4";
+	x		= 0;
+	y		= 0;
+	width		= 459;
+	height		= 243;
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+	uv_left		= 0;
+	uv_top		= 272;
+	uv_right	= 459;
+	uv_bottom	= 512;
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDlgPaymentBackDown"
+{
+	resource_file	= "HLS.rsr";
+	resource_name	= "rsrHLS6";
+	x		= 0;
+	y		= 242;
+	width		= 459;
+	height		= 371;
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 459;
+	uv_bottom	= 371;
+	handle		= 0;
+	blend		= 0;
+}

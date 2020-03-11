@@ -1,0 +1,2429 @@
+surface "srfBack"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 1024;
+	height		= 768;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 16;
+	uv_top		= 299;
+	uv_right	= 24;
+	uv_bottom	= 305;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFrameUL"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 54;
+	height		= 156;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 141;
+	uv_right	= 54;
+	uv_bottom	= 297;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFrameUC"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 613;
+	height		= 156;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 56;
+	uv_top		= 141;
+	uv_right	= 57;
+	uv_bottom	= 297;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFrameUR"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 139;
+	height		= 156;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 59;
+	uv_top		= 141;
+	uv_right	= 198;
+	uv_bottom	= 297;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFrameLC"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 4;
+	height		= 421;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 299;
+	uv_right	= 4;
+	uv_bottom	= 306;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFrameRC"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 4;
+	height		= 421;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 10;
+	uv_top		= 299;
+	uv_right	= 14;
+	uv_bottom	= 306;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFrameBL"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 26;
+	height		= 28;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 308;
+	uv_right	= 26;
+	uv_bottom	= 336;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFrameBC"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 753;
+	height		= 28;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 28;
+	uv_top		= 308;
+	uv_right	= 29;
+	uv_bottom	= 336;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFrameBR"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 26;
+	height		= 28;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 32;
+	uv_top		= 308;
+	uv_right	= 58;
+	uv_bottom	= 336;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "LandMarkSurface_1"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrDumy";
+
+	x		= 0;
+	y		= 0;
+	width		= 0;
+	height		= 0;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 0;
+	uv_bottom	= 0;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "LandMarkSurface_2"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrDumy";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 0;
+	uv_bottom	= 0;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "LandMarkSurface_3"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrDumy";
+
+	x		= 0;
+	y		= 0;
+	width		= 64;
+	height		= 64;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 0;
+	uv_bottom	= 0;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "LandMarkSurface_4"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrDumy";
+
+	x		= 0;
+	y		= 0;
+	width		= 128;
+	height		= 128;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 0;
+	uv_bottom	= 0;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAlphaSlideBar"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 10;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 253;
+	uv_top		= 391;
+	uv_right	= 263;
+	uv_bottom	= 400;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAlphaSlide"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 136;
+	height		= 10;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 105;
+	uv_top		= 463;
+	uv_right	= 241;
+	uv_bottom	= 473;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+// Human bus
+
+surface "srfBusHuman_Normal_North"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 168;
+	uv_right	= 20;
+	uv_bottom	= 188;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusHuman_Normal_NorthEast"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 21;
+	uv_top		= 168;
+	uv_right	= 41;
+	uv_bottom	= 188;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusHuman_Normal_East"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 42;
+	uv_top		= 168;
+	uv_right	= 62;
+	uv_bottom	= 188;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusHuman_Normal_SouthEast"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 63;
+	uv_top		= 168;
+	uv_right	= 83;
+	uv_bottom	= 188;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusHuman_Normal_South"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 84;
+	uv_top		= 168;
+	uv_right	= 104;
+	uv_bottom	= 188;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusHuman_Normal_South_West"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 105;
+	uv_top		= 168;
+	uv_right	= 125;
+	uv_bottom	= 188;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusHuman_Normal_West"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 126;
+	uv_top		= 168;
+	uv_right	= 146;
+	uv_bottom	= 188;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusHuman_Normal_NorthWest"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 147;
+	uv_top		= 168;
+	uv_right	= 167;
+	uv_bottom	= 188;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusHuman_GetOn_North"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 249;
+	uv_right	= 22;
+	uv_bottom	= 271;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusHuman_GetOn_NorthEast"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 23;
+	uv_top		= 249;
+	uv_right	= 45;
+	uv_bottom	= 271;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusHuman_GetOn_East"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 46;
+	uv_top		= 249;
+	uv_right	= 68;
+	uv_bottom	= 271;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusHuman_GetOn_SouthEast"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 69;
+	uv_top		= 249;
+	uv_right	= 91;
+	uv_bottom	= 271;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusHuman_GetOn_South"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 92;
+	uv_top		= 249;
+	uv_right	= 114;
+	uv_bottom	= 271;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusHuman_GetOn_South_West"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 115;
+	uv_top		= 249;
+	uv_right	= 137;
+	uv_bottom	= 271;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusHuman_GetOn_West"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 138;
+	uv_top		= 249;
+	uv_right	= 160;
+	uv_bottom	= 271;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusHuman_GetOn_NorthWest"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 161;
+	uv_top		= 249;
+	uv_right	= 183;
+	uv_bottom	= 271;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+// Namek bus
+
+surface "srfBusNamek_Normal_North"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 189;
+	uv_right	= 20;
+	uv_bottom	= 209;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusNamek_Normal_NorthEast"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 21;
+	uv_top		= 189;
+	uv_right	= 41;
+	uv_bottom	= 209;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusNamek_Normal_East"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 42;
+	uv_top		= 189;
+	uv_right	= 62;
+	uv_bottom	= 209;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusNamek_Normal_SouthEast"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 63;
+	uv_top		= 189;
+	uv_right	= 83;
+	uv_bottom	= 209;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusNamek_Normal_South"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 84;
+	uv_top		= 189;
+	uv_right	= 104;
+	uv_bottom	= 209;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusNamek_Normal_South_West"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 105;
+	uv_top		= 189;
+	uv_right	= 125;
+	uv_bottom	= 209;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusNamek_Normal_West"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 126;
+	uv_top		= 189;
+	uv_right	= 146;
+	uv_bottom	= 209;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusNamek_Normal_NorthWest"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 147;
+	uv_top		= 189;
+	uv_right	= 167;
+	uv_bottom	= 209;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusNamek_GetOn_North"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 272;
+	uv_right	= 22;
+	uv_bottom	= 294;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusNamek_GetOn_NorthEast"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 23;
+	uv_top		= 272;
+	uv_right	= 45;
+	uv_bottom	= 294;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusNamek_GetOn_East"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 46;
+	uv_top		= 272;
+	uv_right	= 68;
+	uv_bottom	= 294;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusNamek_GetOn_SouthEast"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 69;
+	uv_top		= 272;
+	uv_right	= 91;
+	uv_bottom	= 294;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusNamek_GetOn_South"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 92;
+	uv_top		= 272;
+	uv_right	= 114;
+	uv_bottom	= 294;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusNamek_GetOn_South_West"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 115;
+	uv_top		= 272;
+	uv_right	= 137;
+	uv_bottom	= 294;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusNamek_GetOn_West"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 138;
+	uv_top		= 272;
+	uv_right	= 160;
+	uv_bottom	= 294;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusNamek_GetOn_NorthWest"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 161;
+	uv_top		= 272;
+	uv_right	= 183;
+	uv_bottom	= 294;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+// Majin bus
+
+surface "srfBusMajin_Normal_North"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 210;
+	uv_right	= 20;
+	uv_bottom	= 230;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusMajin_Normal_NorthEast"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 21;
+	uv_top		= 210;
+	uv_right	= 41;
+	uv_bottom	= 230;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusMajin_Normal_East"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 42;
+	uv_top		= 210;
+	uv_right	= 62;
+	uv_bottom	= 230;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusMajin_Normal_SouthEast"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 63;
+	uv_top		= 210;
+	uv_right	= 83;
+	uv_bottom	= 230;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusMajin_Normal_South"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 84;
+	uv_top		= 210;
+	uv_right	= 104;
+	uv_bottom	= 230;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusMajin_Normal_South_West"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 105;
+	uv_top		= 210;
+	uv_right	= 125;
+	uv_bottom	= 230;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusMajin_Normal_West"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 126;
+	uv_top		= 210;
+	uv_right	= 146;
+	uv_bottom	= 230;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusMajin_Normal_NorthWest"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 147;
+	uv_top		= 210;
+	uv_right	= 167;
+	uv_bottom	= 230;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusMajin_GetOn_North"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 295;
+	uv_right	= 22;
+	uv_bottom	= 317;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusMajin_GetOn_NorthEast"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 23;
+	uv_top		= 295;
+	uv_right	= 45;
+	uv_bottom	= 317;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusMajin_GetOn_East"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 46;
+	uv_top		= 295;
+	uv_right	= 68;
+	uv_bottom	= 317;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusMajin_GetOn_SouthEast"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 69;
+	uv_top		= 295;
+	uv_right	= 91;
+	uv_bottom	= 317;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusMajin_GetOn_South"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 92;
+	uv_top		= 295;
+	uv_right	= 114;
+	uv_bottom	= 317;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusMajin_GetOn_South_West"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 115;
+	uv_top		= 295;
+	uv_right	= 137;
+	uv_bottom	= 317;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusMajin_GetOn_West"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 138;
+	uv_top		= 295;
+	uv_right	= 160;
+	uv_bottom	= 317;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBusMajin_GetOn_NorthWest"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 161;
+	uv_top		= 295;
+	uv_right	= 183;
+	uv_bottom	= 317;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCheckBtnUp"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 420;
+	uv_top		= 1;
+	uv_right	= 438;
+	uv_bottom	= 19;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCheckBtnFoc"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 439;
+	uv_top		= 1;
+	uv_right	= 457;
+	uv_bottom	= 19;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCheckBtnDown"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 458;
+	uv_top		= 1;
+	uv_right	= 476;
+	uv_bottom	= 19;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCampEnemy"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 15;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 313;
+	uv_top		= 0;
+	uv_right	= 328;
+	uv_bottom	= 15;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCampParty"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 15;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 329;
+	uv_top		= 0;
+	uv_right	= 344;
+	uv_bottom	= 15;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCampMyTeam"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 15;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 345;
+	uv_top		= 0;
+	uv_right	= 360;
+	uv_bottom	= 15;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSeal_Enemy"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 24;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 250;
+	uv_top		= 26;
+	uv_right	= 274;
+	uv_bottom	= 50;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSeal_MyTeam"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 24;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 275;
+	uv_top		= 26;
+	uv_right	= 299;
+	uv_bottom	= 50;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSeal_NoTeam"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 24;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 300;
+	uv_top		= 26;
+	uv_right	= 324;
+	uv_bottom	= 50;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfQTSlotIcon1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 183;
+	uv_top		= 248;
+	uv_right	= 212;
+	uv_bottom	= 277;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfQTSlotIcon2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 212;
+	uv_top		= 248;
+	uv_right	= 241;
+	uv_bottom	= 277;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfQTSlotIcon3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 241;
+	uv_top		= 248;
+	uv_right	= 269;
+	uv_bottom	= 277;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfQTSlotIcon4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 269;
+	uv_top		= 248;
+	uv_right	= 298;
+	uv_bottom	= 277;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfQTSlotIcon5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 298;
+	uv_top		= 248;
+	uv_right	= 326;
+	uv_bottom	= 277;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfQTSlotIcon6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 326;
+	uv_top		= 248;
+	uv_right	= 355;
+	uv_bottom	= 277;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfQTSlotIcon7"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 355;
+	uv_top		= 248;
+	uv_right	= 384;
+	uv_bottom	= 277;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfQTSlotIcon8"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 384;
+	uv_top		= 248;
+	uv_right	= 413;
+	uv_bottom	= 277;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfQTSlotIcon9"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 413;
+	uv_top		= 248;
+	uv_right	= 442;
+	uv_bottom	= 277;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfQTSlotIcon10"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 27;
+	height		= 27;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 442;
+	uv_top		= 248;
+	uv_right	= 471;
+	uv_bottom	= 277;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfQTSlotIconWorld"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon3";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 17;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 473;
+	uv_top		= 250;
+	uv_right	= 490;
+	uv_bottom	= 267;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBattleDragonBallIconWorld"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 422;
+	uv_top		= 315;
+	uv_right	= 442;
+	uv_bottom	= 335;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfcbbScrollSlider3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 13;
+	height		= 26;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 320;
+	uv_top		= 189;
+	uv_right	= 338;
+	uv_bottom	= 223;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfScrollLayout"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 13;
+	height		= 106;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 304;
+	uv_top		= 175;
+	uv_right	= 317;
+	uv_bottom	= 281;
+
+	handle		= 12;
+	blend		= 34;
+}
+
+surface "srfcbbListboxMask"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 120;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 273;
+	uv_top		= 60;
+	uv_right	= 393;
+	uv_bottom	= 83;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfcbbButtonUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 320;
+	uv_top		= 224;
+	uv_right	= 338;
+	uv_bottom	= 242;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfcbbButtonFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 339;
+	uv_top		= 224;
+	uv_right	= 357;
+	uv_bottom	= 242;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfcbbButtonDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 358;
+	uv_top		= 224;
+	uv_right	= 376;
+	uv_bottom	= 242;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfcbbButtonDisable"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 358;
+	uv_top		= 224;
+	uv_right	= 376;
+	uv_bottom	= 242;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfcbbListbox3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 135;
+	height		= 72;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 136;
+	uv_top		= 0;
+	uv_right	= 271;
+	uv_bottom	= 72;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfcbbListboxTop"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 0;
+	width		= 136;
+	height		= 5;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 301;
+	uv_top		= 496;
+	uv_right	= 437;
+	uv_bottom	= 501;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfcbbstbboxMid"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 5;
+	width		= 136;
+	height		= 10;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 301;
+	uv_top		= 503;
+	uv_right	= 437;
+	uv_bottom	= 504;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfcbbstbboxBottom"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 15;
+	width		= 136;
+	height		= 5;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 301;
+	uv_top		= 506;
+	uv_right	= 437;
+	uv_bottom	= 511;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfcbbListboxMid"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 5;
+	width		= 136;
+	height		= 61;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 301;
+	uv_top		= 503;
+	uv_right	= 437;
+	uv_bottom	= 504;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfcbbListboxBottom"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 66;
+	width		= 136;
+	height		= 5;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 301;
+	uv_top		= 506;
+	uv_right	= 437;
+	uv_bottom	= 511;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfcbbNPCListboxMid"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 5;
+	width		= 136;
+	height		= 0;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 301;
+	uv_top		= 503;
+	uv_right	= 437;
+	uv_bottom	= 504;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfcbbNPCListboxButtom"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrQuest";
+
+	x		= 0;
+	y		= 5;
+	width		= 136;
+	height		= 5;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 301;
+	uv_top		= 506;
+	uv_right	= 437;
+	uv_bottom	= 511;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfcbbStatic"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 135;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 136;
+	uv_top		= 73;
+	uv_right	= 272;
+	uv_bottom	= 94;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPortalUnRegMark"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 13;
+	height		= 13;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 350;
+	uv_top		= 346;
+	uv_right	= 363;
+	uv_bottom	= 359;
+
+	handle		= 0;
+	blend		= 0;
+}

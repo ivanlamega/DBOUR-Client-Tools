@@ -1,0 +1,167 @@
+surface "srfGaugeBack"
+{
+    resource_file   = "Game.rsr";
+    resource_name   = "rsrRaceCommon3";
+    
+    x           = 0;
+    y           = 0;
+    width       = 168;
+    height      = 15;
+    
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 337;
+	uv_top		= 176;
+	uv_right	= 505;
+	uv_bottom	= 191;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfGauge"
+{
+    resource_file   = "Game.rsr";
+    resource_name   = "rsrRaceCommon3";
+    
+    x           = 0;
+    y           = 0;
+    width       = 168;
+    height      = 15;
+    
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 168;
+	uv_top		= 176;
+	uv_right	= 336;
+	uv_bottom	= 191;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfLeftKeyUp"
+{
+    resource_file   = "Game.rsr";
+    resource_name   = "rsrRaceCommon3";
+    
+    x           = 0;
+    y           = 0;
+    width       = 52;
+    height      = 52;
+    
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 243;
+	uv_top		= 123;
+	uv_right	= 295;
+	uv_bottom	= 175;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfLeftKeyDown"
+{
+    resource_file   = "Game.rsr";
+    resource_name   = "rsrRaceCommon3";
+    
+    x           = 0;
+    y           = 0;
+    width       = 52;
+    height      = 52;
+    
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 296;
+	uv_top		= 123;
+	uv_right	= 347;
+	uv_bottom	= 175;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRightKeyUp"
+{
+    resource_file   = "Game.rsr";
+    resource_name   = "rsrRaceCommon3";
+    
+    x           = 0;
+    y           = 0;
+    width       = 52;
+    height      = 52;
+    
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 348;
+	uv_top		= 123;
+	uv_right	= 399;
+	uv_bottom	= 175;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRightKeyDown"
+{
+    resource_file   = "Game.rsr";
+    resource_name   = "rsrRaceCommon3";
+    
+    x           = 0;
+    y           = 0;
+    width       = 52;
+    height      = 52;
+    
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 400;
+	uv_top		= 123;
+	uv_right	= 451;
+	uv_bottom	= 175;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMouse"
+{
+    resource_file   = "Game.rsr";
+    resource_name   = "rsrRaceCommon3";
+    
+    x           = 0;
+    y           = 0;
+    width       = 46;
+    height      = 52;
+    
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 317;
+	uv_top		= 0;
+	uv_right	= 363;
+	uv_bottom	= 52;
+
+	handle		= 0;
+	blend		= 0;
+}

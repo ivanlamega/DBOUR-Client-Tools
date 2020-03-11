@@ -1,0 +1,96 @@
+surface "srfMinorSurvivedEnemy"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 73;
+	height		= 27;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 197;
+	uv_top		= 0;
+	uv_right	= 270;
+	uv_bottom	= 27;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMinorKilledEnemy"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 73;
+	height		= 27;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 197;
+	uv_top		= 28;
+	uv_right	= 270;
+	uv_bottom	= 55;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTeamCount"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 60;
+	height		= 14;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 245;
+	uv_top		= 56;
+	uv_right	= 305;
+	uv_bottom	= 70;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfKilledTeamCount"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 60;
+	height		= 14;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 245;
+	uv_top		= 71;
+	uv_right	= 305;
+	uv_bottom	= 85;
+
+	handle		= 0;
+	blend		= 0;
+}
+

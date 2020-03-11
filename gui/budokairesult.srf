@@ -1,0 +1,23 @@
+surface "srfSlotBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= -2;
+	y		= -2;
+	width		= 36;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 476;
+	uv_top		= 447;
+	uv_right	= 512;
+	uv_bottom	= 483;
+
+	handle		= 0;
+	blend		= 0;
+}

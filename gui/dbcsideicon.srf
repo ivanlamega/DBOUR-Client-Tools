@@ -1,0 +1,143 @@
+surface "srfDBCSideIconUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCReward";
+
+	x		= 0;
+	y		= 0;
+	width		= 43;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 469;
+	uv_top		= 0;
+	uv_right	= 512;
+	uv_bottom	= 43;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDBCSideIconFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCReward";
+
+	x		= 0;
+	y		= 0;
+	width		= 43;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 469;
+	uv_top		= 44;
+	uv_right	= 512;
+	uv_bottom	= 87;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDBCSideIconDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCReward";
+
+	x		= 0;
+	y		= 0;
+	width		= 43;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 469;
+	uv_top		= 88;
+	uv_right	= 512;
+	uv_bottom	= 131;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDBCSideIconDisableUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCReward";
+
+	x		= 0;
+	y		= 0;
+	width		= 43;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 469;
+	uv_top		= 132;
+	uv_right	= 512;
+	uv_bottom	= 175;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDBCSideIconDisableFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCReward";
+
+	x		= 0;
+	y		= 0;
+	width		= 43;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 469;
+	uv_top		= 176;
+	uv_right	= 512;
+	uv_bottom	= 219;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDBCSideIconDisableDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCReward";
+
+	x		= 0;
+	y		= 0;
+	width		= 43;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 469;
+	uv_top		= 220;
+	uv_right	= 512;
+	uv_bottom	= 263;
+
+	handle		= 0;
+	blend		= 0;
+}

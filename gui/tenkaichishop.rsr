@@ -1,0 +1,11 @@
+resource "rsrTenkaichi"
+{
+	handle	= 0;
+	file	= "tenkaichi_shop1.PNG";
+}
+
+resource "rsrTenkaichi2"
+{
+	handle	= 0;
+	file	= "tenkaichi_shop2.PNG";
+}

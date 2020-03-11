@@ -1,0 +1,5 @@
+resource "rsrRankBattleResult"
+{
+	handle	= 0;
+	file	= "wnd_rankbattle_result.PNG";
+}

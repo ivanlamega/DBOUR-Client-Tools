@@ -1,0 +1,95 @@
+surface "srfWeaponBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 80;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 273;
+	uv_top		= 16;
+	uv_right	= 353;
+	uv_bottom	= 52;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDefenceBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 124;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 354;
+	uv_top		= 16;
+	uv_right	= 478;
+	uv_bottom	= 52;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAccessaryBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 124;
+	height		= 75;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 388;
+	uv_top		= 132;
+	uv_right	= 512;
+	uv_bottom	= 207;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSpecialBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 80;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 306;
+	uv_top		= 53;
+	uv_right	= 386;
+	uv_bottom	= 89;
+
+	handle		= 0;
+	blend		= 0;
+}

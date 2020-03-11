@@ -1,0 +1,480 @@
+surface "srfBackLB"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiBudokai4";
+
+	x		= 8;
+	y		= 512;
+	width		= 512;
+	height		= 85;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 427;
+	uv_right	= 512;
+	uv_bottom	= 512;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBackRB"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiBudokai4";
+
+	x		= 520;
+	y		= 512;
+	width		= 280;
+	height		= 89;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 232;
+	uv_top		= 337;
+	uv_right	= 512;
+	uv_bottom	= 426;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBackLT"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiBudokai6";
+
+	x		= 0;
+	y		= 0;
+	width		= 512;
+	height		= 512;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 512;
+	uv_bottom	= 512;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBackRT"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiBudokai7";
+
+	x		= 512;
+	y		= 0;
+	width		= 280;
+	height		= 512;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 280;
+	uv_bottom	= 512;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBtnIndividualUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiBudokai7";
+
+	x		= 0;
+	y		= 0;
+	width		= 158;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 281;
+	uv_top		= 21;
+	uv_right	= 439;
+	uv_bottom	= 57;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnIndividualFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiBudokai7";
+
+	x		= 0;
+	y		= 0;
+	width		= 158;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 281;
+	uv_top		= 58;
+	uv_right	= 439;
+	uv_bottom	= 94;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnIndividualDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiBudokai7";
+
+	x		= 0;
+	y		= 0;
+	width		= 158;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 281;
+	uv_top		= 95;
+	uv_right	= 439;
+	uv_bottom	= 131;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnNextUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiBudokai7";
+
+	x		= 0;
+	y		= 0;
+	width		= 38;
+	height		= 35;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 440;
+	uv_top		= 21;
+	uv_right	= 478;
+	uv_bottom	= 56;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnNextFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiBudokai7";
+
+	x		= 0;
+	y		= 0;
+	width		= 38;
+	height		= 35;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 440;
+	uv_top		= 57;
+	uv_right	= 478;
+	uv_bottom	= 92;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnNextDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiBudokai7";
+
+	x		= 0;
+	y		= 0;
+	width		= 38;
+	height		= 35;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 440;
+	uv_top		= 93;
+	uv_right	= 478;
+	uv_bottom	= 128;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfGroupBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiBudokai7";
+
+	x		= 0;
+	y		= 0;
+	width		= 135;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 281;
+	uv_top		= 0;
+	uv_right	= 416;
+	uv_bottom	= 20;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnLeftUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiShop2";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 321;
+	uv_top		= 23;
+	uv_right	= 354;
+	uv_bottom	= 44;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBtnLeftFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiShop2";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 355;
+	uv_top		= 23;
+	uv_right	= 388;
+	uv_bottom	= 44;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBtnLeftDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiShop2";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 389;
+	uv_top		= 23;
+	uv_right	= 422;
+	uv_bottom	= 44;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBtnRightUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiShop2";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 321;
+	uv_top		= 45;
+	uv_right	= 354;
+	uv_bottom	= 66;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBtnRightFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiShop2";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 355;
+	uv_top		= 45;
+	uv_right	= 388;
+	uv_bottom	= 66;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBtnRightDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiShop2";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 389;
+	uv_top		= 45;
+	uv_right	= 422;
+	uv_bottom	= 66;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfBtnPartyUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiBudokai7";
+
+	x		= 0;
+	y		= 0;
+	width		= 158;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 281;
+	uv_top		= 169;
+	uv_right	= 439;
+	uv_bottom	= 205;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnPartyFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiBudokai7";
+
+	x		= 0;
+	y		= 0;
+	width		= 158;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 281;
+	uv_top		= 206;
+	uv_right	= 439;
+	uv_bottom	= 242;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnPartyDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrTenkaichiBudokai7";
+
+	x		= 0;
+	y		= 0;
+	width		= 158;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 281;
+	uv_top		= 243;
+	uv_right	= 439;
+	uv_bottom	= 279;
+
+	handle		= 0;
+	blend		= 0;
+}
+

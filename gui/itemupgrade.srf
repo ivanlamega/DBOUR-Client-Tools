@@ -1,0 +1,672 @@
+surface "srfSlotBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade";
+
+	x		= 0;
+	y		= 0;
+	width		= 290;
+	height		= 276;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 290;
+	uv_bottom	= 276;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfInfoBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade";
+
+	x		= 0;
+	y		= 0;
+	width		= 290;
+	height		= 93;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 277;
+	uv_right	= 290;
+	uv_bottom	= 370;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnUpgradeUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade";
+
+	x		= 0;
+	y		= 0;
+	width		= 124;
+	height		= 29;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 291;
+	uv_top		= 73;
+	uv_right	= 415;
+	uv_bottom	= 102;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnUpgradeFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade";
+
+	x		= 0;
+	y		= 0;
+	width		= 124;
+	height		= 29;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 291;
+	uv_top		= 103;
+	uv_right	= 415;
+	uv_bottom	= 132;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnUpgradeDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade";
+
+	x		= 0;
+	y		= 0;
+	width		= 124;
+	height		= 29;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 291;
+	uv_top		= 133;
+	uv_right	= 415;
+	uv_bottom	= 162;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCancelUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 72;
+	height		= 29;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 354;
+	uv_top		= 285;
+	uv_right	= 426;
+	uv_bottom	= 314;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCancelFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 72;
+	height		= 29;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 427;
+	uv_top		= 285;
+	uv_right	= 499;
+	uv_bottom	= 314;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCancelDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 72;
+	height		= 29;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 276;
+	uv_top		= 315;
+	uv_right	= 348;
+	uv_bottom	= 344;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCancelDisable"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 72;
+	height		= 29;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 349;
+	uv_top		= 315;
+	uv_right	= 421;
+	uv_bottom	= 344;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnUpgradeDisable"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade";
+
+	x		= 0;
+	y		= 0;
+	width		= 124;
+	height		= 29;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 464;
+	uv_right	= 124;
+	uv_bottom	= 493;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfResultItemIconBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade2";
+
+	x		= -10;
+	y		= -10;
+	width		= 52;
+	height		= 51;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 403;
+	uv_top		= 56;
+	uv_right	= 455;
+	uv_bottom	= 107;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfResultBackLeft"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade2";
+
+	x		= 0;
+	y		= 0;
+	width		= 11;
+	height		= 338;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 459;
+	uv_top		= 0;
+	uv_right	= 470;
+	uv_bottom	= 338;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfResultBackRight"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade2";
+
+	x		= 289;
+	y		= 0;
+	width		= 11;
+	height		= 338;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 479;
+	uv_top		= 0;
+	uv_right	= 490;
+	uv_bottom	= 338;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfResultBackCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade2";
+
+	x		= 11;
+	y		= 0;
+	width		= 278;
+	height		= 338;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 472;
+	uv_top		= 0;
+	uv_right	= 477;
+	uv_bottom	= 338;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfInfoTitleBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= -7;
+	y		= 2;
+	width		= 177;
+	height		= 16;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 416;
+	uv_right	= 177;
+	uv_bottom	= 432;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfEffectFunny"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade";
+
+	x		= 0;
+	y		= 0;
+	width		= 84;
+	height		= 66;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 291;
+	uv_top		= 0;
+	uv_right	= 375;
+	uv_bottom	= 66;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfEffectHonest"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade";
+
+	x		= 0;
+	y		= 0;
+	width		= 64;
+	height		= 72;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 376;
+	uv_top		= 0;
+	uv_right	= 440;
+	uv_bottom	= 72;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfEffectElegant"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade";
+
+	x		= 0;
+	y		= 0;
+	width		= 90;
+	height		= 81;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 416;
+	uv_top		= 73;
+	uv_right	= 506;
+	uv_bottom	= 154;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfEffectWild"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade";
+
+	x		= 0;
+	y		= 0;
+	width		= 81;
+	height		= 62;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 291;
+	uv_top		= 163;
+	uv_right	= 372;
+	uv_bottom	= 225;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfEffectStrange"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade";
+
+	x		= 0;
+	y		= 0;
+	width		= 93;
+	height		= 76;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 373;
+	uv_top		= 163;
+	uv_right	= 466;
+	uv_bottom	= 239;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfItemEffectHonest"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade";
+
+	x		= 0;
+	y		= 0;
+	width		= 101;
+	height		= 92;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 291;
+	uv_top		= 240;
+	uv_right	= 392;
+	uv_bottom	= 332;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfItemEffectWild"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade";
+
+	x		= 0;
+	y		= 0;
+	width		= 101;
+	height		= 92;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 393;
+	uv_top		= 240;
+	uv_right	= 494;
+	uv_bottom	= 332;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfItemEffectFunny"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade";
+
+	x		= 0;
+	y		= 0;
+	width		= 101;
+	height		= 92;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 309;
+	uv_top		= 333;
+	uv_right	= 410;
+	uv_bottom	= 425;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfItemEffectElegant"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade";
+
+	x		= 0;
+	y		= 0;
+	width		= 101;
+	height		= 92;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 411;
+	uv_top		= 333;
+	uv_right	= 512;
+	uv_bottom	= 425;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfItemEffectStrange"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade";
+
+	x		= 0;
+	y		= 0;
+	width		= 101;
+	height		= 92;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 371;
+	uv_right	= 101;
+	uv_bottom	= 463;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfItemEffectNone"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade";
+
+	x		= 0;
+	y		= 0;
+	width		= 101;
+	height		= 92;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 102;
+	uv_top		= 371;
+	uv_right	= 203;
+	uv_bottom	= 463;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPredictBalloon"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade";
+
+	x		= 0;
+	y		= 0;
+	width		= 146;
+	height		= 78;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 366;
+	uv_top		= 426;
+	uv_right	= 512;
+	uv_bottom	= 504;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrItemUpgrade2";
+
+	x		= 0;
+	y		= 0;
+	width		= 290;
+	height		= 276;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 290;
+	uv_bottom	= 276;
+
+	handle		= 0;
+	blend		= 0;
+}
+

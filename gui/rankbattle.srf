@@ -1,0 +1,23 @@
+surface "srfRBResultBack"
+{
+	resource_file	= "RankBattle.rsr";
+	resource_name	= "rsrRankBattleResult";
+
+	x		= 0;
+	y		= 0;
+	width		= 374;
+	height		= 475;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 374;
+	uv_bottom	= 475;
+
+	handle		= 0;
+	blend		= 0;
+}

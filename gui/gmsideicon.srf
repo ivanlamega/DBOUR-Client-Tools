@@ -1,0 +1,95 @@
+surface "srfDlgMain"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 43;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 0;
+	uv_bottom	= 0;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnIconUp"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 43;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 256;
+	uv_top		= 111;
+	uv_right	= 299;
+	uv_bottom	= 154;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnIconFoc"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 43;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 300;
+	uv_top		= 111;
+	uv_right	= 343;
+	uv_bottom	= 154;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnIconDown"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 43;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 344;
+	uv_top		= 111;
+	uv_right	= 387;
+	uv_bottom	= 154;
+
+	handle		= 0;
+	blend		= 0;
+}

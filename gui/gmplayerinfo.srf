@@ -1,0 +1,23 @@
+surface "srfDlgMain"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 214;
+	height		= 186;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 234;
+	uv_right	= 214;
+	uv_bottom	= 420;
+
+	handle		= 0;
+	blend		= 0;
+}

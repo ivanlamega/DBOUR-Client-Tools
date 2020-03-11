@@ -1,0 +1,215 @@
+surface "srfBtnLeftUp"
+{
+	resource_file	= "Dogi.rsr";
+	resource_name	= "rsrDogi";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 16;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 221;
+	uv_top		= 0;
+	uv_right	= 244;
+	uv_bottom	= 16;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnLeftFoc"
+{
+	resource_file	= "Dogi.rsr";
+	resource_name	= "rsrDogi";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 16;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 245;
+	uv_top		= 0;
+	uv_right	= 268;
+	uv_bottom	= 16;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnLeftDown"
+{
+	resource_file	= "Dogi.rsr";
+	resource_name	= "rsrDogi";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 16;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 269;
+	uv_top		= 0;
+	uv_right	= 292;
+	uv_bottom	= 16;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnRightUp"
+{
+	resource_file	= "Dogi.rsr";
+	resource_name	= "rsrDogi";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 16;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 221;
+	uv_top		= 17;
+	uv_right	= 244;
+	uv_bottom	= 33;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnRightFoc"
+{
+	resource_file	= "Dogi.rsr";
+	resource_name	= "rsrDogi";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 16;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 245;
+	uv_top		= 17;
+	uv_right	= 268;
+	uv_bottom	= 33;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnRightDown"
+{
+	resource_file	= "Dogi.rsr";
+	resource_name	= "rsrDogi";
+
+	x		= 0;
+	y		= 0;
+	width		= 23;
+	height		= 16;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 269;
+	uv_top		= 17;
+	uv_right	= 292;
+	uv_bottom	= 33;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCharacterBackground"
+{
+	resource_file	= "Dogi.rsr";
+	resource_name	= "rsrDogi";
+
+	x		= 0;
+	y		= 0;
+	width		= 220;
+	height		= 220;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 220;
+	uv_bottom	= 220;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDogiBackground"
+{
+	resource_file	= "Dogi.rsr";
+	resource_name	= "rsrDogi";
+
+	x		= 0;
+	y		= 0;
+	width		= 290;
+	height		= 102;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 221;
+	uv_right	= 290;
+	uv_bottom	= 323;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfColorDiable"
+{
+	resource_file	= "Dogi.rsr";
+	resource_name	= "rsrDogi";
+
+	x		= 0;
+	y		= 0;
+	width		= 150;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 324;
+	uv_right	= 150;
+	uv_bottom	= 342;
+
+	handle		= 0;
+	blend		= 0;
+}

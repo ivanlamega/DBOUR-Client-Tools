@@ -1,0 +1,96 @@
+surface "srfDoRepairSideIconUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 43;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 44;
+	uv_right	= 43;
+	uv_bottom	= 87;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDoRepairSideIconDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 43;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 88;
+	uv_right	= 43;
+	uv_bottom	= 131;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDoRepairSideIconFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 43;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 44;
+	uv_top		= 44;
+	uv_right	= 87;
+	uv_bottom	= 87;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDoRepairSideIconPulse"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 43;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 44;
+	uv_top		= 88;
+	uv_right	= 87;
+	uv_bottom	= 131;
+
+	handle		= 0;
+	blend		= 0;
+}
+

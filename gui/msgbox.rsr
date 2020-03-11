@@ -1,0 +1,11 @@
+resource "rsrMessage"
+{
+	handle	= 0;
+	file	= "human\\wnd_message.png";
+}
+
+resource "rsrCommon_1"
+{
+	handle	= 0;
+	file	= "human\\common_1.png";
+}

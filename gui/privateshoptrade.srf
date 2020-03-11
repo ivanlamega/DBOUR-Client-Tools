@@ -1,0 +1,24 @@
+// 개인상점 흥정창의 Surface
+surface "srfDialog"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrPrivateShop";
+
+	x		= 0;
+	y		= 0;
+	width		= 292;
+	height		= 406;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 110;
+	uv_top		= 0;
+	uv_right	= 402;
+	uv_bottom	= 406;
+
+	handle		= 0;
+	blend		= 0;
+}

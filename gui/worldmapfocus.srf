@@ -1,0 +1,263 @@
+surface "srfKarin"
+{
+	resource_file   = "WorldMapFocus.rsr";	
+	resource_name	= "rsrWorldFocus";
+
+	x		= 0;
+	y		= 0;
+	width		= 139;
+	height		= 137;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 209;
+	uv_top		= 274;
+	uv_right	= 348;
+	uv_bottom	= 411;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfYahoiWest"
+{
+	resource_file   = "WorldMapFocus.rsr";	
+	resource_name	= "rsrWorldFocus";
+
+	x		= 0;
+	y		= 0;
+	width		= 122;
+	height		= 92;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 1;
+	uv_top		= 1;
+	uv_right	= 123;
+	uv_bottom	= 93;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPorungarocks"
+{
+	resource_file   = "WorldMapFocus.rsr";	
+	resource_name	= "rsrWorldFocus";
+
+	x		= 0;
+	y		= 0;
+	width		= 103;
+	height		= 94;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 1;
+	uv_top		= 94;
+	uv_right	= 104;
+	uv_bottom	= 188;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfYahoiEast"
+{
+	resource_file   = "WorldMapFocus.rsr";	
+	resource_name	= "rsrWorldFocus";
+
+	x		= 0;
+	y		= 0;
+	width		= 135;
+	height		= 121;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 124;
+	uv_top		= 1;
+	uv_right	= 260;
+	uv_bottom	= 122;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfWestland"
+{
+	resource_file   = "WorldMapFocus.rsr";	
+	resource_name	= "rsrWorldFocus";
+
+	x		= 0;
+	y		= 0;
+	width		= 207;
+	height		= 178;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 1;
+	uv_top		= 307;
+	uv_right	= 208;
+	uv_bottom	= 485;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFrangFrang"
+{
+	resource_file   = "WorldMapFocus.rsr";	
+	resource_name	= "rsrWorldFocus";
+
+	x		= 0;
+	y		= 0;
+	width		= 82;
+	height		= 117;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 1;
+	uv_top		= 189;
+	uv_right	= 83;
+	uv_bottom	= 306;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMushNorth"
+{
+	resource_file   = "WorldMapFocus.rsr";	
+	resource_name	= "rsrWorldFocus";
+
+	x		= 0;
+	y		= 0;
+	width		= 116;
+	height		= 144;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 384;
+	uv_top		= 1;
+	uv_right	= 500;
+	uv_bottom	= 145;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMushSouth"
+{
+	resource_file   = "WorldMapFocus.rsr";	
+	resource_name	= "rsrWorldFocus";
+
+	x		= 0;
+	y		= 0;
+	width		= 199;
+	height		= 127;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 287;
+	uv_top		= 146;
+	uv_right	= 486;
+	uv_bottom	= 273;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPorungarocksSouth"
+{
+	resource_file   = "WorldMapFocus.rsr";	
+	resource_name	= "rsrWorldFocus";
+
+	x		= 0;
+	y		= 0;
+	width		= 123;
+	height		= 132;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 260;
+	uv_top		= 1;
+	uv_right	= 383;
+	uv_bottom	= 133;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFrangFrangSouth"
+{
+	resource_file   = "WorldMapFocus.rsr";	
+	resource_name	= "rsrWorldFocus";
+
+	x		= 0;
+	y		= 0;
+	width		= 130;
+	height		= 124;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 349;
+	uv_top		= 274;
+	uv_right	= 479;
+	uv_bottom	= 398;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPaPaYa"
+{
+	resource_file   = "WorldMapFocus.rsr";	
+	resource_name	= "rsrWorldFocus";
+
+	x		= 0;
+	y		= 0;
+	width		= 181;
+	height		= 120;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 105;
+	uv_top		= 135;
+	uv_right	= 286;
+	uv_bottom	= 255;
+
+	handle		= 0;
+	blend		= 0;
+}

@@ -1,0 +1,647 @@
+surface "srfMainMenuUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 291;
+	uv_top		= 103;
+	uv_right	= 313;
+	uv_bottom	= 125;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMainMenuFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 314;
+	uv_top		= 103;
+	uv_right	= 336;
+	uv_bottom	= 125;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMainMenuDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 337;
+	uv_top		= 103;
+	uv_right	= 359;
+	uv_bottom	= 125;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMainMenuDis"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+	
+	uv_left		= 377;
+	uv_top		= 149;
+	uv_right	= 399;
+	uv_bottom	= 171;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDivideZennyUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+	
+	uv_left		= 360;
+	uv_top		= 103;
+	uv_right	= 382;
+	uv_bottom	= 125;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDivideZennyFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+	
+	uv_left		= 383;
+	uv_top		= 103;
+	uv_right	= 405;
+	uv_bottom	= 125;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDivideZennyDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+	
+	uv_left		= 406;
+	uv_top		= 103;
+	uv_right	= 428;
+	uv_bottom	= 125;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDivideItemUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+	
+	uv_left		= 429;
+	uv_top		= 103;
+	uv_right	= 451;
+	uv_bottom	= 125;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDivideItemFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+	
+	uv_left		= 452;
+	uv_top		= 103;
+	uv_right	= 474;
+	uv_bottom	= 125;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDivideItemDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+	
+	uv_left		= 291;
+	uv_top		= 126;
+	uv_right	= 313;
+	uv_bottom	= 148;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDungeonUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 314;
+	uv_top		= 126;
+	uv_right	= 336;
+	uv_bottom	= 148;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDungeonFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 337;
+	uv_top		= 126;
+	uv_right	= 359;
+	uv_bottom	= 148;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDungeonDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 360;
+	uv_top		= 126;
+	uv_right	= 382;
+	uv_bottom	= 148;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPartyCharmBtnUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 291;
+	uv_top		= 149;
+	uv_right	= 313;
+	uv_bottom	= 171;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPartyCharmBtnFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 314;
+	uv_top		= 149;
+	uv_right	= 336;
+	uv_bottom	= 171;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPartyCharmBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 337;
+	uv_top		= 149;
+	uv_right	= 359;
+	uv_bottom	= 171;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSwitchMenuUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 383;
+	uv_top		= 126;
+	uv_right	= 405;
+	uv_bottom	= 148;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSwitchMenuFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 406;
+	uv_top		= 126;
+	uv_right	= 428;
+	uv_bottom	= 148;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSwitchMenuDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 429;
+	uv_top		= 126;
+	uv_right	= 451;
+	uv_bottom	= 148;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSpreadMenuUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 445;
+	uv_top		= 149;
+	uv_right	= 459;
+	uv_bottom	= 171;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSpreadMenuFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 460;
+	uv_top		= 149;
+	uv_right	= 474;
+	uv_bottom	= 171;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSpreadMenuDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 475;
+	uv_top		= 149;
+	uv_right	= 489;
+	uv_bottom	= 171;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFoldMenuUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 400;
+	uv_top		= 149;
+	uv_right	= 414;
+	uv_bottom	= 171;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFoldMenuFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 415;
+	uv_top		= 149;
+	uv_right	= 429;
+	uv_bottom	= 171;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFoldMenuDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 430;
+	uv_top		= 149;
+	uv_right	= 444;
+	uv_bottom	= 171;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfFoldMenuDis"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 475;
+	uv_top		= 103;
+	uv_right	= 489;
+	uv_bottom	= 125;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPartyNameBackground"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrGuild";
+
+	x		= 0;
+	y		= 0;
+	width		= 159;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 353;
+	uv_top		= 172;
+	uv_right	= 512;
+	uv_bottom	= 195;
+
+	handle		= 0;
+	blend		= 0;
+}

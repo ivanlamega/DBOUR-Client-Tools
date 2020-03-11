@@ -1,0 +1,5 @@
+resource "wnd_HLS3"
+{
+	handle	= 0;
+	file	= "wnd_HLS3.png";
+}

@@ -1,0 +1,1514 @@
+surface "srfBoardLeft"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking";
+
+	x		= 0;
+	y		= 0;
+	width		= 512;
+	height		= 358;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 512;
+	uv_bottom	= 358;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBoardRight"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking2";
+
+	x		= 512;
+	y		= 0;
+	width		= 116;
+	height		= 358;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 116;
+	uv_bottom	= 358;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnSearchUp"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 0;
+	uv_top		= 481;
+	uv_right	= 20;
+	uv_bottom	= 501;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnSearchFocus"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 21;
+	uv_top		= 481;
+	uv_right	= 41;
+	uv_bottom	= 501;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnSearchDown"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 42;
+	uv_top		= 481;
+	uv_right	= 62;
+	uv_bottom	= 501;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnSearchDisable"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 152;
+	uv_top		= 481;
+	uv_right	= 172;
+	uv_bottom	= 501;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCloseUp"
+{
+    resource_file   = "Game.rsr";	
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 14;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 426;
+	uv_top		= 0;
+	uv_right	= 440;
+	uv_bottom	= 14;
+
+	handle		= 0;
+	blend		= 0;
+
+}
+
+surface "srfBtnCloseFocus"
+{
+    resource_file   = "Game.rsr";	
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 14;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 441;
+	uv_top		= 0;
+	uv_right	= 455;
+	uv_bottom	= 14;
+
+	handle		= 0;
+	blend		= 0;
+
+}
+
+surface "srfBtnCloseDown"
+{
+    resource_file   = "Game.rsr";	
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 14;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 456;
+	uv_top		= 0;
+	uv_right	= 470;
+	uv_bottom	= 14;
+
+	handle		= 0;
+	blend		= 0;
+
+}
+
+surface "srfBtnMiddleUp"
+{
+    resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 72;
+	height		= 29;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 354;
+	uv_top		= 285;
+	uv_right	= 426;
+	uv_bottom	= 314;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnMiddleFocus"
+{
+    resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 72;
+	height		= 29;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 427;
+	uv_top		= 285;
+	uv_right	= 499;
+	uv_bottom	= 314;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnMiddleDown"
+{
+    resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 72;
+	height		= 29;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 276;
+	uv_top		= 315;
+	uv_right	= 348;
+	uv_bottom	= 344;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnMiddleDisable"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon";
+
+	x		= 0;
+	y		= 0;
+	width		= 72;
+	height		= 29;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 349;
+	uv_top		= 315;
+	uv_right	= 421;
+	uv_bottom	= 344;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfUnderLine"
+{
+    resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking2";
+
+	x		= 0;
+	y		= 0;
+	width		= 612;
+	height		= 36;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 129;
+	uv_top		= 1;
+	uv_right	= 162;
+	uv_bottom	= 37;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfHighLightLeft"
+{
+    resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking2";
+
+	x		= 6;
+	y		= -1;
+	width		= 143;
+	height		= 25;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 128;
+	uv_top		= 112;
+	uv_right	= 271;
+	uv_bottom	= 137;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfHighLightCenter"
+{
+    resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking2";
+
+	x			= 149;
+	y			= -1;
+	width		= 330;
+	height		= 25;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 273;
+	uv_top		= 112;
+	uv_right	= 280;
+	uv_bottom	= 137;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfHighLightRight"
+{
+    resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking2";
+
+	x			= 479;
+	y			= -1;
+	width		= 143;
+	height		= 25;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 282;
+	uv_top		= 112;
+	uv_right	= 425;
+	uv_bottom	= 137;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbTitleList"
+{
+    resource_file   = "Game.rsr";
+    resource_name   = "rsrRanking2";
+    
+    x           = 0;
+    y           = 0;
+    width       = 175;
+    height      = 75;
+    
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 164;
+	uv_top		= 1;
+	uv_right	= 342;
+	uv_bottom	= 91;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbScenarioList"
+{
+    resource_file   = "Game.rsr";
+    resource_name   = "rsrRanking2";
+    
+    x           = 4;
+    y           = 0;
+    width       = 170;
+    height      = 78;
+    
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 164;
+	uv_top		= 1;
+	uv_right	= 342;
+	uv_bottom	= 91;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCbbTitleUp"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 486;
+	uv_top		= 50;
+	uv_right	= 506;
+	uv_bottom	= 70;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCbbTitleFocus"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 391;
+	uv_top		= 67;
+	uv_right	= 411;
+	uv_bottom	= 87;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCbbTitleDown"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 391;
+	uv_top		= 88;
+	uv_right	= 411;
+	uv_bottom	= 108;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCbbTitleDisable"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 469;
+	uv_top		= 130;
+	uv_right	= 489;
+	uv_bottom	= 150;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbTitleMask"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking2";
+
+	x		= 0;
+	y		= 0;
+	width		= 176;
+	height		= 19;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 128;
+	uv_top		= 92;
+	uv_right	= 304;
+	uv_bottom	= 111;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbTMQScenarioMask"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking2";
+
+	x		= 0;
+	y		= 0;
+	width		= 178;
+	height		= 26;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 128;
+	uv_top		= 92;
+	uv_right	= 304;
+	uv_bottom	= 111;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbTitleScrollSlider"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 13;
+	height		= 26;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 470;
+	uv_top		= 40;
+	uv_right	= 483;
+	uv_bottom	= 66;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbTitleScrollLayout"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 13;
+	height		= 106;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 304;
+	uv_top		= 175;
+	uv_right	= 317;
+	uv_bottom	= 281;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbCompare"
+{
+    resource_file   = "Game.rsr";
+    resource_name   = "rsrRanking";
+    
+    x           = 0;
+    y           = 0;
+    width       = 72;
+    height      = 21;
+    
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 81;
+	uv_top		= 481;
+	uv_right	= 151;
+	uv_bottom	= 502;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbCompareList"
+{
+    resource_file   = "Game.rsr";
+    resource_name   = "rsrRanking2";
+    
+    x           = 0;
+    y           = 0;
+    width       = 74;
+    height      = 57;
+    
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 343;
+	uv_top		= 1;
+	uv_right	= 409;
+	uv_bottom	= 91;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbCompareMask"
+{
+    resource_file   = "Game.rsr";
+    resource_name   = "rsrRanking2";
+    
+    x           = 0;
+    y           = 0;
+    width       = 74;
+    height      = 19;
+    
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 305;
+	uv_top		= 92;
+	uv_right	= 369;
+	uv_bottom	= 111;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCbbCompareUp"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 17;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 483;
+	uv_top		= 67;
+	uv_right	= 505;
+	uv_bottom	= 84;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCbbCompareFocus"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 17;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 483;
+	uv_top		= 85;
+	uv_right	= 505;
+	uv_bottom	= 102;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCbbCompareDown"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 17;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 483;
+	uv_top		= 103;
+	uv_right	= 505;
+	uv_bottom	= 120;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCbbCompareDisable"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 17;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 484;
+	uv_top		= 49;
+	uv_right	= 506;
+	uv_bottom	= 66;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCompareUp"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking";
+
+	x		= 0;
+	y		= 0;
+	width		= 8;
+	height		= 7;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 63;
+	uv_top		= 481;
+	uv_right	= 71;
+	uv_bottom	= 488;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCompareDown"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking";
+
+	x		= 0;
+	y		= 0;
+	width		= 8;
+	height		= 7;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 72;
+	uv_top		= 481;
+	uv_right	= 80;
+	uv_bottom	= 488;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBoardCustom"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking";
+
+	x		= 0;
+	y		= 0;
+	width		= 178;
+	height		= 26;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 173;
+	uv_top		= 481;
+	uv_right	= 351;
+	uv_bottom	= 507;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTMQTitleLeft"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRanking2";
+	
+	x				= 0;
+	y				= 0; 
+	width			= 395;
+	height			= 35;
+	
+	color_red		= 255;
+	color_green		= 255;
+	color_blue		= 255;
+	color_alpha		= 255;
+	
+	uv_left			= 117;
+	uv_top			= 186;
+	uv_right		= 512;
+	uv_bottom		= 221;
+	
+	handle			= 0;
+	blend			= 0;
+}
+
+surface	"srfTMQTitleRight"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRanking2";
+	
+	x				= 395;
+	y				= 0;
+	width			= 202;
+	height			= 35;
+	
+	color_red		= 255;
+	color_green		= 255;
+	color_blue		= 255;
+	color_alpha		= 255;
+	
+	uv_left			= 117;
+	uv_top			= 222;
+	uv_right		= 319;
+	uv_bottom		= 257;
+	
+	handle			= 0;
+	blend			= 0;
+}
+
+surface "srfTMQPartyMemberBackTop"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRanking2";
+	
+	x				= 0;
+	y				= 0;
+	width			= 279;
+	height			= 24;
+	
+	color_red		= 255;
+	color_green		= 255;
+	color_blue		= 255;
+	color_alpha		= 255;
+	
+	uv_left			= 117;
+	uv_top			= 138;
+	uv_right		= 396;
+	uv_bottom		= 162;
+	
+	handle			= 0;
+	blend			= 0;
+}
+
+surface "srfTMQPartyMemberBackCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRanking2";
+	
+	x				= 0;
+	y				= 24;
+	width			= 279;
+	height			= 177;
+	
+	color_red		= 255;
+	color_green		= 255;
+	color_blue		= 255;
+	color_alpha		= 255;
+	
+	uv_left			= 117;
+	uv_top			= 164;
+	uv_right		= 396;
+	uv_bottom		= 170;
+	
+	handle			= 0;
+	blend			= 0;
+}
+
+suface "srfTMQPartyMemberBackBottom"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRanking2";
+	
+	x				= 0;
+	y				= 201;
+	width			= 279;
+	height			= 13;
+	
+	color_red		= 255;
+	color_green		= 255;
+	color_blue		= 255;
+	color_alpha		= 255;
+	
+	uv_left			= 117;
+	uv_top			= 172;
+	uv_right		= 396;
+	uv_bottom		= 185;
+	
+	handle			= 0;
+	blend			= 0;
+}
+
+suface "srfTMQBestLap"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRanking2";
+	
+	x				= 0;
+	y				= 0;
+	width			= 50;
+	height			= 17;
+	
+	color_red		= 255;
+	color_green		= 255;
+	color_blue		= 255;
+	color_alpha		= 255;
+	
+	uv_left			= 410;
+	uv_top			= 0;
+	uv_right		= 460;
+	uv_bottom		= 17;
+	
+	handle			= 0;
+	blend			= 0;
+}
+
+suface "srfTMQDailyLap"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRanking2";
+	
+	x				= 0;
+	y				= 0;
+	width			= 50;
+	height			= 17;
+	
+	color_red		= 255;
+	color_green		= 255;
+	color_blue		= 255;
+	color_alpha		= 255;
+	
+	uv_left			= 410;
+	uv_top			= 18;
+	uv_right		= 460;
+	uv_bottom		= 35;
+	
+	handle			= 0;
+	blend			= 0;
+}
+
+suface "srfTMQRankPanelTwo"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRanking2";
+	
+	x				= 0;
+	y				= 0;
+	width			= 41;
+	height			= 23;
+	
+	color_red		= 255;
+	color_green		= 255;
+	color_blue		= 255;
+	color_alpha		= 255;
+	
+	uv_left			= 461;
+	uv_top			= 0;
+	uv_right		= 502;
+	uv_bottom		= 23;
+	
+	handle			= 0;
+	blend			= 0;
+}
+
+suface "srfTMQRankPanelThree"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRanking2";
+	
+	x				= 0;
+	y				= 0;
+	width			= 41;
+	height			= 23;
+	
+	color_red		= 255;
+	color_green		= 255;
+	color_blue		= 255;
+	color_alpha		= 255;
+	
+	uv_left			= 461;
+	uv_top			= 31;
+	uv_right		= 502;
+	uv_bottom		= 54;
+	
+	handle			= 0;
+	blend			= 0;
+}
+
+suface "srfTMQRankPanelFour"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRanking2";
+	
+	x				= 0;
+	y				= 0;
+	width			= 41;
+	height			= 23;
+	
+	color_red		= 255;
+	color_green		= 255;
+	color_blue		= 255;
+	color_alpha		= 255;
+	
+	uv_left			= 461;
+	uv_top			= 63;
+	uv_right		= 502;
+	uv_bottom		= 86;
+	
+	handle			= 0;
+	blend			= 0;
+}
+
+suface "srfTMQRankPanelFive"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRanking2";
+	
+	x				= 0;
+	y				= 0;
+	width			= 41;
+	height			= 23;
+	
+	color_red		= 255;
+	color_green		= 255;
+	color_blue		= 255;
+	color_alpha		= 255;
+	
+	uv_left			= 461;
+	uv_top			= 95;
+	uv_right		= 502;
+	uv_bottom		= 118;
+	
+	handle			= 0;
+	blend			= 0;
+}
+
+suface "srfTMQPartyHighlight"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRanking2";
+	
+	x				= 0;
+	y				= 0;
+	width			= 316;
+	height			= 33;
+	
+	color_red		= 255;
+	color_green		= 255;
+	color_blue		= 255;
+	color_alpha		= 255;
+	
+	uv_left			= 117;
+	uv_top			= 326;
+	uv_right		= 440;
+	uv_bottom		= 359;
+	
+	handle			= 0;
+	blend			= 0;
+}
+
+surface "srfTMQUnderLine"
+{
+    resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking2";
+
+	x		= 0;
+	y		= 0;
+	width		= 316;
+	height		= 1;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 128;
+	uv_top		= 36;
+	uv_right	= 163;
+	uv_bottom	= 36;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTMQEasyUp"
+{
+    resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking2";
+
+	x		= 0;
+	y		= 0;
+	width		= 50;
+	height		= 27;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 462;
+	uv_top		= 147;
+	uv_right	= 512;
+	uv_bottom	= 174;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTMQEasyDown"
+{
+    resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking2";
+
+	x		= 0;
+	y		= 0;
+	width		= 50;
+	height		= 27;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 462;
+	uv_top		= 119;
+	uv_right	= 512;
+	uv_bottom	= 146;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTMQNormalUp"
+{
+    resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking2";
+
+	x		= 0;
+	y		= 0;
+	width		= 50;
+	height		= 27;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 410;
+	uv_top		= 64;
+	uv_right	= 460;
+	uv_bottom	= 91;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTMQNormalDown"
+{
+    resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking2";
+
+	x		= 0;
+	y		= 0;
+	width		= 50;
+	height		= 27;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 410;
+	uv_top		= 36;
+	uv_right	= 460;
+	uv_bottom	= 63;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTMQHardUp"
+{
+    resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking2";
+
+	x		= 0;
+	y		= 0;
+	width		= 50;
+	height		= 27;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 371;
+	uv_top		= 222;
+	uv_right	= 421;
+	uv_bottom	= 249;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTMQHardDown"
+{
+    resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking2";
+
+	x		= 0;
+	y		= 0;
+	width		= 50;
+	height		= 27;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 320;
+	uv_top		= 222;
+	uv_right	= 370;
+	uv_bottom	= 249;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDataLoadingBack"
+{
+    resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking2";
+
+	x		= 0;
+	y		= 0;
+	width		= 318;
+	height		= 56;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 0;
+	uv_top		= 360;
+	uv_right	= 318;
+	uv_bottom	= 416;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbSearchStatic"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking";
+
+	x		= 0;
+	y		= 0;
+	width		= 99;
+	height		= 26;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 352;
+	uv_top		= 481;
+	uv_right	= 451;
+	uv_bottom	= 507;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbSearchList"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking2";
+
+	x		= 0;
+	y		= 0;
+	width		= 99;
+	height		= 90;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 0;
+	uv_top		= 417;
+	uv_right	= 99;
+	uv_bottom	= 507;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbSearchMask"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking2";
+
+	x		= 0;
+	y		= 0;
+	width		= 93;
+	height		= 19;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 100;
+	uv_top		= 417;
+	uv_right	= 193;
+	uv_bottom	= 436;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbTMQTitleStatic"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking";
+
+	x		= 0;
+	y		= 0;
+	width		= 457;
+	height		= 24;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 0;
+	uv_top		= 359;
+	uv_right	= 457;
+	uv_bottom	= 383;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbTMQTitleList"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking";
+
+	x		= 0;
+	y		= 0;
+	width		= 457;
+	height		= 74;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 0;
+	uv_top		= 384;
+	uv_right	= 457;
+	uv_bottom	= 458;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbTMQTitleMask"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking";
+
+	x		= 0;
+	y		= 0;
+	width		= 457;
+	height		= 19;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 0;
+	uv_top		= 459;
+	uv_right	= 457;
+	uv_bottom	= 478;
+
+	handle		= 0;
+	blend		= 0;
+}

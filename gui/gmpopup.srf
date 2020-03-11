@@ -1,0 +1,71 @@
+surface "srfDlgMain"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 157;
+	height		= 147;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 223;
+	uv_top		= 196;
+	uv_right	= 380;
+	uv_bottom	= 343;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnButtonUp"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 131;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 215;
+	uv_top		= 344;
+	uv_right	= 346;
+	uv_bottom	= 367;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnButtonDown"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 131;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 215;
+	uv_top		= 368;
+	uv_right	= 346;
+	uv_bottom	= 391;
+
+	handle		= 0;
+	blend		= 0;
+}

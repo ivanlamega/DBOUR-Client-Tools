@@ -1,0 +1,362 @@
+surface "srfAltarDlgback"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrAltar";
+
+	x		= 0;
+	y		= 0;
+	width		= 465;
+	height		= 465;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 465;
+	uv_bottom	= 465;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAltarDlgInputBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 392;
+	height		= 73;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 120;
+	uv_top		= 69;
+	uv_right	= 512;
+	uv_bottom	= 142;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAltarDlgBtnUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 24;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 137;
+	uv_top		= 44;
+	uv_right	= 167;
+	uv_bottom	= 68;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAltarDlgBtnFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 24;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 168;
+	uv_top		= 44;
+	uv_right	= 198;
+	uv_bottom	= 68;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAltarDlgBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrRaceCommon2";
+
+	x		= 0;
+	y		= 0;
+	width		= 30;
+	height		= 24;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 199;
+	uv_top		= 44;
+	uv_right	= 229;
+	uv_bottom	= 68;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAltarDlgBtnExitUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrAltar";
+
+	x		= 0;
+	y		= 0;
+	width		= 50;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 465;
+	uv_right	= 50;
+	uv_bottom	= 480;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAltarDlgBtnExitFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrAltar";
+
+	x		= 0;
+	y		= 0;
+	width		= 50;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 52;
+	uv_top		= 465;
+	uv_right	= 102;
+	uv_bottom	= 480;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAltarDlgBtnExitDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrAltar";
+
+	x		= 0;
+	y		= 0;
+	width		= 50;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 104;
+	uv_top		= 465;
+	uv_right	= 154;
+	uv_bottom	= 480;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAltarLight0"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCLight";
+
+	x		= 0;
+	y		= 0;
+	width		= 120;
+	height		= 134;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 131;
+	uv_top		= 0;
+	uv_right	= 251;
+	uv_bottom	= 134;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAltarLight1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCLight";
+
+	x		= 0;
+	y		= 0;
+	width		= 140;
+	height		= 136;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 252;
+	uv_top		= 0;
+	uv_right	= 392;
+	uv_bottom	= 136;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAltarLight2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCLight";
+
+	x		= 0;
+	y		= 0;
+	width		= 121;
+	height		= 139;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 153;
+	uv_right	= 121;
+	uv_bottom	= 292;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAltarLight3"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCLight";
+
+	x		= 0;
+	y		= 0;
+	width		= 142;
+	height		= 148;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 130;
+	uv_top		= 136;
+	uv_right	= 272;
+	uv_bottom	= 284;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAltarLight4"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCLight";
+
+	x		= 0;
+	y		= 0;
+	width		= 160;
+	height		= 118;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 272;
+	uv_top		= 136;
+	uv_right	= 432;
+	uv_bottom	= 254;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAltarLight5"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCLight";
+
+	x		= 0;
+	y		= 0;
+	width		= 126;
+	height		= 131;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 292;
+	uv_right	= 126;
+	uv_bottom	= 423;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAltarLight6"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrDBCLight";
+
+	x		= 0;
+	y		= 0;
+	width		= 130;
+	height		= 149;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 130;
+	uv_bottom	= 149;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+
+

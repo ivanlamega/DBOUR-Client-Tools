@@ -1,0 +1,8 @@
+resource "rsrCaution"
+{
+	handle	= 0;
+	file	= "icon\\caution_icon.png";
+}
+
+
+

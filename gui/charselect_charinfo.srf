@@ -1,0 +1,143 @@
+surface "dlgMain"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 233;
+	height		= 298;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 0;
+	uv_bottom	= 0;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackgroundLeft"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 49;
+	height		= 298;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 140;
+	uv_top		= 95;
+	uv_right	= 189;
+	uv_bottom	= 393;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackgroundCenter"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 3;
+	height		= 298;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 191;
+	uv_top		= 95;
+	uv_right	= 194;
+	uv_bottom	= 393;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackgroundRight"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 83;
+	height		= 298;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 196;
+	uv_top		= 95;
+	uv_right	= 279;
+	uv_bottom	= 393;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCharacterInfoTitle"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 47;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 221;
+	uv_top		= 464;
+	uv_right	= 268;
+	uv_bottom	= 479;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBar"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby3";
+
+	x		= 0;
+	y		= 0;
+	width		= 211;
+	height		= 14;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 239;
+	uv_top		= 395;
+	uv_right	= 450;
+	uv_bottom	= 409;
+
+	handle		= 0;
+	blend		= 0;
+}

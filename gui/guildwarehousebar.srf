@@ -1,0 +1,335 @@
+surface "srfDlgMain"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrInventory";
+
+	x		= 0;
+	y		= 0;
+	width		= 155;
+	height		= 31;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 460;
+	uv_right	= 155;
+	uv_bottom	= 491;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtn_1_Up"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrInventory";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 19;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 408;
+	uv_top		= 0;
+	uv_right	= 428;
+	uv_bottom	= 19;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtn_1_Foc"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrInventory";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 19;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 408;
+	uv_top		= 20;
+	uv_right	= 428;
+	uv_bottom	= 39;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtn_1_Down"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrInventory";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 19;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 408;
+	uv_top		= 40;
+	uv_right	= 428;
+	uv_bottom	= 59;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtn_2_Up"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrInventory";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 19;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 429;
+	uv_top		= 0;
+	uv_right	= 449;
+	uv_bottom	= 19;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtn_2_Foc"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrInventory";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 19;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 429;
+	uv_top		= 20;
+	uv_right	= 449;
+	uv_bottom	= 39;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtn_2_Down"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrInventory";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 19;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 429;
+	uv_top		= 40;
+	uv_right	= 449;
+	uv_bottom	= 59;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtn_Addon_Up"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrInventory";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 19;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 471;
+	uv_top		= 0;
+	uv_right	= 491;
+	uv_bottom	= 19;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtn_Addon_Foc"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrInventory";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 19;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 471;
+	uv_top		= 20;
+	uv_right	= 491;
+	uv_bottom	= 39;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtn_Addon_Down"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrInventory";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 19;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 471;
+	uv_top		= 40;
+	uv_right	= 491;
+	uv_bottom	= 59;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnDis"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrInventory";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 19;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 492;
+	uv_top		= 60;
+	uv_right	= 512;
+	uv_bottom	= 79;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtn_All_Up"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrInventory";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 19;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 492;
+	uv_top		= 0;
+	uv_right	= 512;
+	uv_bottom	= 19;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtn_All_Foc"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrInventory";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 19;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 492;
+	uv_top		= 20;
+	uv_right	= 512;
+	uv_bottom	= 39;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtn_All_Down"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrInventory";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 19;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 492;
+	uv_top		= 40;
+	uv_right	= 512;
+	uv_bottom	= 59;
+
+	handle		= 0;
+	blend		= 0;
+}

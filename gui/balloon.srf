@@ -1,0 +1,936 @@
+surface "ChatLTC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 343;
+	uv_top		= 0;
+	uv_right	= 355;
+	uv_bottom	= 12;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "ChatRTC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 365;
+	uv_top		= 0;
+	uv_right	= 377;
+	uv_bottom	= 12;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "ChatLBC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 11;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 343;
+	uv_top		= 14;
+	uv_right	= 355;
+	uv_bottom	= 25;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "ChatRBC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 11;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 365;
+	uv_top		= 14;
+	uv_right	= 377;
+	uv_bottom	= 25;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "ChatTL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 4;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 358;
+	uv_top		= 0;
+	uv_right	= 362;
+	uv_bottom	= 12;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "ChatBL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 2;
+	height		= 11;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 359;
+	uv_top		= 14;
+	uv_right	= 361;
+	uv_bottom	= 25;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "ChatLL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 6;
+	height		= 3;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 343;
+	uv_top		= 28;
+	uv_right	= 349;
+	uv_bottom	= 31;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "ChatRL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 6;
+	height		= 3;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 351;
+	uv_top		= 28;
+	uv_right	= 357;
+	uv_bottom	= 31;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "ChatTail"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 9;
+	height		= 16;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 360;
+	uv_top		= 28;
+	uv_right	= 369;
+	uv_bottom	= 44;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "ChatCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 2;
+	height		= 2;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 372;
+	uv_top		= 28;
+	uv_right	= 374;
+	uv_bottom	= 30;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPrivateShopReadyLeft"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrPrivateShop";
+
+	x		= 0;
+	y		= 0;
+	width		= 26;
+	height		= 24;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 480;
+	uv_right	= 26;
+	uv_bottom	= 504;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPrivateShopReadyCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrPrivateShop";
+
+	x		= 0;
+	y		= 0;
+	width		= 4;
+	height		= 24;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 28;
+	uv_top		= 480;
+	uv_right	= 32;
+	uv_bottom	= 504;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPrivateShopReadyRight"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrPrivateShop";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 24;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 34;
+	uv_top		= 480;
+	uv_right	= 48;
+	uv_bottom	= 504;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPrivateShopSaleLeft"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrPrivateShop";
+
+	x		= 0;
+	y		= 0;
+	width		= 26;
+	height		= 24;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 49;
+	uv_top		= 480;
+	uv_right	= 75;
+	uv_bottom	= 504;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPrivateShopSaleCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrPrivateShop";
+
+	x		= 0;
+	y		= 0;
+	width		= 4;
+	height		= 24;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 77;
+	uv_top		= 480;
+	uv_right	= 81;
+	uv_bottom	= 504;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPrivateShopSaleRight"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrPrivateShop";
+
+	x		= 0;
+	y		= 0;
+	width		= 14;
+	height		= 24;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 83;
+	uv_top		= 480;
+	uv_right	= 97;
+	uv_bottom	= 504;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfDiceBalloon"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrInventory";
+
+	x		= 0;
+	y		= 0;
+	width		= 94;
+	height		= 71;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 418;
+	uv_top		= 350;
+	uv_right	= 512;
+	uv_bottom	= 421;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "QuestLTC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 17;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 305;
+	uv_top		= 173;
+	uv_right	= 323;
+	uv_bottom	= 190;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "QuestRTC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 17;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 342;
+	uv_top		= 173;
+	uv_right	= 360;
+	uv_bottom	= 190;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "QuestLBC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 305;
+	uv_top		= 196;
+	uv_right	= 323;
+	uv_bottom	= 214;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "QuestRBC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 342;
+	uv_top		= 196;
+	uv_right	= 360;
+	uv_bottom	= 214;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "QuestBL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 2;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 330;
+	uv_top		= 196;
+	uv_right	= 332;
+	uv_bottom	= 214;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "QuestTL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 2;
+	height		= 17;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 329;
+	uv_top		= 173;
+	uv_right	= 331;
+	uv_bottom	= 190;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "QuestLL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 2;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 305;
+	uv_top		= 192;
+	uv_right	= 323;
+	uv_bottom	= 194;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "QuestRL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 2;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 342;
+	uv_top		= 192;
+	uv_right	= 360;
+	uv_bottom	= 194;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "QuestCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 2;
+	height		= 2;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 331;
+	uv_top		= 192;
+	uv_right	= 333;
+	uv_bottom	= 194;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "QuestTail"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 30;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 422;
+	uv_top		= 173;
+	uv_right	= 440;
+	uv_bottom	= 203;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "QuestImage"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 48;
+	height		= 48;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 367;
+	uv_top		= 124;
+	uv_right	= 415;
+	uv_bottom	= 172;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "NPCMarkLTC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 17;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 361;
+	uv_top		= 173;
+	uv_right	= 379;
+	uv_bottom	= 190;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "NPCMarkRTC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 17;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 398;
+	uv_top		= 173;
+	uv_right	= 416;
+	uv_bottom	= 190;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "NPCMarkLBC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 361;
+	uv_top		= 196;
+	uv_right	= 379;
+	uv_bottom	= 214;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "NPCMarkRBC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 403;
+	uv_top		= 196;
+	uv_right	= 421;
+	uv_bottom	= 214;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "NPCMarkTL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 2;
+	height		= 17;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 386;
+	uv_top		= 173;
+	uv_right	= 388;
+	uv_bottom	= 190;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "NPCMarkBL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 2;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 389;
+	uv_top		= 196;
+	uv_right	= 391;
+	uv_bottom	= 214;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "NPCMarkLL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 2;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 361;
+	uv_top		= 192;
+	uv_right	= 379;
+	uv_bottom	= 194;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "NPCMarkRL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 2;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 398;
+	uv_top		= 192;
+	uv_right	= 416;
+	uv_bottom	= 194;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "NPCMarkTail"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 22;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 441;
+	uv_top		= 173;
+	uv_right	= 463;
+	uv_bottom	= 205;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "NPCMarkImage"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 48;
+	height		= 48;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 416;
+	uv_top		= 124;
+	uv_right	= 464;
+	uv_bottom	= 172;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "NPCMarkCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 2;
+	height		= 2;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 387;
+	uv_top		= 192;
+	uv_right	= 389;
+	uv_bottom	= 194;
+
+	handle		= 0;
+	blend		= 0;
+}
+

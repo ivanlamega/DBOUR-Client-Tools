@@ -1,0 +1,311 @@
+surface "dlgMain"
+{
+	resource_file	= "Petition.rsr";
+	resource_name	= "rsrPetition";
+
+	x		= 0;
+	y		= 0;
+	width		= 293;
+	height		= 406;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 293;
+	uv_bottom	= 406;	
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCategoryBack"
+{
+	resource_file	= "Petition.rsr";
+	resource_name	= "rsrPetition";
+
+	x		= 0;
+	y		= 0;
+	width		= 148;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 359;
+	uv_top		= 22;
+	uv_right	= 507;
+	uv_bottom	= 43;	
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbTitleList"
+{
+   	resource_file   = "Game.rsr";
+   	resource_name   = "rsrRanking2";
+    
+  	x           = 0;
+  	y           = 0;
+  	width       = 132;
+  	height      = 75;
+    
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 164;
+	uv_top		= 1;
+	uv_right	= 342;
+	uv_bottom	= 91;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPanelLeft"
+{
+	resource_file	= "Petition.rsr";
+	resource_name	= "rsrPetition";
+
+	x		= 0;
+	y		= 0;
+	width		= 13;
+	height		= 274;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 322;
+	uv_top		= 0;
+	uv_right	= 335;
+	uv_bottom	= 274;	
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPanelCenter"
+{
+	resource_file	= "Petition.rsr";
+	resource_name	= "rsrPetition";
+
+	x		= 0;
+	y		= 0;
+	width		= 6;
+	height		= 274;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 337;
+	uv_top		= 0;
+	uv_right	= 343;
+	uv_bottom	= 274;	
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPanelRight"
+{
+	resource_file	= "Petition.rsr";
+	resource_name	= "rsrPetition";
+
+	x		= 0;
+	y		= 0;
+	width		= 13;
+	height		= 274;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 345;
+	uv_top		= 0;
+	uv_right	= 358;
+	uv_bottom	= 274;	
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCbbTitleUp"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 486;
+	uv_top		= 50;
+	uv_right	= 506;
+	uv_bottom	= 70;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCbbTitleFocus"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 391;
+	uv_top		= 67;
+	uv_right	= 411;
+	uv_bottom	= 87;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCbbTitleDown"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 391;
+	uv_top		= 88;
+	uv_right	= 411;
+	uv_bottom	= 108;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCbbTitleDisable"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 469;
+	uv_top		= 130;
+	uv_right	= 489;
+	uv_bottom	= 150;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbTitleMask"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRanking2";
+
+	x		= 0;
+	y		= 0;
+	width		= 176;
+	height		= 19;
+	
+	color_red	= 255;
+	color_green = 255;
+	color_blue	= 255;
+	color_alpha = 255;
+
+	uv_left		= 128;
+	uv_top		= 92;
+	uv_right	= 304;
+	uv_bottom	= 111;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbTitleScrollSlider"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 13;
+	height		= 26;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 470;
+	uv_top		= 40;
+	uv_right	= 483;
+	uv_bottom	= 66;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCbbTitleScrollLayout"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrOption";
+
+	x		= 0;
+	y		= 0;
+	width		= 6;
+	height		= 69;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 304;
+	uv_top		= 175;
+	uv_right	= 317;
+	uv_bottom	= 281;
+
+	handle		= 0;
+	blend		= 0;
+}

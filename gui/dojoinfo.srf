@@ -1,0 +1,215 @@
+surface "srfTenkaichiPlayerBtnUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 417;
+	uv_top		= 188;
+	uv_right	= 437;
+	uv_bottom	= 208;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTenkaichiPlayerBtnFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 438;
+	uv_top		= 188;
+	uv_right	= 458;
+	uv_bottom	= 208;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTenkaichiPlayerBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 459;
+	uv_top		= 188;
+	uv_right	= 479;
+	uv_bottom	= 208;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDuelPlayerBackLineLeft"
+{
+	resource_file	= "DojoAccount.rsr";
+	resource_name	= "rsrDojoAccount";
+
+	x		= 0;
+	y		= 0;
+	width		= 8;
+	height		= 111;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 459;
+	uv_top		= 0;
+	uv_right	= 467;
+	uv_bottom	= 111;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDuelPlayerBackLineCenter"
+{
+	resource_file	= "DojoAccount.rsr";
+	resource_name	= "rsrDojoAccount";
+
+	x		= 0;
+	y		= 0;
+	width		= 2;
+	height		= 111;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 469;
+	uv_top		= 0;
+	uv_right	= 471;
+	uv_bottom	= 111;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDuelPlayerBackLineRight"
+{
+	resource_file	= "DojoAccount.rsr";
+	resource_name	= "rsrDojoAccount";
+
+	x		= 0;
+	y		= 0;
+	width		= 8;
+	height		= 111;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 473;
+	uv_top		= 0;
+	uv_right	= 481;
+	uv_bottom	= 111;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfGuildNoticeLeft"
+{
+	resource_file	= "DojoAccount.rsr";
+	resource_name	= "rsrDojoAccount";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 140;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 482;
+	uv_top		= 0;
+	uv_right	= 494;
+	uv_bottom	= 140;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfGuildNoticeCenter"
+{
+	resource_file	= "DojoAccount.rsr";
+	resource_name	= "rsrDojoAccount";
+
+	x		= 0;
+	y		= 0;
+	width		= 2;
+	height		= 140;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 496;
+	uv_top		= 0;
+	uv_right	= 497;
+	uv_bottom	= 140;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfGuildNoticeRight"
+{
+	resource_file	= "DojoAccount.rsr";
+	resource_name	= "rsrDojoAccount";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 140;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 500;
+	uv_top		= 0;
+	uv_right	= 512;
+	uv_bottom	= 140;
+
+	handle		= 0;
+	blend		= 0;
+}

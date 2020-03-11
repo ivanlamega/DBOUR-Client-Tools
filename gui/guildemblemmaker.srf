@@ -1,0 +1,215 @@
+surface "srfDialog"
+{
+	resource_file	= "GuildEmblemMaker.rsr";
+	resource_name	= "rsrEmblemMaker";
+
+	x		= 0;
+	y		= 0;
+	width		= 259;
+	height		= 320;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 208;
+	uv_top		= 0;
+	uv_right	= 467;
+	uv_bottom	= 320;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRightButtonUp"
+{
+	resource_file	= "GuildEmblemMaker.rsr";
+	resource_name	= "rsrEmblemMaker";
+
+	x		= 0;
+	y		= 0;
+	width		= 21;
+	height		= 34;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 367;
+	uv_top		= 342;
+	uv_right	= 388;
+	uv_bottom	= 376;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRightButtonFoc"
+{
+	resource_file	= "GuildEmblemMaker.rsr";
+	resource_name	= "rsrEmblemMaker";
+
+	x		= 0;
+	y		= 0;
+	width		= 21;
+	height		= 34;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 389;
+	uv_top		= 342;
+	uv_right	= 410;
+	uv_bottom	= 376;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRightButtonDown"
+{
+	resource_file	= "GuildEmblemMaker.rsr";
+	resource_name	= "rsrEmblemMaker";
+
+	x		= 0;
+	y		= 0;
+	width		= 21;
+	height		= 34;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 411;
+	uv_top		= 342;
+	uv_right	= 432;
+	uv_bottom	= 376;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfLeftButtonUp"
+{
+	resource_file	= "GuildEmblemMaker.rsr";
+	resource_name	= "rsrEmblemMaker";
+
+	x		= 0;
+	y		= 0;
+	width		= 21;
+	height		= 34;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 433;
+	uv_top		= 342;
+	uv_right	= 454;
+	uv_bottom	= 376;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfLeftButtonFoc"
+{
+	resource_file	= "GuildEmblemMaker.rsr";
+	resource_name	= "rsrEmblemMaker";
+
+	x		= 0;
+	y		= 0;
+	width		= 21;
+	height		= 34;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 455;
+	uv_top		= 342;
+	uv_right	= 476;
+	uv_bottom	= 376;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfLeftButtonDown"
+{
+	resource_file	= "GuildEmblemMaker.rsr";
+	resource_name	= "rsrEmblemMaker";
+
+	x		= 0;
+	y		= 0;
+	width		= 21;
+	height		= 34;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 477;
+	uv_top		= 342;
+	uv_right	= 498;
+	uv_bottom	= 376;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSelectEmblem"
+{
+	resource_file	= "GuildEmblemMaker.rsr";
+	resource_name	= "rsrEmblemMaker";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 329;
+	uv_top		= 361;
+	uv_right	= 361;
+	uv_bottom	= 393;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSelectColor"
+{
+	resource_file	= "GuildEmblemMaker.rsr";
+	resource_name	= "rsrEmblemMaker";
+
+	x		= 0;
+	y		= 0;
+	width		= 13;
+	height		= 13;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 393;
+	uv_top		= 321;
+	uv_right	= 406;
+	uv_bottom	= 334;
+
+	handle		= 0;
+	blend		= 0;
+}

@@ -1,0 +1,5 @@
+resource "rsrDogi"
+{
+	handle	= 0;
+	file	= "wnd_dojo.png";
+}

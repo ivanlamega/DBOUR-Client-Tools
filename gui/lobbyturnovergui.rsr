@@ -1,0 +1,5 @@
+resource "LobbyTurnOver"
+{
+	handle	= 0;
+	file	= "pc_create.png";
+}

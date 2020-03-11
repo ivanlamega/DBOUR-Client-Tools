@@ -1,0 +1,71 @@
+surface "srfHLSSideIconBtnUp"
+{
+	resource_file	= "HLS.rsr";
+	resource_name	= "rsrHLS3";
+
+	x		= 0;
+	y		= 0;
+	width		= 43;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 315;
+	uv_top		= 146;
+	uv_right	= 358;
+	uv_bottom	= 189;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfHLSSideIconBtnFocus"
+{
+	resource_file	= "HLS.rsr";
+	resource_name	= "rsrHLS3";
+
+	x		= 0;
+	y		= 0;
+	width		= 43;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 359;
+	uv_top		= 146;
+	uv_right	= 402;
+	uv_bottom	= 189;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfHLSSideIconBtnDown"
+{
+	resource_file	= "HLS.rsr";
+	resource_name	= "rsrHLS3";
+
+	x		= 0;
+	y		= 0;
+	width		= 43;
+	height		= 43;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 403;
+	uv_top		= 146;
+	uv_right	= 446;
+	uv_bottom	= 189;
+
+	handle		= 0;
+	blend		= 0;
+}

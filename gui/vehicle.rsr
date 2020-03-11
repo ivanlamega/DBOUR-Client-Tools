@@ -1,0 +1,5 @@
+resource "rsrVehicle"
+{
+	handle	= 0;
+	file	= "wnd_gm2.PNG";
+}

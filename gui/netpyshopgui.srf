@@ -1,0 +1,671 @@
+surface "srfDialog"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 320;
+	height		= 480;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 320;
+	uv_bottom	= 480;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackLineTop"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 9;
+	y		= 50;
+	width		= 303;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 481;
+	uv_right	= 303;
+	uv_bottom	= 490;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackLineCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 9;
+	y		= 58;
+	width		= 303;
+	height		= 333;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 492;
+	uv_right	= 303;
+	uv_bottom	= 499;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackLineBottom"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 9;
+	y		= 391;
+	width		= 303;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 501;
+	uv_right	= 303;
+	uv_bottom	= 510;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "ItemPanel"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop2";
+
+	x		= 0;
+	y		= 0;
+	width		= 283;
+	height		= 47;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 110;
+	uv_top		= 0;
+	uv_right	= 393;
+	uv_bottom	= 47;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPrePageButton"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 321;
+	uv_top		= 23;
+	uv_right	= 354;
+	uv_bottom	= 44;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPrePageButtonFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 355;
+	uv_top		= 23;
+	uv_right	= 388;
+	uv_bottom	= 44;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPrePageButtonDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 389;
+	uv_top		= 23;
+	uv_right	= 422;
+	uv_bottom	= 44;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPrePageButtonDis"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 389;
+	uv_top		= 23;
+	uv_right	= 422;
+	uv_bottom	= 44;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNextPageButton"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 321;
+	uv_top		= 45;
+	uv_right	= 354;
+	uv_bottom	= 66;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNextPageButtonFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 355;
+	uv_top		= 45;
+	uv_right	= 388;
+	uv_bottom	= 66;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNextPageButtonDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 389;
+	uv_top		= 45;
+	uv_right	= 422;
+	uv_bottom	= 66;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNextPageButtonDis"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 21;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 389;
+	uv_top		= 45;
+	uv_right	= 422;
+	uv_bottom	= 66;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "MoneyBackPanel"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 103;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 321;
+	uv_top		= 343;
+	uv_right	= 424;
+	uv_bottom	= 363;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "PageBackPanel"
+{
+	resource_file	= "Game.rsr";	
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 73;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 426;
+	uv_top		= 15;
+	uv_right	= 499;
+	uv_bottom	= 35;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabLeft"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 321;
+	uv_top		= 0;
+	uv_right	= 331;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 8;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 333;
+	uv_top		= 0;
+	uv_right	= 341;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabRight"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 343;
+	uv_top		= 0;
+	uv_right	= 353;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabFocLeft"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 354;
+	uv_top		= 0;
+	uv_right	= 364;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabFocCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 8;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 366;
+	uv_top		= 0;
+	uv_right	= 374;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabFocRight"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 376;
+	uv_top		= 0;
+	uv_right	= 386;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabSelLeft"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 387;
+	uv_top		= 0;
+	uv_right	= 397;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabSelCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 8;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 399;
+	uv_top		= 0;
+	uv_right	= 407;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabSelRight"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 10;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 409;
+	uv_top		= 0;
+	uv_right	= 419;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfTabLine"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 3;
+	height		= 22;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 421;
+	uv_top		= 0;
+	uv_right	= 424;
+	uv_bottom	= 22;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNetStoreBtnUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 99;
+	height		= 29;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 321;
+	uv_top		= 253;
+	uv_right	= 420;
+	uv_bottom	= 282;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNetStoreBtnFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 99;
+	height		= 29;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 321;
+	uv_top		= 283;
+	uv_right	= 420;
+	uv_bottom	= 312;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNetStoreBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop1";
+
+	x		= 0;
+	y		= 0;
+	width		= 99;
+	height		= 29;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 321;
+	uv_top		= 313;
+	uv_right	= 420;
+	uv_bottom	= 342;
+
+	handle		= 0;
+	blend		= 0;
+}

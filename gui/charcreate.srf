@@ -1,0 +1,575 @@
+surface "dlgMain"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 1024;
+	height		= 768;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 0;
+	uv_bottom	= 0;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnLeftRotUp"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby2";
+
+	x		= 0;
+	y		= 0;
+	width		= 56;
+	height		= 71;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 432;
+	uv_top		= 79;
+	uv_right	= 488;
+	uv_bottom	= 150;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnLeftRotFoc"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby2";
+
+	x		= 0;
+	y		= 0;
+	width		= 56;
+	height		= 71;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 432;
+	uv_top		= 151;
+	uv_right	= 488;
+	uv_bottom	= 222;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnLeftRotDown"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby2";
+
+	x		= 0;
+	y		= 0;
+	width		= 56;
+	height		= 71;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 432;
+	uv_top		= 223;
+	uv_right	= 488;
+	uv_bottom	= 294;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnRightRotUp"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby2";
+
+	x		= 0;
+	y		= 0;
+	width		= 56;
+	height		= 71;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 432;
+	uv_top		= 295;
+	uv_right	= 488;
+	uv_bottom	= 366;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnRightRotFoc"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby2";
+
+	x		= 0;
+	y		= 0;
+	width		= 56;
+	height		= 71;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 432;
+	uv_top		= 367;
+	uv_right	= 488;
+	uv_bottom	= 438;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnRightRotDown"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby2";
+
+	x		= 0;
+	y		= 0;
+	width		= 56;
+	height		= 71;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 432;
+	uv_top		= 439;
+	uv_right	= 488;
+	uv_bottom	= 510;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNormalBtnUp"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 147;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 280;
+	uv_top		= 141;
+	uv_right	= 427;
+	uv_bottom	= 173;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNormalBtnFoc"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 147;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 280;
+	uv_top		= 174;
+	uv_right	= 427;
+	uv_bottom	= 206;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNormalBtnDown"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 147;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 280;
+	uv_top		= 207;
+	uv_right	= 427;
+	uv_bottom	= 239;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNameBack"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby4";
+
+	x		= 0;
+	y		= 0;
+	width		= 303;
+	height		= 56;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 312;
+	uv_right	= 303;
+	uv_bottom	= 368;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srScrollUpBtnUp"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby2";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 325;
+	uv_top		= 26;
+	uv_right	= 337;
+	uv_bottom	= 45;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srScrollUpBtnFoc"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby2";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 338;
+	uv_top		= 26;
+	uv_right	= 350;
+	uv_bottom	= 45;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srScrollUpBtnDown"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby2";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 351;
+	uv_top		= 26;
+	uv_right	= 363;
+	uv_bottom	= 45;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srScrollDownBtnUp"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby2";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 364;
+	uv_top		= 26;
+	uv_right	= 376;
+	uv_bottom	= 45;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srScrollDownBtnFoc"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby2";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 377;
+	uv_top		= 26;
+	uv_right	= 389;
+	uv_bottom	= 45;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srScrollDownBtnDown"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby2";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 390;
+	uv_top		= 26;
+	uv_right	= 402;
+	uv_bottom	= 45;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srScrollLayout"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby2";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 17;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 419;
+	uv_top		= 27;
+	uv_right	= 431;
+	uv_bottom	= 44;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srScrollBarBig"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby2";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 52;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 432;
+	uv_top		= 26;
+	uv_right	= 444;
+	uv_bottom	= 78;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srScrollBarSmall"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby2";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 26;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 458;
+	uv_top		= 26;
+	uv_right	= 470;
+	uv_bottom	= 52;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCreateCharBtnUp"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby4";
+
+	x		= 0;
+	y		= 0;
+	width		= 76;
+	height		= 25;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 369;
+	uv_right	= 76;
+	uv_bottom	= 394;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCreateCharBtnFoc"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby4";
+
+	x		= 0;
+	y		= 0;
+	width		= 76;
+	height		= 25;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 77;
+	uv_top		= 369;
+	uv_right	= 153;
+	uv_bottom	= 394;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCreateCharBtnDown"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby4";
+
+	x		= 0;
+	y		= 0;
+	width		= 76;
+	height		= 25;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 154;
+	uv_top		= 369;
+	uv_right	= 230;
+	uv_bottom	= 394;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCreateCharBtnDis"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby4";
+
+	x		= 0;
+	y		= 0;
+	width		= 76;
+	height		= 25;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 231;
+	uv_top		= 369;
+	uv_right	= 307;
+	uv_bottom	= 394;
+
+	handle		= 0;
+	blend		= 0;
+}

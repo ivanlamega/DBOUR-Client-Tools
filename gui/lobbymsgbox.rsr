@@ -1,0 +1,11 @@
+resource "LobbyMsgBox"
+{
+	handle	= 0;
+	file	= "pc_create.png";
+}
+
+resource "LobbyMsgBox_2"
+{
+	handle	= 0;
+	file	= "cursor.png";
+}

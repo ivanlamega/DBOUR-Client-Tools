@@ -1,0 +1,5 @@
+resource "rsrPetition"
+{
+	handle	= 0;
+	file	= "wnd_gm2.png";
+}

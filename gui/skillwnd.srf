@@ -1,0 +1,816 @@
+surface "srfDialog"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 320;
+	height		= 480;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 320;
+	uv_bottom	= 480;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDialogBackUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 10;
+	y		= 49;
+	width		= 303;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 481;
+	uv_right	= 303;
+	uv_bottom	= 490;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDialogBackCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 10;
+	y		= 58;
+	width		= 303;
+	height		= 397;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 492;
+	uv_right	= 303;
+	uv_bottom	= 499;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDialogBackDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 10;
+	y		= 455;
+	width		= 303;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 501;
+	uv_right	= 303;
+	uv_bottom	= 510;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSkillExpGauge"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 100;
+	height		= 10;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 279;
+	uv_top		= 0;
+	uv_right	= 379;
+	uv_bottom	= 10;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSkillExpGaugeBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 100;
+	height		= 10;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 279;
+	uv_top		= 11;
+	uv_right	= 379;
+	uv_bottom	= 21;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfIconSkillUpgrade"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 33;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 279;
+	uv_top		= 22;
+	uv_right	= 312;
+	uv_bottom	= 55;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfIconSkillUpgradeFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 33;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 313;
+	uv_top		= 22;
+	uv_right	= 346;
+	uv_bottom	= 55;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfIconSkillLearn"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 33;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 347;
+	uv_top		= 22;
+	uv_right	= 380;
+	uv_bottom	= 55;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfIconSkillLearnFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 33;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 381;
+	uv_top		= 22;
+	uv_right	= 414;
+	uv_bottom	= 55;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfIconSkillUpgradeCondition"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 33;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 279;
+	uv_top		= 56;
+	uv_right	= 312;
+	uv_bottom	= 89;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfIconSkillUpgradeConditionFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 33;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 313;
+	uv_top		= 56;
+	uv_right	= 346;
+	uv_bottom	= 89;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfIconSkillLearnCondition"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 33;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 347;
+	uv_top		= 56;
+	uv_right	= 380;
+	uv_bottom	= 89;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfIconSkillLearnConditionFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 33;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 381;
+	uv_top		= 56;
+	uv_right	= 414;
+	uv_bottom	= 89;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfIconSkillMaster"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 33;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 279;
+	uv_top		= 90;
+	uv_right	= 312;
+	uv_bottom	= 123;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfIconSkillMasterFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 33;
+	height		= 33;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 313;
+	uv_top		= 90;
+	uv_right	= 346;
+	uv_bottom	= 123;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfUpgradeBtnUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 42;
+	height		= 41;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 415;
+	uv_top		= 0;
+	uv_right	= 457;
+	uv_bottom	= 41;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfUpgradeBtnFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 42;
+	height		= 41;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 458;
+	uv_top		= 0;
+	uv_right	= 500;
+	uv_bottom	= 41;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfUpgradeBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 42;
+	height		= 41;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 415;
+	uv_top		= 42;
+	uv_right	= 457;
+	uv_bottom	= 83;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfLearnBtnUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 42;
+	height		= 41;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 458;
+	uv_top		= 42;
+	uv_right	= 500;
+	uv_bottom	= 83;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfLearnBtnFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 42;
+	height		= 41;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 415;
+	uv_top		= 84;
+	uv_right	= 457;
+	uv_bottom	= 125;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfLearnBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 42;
+	height		= 41;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 458;
+	uv_top		= 84;
+	uv_right	= 500;
+	uv_bottom	= 125;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRPModeBtnUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 40;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 249;
+	uv_top		= 124;
+	uv_right	= 289;
+	uv_bottom	= 139;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRPModeBtnFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 40;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 290;
+	uv_top		= 124;
+	uv_right	= 330;
+	uv_bottom	= 139;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRPModeBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 40;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 331;
+	uv_top		= 124;
+	uv_right	= 371;
+	uv_bottom	= 139;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRPPower"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 347;
+	uv_top		= 90;
+	uv_right	= 359;
+	uv_bottom	= 102;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRPCoolTime"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 360;
+	uv_top		= 90;
+	uv_right	= 372;
+	uv_bottom	= 102;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRPEP"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 373;
+	uv_top		= 90;
+	uv_right	= 385;
+	uv_bottom	= 102;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRPKeepTime"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 386;
+	uv_top		= 90;
+	uv_right	= 398;
+	uv_bottom	= 102;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRPKnockDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 399;
+	uv_top		= 90;
+	uv_right	= 411;
+	uv_bottom	= 102;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRPCastTime"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 347;
+	uv_top		= 103;
+	uv_right	= 359;
+	uv_bottom	= 115;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRPNoUse"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 12;
+	height		= 12;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 360;
+	uv_top		= 103;
+	uv_right	= 372;
+	uv_bottom	= 115;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfSkillDlgBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= 0;
+	y		= 0;
+	width		= 278;
+	height		= 69;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 234;
+	uv_top		= 205;
+	uv_right	= 512;
+	uv_bottom	= 274;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfEXPTitle"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrSkillWindow";
+
+	x		= -22;
+	y		= 1;
+	width		= 20;
+	height		= 9;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 249;
+	uv_top		= 106;
+	uv_right	= 269;
+	uv_bottom	= 115;
+
+	handle		= 0;
+	blend		= 0;
+}
+

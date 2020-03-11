@@ -1,0 +1,17 @@
+resource "rsrLogin"
+{
+	handle	= 0;
+	file	= "pc_create.png";
+}
+
+resource "rsrLogin3"
+{
+	handle	= 0;
+	file	= "pc_create3.png";
+}
+
+resource "rsrLogo"
+{
+	handle	= 0;
+	file	= "Web_Login_Title.png";
+}

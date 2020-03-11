@@ -1,0 +1,5 @@
+resource "rsrTutorial"
+{
+	handle	= 0;
+	file	= "human\\wnd_emblem.PNG";
+}

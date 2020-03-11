@@ -1,0 +1,71 @@
+surface "srfDialog"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrShop";
+
+	x		= 0;
+	y		= 0;
+	width		= 292;
+	height		= 183;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 208;
+	uv_top		= 329;
+	uv_right	= 500;
+	uv_bottom	= 512;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackGroundMoney"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrShop";
+
+	x		= 0;
+	y		= 0;
+	width		= 110;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 373;
+	uv_top		= 399;
+	uv_right	= 483;
+	uv_bottom	= 419;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMoneyHighLight"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrShop";
+
+	x		= 0;
+	y		= 0;
+	width		= 110;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 328;
+	uv_top		= 108;
+	uv_right	= 438;
+	uv_bottom	= 128;
+
+	handle		= 0;
+	blend		= 0;
+}

@@ -1,0 +1,5 @@
+resource "rsrDeliberationRank"
+{
+	handle	= 0;
+	file	= "Web_Login_Title.png";
+}

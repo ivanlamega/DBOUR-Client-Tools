@@ -1,0 +1,167 @@
+surface "dlgMain"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 233;
+	height		= 172;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 0;
+	uv_bottom	= 0;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackgroundLeft"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 49;
+	height		= 172;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 280;
+	uv_top		= 240;
+	uv_right	= 329;
+	uv_bottom	= 412;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackgroundCenter"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 5;
+	height		= 172;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 331;
+	uv_top		= 240;
+	uv_right	= 334;
+	uv_bottom	= 412;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackgroundRight"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 78;
+	height		= 172;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 336;
+	uv_top		= 240;
+	uv_right	= 414;
+	uv_bottom	= 412;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfAccountTitle"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby";
+
+	x		= 0;
+	y		= 0;
+	width		= 90;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 140;
+	uv_top		= 448;
+	uv_right	= 230;
+	uv_bottom	= 463;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBar"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby3";
+
+	x		= 0;
+	y		= 0;
+	width		= 211;
+	height		= 14;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 239;
+	uv_top		= 395;
+	uv_right	= 450;
+	uv_bottom	= 409;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfInfoBack"
+{
+	resource_file	= "Lobby.rsr";
+	resource_name	= "rsrLobby4";
+
+	x		= 0;
+	y		= 0;
+	width		= 216;
+	height		= 52;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 26;
+	uv_right	= 216;
+	uv_bottom	= 78;
+
+	handle		= 0;
+	blend		= 0;
+}

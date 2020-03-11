@@ -1,0 +1,119 @@
+surface "dlgMain"
+{
+	resource_file	= "GMChat.rsr";
+	resource_name	= "rsrGMChat";
+
+	x		= 0;
+	y		= 0;
+	width		= 293;
+	height		= 406;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 293;
+	uv_bottom	= 406;	
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackPanelLeft"
+{
+	resource_file	= "GMChat.rsr";
+	resource_name	= "rsrGMChat";
+
+	x		= 0;
+	y		= 0;
+	width		= 11;
+	height		= 305;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 294;
+	uv_top		= 0;
+	uv_right	= 305;
+	uv_bottom	= 305;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackPanelCenter"
+{
+	resource_file	= "GMChat.rsr";
+	resource_name	= "rsrGMChat";
+
+	x		= 0;
+	y		= 0;
+	width		= 3;
+	height		= 305;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 307;
+	uv_top		= 0;
+	uv_right	= 308;
+	uv_bottom	= 305;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBackPanelRight"
+{
+	resource_file	= "GMChat.rsr";
+	resource_name	= "rsrGMChat";
+
+	x		= 0;
+	y		= 0;
+	width		= 11;
+	height		= 305;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 310;
+	uv_top		= 0;
+	uv_right	= 321;
+	uv_bottom	= 305;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfInputBack"
+{
+	resource_file	= "GMChat.rsr";
+	resource_name	= "rsrGMChat";
+
+	x		= 0;
+	y		= 0;
+	width		= 269;
+	height		= 24;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 407;
+	uv_right	= 269;
+	uv_bottom	= 431;
+
+	handle		= 0;
+	blend		= 0;
+}

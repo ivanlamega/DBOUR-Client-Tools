@@ -1,0 +1,5 @@
+resource "rsrRaceCommon3"
+{
+	handle	= 0;
+	file	= "racecommon3.PNG";
+}

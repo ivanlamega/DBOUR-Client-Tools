@@ -1,0 +1,29 @@
+resource "rsrDWC1"
+{
+	handle 	= 0;
+	file	= "dwc_wnd_03.png";
+}
+
+resource "rsrDWC2"
+{
+	handle	= 0;
+	file	= "dwc_wnd_01.png";
+}
+
+resource "rsrDWC3"
+{
+	handle	= 0;
+	file	= "dwc_wnd_02.png";
+}
+
+resource "rsrDWC4"
+{
+	handle 	= 0;
+	file	= "dwc_wnd_04.png";
+}
+
+resource "rsrDWCBack"
+{
+	handle 	= 0;
+	file 	= "DWC_curtain.png";
+}

@@ -1,0 +1,959 @@
+surface "srfDlgMain"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 419;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 476;
+	uv_right	= 419;
+	uv_bottom	= 512;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCharShowUp"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 387;
+	uv_top		= 111;
+	uv_right	= 419;
+	uv_bottom	= 143;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCharShowDown"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 414;
+	uv_top		= 210;
+	uv_right	= 446;
+	uv_bottom	= 242;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCharShowDis"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 480;
+	uv_top		= 276;
+	uv_right	= 512;
+	uv_bottom	= 308;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCharHideUp"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 420;
+	uv_top		= 111;
+	uv_right	= 452;
+	uv_bottom	= 143;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCharHideDown"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 447;
+	uv_top		= 210;
+	uv_right	= 479;
+	uv_bottom	= 242;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCharHideDis"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 381;
+	uv_top		= 309;
+	uv_right	= 413;
+	uv_bottom	= 341;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnTenkaichiUp"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 403;
+	uv_top		= 177;
+	uv_right	= 435;
+	uv_bottom	= 209;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnTenkaichiDown"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 480;
+	uv_top		= 243;
+	uv_right	= 512;
+	uv_bottom	= 275;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnTenkaichiDis"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 380;
+	uv_top		= 344;
+	uv_right	= 412;
+	uv_bottom	= 376;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnPortalUp"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 469;
+	uv_top		= 144;
+	uv_right	= 501;
+	uv_bottom	= 176;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnPortalDown"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 447;
+	uv_top		= 243;
+	uv_right	= 479;
+	uv_bottom	= 275;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnPortalDis"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 347;
+	uv_top		= 344;
+	uv_right	= 379;
+	uv_bottom	= 376;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnNormalCameraUp"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 413;
+	uv_top		= 342;
+	uv_right	= 445;
+	uv_bottom	= 374;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnNormalCameraDown"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 446;
+	uv_top		= 342;
+	uv_right	= 478;
+	uv_bottom	= 374;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnNormalCameraDis"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 479;
+	uv_top		= 342;
+	uv_right	= 511;
+	uv_bottom	= 374;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnFreeCameraUp"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 347;
+	uv_top		= 377;
+	uv_right	= 379;
+	uv_bottom	= 409;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnFreeCameraDown"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 380;
+	uv_top		= 377;
+	uv_right	= 412;
+	uv_bottom	= 409;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnFreeCameraDis"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 413;
+	uv_top		= 377;
+	uv_right	= 445;
+	uv_bottom	= 409;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCameraLocUp"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 480;
+	uv_top		= 66;
+	uv_right	= 512;
+	uv_bottom	= 98;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCameraLocDown"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 381;
+	uv_top		= 210;
+	uv_right	= 413;
+	uv_bottom	= 242;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCameraLocDis"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 447;
+	uv_top		= 276;
+	uv_right	= 479;
+	uv_bottom	= 308;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCameraMoveUp"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 403;
+	uv_top		= 144;
+	uv_right	= 435;
+	uv_bottom	= 176;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCameraMoveDown"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 381;
+	uv_top		= 243;
+	uv_right	= 413;
+	uv_bottom	= 275;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnCameraMoveDis"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 447;
+	uv_top		= 309;
+	uv_right	= 479;
+	uv_bottom	= 341;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnMenuShowUp"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 480;
+	uv_top		= 0;
+	uv_right	= 512;
+	uv_bottom	= 32;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnMenuShowDown"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 436;
+	uv_top		= 177;
+	uv_right	= 468;
+	uv_bottom	= 209;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnMenuShowDis"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 381;
+	uv_top		= 276;
+	uv_right	= 413;
+	uv_bottom	= 308;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnMenuHideUp"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 480;
+	uv_top		= 33;
+	uv_right	= 512;
+	uv_bottom	= 65;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnMenuHideDown"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 469;
+	uv_top		= 177;
+	uv_right	= 501;
+	uv_bottom	= 209;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnMenuHideDis"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 414;
+	uv_top		= 276;
+	uv_right	= 446;
+	uv_bottom	= 308;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnPlayerInfoUp"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 453;
+	uv_top		= 111;
+	uv_right	= 485;
+	uv_bottom	= 143;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnPlayerInfoDown"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 480;
+	uv_top		= 210;
+	uv_right	= 512;
+	uv_bottom	= 242;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnPlayerInfoDis"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 414;
+	uv_top		= 309;
+	uv_right	= 446;
+	uv_bottom	= 341;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnTournamentUp"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 436;
+	uv_top		= 144;
+	uv_right	= 468;
+	uv_bottom	= 176;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnTournamentDown"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 414;
+	uv_top		= 243;
+	uv_right	= 446;
+	uv_bottom	= 275;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnTournamentDis"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 32;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 480;
+	uv_top		= 309;
+	uv_right	= 512;
+	uv_bottom	= 341;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnReturnUp"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 37;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 215;
+	uv_top		= 392;
+	uv_right	= 232;
+	uv_bottom	= 429;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnReturnFoc"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 37;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 233;
+	uv_top		= 392;
+	uv_right	= 250;
+	uv_bottom	= 429;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnReturnDown"
+{
+	resource_file	= "Observer.rsr";
+	resource_name	= "rsrObserver";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 37;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 251;
+	uv_top		= 392;
+	uv_right	= 268;
+	uv_bottom	= 429;
+
+	handle		= 0;
+	blend		= 0;
+}

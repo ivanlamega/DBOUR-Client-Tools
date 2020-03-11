@@ -1,0 +1,453 @@
+surface "srfCinematicBar"
+{
+	x		= 0;
+	y		= 0;
+	width		= 1024;
+	height		= 128;
+
+	color_red	= 0;
+	color_green	= 0;
+	color_blue	= 0;
+	color_alpha	= 0;
+
+	uv_left		= 66;
+	uv_top		= 459;
+	uv_right	= 86;
+	uv_bottom	= 479;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfNarrationLTC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 36;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 199;
+	uv_top		= 139;
+	uv_right	= 235;
+	uv_bottom	= 175;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfNarrationRTC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 59;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 245;
+	uv_top		= 139;
+	uv_right	= 304;
+	uv_bottom	= 175;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfNarrationLBC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 36;
+	height		= 49;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 199;
+	uv_top		= 185;
+	uv_right	= 235;
+	uv_bottom	= 234;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfNarrationRBC"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 59;
+	height		= 49;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 245;
+	uv_top		= 185;
+	uv_right	= 304;
+	uv_bottom	= 234;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfNarrationTL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 6;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 237;
+	uv_top		= 139;
+	uv_right	= 243;
+	uv_bottom	= 175;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfNarrationLL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 36;
+	height		= 6;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 199;
+	uv_top		= 177;
+	uv_right	= 235;
+	uv_bottom	= 183;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfNarrationRL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 59;
+	height		= 6;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 245;
+	uv_top		= 177;
+	uv_right	= 304;
+	uv_bottom	= 183;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfNarrationBL"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 6;
+	height		= 49;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 237;
+	uv_top		= 185;
+	uv_right	= 243;
+	uv_bottom	= 234;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfNarrationCenter"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 6;
+	height		= 6;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 237;
+	uv_top		= 177;
+	uv_right	= 243;
+	uv_bottom	= 183;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPCSelectFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMain2";
+
+	x		= 0;
+	y		= 0;
+	width		= 21;
+	height		= 18;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 462;
+	uv_top		= 0;
+	uv_right	= 483;
+	uv_bottom	= 18;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPCName_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMain4";
+
+	x		= 0;
+	y		= 0;
+	width		= 512;
+	height		= 49;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 512;
+	uv_bottom	= 49;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPCName_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMain4";
+
+	x		= 512;
+	y		= 0;
+	width		= 259;
+	height		= 49;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 100;
+	uv_right	= 259;
+	uv_bottom	= 149;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPCNameFocus_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMain4";
+
+	x		= 0;
+	y		= 0;
+	width		= 512;
+	height		= 49;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 50;
+	uv_right	= 512;
+	uv_bottom	= 99;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfPCNameFocus_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMain4";
+
+	x		= 512;
+	y		= 0;
+	width		= 259;
+	height		= 49;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 150;
+	uv_right	= 259;
+	uv_bottom	= 199;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNPCName_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMain4";
+
+	x		= 0;
+	y		= 0;
+	width		= 512;
+	height		= 49;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 200;
+	uv_right	= 512;
+	uv_bottom	= 249;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNPCName_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMain4";
+
+	x		= 512;
+	y		= 0;
+	width		= 505;
+	height		= 49;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 300;
+	uv_right	= 505;
+	uv_bottom	= 349;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNPCNameFocus_1"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMain4";
+
+	x		= 0;
+	y		= 0;
+	width		= 512;
+	height		= 49;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 250;
+	uv_right	= 512;
+	uv_bottom	= 299;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNPCNameFocus_2"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMain4";
+
+	x		= 512;
+	y		= 0;
+	width		= 505;
+	height		= 49;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 350;
+	uv_right	= 505;
+	uv_bottom	= 399;
+
+	handle		= 0;
+	blend		= 0;
+}
+

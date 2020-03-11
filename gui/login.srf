@@ -1,0 +1,118 @@
+surface "srfInputDialogBack"
+{
+	resource_file   = "Login.rsr";	
+	resource_name	= "rsrLogin3";
+
+	x		= 0;
+	y		= 0;
+	width		= 222;
+	height		= 128;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 239;
+	uv_top		= 185;
+	uv_right	= 461;
+	uv_bottom	= 313;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNormalBtnUp"
+{
+	resource_file	= "Login.rsr";
+	resource_name	= "rsrLogin";
+
+	x		= 0;
+	y		= 0;
+	width		= 147;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 280;
+	uv_top		= 141;
+	uv_right	= 427;
+	uv_bottom	= 173;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNormalBtnFoc"
+{
+	resource_file	= "Login.rsr";
+	resource_name	= "rsrLogin";
+
+	x		= 0;
+	y		= 0;
+	width		= 147;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 280;
+	uv_top		= 174;
+	uv_right	= 427;
+	uv_bottom	= 206;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNormalBtnDown"
+{
+	resource_file	= "Login.rsr";
+	resource_name	= "rsrLogin";
+
+	x		= 0;
+	y		= 0;
+	width		= 147;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 280;
+	uv_top		= 207;
+	uv_right	= 427;
+	uv_bottom	= 239;
+
+	handle		= 0;
+	blend		= 0;
+}
+surface "srfLogo"
+{
+	resource_file	= "Login.rsr";
+	resource_name	= "rsrLogo";
+
+	x		= 0;
+	y		= 0;
+	width		= 479;
+	height		= 179;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 479;
+	uv_bottom	= 179;
+
+	handle		= 0;
+	blend		= 0;
+}

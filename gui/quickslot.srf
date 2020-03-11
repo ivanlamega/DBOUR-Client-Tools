@@ -1,0 +1,192 @@
+surface "srfQuickSlotBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMain";
+
+	x		= 0;
+	y		= 0;
+	width		= 34;
+	height		= 36;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 448;
+	uv_top		= 139;
+	uv_right	= 482;
+	uv_bottom	= 175;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPrevBtnUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMain";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 208;
+	uv_top		= 272;
+	uv_right	= 225;
+	uv_bottom	= 287;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPrevBtnFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMain";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 226;
+	uv_top		= 272;
+	uv_right	= 243;
+	uv_bottom	= 287;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfPrevBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMain";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 244;
+	uv_top		= 272;
+	uv_right	= 261;
+	uv_bottom	= 287;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfNextBtnUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMain";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 208;
+	uv_top		= 288;
+	uv_right	= 225;
+	uv_bottom	= 303;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfNextBtnFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMain";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 226;
+	uv_top		= 288;
+	uv_right	= 243;
+	uv_bottom	= 303;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfNextBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMain";
+
+	x		= 0;
+	y		= 0;
+	width		= 17;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 244;
+	uv_top		= 288;
+	uv_right	= 261;
+	uv_bottom	= 303;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfSlotNumBack"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrMain";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 274;
+	uv_top		= 238;
+	uv_right	= 289;
+	uv_bottom	= 257;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+

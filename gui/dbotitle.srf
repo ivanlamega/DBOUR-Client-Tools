@@ -1,0 +1,120 @@
+surface "srfTitle"
+{
+	resource_file	= "DBOTitle.rsr";
+	resource_name	= "rsrTitle";
+
+	x		= 0;
+	y		= 0;
+	width		= 512;
+	height		= 280;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 511;
+	uv_bottom	= 280;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNormalBtnUp"
+{
+	resource_file	= "DBOTitle.rsr";
+	resource_name	= "rsrPC_Create";
+
+	x		= 0;
+	y		= 0;
+	width		= 147;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 280;
+	uv_top		= 141;
+	uv_right	= 427;
+	uv_bottom	= 173;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfNormalBtnFoc"
+{
+	resource_file	= "DBOTitle.rsr";
+	resource_name	= "rsrPC_Create";
+
+	x		= 0;
+	y		= 0;
+	width		= 147;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 280;
+	uv_top		= 174;
+	uv_right	= 427;
+	uv_bottom	= 206;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfNormalBtnDown"
+{
+	resource_file	= "DBOTitle.rsr";
+	resource_name	= "rsrPC_Create";
+
+	x		= 0;
+	y		= 0;
+	width		= 147;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 280;
+	uv_top		= 207;
+	uv_right	= 427;
+	uv_bottom	= 239;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+
+surface "srfNormalBtnDis"
+{
+	resource_file	= "DBOTitle.rsr";
+	resource_name	= "rsrPC_Create";
+
+	x		= 0;
+	y		= 0;
+	width		= 147;
+	height		= 32;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 261;
+	uv_top		= 480;
+	uv_right	= 408;
+	uv_bottom	= 512;
+
+	handle		= 0;
+	blend		= 0.00;
+}
+

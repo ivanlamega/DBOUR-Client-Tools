@@ -1,0 +1,359 @@
+surface "srfDlgMain"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop2";
+
+	x		= 0;
+	y		= 0;
+	width		= 109;
+	height		= 479;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 109;
+	uv_bottom	= 479;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfUpButtonUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop2";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 394;
+	uv_top		= 0;
+	uv_right	= 412;
+	uv_bottom	= 15;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfUpButtonFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop2";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 413;
+	uv_top		= 0;
+	uv_right	= 431;
+	uv_bottom	= 15;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfUpButtonDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop2";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 432;
+	uv_top		= 0;
+	uv_right	= 450;
+	uv_bottom	= 15;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfUpButtonDis"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop2";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 451;
+	uv_top		= 0;
+	uv_right	= 469;
+	uv_bottom	= 15;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDownButtonUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop2";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 394;
+	uv_top		= 16;
+	uv_right	= 412;
+	uv_bottom	= 31;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDownButtonFocus"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop2";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 413;
+	uv_top		= 16;
+	uv_right	= 431;
+	uv_bottom	= 31;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDownButtonDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop2";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 432;
+	uv_top		= 16;
+	uv_right	= 450;
+	uv_bottom	= 31;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDownButtonDis"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop2";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 451;
+	uv_top		= 16;
+	uv_right	= 469;
+	uv_bottom	= 31;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBuybar"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop2";
+
+	x		= 0;
+	y		= 0;
+	width		= 59;
+	height		= 15;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 208;
+	uv_top		= 87;
+	uv_right	= 267;
+	uv_bottom	= 102;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnZennyFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrNetPyShop2";
+
+	x		= 0;
+	y		= 0;
+	width		= 82;
+	height		= 20;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 208;
+	uv_top		= 135;
+	uv_right	= 290;
+	uv_bottom	= 155;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCommonBtnUp"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 69;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 347;
+	uv_top		= 164;
+	uv_right	= 416;
+	uv_bottom	= 187;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCommonBtnFoc"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 69;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 417;
+	uv_top		= 164;
+	uv_right	= 486;
+	uv_bottom	= 187;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCommonBtnDown"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 69;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 321;
+	uv_top		= 188;
+	uv_right	= 390;
+	uv_bottom	= 211;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCommonBtnDis"
+{
+	resource_file	= "Game.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 69;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 424;
+	uv_top		= 106;
+	uv_right	= 493;
+	uv_bottom	= 129;
+
+	handle		= 0;
+	blend		= 0;
+}

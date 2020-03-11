@@ -1,0 +1,1372 @@
+surface "srfSlots"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 153;
+	height		= 150;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 359;
+	uv_top		= 331;
+	uv_right	= 512;
+	uv_bottom	= 481;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnNormalItemUp"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 70;
+	uv_top		= 211;
+	uv_right	= 88;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnNormalItemFoc"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 89;
+	uv_top		= 211;
+	uv_right	= 107;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnNormalItemDis"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 108;
+	uv_top		= 211;
+	uv_right	= 126;
+	uv_bottom	= 229;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnSuperiorItemUp"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 70;
+	uv_top		= 230;
+	uv_right	= 88;
+	uv_bottom	= 248;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnSuperiorItemFoc"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 89;
+	uv_top		= 230;
+	uv_right	= 107;
+	uv_bottom	= 248;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnSuperiorItemDis"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 108;
+	uv_top		= 230;
+	uv_right	= 126;
+	uv_bottom	= 248;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnExcellentItemUp"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 70;
+	uv_top		= 249;
+	uv_right	= 88;
+	uv_bottom	= 267;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnExcellentItemFoc"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 89;
+	uv_top		= 249;
+	uv_right	= 107;
+	uv_bottom	= 267;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnExcellentItemDis"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 108;
+	uv_top		= 249;
+	uv_right	= 126;
+	uv_bottom	= 267;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnRareItemUp"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 70;
+	uv_top		= 268;
+	uv_right	= 88;
+	uv_bottom	= 286;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnRareItemFoc"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 89;
+	uv_top		= 268;
+	uv_right	= 107;
+	uv_bottom	= 286;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnRareItemDis"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 108;
+	uv_top		= 268;
+	uv_right	= 126;
+	uv_bottom	= 286;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnLegendaryItemUp"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 70;
+	uv_top		= 287;
+	uv_right	= 88;
+	uv_bottom	= 305;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnLegendaryItemFoc"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 89;
+	uv_top		= 287;
+	uv_right	= 107;
+	uv_bottom	= 305;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnLegendaryItemDis"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 18;
+	height		= 18;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 108;
+	uv_top		= 287;
+	uv_right	= 126;
+	uv_bottom	= 305;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnLeftUp"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 16;
+	height		= 16;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 330;
+	uv_right	= 16;
+	uv_bottom	= 346;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnLeftFoc"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 16;
+	height		= 16;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 17;
+	uv_top		= 330;
+	uv_right	= 33;
+	uv_bottom	= 346;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnLeftDown"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 16;
+	height		= 16;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 34;
+	uv_top		= 330;
+	uv_right	= 50;
+	uv_bottom	= 346;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnLeftDis"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 16;
+	height		= 16;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 102;
+	uv_top		= 330;
+	uv_right	= 118;
+	uv_bottom	= 346;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnRightUp"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 16;
+	height		= 16;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 51;
+	uv_top		= 330;
+	uv_right	= 67;
+	uv_bottom	= 346;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnRightFoc"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 16;
+	height		= 16;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 68;
+	uv_top		= 330;
+	uv_right	= 84;
+	uv_bottom	= 346;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnRightDown"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 16;
+	height		= 16;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 85;
+	uv_top		= 330;
+	uv_right	= 101;
+	uv_bottom	= 346;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnRightDis"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 16;
+	height		= 16;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 119;
+	uv_top		= 330;
+	uv_right	= 135;
+	uv_bottom	= 346;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfDivideMethodBack"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 118;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 309;
+	uv_right	= 118;
+	uv_bottom	= 329;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+// Divide by leader
+surface "srfBtnSendItemUp"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 16;
+	height		= 16;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 347;
+	uv_right	= 16;
+	uv_bottom	= 363;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnSendItemFoc"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 16;
+	height		= 16;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 17;
+	uv_top		= 347;
+	uv_right	= 33;
+	uv_bottom	= 363;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnSendItemDown"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 16;
+	height		= 16;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 34;
+	uv_top		= 347;
+	uv_right	= 50;
+	uv_bottom	= 363;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnSendItemDis"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 16;
+	height		= 16;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 51;
+	uv_top		= 347;
+	uv_right	= 67;
+	uv_bottom	= 363;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+// Divide by Oction
+
+surface "srfOctionBack"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 151;
+	height		= 52;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 361;
+	uv_top		= 423;
+	uv_right	= 512;
+	uv_bottom	= 475;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnOctionZennyUp"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon4";
+
+	x		= 0;
+	y		= 0;
+	width		= 143;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 39;
+	uv_right	= 143;
+	uv_bottom	= 59;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnOctionZennyFoc"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon4";
+
+	x		= 0;
+	y		= 0;
+	width		= 143;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 60;
+	uv_right	= 143;
+	uv_bottom	= 80;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnOctionZennyDown"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon4";
+
+	x		= 0;
+	y		= 0;
+	width		= 143;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 81;
+	uv_right	= 143;
+	uv_bottom	= 101;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnOctionZennyDestination"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon4";
+
+	x		= 0;
+	y		= 0;
+	width		= 143;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 123;
+	uv_right	= 143;
+	uv_bottom	= 143;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnOctionZennyDis"
+{
+	resource_file   = "Game.rsr";	
+	resource_name	= "rsrRaceCommon4";
+
+	x		= 0;
+	y		= 0;
+	width		= 143;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 102;
+	uv_right	= 143;
+	uv_bottom	= 122;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnOctionUp"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 23;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 364;
+	uv_right	= 24;
+	uv_bottom	= 387;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnOctionFoc"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 23;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 25;
+	uv_top		= 364;
+	uv_right	= 49;
+	uv_bottom	= 387;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnOctionDown"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 23;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 50;
+	uv_top		= 364;
+	uv_right	= 74;
+	uv_bottom	= 387;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnOctionDis"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 23;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 75;
+	uv_top		= 364;
+	uv_right	= 99;
+	uv_bottom	= 387;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnOctionStopUp"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 23;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 436;
+	uv_right	= 24;
+	uv_bottom	= 459;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnOctionStopFoc"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 23;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 25;
+	uv_top		= 436;
+	uv_right	= 49;
+	uv_bottom	= 459;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnOctionStopDown"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 23;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 50;
+	uv_top		= 436;
+	uv_right	= 74;
+	uv_bottom	= 459;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnOctionStopDis"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 23;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 75;
+	uv_top		= 436;
+	uv_right	= 99;
+	uv_bottom	= 459;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnBidUp"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 23;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 388;
+	uv_right	= 24;
+	uv_bottom	= 411;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnBidFoc"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 23;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 25;
+	uv_top		= 388;
+	uv_right	= 49;
+	uv_bottom	= 411;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnBidDown"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 23;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 50;
+	uv_top		= 388;
+	uv_right	= 74;
+	uv_bottom	= 411;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnBidDis"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 23;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 75;
+	uv_top		= 388;
+	uv_right	= 99;
+	uv_bottom	= 411;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnResetUp"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 23;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 413;
+	uv_right	= 24;
+	uv_bottom	= 436;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnResetFoc"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 23;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 25;
+	uv_top		= 413;
+	uv_right	= 49;
+	uv_bottom	= 436;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnResetDown"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 23;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 50;
+	uv_top		= 413;
+	uv_right	= 74;
+	uv_bottom	= 436;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnResetDis"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 24;
+	height		= 23;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 75;
+	uv_top		= 413;
+	uv_right	= 99;
+	uv_bottom	= 436;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+// Divide by leader
+
+surface "srfBtnDiceUp"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 137;
+	height		= 31;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 99;
+	uv_top		= 476;
+	uv_right	= 236;
+	uv_bottom	= 507;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnDiceFoc"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 137;
+	height		= 31;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 237;
+	uv_top		= 476;
+	uv_right	= 374;
+	uv_bottom	= 507;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnDiceDown"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 137;
+	height		= 31;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 375;
+	uv_top		= 476;
+	uv_right	= 512;
+	uv_bottom	= 507;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnDiceDis"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 137;
+	height		= 31;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 223;
+	uv_top		= 444;
+	uv_right	= 360;
+	uv_bottom	= 475;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfOthersInvestedIcon"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 15;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 460;
+	uv_right	= 15;
+	uv_bottom	= 475;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMyInvestedIcon"
+{
+	resource_file   = "PartyInven.rsr";	
+	resource_name	= "rsrParty";
+
+	x		= 0;
+	y		= 0;
+	width		= 15;
+	height		= 15;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 16;
+	uv_top		= 460;
+	uv_right	= 31;
+	uv_bottom	= 475;
+
+	handle		= 0;
+	blend		= 0;
+}

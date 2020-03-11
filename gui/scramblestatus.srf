@@ -1,0 +1,455 @@
+surface "srfEnemyTeamBackground"
+{
+	resource_file 	= "ScrambleStatus.rsr";	
+	resource_name	= "rsrDojoBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 155;
+	height		= 94;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 156;
+	uv_top		= 22;
+	uv_right	= 311;
+	uv_bottom	= 116;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMyTeamBackground"
+{
+	resource_file 	= "ScrambleStatus.rsr";	
+	resource_name	= "rsrDojoBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 155;
+	height		= 94;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 22;
+	uv_right	= 155;
+	uv_bottom	= 116;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfEnemyTeamSealCount"
+{
+	resource_file 	= "ScrambleStatus.rsr";	
+	resource_name	= "rsrDojoBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 20;
+	uv_bottom	= 20;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfEnemyTeamPeopleCount"
+{
+	resource_file 	= "ScrambleStatus.rsr";	
+	resource_name	= "rsrDojoBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 21;
+	uv_top		= 0;
+	uv_right	= 41;
+	uv_bottom	= 20;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfEnemyTeamPointGause"
+{
+	resource_file 	= "ScrambleStatus.rsr";	
+	resource_name	= "rsrDojoBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 95;
+	height		= 10;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 84;
+	uv_top		= 0;
+	uv_right	= 179;
+	uv_bottom	= 10;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfEnemyTeamPointGauseBack"
+{
+	resource_file 	= "ScrambleStatus.rsr";	
+	resource_name	= "rsrDojoBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 95;
+	height		= 10;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 180;
+	uv_top		= 0;
+	uv_right	= 275;
+	uv_bottom	= 10;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMyTeamPointGause"
+{
+	resource_file 	= "ScrambleStatus.rsr";	
+	resource_name	= "rsrDojoBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 95;
+	height		= 10;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 84;
+	uv_top		= 11;
+	uv_right	= 179;
+	uv_bottom	= 21;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMyTeamPointGauseBack"
+{
+	resource_file 	= "ScrambleStatus.rsr";	
+	resource_name	= "rsrDojoBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 95;
+	height		= 10;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 180;
+	uv_top		= 11;
+	uv_right	= 275;
+	uv_bottom	= 21;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMyTeamSealCount"
+{
+	resource_file 	= "ScrambleStatus.rsr";	
+	resource_name	= "rsrDojoBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 42;
+	uv_top		= 0;
+	uv_right	= 62;
+	uv_bottom	= 20;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMyTeamPeopleCount"
+{
+	resource_file 	= "ScrambleStatus.rsr";	
+	resource_name	= "rsrDojoBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 63;
+	uv_top		= 0;
+	uv_right	= 83;
+	uv_bottom	= 20;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNoEmblem"
+{
+	resource_file 	= "ScrambleStatus.rsr";	
+	resource_name	= "rsrDojoBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 43;
+	height		= 43;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 154;
+	uv_top		= 117;
+	uv_right	= 197;
+	uv_bottom	= 160;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnJoinUp"
+{
+	resource_file = "Game.rsr";	
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 115;
+	height		= 24;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 363;
+	uv_right	= 115;
+	uv_bottom	= 387;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnJoinFoc"
+{
+	resource_file = "Game.rsr";	
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 115;
+	height		= 24;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 388;
+	uv_right	= 115;
+	uv_bottom	= 412;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnJoinDown"
+{
+	resource_file = "Game.rsr";	
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 115;
+	height		= 24;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 413;
+	uv_right	= 115;
+	uv_bottom	= 437;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBtnJoinDis"
+{
+	resource_file = "Game.rsr";	
+	resource_name	= "rsrSideDialog";
+
+	x		= 0;
+	y		= 0;
+	width		= 115;
+	height		= 24;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 438;
+	uv_right	= 115;
+	uv_bottom	= 462;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfStatusBackground"
+{
+	resource_file 	= "ScrambleStatus.rsr";	
+	resource_name	= "rsrDojoBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 153;
+	height		= 72;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 117;
+	uv_right	= 153;
+	uv_bottom	= 189;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfEnemyTeamSeal"
+{
+	resource_file 	= "ScrambleStatus.rsr";	
+	resource_name	= "rsrDojoBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 276;
+	uv_top		= 0;
+	uv_right	= 296;
+	uv_bottom	= 20;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMyTeamSeal"
+{
+	resource_file 	= "ScrambleStatus.rsr";	
+	resource_name	= "rsrDojoBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 297;
+	uv_top		= 0;
+	uv_right	= 317;
+	uv_bottom	= 20;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfNoTeamSeal"
+{
+	resource_file 	= "ScrambleStatus.rsr";	
+	resource_name	= "rsrDojoBattle";
+
+	x		= 0;
+	y		= 0;
+	width		= 20;
+	height		= 20;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 318;
+	uv_top		= 0;
+	uv_right	= 338;
+	uv_bottom	= 20;
+
+	handle		= 0;
+	blend		= 0;
+}

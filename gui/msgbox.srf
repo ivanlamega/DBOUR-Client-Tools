@@ -1,0 +1,188 @@
+surface "srfMsgBackUp"
+{
+	resource_file	= "MsgBox.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 342;
+	height		= 44;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 342;
+	uv_bottom	= 44;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMsgBackMid"
+{
+	resource_file	= "MsgBox.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 342;
+	height		= 29;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 46;
+	uv_right	= 342;
+	uv_bottom	= 75;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfMsgBackDown"
+{
+	resource_file	= "MsgBox.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= 0;
+	y		= 0;
+	width		= 342;
+	height		= 61;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 0;
+	uv_top		= 77;
+	uv_right	= 342;
+	uv_bottom	= 138;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfInputBox"
+{
+	resource_file	= "MsgBox.rsr";
+	resource_name	= "rsrMessage";
+
+	x		= -11;
+	y		= -4;
+	width		= 157;
+	height		= 19;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 343;
+	uv_top		= 49;
+	uv_right	= 500;
+	uv_bottom	= 68;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCommonBtnUp"
+{
+	resource_file	= "MsgBox.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 69;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 347;
+	uv_top		= 164;
+	uv_right	= 416;
+	uv_bottom	= 187;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCommonBtnFoc"
+{
+	resource_file	= "MsgBox.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 69;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 417;
+	uv_top		= 164;
+	uv_right	= 486;
+	uv_bottom	= 187;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfCommonBtnDown"
+{
+	resource_file	= "MsgBox.rsr";
+	resource_name	= "rsrCommon_1";
+
+	x		= 0;
+	y		= 0;
+	width		= 69;
+	height		= 23;
+
+	color_red	= 255;
+	color_green	= 255;
+	color_blue	= 255;
+	color_alpha	= 255;
+
+	uv_left		= 321;
+	uv_top		= 188;
+	uv_right	= 390;
+	uv_bottom	= 211;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBlackPanel"
+{
+	x		= 0;
+	y		= 0;
+	width		= 2;
+	height		= 2;
+
+	color_red	= 0;
+	color_green	= 0;
+	color_blue	= 0;
+	color_alpha	= 128;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 0;
+	uv_bottom	= 0;
+
+	handle		= 0;
+	blend		= 0;
+}

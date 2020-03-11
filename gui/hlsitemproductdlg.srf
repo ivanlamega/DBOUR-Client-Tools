@@ -1,0 +1,475 @@
+surface "srfBuleMachine_1"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine2";
+
+	x		= 0;
+	y		= 0;
+	width		= 90;
+	height		= 150;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 69;
+	uv_top		= 225;
+	uv_right	= 159;
+	uv_bottom	= 375;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBuleMachine_2"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine2";
+
+	x		= 0;
+	y		= 0;
+	width		= 90;
+	height		= 150;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 160;
+	uv_top		= 225;
+	uv_right	= 250;
+	uv_bottom	= 375;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBuleMachine_3"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine2";
+
+	x		= 0;
+	y		= 0;
+	width		= 90;
+	height		= 150;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 251;
+	uv_top		= 225;
+	uv_right	= 341;
+	uv_bottom	= 375;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBuleMachine_4"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine2";
+
+	x		= 0;
+	y		= 0;
+	width		= 90;
+	height		= 150;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 342;
+	uv_top		= 225;
+	uv_right	= 432;
+	uv_bottom	= 375;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfYellowMachine_1"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine7";
+
+	x		= 0;
+	y		= 0;
+	width		= 90;
+	height		= 150;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 0;
+	uv_right	= 90;
+	uv_bottom	= 150;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfYellowMachine_2"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine7";
+
+	x		= 0;
+	y		= 0;
+	width		= 90;
+	height		= 150;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 91;
+	uv_top		= 0;
+	uv_right	= 181;
+	uv_bottom	= 150;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfYellowMachine_3"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine7";
+
+	x		= 0;
+	y		= 0;
+	width		= 90;
+	height		= 150;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 182;
+	uv_top		= 0;
+	uv_right	= 272;
+	uv_bottom	= 150;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfYellowMachine_4"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine7";
+
+	x		= 0;
+	y		= 0;
+	width		= 90;
+	height		= 150;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 273;
+	uv_top		= 0;
+	uv_right	= 363;
+	uv_bottom	= 150;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRedMachine_1"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine7";
+
+	x		= 0;
+	y		= 0;
+	width		= 90;
+	height		= 150;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 151;
+	uv_right	= 90;
+	uv_bottom	= 301;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRedMachine_2"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine7";
+
+	x		= 0;
+	y		= 0;
+	width		= 90;
+	height		= 150;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 91;
+	uv_top		= 151;
+	uv_right	= 181;
+	uv_bottom	= 301;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRedMachine_3"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine7";
+
+	x		= 0;
+	y		= 0;
+	width		= 90;
+	height		= 150;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 182;
+	uv_top		= 151;
+	uv_right	= 272;
+	uv_bottom	= 301;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfRedMachine_4"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine7";
+
+	x		= 0;
+	y		= 0;
+	width		= 90;
+	height		= 150;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 273;
+	uv_top		= 151;
+	uv_right	= 363;
+	uv_bottom	= 301;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfGreenMachine_1"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine7";
+
+	x		= 0;
+	y		= 0;
+	width		= 90;
+	height		= 150;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 0;
+	uv_top		= 302;
+	uv_right	= 90;
+	uv_bottom	= 452;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfGreenMachine_2"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine7";
+
+	x		= 0;
+	y		= 0;
+	width		= 90;
+	height		= 150;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 91;
+	uv_top		= 302;
+	uv_right	= 181;
+	uv_bottom	= 452;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfGreenMachine_3"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine7";
+
+	x		= 0;
+	y		= 0;
+	width		= 90;
+	height		= 150;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 182;
+	uv_top		= 302;
+	uv_right	= 272;
+	uv_bottom	= 452;
+
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfGreenMachine_4"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine7";
+
+	x		= 0;
+	y		= 0;
+	width		= 90;
+	height		= 150;
+	
+	color_red	= 255;
+	color_green 	= 255;
+	color_blue	= 255;
+	color_alpha 	= 255;
+
+	uv_left		= 273;
+	uv_top		= 302;
+	uv_right	= 363;
+	uv_bottom	= 452;
+	handle		= 0;
+	blend		= 0;
+}
+
+surface "srfBlueMachineProgress"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine3";
+
+	x		        = 0;
+	y		        = 0;
+	width		    = 69;
+	height		    = 5;
+	
+	color_red	    = 255;
+	color_green     = 255;
+	color_blue  	= 255;
+	color_alpha     = 255;
+
+	uv_left		    = 390;
+	uv_top		    = 372;
+	uv_right	    = 459;
+	uv_bottom   	= 377;
+	handle		    = 0;
+	blend	    	= 0;
+}
+
+surface "srfYellowMachineProgress"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine3";
+
+	x		        = 0;
+	y		        = 0;
+	width		    = 69;
+	height		    = 5;
+	
+	color_red	    = 255;
+	color_green     = 255;
+	color_blue  	= 255;
+	color_alpha     = 255;
+
+	uv_left		    = 407;
+	uv_top		    = 390;
+	uv_right	    = 476;
+	uv_bottom   	= 395;
+	handle		    = 0;
+	blend	    	= 0;
+}
+
+surface "srfRedMachineProgress"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine3";
+
+	x		        = 0;
+	y		        = 0;
+	width		    = 69;
+	height		    = 5;
+	
+	color_red	    = 255;
+	color_green     = 255;
+	color_blue  	= 255;
+	color_alpha     = 255;
+
+	uv_left		    = 407;
+	uv_top		    = 384;
+	uv_right	    = 476;
+	uv_bottom   	= 389;
+	handle		    = 0;
+	blend	    	= 0;
+}
+
+surface "srfGreenMachineProgress"
+{
+	resource_file   = "WaguMachineGui.rsr";
+	resource_name	= "rsrWaguMachine3";
+
+	x		        = 0;
+	y		        = 0;
+	width		    = 69;
+	height		    = 5;
+	
+	color_red	    = 255;
+	color_green     = 255;
+	color_blue  	= 255;
+	color_alpha     = 255;
+
+	uv_left		    = 407;
+	uv_top		    = 378;
+	uv_right	    = 476;
+	uv_bottom   	= 383;
+	handle		    = 0;
+	blend	    	= 0;
+}
+
